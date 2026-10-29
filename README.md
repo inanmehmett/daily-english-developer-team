@@ -60,6 +60,7 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 6. **Hipotez mi, ders mi:** Tek bir veri noktasından çıkan sonuç el kitabına **"Hipotez"** olarak yazılır. Aynı yönde **en az 4–5 veri noktası** birikince **"Ders"** olur. Çelişen veri gelirse ders yeniden hipoteze döner.
 7. **Mağaza kuralları ciddiye alınır:** Apple/Google politika ihlali riski taşıyan hiçbir öneri (yanıltıcı ASO, sahte yorum, vb.) yapılmaz.
 8. **Demo kullanıcı:** Tanıtım görsellerinde/videolarında Mehmet'in kendi fotoğrafı yerine uygulamanın demo kullanıcısı "Sarah" kullanılır.
+9. **Davranışsal tasarımda çizgi (29 Eki 2026, bildirim/elde tutma planından):** "Kullanıcı bunu nasıl yaptığımızı bilse rahatsız olur muydu? Olacaksa yapmıyoruz." Somut olarak: sahte aciliyet/sahte geri sayım yok; suçlayıcı dil yok ("bizi unuttun"); reddetme seçeneğinde utandırma yok ("Hayır, gelişmek istemiyorum"); 09–21 dışında bildirim yok; doğru olmayan tehdit yok (seri silinmiyor, duraklıyor — "sıfırlanacak" denemez). Psikoloji, kullanıcının zaten istediği şeyi yapmasına yardım için kullanılır, davranışını yönlendirmek için değil.
 
 ## Klasörler
 - `ortak/durum.md` — uygulamanın güncel durumu (tek doğru kaynak): sürüm, mağaza aşaması, fiyatlandırma, test/beta.
