@@ -45,9 +45,13 @@
 
 ## Açık sorular / takip edilecekler
 - push_opened ölçümü hâlâ kurulmadı (bkz. raporlar/2026-10-29_bildirim-psikoloji-plani.md, madde 1) — bu olmadan "bildirimler etkili mi" sorusu cevaplanamaz, öncelik bu.
+- Kaynak etiketi standardı (Nate Gümüş ↔ Nate Gold, 6 Kas çapraz toplantıda kararlaştırıldı) hâlâ kurulmadı — link tıklama → indirme → aktivasyon zinciri ölçülemiyor.
+- PMF anketi (Sean Ellis çerçevesi) mevcut kullanıcılara hiç uygulanmadı — checkpoint'in (ortak/hedef.md) 4. maddesi.
 - Akşam seri bildirimi kod değişikliği (29 Eki) hâlâ derlenmedi/test edilmedi — Mehmet'in Mac'inde kontrol beklemede.
-- Lansman reeli/carousel'inin gerçekten yayınlanıp yayınlanmadığı Instagram ekibiyle teyit edilmeli.
-- Gerçek kullanıcı verisi (indirme, aktivasyon, elde tutma, abonelik) henüz sistemli toplanmıyor — Nate Gümüş'ün ilk işi bu.
+- Gerçek kullanıcı verisi şu an elle (Play Console/App Store Connect'e tek tek bakarak) çekiliyor; sistemli/otomatik toplama henüz yok — Nate Gümüş'ün asıl işi bu.
+
+~~Lansman reeli/carousel'inin gerçekten yayınlanıp yayınlanmadığı teyit edilmeli~~ — çözüldü (6 Kas, bkz. raporlar/2026-11-06_lansman_incelemesi.md).
+~~Sayısal hedef yok~~ — çözüldü (6 Kas, checkpoint olarak ortak/hedef.md'de).
 
 ## Güncelleme günlüğü
 - 2026-10-29: Dosya oluşturuldu, mevcut bilgiler Mehmet'in önceki konuşmalarından derlendi.
