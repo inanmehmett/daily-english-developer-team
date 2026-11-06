@@ -44,10 +44,10 @@
 - Kent Bekçi'nin (geliştirme) rolü de buna göre: "nasıl kodlanır" değil, "ne kodlanmalı ve neden" — gerçek Kent Beck'in YAGNI/basitlik ilkesini spesifikasyon kalitesine uygular.
 
 ## Açık sorular / takip edilecekler
-- push_opened ölçümü hâlâ kurulmadı (bkz. raporlar/2026-10-29_bildirim-psikoloji-plani.md, madde 1) — bu olmadan "bildirimler etkili mi" sorusu cevaplanamaz, öncelik bu.
-- Kaynak etiketi standardı (Nate Gümüş ↔ Nate Gold, 6 Kas çapraz toplantıda kararlaştırıldı) — **spesifikasyon hazır** (bkz. `raporlar/2026-11-06_kaynak_etiketi_spesifikasyonu.md`), uygulama henüz yapılmadı. Özet: onboarding'de "nereden duydun" sorusu (her iki platform) + Android'de Play Install Referrer (doğrulama katmanı).
+- **Firebase Analytics hiç veri toplamıyor (6 Kas, yeni bulgu)** — `push_opened` dahil her şey (screen_view, session_start) son 28 günde 0. Kod (backend + Flutter) zaten doğru yazılmış; sorun veri akışında. Ayrıntı: `raporlar/2026-11-06_tutma_bulgulari.md`. Bu, debug işi — ekip spesifikasyon üretemez, Mehmet/editör uygulamayı debug modunda çalıştırmalı.
+- Kaynak etiketi standardı (Nate Gümüş ↔ Nate Gold, 6 Kas çapraz toplantıda kararlaştırıldı) — **spesifikasyon hazır** (bkz. `raporlar/2026-11-06_kaynak_etiketi_spesifikasyonu.md`), yalnızca Android (Play Referrer), onboarding'e dokunmuyor. Uygulama henüz yapılmadı. iOS tarafı çözümsüz kaldı.
 - PMF anketi (Sean Ellis çerçevesi) mevcut kullanıcılara hiç uygulanmadı — checkpoint'in (ortak/hedef.md) 4. maddesi.
-- Akşam seri bildirimi kod değişikliği (29 Eki) hâlâ derlenmedi/test edilmedi — Mehmet'in Mac'inde kontrol beklemede.
+- Akşam seri bildirimi kodu (`UsesEveningHour`) **zaten commit'li** (`1c31040`) — varsayıldığı gibi "uncommitted" değilmiş. Derlendiği doğrulanamadı: bu bulut ortamında NuGet erişimi yok (ağ kısıtı), Mehmet'in Mac'inde `dotnet build` ile 2 dakikalık doğrulama bekliyor.
 - Gerçek kullanıcı verisi şu an elle (Play Console/App Store Connect'e tek tek bakarak) çekiliyor; sistemli/otomatik toplama henüz yok — Nate Gümüş'ün asıl işi bu.
 
 ~~Lansman reeli/carousel'inin gerçekten yayınlanıp yayınlanmadığı teyit edilmeli~~ — çözüldü (6 Kas, bkz. raporlar/2026-11-06_lansman_incelemesi.md).
