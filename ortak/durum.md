@@ -37,6 +37,12 @@
 - Instagram ekibi tarafında (6 Kas 2026 itibarıyla bilinen): uygulama yayına girdiğinden beri sabit A2 seviye sistemi yerine değişken reel seviyelerine geçildi, öncelik daha fazla kullanıcıya ulaşmak ve uygulamayı daha iyi tanıtmak. Reel paragraf metinlerine karakter adı konmuyor.
 - **Pazarlama, Instagram ekibiyle ortak yürütülüyor** (Mehmet'in kararı, 6 Kas 2026). İki ekip başı (Steve İşler ↔ Adam Koseri) düzenli koordinasyon toplantısı yapar — bkz. `raporlar/` altındaki ortak toplantı notları.
 
+## Ekibin çalışma şekli (6 Kas 2026 — netleştirildi)
+- **Ekip kod yazmaz.** Mehmet'in ihtiyacı: uygulama ihtiyaçlarının, tasarımların, ürün/iş kararlarının (ne yapılmalı, neden, hangi öncelikle) net tanımını çıkarmak.
+- Kodun kendisi başka yerde (Mehmet'in kullandığı editördeki asistan) yazılır. Ekip bu kodu yazdırmak için gereken spesifikasyonu, kabul kriterlerini ve gerekçeyi hazırlar.
+- Bu yüzden GitHub repo erişimi (Flutter/DailyEnglish private repoları) artık acil bir engel değil — derleme/test yapmamız gerekmiyor. Yine de uygulamayı daha iyi anlamak için kod tabanına salt-okunur erişim faydalı olurdu, ama zorunlu değil.
+- Kent Bekçi'nin (geliştirme) rolü de buna göre: "nasıl kodlanır" değil, "ne kodlanmalı ve neden" — gerçek Kent Beck'in YAGNI/basitlik ilkesini spesifikasyon kalitesine uygular.
+
 ## Açık sorular / takip edilecekler
 - push_opened ölçümü hâlâ kurulmadı (bkz. raporlar/2026-10-29_bildirim-psikoloji-plani.md, madde 1) — bu olmadan "bildirimler etkili mi" sorusu cevaplanamaz, öncelik bu.
 - Akşam seri bildirimi kod değişikliği (29 Eki) hâlâ derlenmedi/test edilmedi — Mehmet'in Mac'inde kontrol beklemede.
@@ -46,3 +52,4 @@
 ## Güncelleme günlüğü
 - 2026-10-29: Dosya oluşturuldu, mevcut bilgiler Mehmet'in önceki konuşmalarından derlendi.
 - 2026-11-06: Uygulama canlı — Android ve iOS yayında. Fiyatlandırma, leaderboard kaldırma, yaş sınırı düzeltmesi işlendi. Pazarlamanın Instagram ekibiyle ortak yürütüleceği not edildi.
+- 2026-11-06: Ekibin çalışma şekli netleştirildi — ekip kod yazmaz, ihtiyaç/tasarım/gerekçe tanımlar; kod editörde yazılır.
