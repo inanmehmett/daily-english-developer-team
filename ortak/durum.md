@@ -45,7 +45,7 @@
 
 ## Açık sorular / takip edilecekler
 - push_opened ölçümü hâlâ kurulmadı (bkz. raporlar/2026-10-29_bildirim-psikoloji-plani.md, madde 1) — bu olmadan "bildirimler etkili mi" sorusu cevaplanamaz, öncelik bu.
-- Kaynak etiketi standardı (Nate Gümüş ↔ Nate Gold, 6 Kas çapraz toplantıda kararlaştırıldı) hâlâ kurulmadı — link tıklama → indirme → aktivasyon zinciri ölçülemiyor.
+- Kaynak etiketi standardı (Nate Gümüş ↔ Nate Gold, 6 Kas çapraz toplantıda kararlaştırıldı) — **spesifikasyon hazır** (bkz. `raporlar/2026-11-06_kaynak_etiketi_spesifikasyonu.md`), uygulama henüz yapılmadı. Özet: onboarding'de "nereden duydun" sorusu (her iki platform) + Android'de Play Install Referrer (doğrulama katmanı).
 - PMF anketi (Sean Ellis çerçevesi) mevcut kullanıcılara hiç uygulanmadı — checkpoint'in (ortak/hedef.md) 4. maddesi.
 - Akşam seri bildirimi kod değişikliği (29 Eki) hâlâ derlenmedi/test edilmedi — Mehmet'in Mac'inde kontrol beklemede.
 - Gerçek kullanıcı verisi şu an elle (Play Console/App Store Connect'e tek tek bakarak) çekiliyor; sistemli/otomatik toplama henüz yok — Nate Gümüş'ün asıl işi bu.
