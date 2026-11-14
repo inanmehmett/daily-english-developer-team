@@ -44,6 +44,9 @@
 - Kent Bekçi'nin (geliştirme) rolü de buna göre: "nasıl kodlanır" değil, "ne kodlanmalı ve neden" — gerçek Kent Beck'in YAGNI/basitlik ilkesini spesifikasyon kalitesine uygular.
 
 ## Açık sorular / takip edilecekler
+- **Onboarding 1. ekranda kullanıcı takılıyor (15 Kas, gerçek kullanıcı bildirimi, Reeder S19 Pro Max)** — "Bilmediğin kelimeye dokun" adımında (`step_01_tap_word.dart`) içerik kaydırılamıyor; telefon yazı boyutu büyükse kelime kartı ekrana sığmıyor ve "Devam" düğmesi ekranın altında kalıp basılamıyor. Diğer bazı adımlarda kaydırma var, bunda yok. Düzeltme isteği: içerik kaydırılabilir olsun, "Devam" düğmesi altta sabit kalsın; kaydırması olmayan diğer onboarding adımları (00, 06, 08, review_proof, progress_promise) da büyük yazı boyutuyla denensin. İlk ekran olduğu için öncelik yüksek.
+- **Kapalı test kanalı hâlâ etkin (15 Kas)** — eski testçiler mağazada "(Beta)" görüyor, bir kullanıcıda "Yükle" düğmesi çıkmadı. Kanalı duraklatma kararı Mehmet'te.
+- **Android'de 15 günde satış yok, iOS'ta var (15 Kas)** — Android satın alma akışı test hesabıyla denenmeli.
 - **Firebase Analytics hiç veri toplamıyor (6 Kas, yeni bulgu)** — `push_opened` dahil her şey (screen_view, session_start) son 28 günde 0. Kod (backend + Flutter) zaten doğru yazılmış; sorun veri akışında. Ayrıntı: `raporlar/2026-11-06_tutma_bulgulari.md`. Bu, debug işi — ekip spesifikasyon üretemez, Mehmet/editör uygulamayı debug modunda çalıştırmalı.
 - Kaynak etiketi standardı (Nate Gümüş ↔ Nate Gold, 6 Kas çapraz toplantıda kararlaştırıldı) — **spesifikasyon hazır** (bkz. `raporlar/2026-11-06_kaynak_etiketi_spesifikasyonu.md`), yalnızca Android (Play Referrer), onboarding'e dokunmuyor. Uygulama henüz yapılmadı. iOS tarafı çözümsüz kaldı.
 - PMF anketi (Sean Ellis çerçevesi) mevcut kullanıcılara hiç uygulanmadı — checkpoint'in (ortak/hedef.md) 4. maddesi.
