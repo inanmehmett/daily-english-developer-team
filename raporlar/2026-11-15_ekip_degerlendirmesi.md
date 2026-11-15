@@ -1,5 +1,8 @@
 # Ekip değerlendirmesi: uygulamada ışık var mı
 
+> **DÜZELTME (15 Kas 2026, akşam):** Bu rapordaki Firebase sayıları uygulamanın kendi kayıtlarıyla uyuşmadı. Canlı veritabanına göre onboarding'i bitiren müşterilerin %81–85'i okumaya başlıyor (11–15 Kas: 34 kişiden 29; 29 Eki–10 Kas: 114 kişiden 92). "26 kişiden 18'i başlamadı" sayısı ve ona dayanan "en büyük kayıp onboarding ile ilk metin arasında" hipotezi **geçersizdir.** Bu rapordaki diğer Firebase sayıları da (okumayan 52 kişi, quize giriş, sonraki okumaya geçiş, paywall hunisi) aynı kaynaktan geldiği için doğrulanmış sayılmaz. Doğru sayılar: `raporlar/2026-11-15_editor_bolum1_ek.md`. Hata, tek ve yeni bir kaynağı (4 günlük Firebase verisi) uygulamanın kendi kayıtlarıyla karşılaştırmadan karara dayanak yapmaktı.
+
+
 **Tarih:** 15 Kasım 2026 · Tek geçiş. Üyeler kurgusaldır; her görüş, üyenin el kitabındaki belgelenmiş çerçevenin eldeki gerçek veriye uygulanmasıdır, gerçek kişilerin görüşü değildir.
 **Veri:** `raporlar/2026-11-15_ilk_analitik_okumasi.md`, `ortak/hedef.md` (15 Kas kayıtları).
 

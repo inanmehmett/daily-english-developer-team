@@ -14,9 +14,11 @@ Tahmin değil, belgelenmiş: "The Signal and the Noise" kitabındaki merkezi ilk
 - Sean Büyüt'ün "ilk duyuru reeli" dersi gibi tek veri noktalı bulguları ben de bu mercekten değerlendireceğim: "işe yaramadı" demek için bir örnek yeterli olabilir (açık hata), ama "bu format her zaman işe yarar" demek için yetmez.
 
 ## El kitabı (öğrenilenler)
+- **Ders (15 Kas 2026, kendi hatamızdan):** Firebase'in 4 günlük verisinden çıkan "onboarding'i bitiren 26 kişiden 8'i okuyor" sayısı kriz kararına dayanak yapıldı; uygulamanın kendi kayıtları (canlı veritabanı, `UserEvents`) aynı oranı %81–85 gösterdi. Kural: **karara dayanak olacak her sayı, uygulamanın kendi kayıtlarından okunur ya da onunla karşılaştırılır.** Firebase tek başına kaynak değildir. İki kaynak uyuşmuyorsa karar bekler. Canlı veritabanına bu oturumdan erişim yok; sorgu editörde çalıştırılır.
 *(henüz boş — ilk veri geldiğinde doldurulacak)*
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Fiyatlandırma: haftalık 79 TL, aylık 200 TL, yıllık 999 TL (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Nate Silver çerçevesi (sinyal/gürültü, olasılıksal ifade) dayanak olarak eklendi.
 - 2026-11-15: Gelir ve abonelik işlerinin ölçüm tarafı bu üyeye yazıldı.
+- 2026-11-15: Firebase taban sayısı hatası ve kaynak kuralı işlendi.

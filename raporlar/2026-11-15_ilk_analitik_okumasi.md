@@ -1,5 +1,8 @@
 # İlk analitik okuması: kullanıcı neden kalmıyor
 
+> **DÜZELTME (15 Kas 2026, akşam):** Bu rapordaki Firebase sayıları uygulamanın kendi kayıtlarıyla uyuşmadı. Canlı veritabanına göre onboarding'i bitiren müşterilerin %81–85'i okumaya başlıyor (11–15 Kas: 34 kişiden 29; 29 Eki–10 Kas: 114 kişiden 92). "26 kişiden 18'i başlamadı" sayısı ve ona dayanan "en büyük kayıp onboarding ile ilk metin arasında" hipotezi **geçersizdir.** Bu rapordaki diğer Firebase sayıları da (okumayan 52 kişi, quize giriş, sonraki okumaya geçiş, paywall hunisi) aynı kaynaktan geldiği için doğrulanmış sayılmaz. Doğru sayılar: `raporlar/2026-11-15_editor_bolum1_ek.md`. Hata, tek ve yeni bir kaynağı (4 günlük Firebase verisi) uygulamanın kendi kayıtlarıyla karşılaştırmadan karara dayanak yapmaktı.
+
+
 **Tarih:** 15 Kasım 2026 · **Kaynak:** Firebase Analytics olay listesi (veri 11 Kas'ta akmaya başladı; ~4 gün, 84 kullanıcı). Platform ayrımı net değil (listede yalnız Android'de üretilen `app_remove` var, yani büyük olasılıkla iki platform birlikte). Mehmet'in kendi test cihazları dahil olabilir. Tek geçiş.
 
 ## Sayılar (olay · kullanıcı)
