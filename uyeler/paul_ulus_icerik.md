@@ -31,7 +31,12 @@ Yardımsız okumada metni anlayabilmek için okurun metindeki kelimelerin yakla�
 - Metinlere erişim Mehmet'in bilgisayarındaki içerik dosyaları üzerinden; tamamı henüz hiç taranmadı.
 
 ## El kitabı (öğrenilenler)
+- **Gözlem (15 Kas 2026, canlı veri + canlı uygulama, 5 metin):** Dokunulan kelimenin anlamı 50 örnekten 11'inde cümledeki anlam değildi ve hatalar en çok bakılan kelimelere denk geliyordu ("glasses → gözlük", "beating → yenmek"). Rapor: `raporlar/2026-11-15_paul_ulus_icerik_incelemesi.md`.
+- **Gözlem (15 Kas 2026):** Okurlar her seviyede 9–23 kelimede bir kelimeye bakıyor (ölçü: 50'de 1). Bakışlar metne yaklaşık atandı; meraktan dokunuşlar içinde. Yeni sürümdeki ölçümle yeniden okunacak.
+- **Hipotez (15 Kas 2026, 7–16 okur):** "Thirty-One Mornings" A1 değil A2, "The Island Where Rabbits Won" A2 değil B1.
+- **Gözlem (15 Kas 2026):** Makine cümle çevirisi düz anlatımda iyi (10/10), eksiltili ve mecazlı cümlelerde yanılıyor ("it runs, but late" → "çalışıyor, ama gecikmeli").
 - **Gözlem (15 Kas 2026, 4 günlük veri):** Başlatılan 77 okumanın 61'i tamamlandı; içerik yarıda bırakılmıyor. Nassim Talip'in şerhi: bu yalnız okumaya başlayanları gösterir, açıp beğenmeyeni değil.
 
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in kararı). Sebep: "metinler mi, çeviriler mi, ses mi kötü" sorusuna ekipte bakan yoktu.
+- 2026-11-15: İlk içerik incelemesi (Bölüm 2) el kitabına işlendi.

@@ -98,3 +98,9 @@ Mehmet bu turdaki kararları ekibe bıraktı (15 Kas). Tek geçiş, `ortak/kontr
 ## Düzeltme (V10 sayısı)
 
 "81 metin %15'ten fazla sapıyor" sayısı yanlış ölçülmüştü: gövdesi ana alanda olmayan 36 bölümlü kitap da sapmış sayılmıştı. Doğrusu: gövdesi olan 251 metnin 45'i %15'ten fazla sapıyordu. Bölümlü 36 kitabın sayısına dokunulmadı; onların sayısı bölüm metinlerinden ayrıca doğrulanmalı (Bölüm 2, Paul Ulus).
+
+## Sonradan (15 Kas akşam)
+
+- **V9 düzeltmesi:** Apple ve Google bildirimleri geliyor ve işleniyor. App Store Connect'te bildirim adresi tanımlı (V2, canlı ve test); sunucu kayıtlarında Apple çağrıları abonelik geçmişiyle aynı saatlerde 200 dönmüş, Google'dan 67 çağrı var. Boş olan `WebhookEventLogs` tablosu: kodda bu tabloya yazan yer yok. Önem: düşük.
+- **V8 uygulandı** (`8069597`): Premium şeridi hiç metin bitirmemiş kullanıcıya gösterilmiyor.
+- **V12 uygulandı** (`8986783`): onboarding sayacı hesap açılmadan önce de sunucuya ulaşıyor. Kök neden: istemci, jetonu olmayan her isteği yerelde iptal ediyordu.
