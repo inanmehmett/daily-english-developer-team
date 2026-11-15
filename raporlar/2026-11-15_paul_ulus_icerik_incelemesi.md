@@ -129,3 +129,12 @@ Mehmet bu turdaki kararları ekibe bıraktı. Tek geçiş:
 | A1 ses hızı | Mehmet dinlesin; karar onun kulağında. | Dinlenmeden karar verilemez. |
 
 Bu kararların hiçbiri bu turda uygulanmadı; içerik ve sözlük düzeltmeleri ayrı bir iş.
+
+## Düzeltme (16 Kasım 2026, editör)
+
+**P1 ve P2 büyük ölçüde yanlış alarmdı.** İnceleme, kelime anlamını canlı sunucuya kelimenin cümledeki yerini (wordIndex) göndermeden sordu. Uygulama ise yeri gönderiyor; bu durumda sunucu 13 Kasım'da elle doğrulanmış cümle-içi karşılıkları (ContextGlosses) kullanıyor. Uygulamanın yaptığı gibi sorulunca 11 kelimeden 10'u doğru dönüyor: glasses → bardak, pot → demlik, beating → çırpmak, hollow → içi boş, drops → düşmek, bursts → ani hamle, folds → katlanmak, left → bırakmak, handled → işlenmek, holds → düzenlemek.
+
+Gerçekten yanlış olan tek kelime "Thirty-One Mornings"teki **still** ("Stand still" → hâlâ) idi; bu metin 13 Kasım'da ücretsiz rafta olmadığı için kayıt eksikti. Kayıt eklendi ve canlıda doğrulandı (kıpırdamadan).
+
+**Öğrenilen:** Balon anlamı ölçülürken istek uygulamanın isteğiyle birebir olmalı: kelime, cümle ve kelimenin cümledeki sırası (sunucunun kelime bölücüsüyle hesaplanmış).
+
