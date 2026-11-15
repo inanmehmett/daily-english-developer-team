@@ -73,7 +73,7 @@ Mehmet bu turdaki kararları ekibe bıraktı (15 Kas). Tek geçiş, `ortak/kontr
 | Konu | Karar | Gerekçe ve itiraz |
 |---|---|---|
 | 29 Kasım hedefi | Onboarding'i bitirenlerin okumaya başlama oranı %82 → en az %90; uygulamanın kendi kayıtlarından, sürüme göre ayrılarak okunur. | Firebase sayısı tutmadı (V1). Nassim Talip: ~150 kişide 8 puan 12 kişi eder; sonuç "ders" yazılmaz. |
-| Kelime sayıları (V10) | Düzeltilsin. | Paul Ulus: süre etiketi ve "50 kelimede 1" ölçüsü buna dayanıyor. Kent Bekçi: yedekli, geri alınabilir. Nassim'in sorusu (ilk hikâye değişir mi) kontrol edildi: üç ücretsiz metnin seçimi aynı kalıyor. **Uygulanmadı:** editörün canlıya yazması izin katmanında reddedildi; betiği Mehmet çalıştıracak. |
+| Kelime sayıları (V10) | Düzeltilsin. | Paul Ulus: süre etiketi ve "50 kelimede 1" ölçüsü buna dayanıyor. Kent Bekçi: yedekli, geri alınabilir. Nassim'in sorusu (ilk hikâye değişir mi) kontrol edildi: üç ücretsiz metnin seçimi aynı kalıyor. **Uygulandı (15 Kas 15:02, Mehmet'in yazma izniyle):** gövdesi olan 251 metnin sayısı metinle birebir; 195 satır değişti. Yedek: `_backup_reading_text_word_count_20261115`. |
 | "Kitap sayısı" ekranı (V11) | Dokunulmasın. | Çalıştırmak herkese bir ekran daha eklemek olur. |
 | Yazı tavanı | 1,3 kalsın; iki hafta `text_scale` verisi birikince yeniden değerlendirilsin. | Nassim'in şartı ölçümle karşılandı. |
 | Yeni kullanıcıya Premium şeridi (V8) | İlk okuma bitene kadar gösterilmesin. Sıradaki editör işi; bu turda kod değişmedi. | V7: deneme ürün görülmeden başladı, hiç okunmadı. Sean Büyüt şerh: şeridin tamamen kalkmasına karşı, ertelenmesini kabul ediyor. |
@@ -81,7 +81,7 @@ Mehmet bu turdaki kararları ekibe bıraktı (15 Kas). Tek geçiş, `ortak/kontr
 | Yeni son ekran | Premium cümlesi eklenmedi; başlık "İlk hikâyen hazır." | Ekran tek şey söylesin. |
 | `main`'e alma | iOS'ta da ekranda görüldükten sonra. | Android'de doğrulandı, 1064 test geçiyor. |
 
-**Mehmet'e çıkanlar (yalnız onun yapabilecekleri):** kelime sayısı betiğini çalıştırmak ya da yazma izni vermek; Android satın alma testi; mağaza panellerinde sunucu bildirim adresine bakmak (V9).
+**Mehmet'e çıkanlar (yalnız onun yapabilecekleri):** Android satın alma testi; mağaza panellerinde sunucu bildirim adresine bakmak (V9).
 
 ## Düzeltmeler (ilk rapor)
 
@@ -94,3 +94,7 @@ Mehmet bu turdaki kararları ekibe bıraktı (15 Kas). Tek geçiş, `ortak/kontr
 - **iOS derlemeleri geçici olarak çalışmıyor.** Yer açmak için kullanılmayan iki simülatör platformunu sildim (iOS 18.3.1 ve 26.1). Xcode 26.1, 26.1 platformunu derleme için istiyor. `xcodebuild -downloadPlatform iOS` ile yeniden indiriliyor.
 - Diskte açılan yer: silinen iOS 18.3.1 platformu ve üç kullanılmayan simülatörün içeriği (iPhone 16e, iPad A16, iPhone 17). Boş alan 0,2 GB'tan yaklaşık 16 GB'a çıktı; 26.1 geri gelince yaklaşık 8 GB kalır.
 - Prod'da iki misafir hesap daha açıldı (çekimler).
+
+## Düzeltme (V10 sayısı)
+
+"81 metin %15'ten fazla sapıyor" sayısı yanlış ölçülmüştü: gövdesi ana alanda olmayan 36 bölümlü kitap da sapmış sayılmıştı. Doğrusu: gövdesi olan 251 metnin 45'i %15'ten fazla sapıyordu. Bölümlü 36 kitabın sayısına dokunulmadı; onların sayısı bölüm metinlerinden ayrıca doğrulanmalı (Bölüm 2, Paul Ulus).
