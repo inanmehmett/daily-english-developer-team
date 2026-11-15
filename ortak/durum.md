@@ -74,3 +74,4 @@
 - 2026-11-15 (öğleden sonra): Editör ek raporu işlendi (`raporlar/2026-11-15_editor_bolum1_ek.md`): canlı veriyle taban sayı, Android satın alma ve iOS denemesi netleşti.
 - 2026-11-15 (akşamüstü): Mehmet bu turdaki kararları ekibe bıraktı; kararlar ek raporda ("Ekip kararları"). Android emülatöründe tooltip, yeni son ekran ve yazı tavanı doğrulandı.
 - 2026-11-15 (akşam): Bölüm 2 raporu işlendi; mağaza bildirimleri kontrol edildi (çalışıyor); Premium şeridi ve onboarding sayacı kodda düzeltildi (yerel dal).
+- 2026-11-15 (gece): Bölüm 3 aşama 1 raporu işlendi (`raporlar/2026-11-15_dieter_koc_arayuz_taramasi.md`): iki platform, iki koşul, 16 bulgu; üç engelleyici düzeltilip cihazda doğrulandı, 13 bulgu için iş listesi onay bekliyor. Flutter dalı yerelde `main`e birleştirildi (1071 test geçti), gönderilmedi; yayın kararı Mehmet’te.
