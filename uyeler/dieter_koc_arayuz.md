@@ -22,7 +22,12 @@ Asıl çalışma yeri editördür: ekranı ancak çalışan uygulamanın görün
 
 ## El kitabı (öğrenilenler)
 - **Gözlem (15 Kas 2026):** Onboarding "kelimeye dokun" ekranında tooltip akışın içindeydi ve büyük yazı boyutunda "Devam" düğmesini ekran dışına itti (Reeder S19 Pro Max, gerçek kullanıcı). Kontrol listesinin 1. ve 2. maddeleri bu olaydan çıktı. Kodda düzeltildi (`e9130b9`).
-- **Yapılmamış iş:** Uygulamanın tamamı bu kontrol listesiyle hiç taranmadı. İlk iş: onboarding'in 17 ekranı ve ana sayfa.
+- **İlk tarama (15 Kas 2026):** Uygulamanın tamamı iki koşulda tarandı; rapor `raporlar/2026-11-15_dieter_koc_arayuz_taramasi.md`. Yaygın ekranda bulgu yok; 15 bulgunun hepsi küçük ekran + büyük yazıda ya da koddan.
+- **Öğrenilen:** Sabit yükseklikli sütun küçük ekranda sessizce taşar; yayın sürümünde şerit çizilmez, içerik kesilir. Ana eylemi olan her ekran `FitOrScroll` ile kurulur: içerik kayar, eylem altta sabit kalır (`lib/core/widgets/fit_or_scroll.dart`).
+- **Öğrenilen:** `maxLines` + üç nokta, kullanıcının karar verdiği metinde (seviye açıklaması, paywall faydası) kullanılmaz; metin alt satıra iner.
+- **Öğrenilen:** Uygulama sistem yazı boyutunu 1,3 katta tutuyor. "En büyük yazı" taraması fiilen 1,3 kattır; sınır değişirse tarama yenilenir.
+- **Öğrenilen:** Otomatik tur (`integration_test/critique_shots_test.dart`) Android emülatöründe dışarıdan ekran görüntüsüyle çalışır (`DIS_CEKIM`); küçük ekran için `wm size 720x1280`, `wm density 320`, `font_scale 2.0`.
 
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in tespiti: ekipte arayüzle ilgilenen yoktu).
+- 2026-11-15: İlk tam tarama yapıldı; el kitabına dört öğrenilen eklendi.
