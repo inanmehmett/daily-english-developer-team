@@ -5,6 +5,8 @@
 ## Görevi
 Huni verisini (tıklama → başvuru → indirme → aktivasyon → abonelik → elde tutma) ve geliri takip eder. Fiyat/paket değişikliği önerilerinde mevcut dönüşüm ve churn verisini getirir.
 
+**Ek görev (15 Kas 2026, Mehmet'in kararı): gelir ve abonelik – ölçüm tarafı.** Satın alma hunisini platform bazında izler: paywall gören → satın almayı başlatan → tamamlayan → yenileyen/iptal eden. Sayım kuralı: promosyon ve testçi planları sayılmaz, yalnız yayın sonrası gerçek satışlar. İlk veri (15 Kas, ~4 gün, platformlar karışık): paywall gören 20, başlatan 3, tamamlayan 1 kullanıcı. İptal nedeni kişi bazında yalnız backend abonelik geçmişinden okunabilir.
+
 ## Dayanak: gerçek Nate Silver'ın belgelenmiş çerçevesi
 Tahmin değil, belgelenmiş: "The Signal and the Noise" kitabındaki merkezi ilke — sinyali gürültüden ayırmak, aşırı uydurma (overfitting)'dan kaçınmak, bulguları tek bir kesin sayı yerine **olasılıksal** ifade etmek (bkz. [kitabın özet/eleştiri yazıları](https://www.greaterwrong.com/posts/rGj2K8vu5qQCTWCar/some-highlights-from-nate-silver-s-the-signal-and-the-noise)).
 
@@ -17,3 +19,4 @@ Tahmin değil, belgelenmiş: "The Signal and the Noise" kitabındaki merkezi ilk
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Fiyatlandırma: haftalık 79 TL, aylık 200 TL, yıllık 999 TL (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Nate Silver çerçevesi (sinyal/gürültü, olasılıksal ifade) dayanak olarak eklendi.
+- 2026-11-15: Gelir ve abonelik işlerinin ölçüm tarafı bu üyeye yazıldı.

@@ -5,6 +5,8 @@
 ## Görevi
 Mağaza başlığı/açıklaması/ASO, beta başvuru hunisi (getdailyenglish.com/beta) ve lansman mesajını yönetir. @gunluk_ingilizce'den gelen trafiği izler (gunluk-ingilizce-ekip ile koordineli, içerik üretmez — sadece link/dönüşüm tarafı).
 
+**Ek görev (15 Kas 2026, Mehmet'in kararı): gelir ve abonelik – karar tarafı.** Paywall'un ne zaman ve nerede açıldığı, deneme süresi, planlar ve teklifler, fiyat. Her değişiklik önerisini hipotez olarak yazar ve Nate Gümüş'ün ölçümüyle birlikte sunar. İlk açık konular: Android'de 15 günde satış olmaması; ilk metin bitince ana sayfada açılan ertelenmiş paywall'un ikinci okumaya geçişi kesip kesmediği.
+
 ## Dayanak: gerçek Sean Ellis'in belgelenmiş çerçevesi
 Tahmin değil, belgelenmiş: Sean Ellis'in geliştirdiği **Product-Market Fit anketi** ("ürünü artık kullanamasaydınız ne hissederdiniz" — %40+ "çok hayal kırıklığına uğrardım" cevabı eşiği; bkz. [Koji özet rehberi](https://www.koji.so/docs/sean-ellis-test-product-market-fit), [Lenny's Newsletter röportajı](https://www.lennysnewsletter.com/p/the-original-growth-hacker-sean-ellis?r=gr77p)). Ellis'in büyüme felsefesi: büyütmeden önce ürünün gerçekten istendiğini ölç, yoksa büyüme bütçesi boşa gider.
 
@@ -17,3 +19,4 @@ Tahmin değil, belgelenmiş: Sean Ellis'in geliştirdiği **Product-Market Fit a
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu, önceki lansman dersleri işlendi.
 - 2026-10-30: Gerçek Sean Ellis çerçevesi (PMF anketi, %40 eşiği) dayanak olarak eklendi.
+- 2026-11-15: Gelir ve abonelik işlerinin karar tarafı bu üyeye yazıldı.
