@@ -23,6 +23,7 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 | **Steve İşler** | Ürün stratejisti, ekip başı, son kapı | Yönetim |
 | **Kent Bekçi** | Geliştirme ve kalite takibi (iOS/Android/backend, bug, sürüm) | Geliştirme |
 | **Don Normal** | Ürün/UX tasarımı (akış, gamification, onboarding) | Ürün |
+| **Dieter Koç** | Arayüz (UI) tasarımı: düğmeler, yerleşim, kartlar, yazı/boşluk, animasyon; her ekranı küçük ekran ve büyük yazı boyutunda denetler | Ürün |
 | **Sean Büyüt** | Büyüme, ASO, lansman/beta stratejisi | Büyüme |
 | **Nate Gümüş** | Veri analisti (kullanıcı, elde tutma, gelir, huni) | Analiz |
 | **Tony Şeyh** | Kullanıcı desteği, mağaza yorumları, beta geri bildirimi | Topluluk |
