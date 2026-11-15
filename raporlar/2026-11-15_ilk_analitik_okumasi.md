@@ -36,3 +36,30 @@
 - Ses dinleme: ilk 52 olayda sese ait bir olay görülmedi; ses kalitesi bu veriyle değerlendirilemez.
 - Çeviri kalitesi: ölçen bir olay yok; yalnız kullanım sıklığı var.
 - Mağaza yorumları bu turda okunmadı.
+
+---
+
+## Ek (15 Kas, aynı gece): okumayanlar kim, günün quizine girdiler mi
+
+Kaynak: Google Analytics segment oluşturucu önizlemesi ("şunu yapan, ama `reading_started` hiç yapmayan kullanıcılar", kalıcı hariç tutma). Aynı ~4 günlük pencere.
+
+| Grup | Toplam | Okumaya başlayan | Hiç başlamayan |
+|---|---|---|---|
+| Tüm kullanıcılar | 84 | 32 | 52 |
+| Uygulamayı açan (`session_start`) | 54 | 23 | 31 |
+| Yeni kullanıcı (`first_open`) | 30 | 9 | 21 |
+| Onboarding'i bitiren | 26 | 8 | 18 |
+| Paywall gören (`paywall_shown`) | 20 | 15 | 5 |
+| Günün quizine ilk kez giren (`quiz_intro_shown`) | 9 | 8 | 1 |
+
+- 52 okumayanın yaklaşık 21'i bu pencerede uygulamayı hiç açmadı (yalnız bildirim aldı); 31'i açtı ama okumadı. Bu 31 kişinin toplam 38 oturumu var (kişi başı ~1,2).
+- Onboarding'i bitiren 26 kişinin 18'i ilk metne hiç başlamadı. Onboarding sonrası akış (kod): misafir hesap açılır, ana sayfaya düşer, paywall ilk okumaya kadar ertelenir. Yani bu kişileri paywall durdurmadı (okumayanlardan yalnız 5'i paywall gördü); ana sayfada kaldılar ve çıktılar.
+- Okumayanlar quize de girmedi: günün quizine ilk kez giren 9 kişinin 8'i zaten okuyan kullanıcı.
+- Ölçüm sınırı: günün quizine giriş yalnız ilk seferde (`quiz_intro_shown`) olay üretiyor; tekrar girişler ölçülmüyor. `quiz_completed`/`quiz_passed` okuma sonu quizine ait.
+- 9 okuyan kullanıcıda `session_start` görünmüyor (küçük veri tutarsızlığı; neden bilinmiyor).
+
+**Hipotez (1 veri noktası):** En büyük kayıp onboarding ile ilk metin arasında. Kullanıcı ana sayfaya bırakılıyor; ilk metni kendisinin başlatması gerekiyor ve çoğu başlatmıyor.
+
+**Öneri (karar Mehmet'te):** Onboarding biter bitmez kullanıcı ana sayfa yerine doğrudan ilk metnin içine alınsın. Etkisi "onboarding'i bitirenlerin okumaya başlama oranı" ile ölçülür (şu an 8/26).
+
+**Ölçüm isteği:** Günün quizine her girişte ve ses dinlemede olay gönderilsin.
