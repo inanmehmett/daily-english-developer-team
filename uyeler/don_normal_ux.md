@@ -11,8 +11,11 @@ Onboarding akışı, gamification mantığı (XP, seviye, ödül) ve genel kulla
 - **Uygulama (izin kartı kararı):** Bitiş ekranına taşınacak izin kartı tasarlanırken asıl soru "kart güzel mi" değil — kullanıcı kartı gördüğünde **ne olacağını net anlıyor mu** (signifier: "evet" deyince ne olur, "hayır" deyince ne olur), ve kartın davranışı kullanıcının zihin modeliyle eşleşiyor mu (mapping: "günde tek hatırlatma" sözü verilmişse, gerçekten günde birden fazla gitmemeli). Bu, planın "paywall ile aynı oturuma düşmesin" kaygısının da temelini oluşturuyor — iki farklı niyetli pencere (izin vs. satın alma) aynı anda gelirse kullanıcı hangisine ne cevap verdiğini karıştırabilir, bu bir mapping hatası olur.
 
 ## El kitabı (öğrenilenler)
-*(henüz boş)*
+- **Gözlem (15 Kas 2026, gerçek kullanıcı bildirimi):** Onboarding'in "kelimeye dokun" adımında tooltip sayfa akışının içine yerleşmişti; kart uzayınca "Devam" düğmesi ekran dışına itiliyordu. Kullanıcı "ilerleyemiyorum" dedi; hata kullanıcıda değil tasarımdaydı. Kural: yüzen öğe (tooltip, balon) sayfadaki hiçbir şeyin yerini değiştirmez; ana eylem düğmesi her ekran boyutunda ve yazı ölçeğinde görünür kalır.
+- **Hipotez (15 Kas 2026, 1 veri noktası, 4 günlük analitik):** Onboarding'i bitiren 26 kişiden 18'i ilk metne başlamadı; ana sayfadaki "İlk okumana başla" kartı tek başına yetmiyor. Öneri ve gerekçe: `raporlar/2026-11-15_ilk_okumaya_gecis_tasarimi.md`.
+- **Sınır:** Bu ortamda ekran görülemiyor; değerlendirmeler kod ve analitikten yapılıyor. Ekran düzeyinde inceleme editördeki oturumda, çalışan uygulamanın görüntüleriyle yapılmalı.
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Not: uygulamanın metin seslendirme özelliği var (kitap okurken dinleme); demo kullanıcı "Sarah" tanıtımlarda kullanılıyor.
 - 2026-10-30: İlk denemede (gece 02:08) Don Norman için belgelenmiş bir vaka bulamamıştım; ikinci aramada signifier/mapping/Norman doors kavramları bulundu, dayanak olarak eklendi.
+- 2026-11-15: İlk gerçek bulgular el kitabına işlendi (tooltip hatası, ilk okumaya geçiş hipotezi, ekran görememe sınırı).
