@@ -55,8 +55,33 @@ Otomatik testler: 1064 geçti, 1 atlandı.
 
 ## Doğrulama durumu
 
-- Yazı tavanı ve yeni bekleme anı **henüz ekranda doğrulanmadı.** İlk deneme eski derlemeyle koştu (derleme önbelleği yeni kodu almamıştı); ikinci deneme iOS platformu silindiği için derlenemedi. Android emülatöründe deneme sürüyor; iOS, platform indirmesi bitince yeniden denenecek.
-- Küçük ekran (iPhone SE) çekimi aynı nedenle bekliyor.
+**Android emülatöründe doğrulandı** (Pixel 7, Android 15, yazı ölçeği en büyük; debug derleme, sıfırdan kurulum):
+
+| Ne | Sonuç | Görüntü |
+|---|---|---|
+| Tooltip (1d) | Balon açıkken ve deftere eklendikten sonra "Devam" yerinde | `ekran_2026-11-15/android_1d_balon_acik.jpg`, `android_1d_deftere_eklendi.jpg` |
+| Yeni son ekran (1a) | Hikâye kartı, iki düğme; okuyucu açıldı, geri tuşu ana sayfaya döndü | `android_1a_son_ekran.jpg` |
+| Yazı tavanı, ana sayfa | Kart ilk ekranda, sekme etiketleri tam | `android_tavan_ana_sayfa.jpg` (önce: `yan_ana_sayfa_enbuyuk_yazi.jpg`) |
+| Yazı tavanı, okuyucu | Okunur sayfa, 5 sayfa; üst şerit taşmıyor | `android_tavan_okuyucu.jpg` (önce: `yan_okuyucu_enbuyuk_yazi.jpg`, 43 sayfa) |
+
+**Doğrulanmadı:** aynı değişikliklerin iOS görüntüsü ve küçük ekranlı iPhone (iOS platformu inince yapılacak); Android'de gerçek cihaz; Android satın alma (Mehmet'in test hesabı gerekiyor).
+
+## Ekip kararları
+
+Mehmet bu turdaki kararları ekibe bıraktı (15 Kas). Tek geçiş, `ortak/kontrol-listesi.md` ile.
+
+| Konu | Karar | Gerekçe ve itiraz |
+|---|---|---|
+| 29 Kasım hedefi | Onboarding'i bitirenlerin okumaya başlama oranı %82 → en az %90; uygulamanın kendi kayıtlarından, sürüme göre ayrılarak okunur. | Firebase sayısı tutmadı (V1). Nassim Talip: ~150 kişide 8 puan 12 kişi eder; sonuç "ders" yazılmaz. |
+| Kelime sayıları (V10) | Düzeltilsin. | Paul Ulus: süre etiketi ve "50 kelimede 1" ölçüsü buna dayanıyor. Kent Bekçi: yedekli, geri alınabilir. Nassim'in sorusu (ilk hikâye değişir mi) kontrol edildi: üç ücretsiz metnin seçimi aynı kalıyor. **Uygulanmadı:** editörün canlıya yazması izin katmanında reddedildi; betiği Mehmet çalıştıracak. |
+| "Kitap sayısı" ekranı (V11) | Dokunulmasın. | Çalıştırmak herkese bir ekran daha eklemek olur. |
+| Yazı tavanı | 1,3 kalsın; iki hafta `text_scale` verisi birikince yeniden değerlendirilsin. | Nassim'in şartı ölçümle karşılandı. |
+| Yeni kullanıcıya Premium şeridi (V8) | İlk okuma bitene kadar gösterilmesin. Sıradaki editör işi; bu turda kod değişmedi. | V7: deneme ürün görülmeden başladı, hiç okunmadı. Sean Büyüt şerh: şeridin tamamen kalkmasına karşı, ertelenmesini kabul ediyor. |
+| Onboarding sayacı (V12) | Sıradaki editör işi. | Onboarding'i yarıda bırakanlar ölçülemiyor. |
+| Yeni son ekran | Premium cümlesi eklenmedi; başlık "İlk hikâyen hazır." | Ekran tek şey söylesin. |
+| `main`'e alma | iOS'ta da ekranda görüldükten sonra. | Android'de doğrulandı, 1064 test geçiyor. |
+
+**Mehmet'e çıkanlar (yalnız onun yapabilecekleri):** kelime sayısı betiğini çalıştırmak ya da yazma izni vermek; Android satın alma testi; mağaza panellerinde sunucu bildirim adresine bakmak (V9).
 
 ## Düzeltmeler (ilk rapor)
 

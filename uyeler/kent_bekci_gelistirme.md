@@ -20,6 +20,8 @@ Tahmin değil, belgelenmiş: Kent Beck'in Extreme Programming'den gelen iki ilke
 - **Gözlem (15 Kas 2026, editör oturumu):** "Satın alma başladı" olayı düğmeye basıldığı anda gidiyor, mağaza penceresi açılmadan önce. "3 başlattı, 1 tamamladı" tek başına hata kanıtı değildir; `purchase_cancelled`, `purchase_failed`, `purchase_unavailable` ile birlikte okunur.
 - **Hipotez (15 Kas 2026, kod okuması, cihazda sınanmadı):** Android'de ödeme alınıp sunucu doğrulaması düşerse satın alma kendiliğinden yeniden denenmiyor; iOS'ta mağaza yeniden gönderiyor. Test tarifi: `raporlar/2026-11-15_editor_bolum1.md` → 1c, F adımı.
 - **Gözlem (15 Kas 2026):** Simülatör çekimleri debug derlemeyle prod'a bağlanıyor; her koşu prod'da bir misafir hesap açıyor. Koşu sayısı raporda yazılır.
+- **Düzeltme (15 Kas 2026, canlı veri):** Android'de test satın alması çalışıyor (son: 1 Kas). "Android'de satış yok" bir ödeme hatası göstermiyor: 65 müşteriden 23'ü paywall'u görmüş, 2'si satın almaya basmış. İptal ve hata kaydı hiç gönderilmiyordu; kodda eklendi.
+- **Gözlem (15 Kas 2026):** Firebase'in segment önizlemesindeki sayı (8/26) uygulamanın kendi kayıtlarıyla tutmadı (29/34). Karar dayanağı olacak sayı önce kendi kayıtlarımızdan doğrulanır.
 - **Gözlem (15 Kas 2026):** Geliştirme Mac'inin diski dolu; yeni simülatör ya da tam derleme "No space left on device" ile düşebiliyor. Uzun işe başlamadan önce boş yere bakılır.
 
 ## Güncelleme günlüğü
