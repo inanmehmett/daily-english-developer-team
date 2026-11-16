@@ -21,3 +21,18 @@
 
 ## Ayrışma
 Kent tüm planın sırayla yapılmasını istiyor (kapı kurulduktan sonra her adım ucuz). Sean ve Steve kısmi onaydan yana. Karar Mehmet'in.
+
+---
+
+## Yeniden değerlendirme (16 Kas 13:27) – amaç yalnız çeviri kalitesi
+
+Mehmet: amaç yalnız çeviri kalitesini artırmak. Öncelik ve gelir itirazları (Steve, Sean) bu yüzden düşürüldü.
+
+**Hüküm: plan onaylanır, iki eksikle.** Motor adımları hatanın yalnız ~70/224'ünü kapatıyor; kalan ~160'ın planı yok.
+
+1. **Altı adımın hepsi yapılsın**, kapıdan geçerek, kazanç/emek sırasıyla: 1 (kapı) → 5 (birincil anlam, +15–20) → 2 (kural kelimeleri, −14) → 3, 4, 6.
+2. **Kapıya üç ek (Nate, Nassim):** ölçüm uygulamanın gerçek isteğiyle (kelime + cümle + kelime sırası); kuralların türetilmediği ayrı sınama kümesi; her adımda dört kümenin ayrı ayrı doğru/yanlış sayısı, 482 gerçek dokunuş en üstte.
+3. **5. adımın yan etkisi (Paul):** birincil anlam kelime defterinde ve quiz cevaplarında da görünüyor; değişiklik oralarda da kontrol edilsin.
+4. **Eksik 1 – 142 kaba sözlük karşılığı:** en büyük kalem, takvime alınsın. Öneri: en çok dokunulan kelimeden başlayarak dil modeliyle taslak karşılık, aynı kör değerlendirmeyle kabul.
+5. **Eksik 2 – cümleye göre değişen ~19 kelime:** ücretsiz raftaki cümle-içi karşılık düzeni (ContextGlosses) premium metinlere genişletilsin; dil modeli her geçiş için anlamı önceden seçer, kapıdan geçen kaydedilir. Bu, 142'lik kalemin premium metinlerdeki kısmını da kapatabilir. Maliyeti önce küçük bir metin grubunda ölçülsün.
+6. **Küçük not (Paul):** "that" ilgi zamiri için balonda "(…olan)" görünmesi okura yardım ediyor mu, birkaç örnekle bakılsın.
