@@ -113,3 +113,25 @@ Notlar: Rabbits içerik incelemesine göre etiketinden zor; A2 yolculuğunun son
 2. **İlk gün:** ilk gün 2 durak açık, sonra günde 1 (Nate'in verisi için).
 
 **Gösterim önerisi (Don, Dieter):** bitiş ekranında sıradaki durak kartı ve cümlesi; ücretsiz kullanıcıda kartın üstünde "Yarın açılır" ve tek ikincil düğme "Premium'la şimdi oku". Geri sayım yok.
+
+---
+
+## Mehmet'in kararı (17 Kas 15:58) ve satış hunisi önerisi
+**Karar:** İlk yolculuk 3–4 parça, sırayla, günde bir açılır. Premium'da hepsi açık. Diğer serilerin başı da birkaç durak ücretsiz (günlük hakla açılır), sonrası ücretli. Ücretsiz içerik sayılı. Sıra: değer → yol → ilerlemeyi göster → ikna → satış; kibarca.
+
+**Önerilen huni (ekip):**
+| Aşama | Ne olur | Satış anı |
+|---|---|---|
+| 1. Başlangıç yolculuğu (gün 1–4) | 4 durak, günde 1 | Her bitişte sakin: "Yarın açılır · Premium'la şimdi oku" |
+| 2. Değer anı (başlangıç bitince) | İlerleme kartı: biten durak, deftere eklenen kelime, okunan gün; yeterli veri varsa bakış oranının düşüşü | **Ana teklif:** 7 günlük ücretsiz deneme, "bütün yolculuklar açılsın" |
+| 3. Seviye yolculuğu (New in Town / Coffee Shop / Şehirler) | İlk 2 durak ücretsiz, günlük hakla | **İkinci teklif:** 3. durak; dizilerde hikâyenin en merak edilen yerinde |
+| 4. Ücretsiz kalan kullanıcı | Günlük hak devam eder; yeni yolculukların ilk 2 durağı | Günde en çok bir teklif |
+
+**Ücretsiz bütçe (öneri):** başlangıç 4 + üç seviye yolculuğunun ilk 2'şer durağı = 10 metin; yeni yolculuklar eklendikçe her birinin ilk 2 durağı.
+
+- **Sean:** Satış iki doruk anda: değeri gördüğü an (aşama 2) ve hikâyeye bağlandığı an (aşama 3). Deneme teklifi aşama 2'de.
+- **Nate:** Gösterilecek ilerleme yalnız doğru olanı: durak, kelime, gün. "Daha az kelimeye bakıyorsun" en az 5 metinden sonra ve gerçekten düşüyorsa gösterilir.
+- **Don:** Günde en çok bir teklif (uygulamada oturum başına bir kesinti kuralı zaten var). Her teklifte ücretsiz yol görünür: "Yarın devam et".
+- **Nassim:** 2 durak, 4 durak, 10 metin tahmin. Her satış anında gösterim → satın alma ölçülür; 4 hafta sonra sınır ayarlanır.
+
+**Mehmet'ten:** seviye yolculuklarında kaç durak ücretsiz (öneri 2) ve deneme teklifi aşama 2'de mi.
