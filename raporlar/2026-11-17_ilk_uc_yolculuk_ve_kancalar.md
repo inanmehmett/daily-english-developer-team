@@ -78,3 +78,21 @@ Sıra: tanıdık Roma ile açılış, sonra zamanda ve coğrafyada gezinti; kapa
 - Cümleler canlıda `ReadingTexts.NextHook` alanına yazılacak (bugün 287 metnin hepsinde boş). Bu canlıya yazma işi; Mehmet'in izni ve editörün yedekli betiğiyle yapılır.
 - Yolculuk tanımı (hangi metin hangi sırada) kodda ya da yeni bir tabloda tutulacak; editörün tasarım kararı.
 - B1 son durağındaki "15 şehir daha" B2 grubunun canlıdaki sayısına (14 şehir + 1 Roma) göre yazıldı.
+
+
+---
+
+## Düzeltme (17 Kas 15:47): ücretsiz sınır dar olmalı
+**Mehmet:** 32 metin ücretsiz verilmez. Ücretsiz yolculuk 3–4 metin olur ve hâlihazırda ücretsiz olanlardan kurulur; yoksa satacak bir şey kalmaz. Yukarıdaki "her kullanıcının ilk yolculuğu ücretsiz" önerisi **geri çekildi.**
+
+**Yeni yapı:** seviyeye göre 4 duraklık ücretsiz **başlangıç yolculuğu** (yalnız bugün ücretsiz ya da günlük açma havuzundaki metinler), bitince "sıradaki yolculuk" (New in Town / Coffee Shop / Dünya şehirleri) Premium. Son durağın cümlesi satış anıdır.
+
+| Seviye | Başlangıç yolculuğu (kolaydan zora) | Bugünkü durum | Sonra (Premium) |
+|---|---|---|---|
+| A1 | First Ramadan in London (124) → Two Cups (916) → Thirty-One Mornings (1083) → The Bench (1085) | 2 her zaman açık, 2 günlük havuz | New in Town |
+| A2 | Ali's First Snow (127) → The Cat Knows the Time (1070) → Baba Yaga (1045) → The Island Where Rabbits Won (1023) | 1 her zaman açık, 3 günlük havuz | Coffee Shop Stories |
+| B1 | The Village That Whistles (1024) → Why Penguins Can't Fly (120) → The Note That Opened the Berlin Wall (1019) → The Girl Who Fell From the Sky (1059) | 4 günlük havuz | Dünya şehirleri |
+
+Notlar: Rabbits içerik incelemesine göre etiketinden zor; A2 yolculuğunun sonuna kondu. Penguins B1 ilk metin olarak düşük bitiriyordu (63'te 23); B1 yolculuğunda ikinci durak.
+
+**Açık karar – günlük açma (`IsDailyUnlock`):** bugün ücretsiz kullanıcı havuzdan günde bir metin açabiliyor. Sean: başlangıç yolculuğu bitince ücretsizin tek kalan değeri bu; kaldırılırsa sınır gerçekten dar olur. Nassim: ödemeyen kullanıcıyı uygulamada tutan tek şey olabilir; kaldırmak dönüşü düşürebilir. Mehmet'in kararı.
