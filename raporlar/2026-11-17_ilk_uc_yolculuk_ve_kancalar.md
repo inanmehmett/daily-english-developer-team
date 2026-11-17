@@ -96,3 +96,20 @@ Sıra: tanıdık Roma ile açılış, sonra zamanda ve coğrafyada gezinti; kapa
 Notlar: Rabbits içerik incelemesine göre etiketinden zor; A2 yolculuğunun sonuna kondu. Penguins B1 ilk metin olarak düşük bitiriyordu (63'te 23); B1 yolculuğunda ikinci durak.
 
 **Açık karar – günlük açma (`IsDailyUnlock`):** bugün ücretsiz kullanıcı havuzdan günde bir metin açabiliyor. Sean: başlangıç yolculuğu bitince ücretsizin tek kalan değeri bu; kaldırılırsa sınır gerçekten dar olur. Nassim: ödemeyen kullanıcıyı uygulamada tutan tek şey olabilir; kaldırmak dönüşü düşürebilir. Mehmet'in kararı.
+
+---
+
+## Tur (17 Kas 15:54): günde bir ücretsiz durak, yolculuğun içinde
+**Mehmet:** Günlük ücretsiz sistemi yolculuğun içinde kullanalım; ücretsiz kullanıcı sıradakinin açılması için ertesi günü bekler.
+
+**Ekip:** Uygun. Önceki "bekleme yok" önerisi herkese yönelikti; burada bekleme ücretsiz planın açık sınırı ve Premium onu kaldırıyor. Dürüst bir takas (README madde 9): sahte geri sayım yok, sınır baştan söylenir.
+- **Sean:** Satış anı her gün kendiliğinden doğar: metni bitiren, en istekli anında "Sıradaki durak yarın açılır · Premium'la şimdi devam et" görür. Yolculuk sonunda bir kez değil, her gün.
+- **Don:** Ücretsiz kullanıcı için ertesi gün dönmek için gerçek bir sebep olur. Ertesi sabah "durağın açıldı" bildirimi uydurma değil, doğru bir haber.
+- **Nate:** İlk gün iki metin bitirenler daha çok dönüyor (7/11, az veri). İlk günü bir metinle kesmek bunu bozabilir.
+- **Nassim:** Ücretsiz kullanıcı yolculuğu yavaş da olsa bitirebilir; sınırın içerikte mi hızda mı olduğu karara bağlanmalı.
+
+**Kararı bekleyen iki nokta:**
+1. **Sınır nerede:** (a) yalnız hız: bütün yolculuklarda ücretsiz günde 1 durak, Premium sınırsız; (b) hız + içerik: ücretsiz günde 1 durak yalnız 4 duraklık başlangıç yolculuğunda, sonraki yolculuklar Premium.
+2. **İlk gün:** ilk gün 2 durak açık, sonra günde 1 (Nate'in verisi için).
+
+**Gösterim önerisi (Don, Dieter):** bitiş ekranında sıradaki durak kartı ve cümlesi; ücretsiz kullanıcıda kartın üstünde "Yarın açılır" ve tek ikincil düğme "Premium'la şimdi oku". Geri sayım yok.
