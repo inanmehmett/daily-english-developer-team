@@ -61,3 +61,43 @@
 4. Bildirimler: yolculuk kullanıcısına günde tek mesaj mı?
 5. B2 ve C1+ yolculukları.
 6. Rütbe adları: kalkar mı, CEFR'in altında mı?
+
+---
+
+## Tur 2 (17 Kas 16:51) – Mehmet'in cevapları ve ekip tartışması
+
+**Kararlar (Mehmet):**
+- İlgi alanına göre seçim mümkün olduğunca yapılır; o seviyede ilgi alanına uygun içerik yoksa slotu ekip doldurur. Plan ekranındaki "ilgi alanına göre" ifadesi böylece doğru olur.
+- 7 günlük söz tutulur.
+- Günlük ücretsiz hak kullanıcının; istediği metne harcar.
+- Seviye zorunlu: herkes seviye ölçümünden geçer; ama istediği içerikten de okuyabilir.
+- Gün cihazın yerel saatine göre. Mevcut harita yolculuk haritasına dönüşür.
+- Yeni içerik her seviyeye (B2 dahil) gelecek.
+
+**1. 7 günlük söz nasıl tutulur:** Günlük hak her gün var; söz bununla tutulur. Ücretsiz yolculuk durakları bitince ana sayfa kararı kullanıcıya bırakmaz: "Bugünün ücretsiz okuması" olarak seviyesine ve ilgi alanına uygun bir havuz metnini önerir, yanında "Yolculuğuna Premium'la devam et". Keşfet'ten başka metin seçmek serbest.
+
+**2. Ücretsiz kullanıcı ve özellikler (koddan doğrulandı, `EntitlementConstants.cs`):** Ücretsizde kelime çevirisi günde 25, kelime defteri ilk 7 gün sınırsız, sonra toplam 15 kelime. Yani özellikler kapalı değil, sayılı.
+- Bir metne yetiyor mu: 300 kelimelik metinde 50 kelimede 1,2–3,3 bakış = 7–20 bakış (katalog verisi). 25 hak tek metne yetiyor.
+- **Steve/Sean:** Bütün özellikleri sınırsız vermek gerekmiyor; vermek satışı artırmaz. Doğru olan, çekirdek değeri (kelimeye dokunup anlamak) ilk günlerde tattırmak, derinliği (sınırsız defter, aralıklı tekrar, beklemeden devam) satmak. Bugünkü kurgu buna uygun.
+- **Nate:** Kanıt: en çok kelimeye bakan dilim en çok bitiren ve en çok dönen dilim (`2026-11-16_neden_kalmiyorlar.md` S4); cümle çevirisi kullananlar daha çok dönüyor. Çekirdek özelliği kısmak tutmayı düşürebilir; 25 sınırı yerinde.
+- **Dakika hedefi:** sorun özellik değil süre. Ücretsiz bir durak 2–5 dk; kullanıcı 10–15 dk seçebiliyor. Öneri: günlük hedef dakika değil görev listesi (madde 4); dakika Premium'da serbest okumayla dolar. Paul: metni sesle yeniden dinlemek/okumak gerçek öğrenme, hedefe sayılabilir.
+
+**3. Satış anları – çerçeve revize:** Mehmet haklı: herkes sonu beklemez; doğrudan almak isteyene kapı her zaman açık olmalı.
+- **Revize kural:** (a) Premium'a giden yol her zaman görünür (ana sayfa, profil, kilitli durak); bunlar teklif sayılmaz. (b) Araya giren teklifler (ekranı kesen) günde en çok bir; değer anı ve hikâye anında. (c) Onboarding sonundaki teklif: önce veriye bakılacak.
+- **Dikkat (Nate):** Son günlerde iki değişiklik yapıldı: onboarding sonu paywall ilk okumaya ertelendi; Premium şeridi hiç metin bitirmemiş kullanıcıya gösterilmiyor (V8, `8069597`). Eğer şimdiye kadarki alıcılar bu yüzeylerden aldıysa satışı farkında olmadan kısmış olabiliriz. Önce dört satın almanın hangi yüzeyden, kayıttan kaç dakika sonra ve kaç metin okunmuşken yapıldığı canlıdan okunmalı. (V7'deki deneme kayıttan 35 sn sonra başlamış ve iptal edilmişti; tek örnek.)
+
+**4. Bildirimler – tek mesaj yerine iki mesaj + uygulama içi görev listesi:**
+- **Uygulama içi "Bugünün görevleri"** (ana sayfanın ilk kartı, sıralı): (1) yolculuk durağı, (2) zamanı gelen kelime tekrarı (X kelime), (3) günün quizi. Tek düğme: "Sıradaki görev". Her görev bitince sıradakine geçer; bitince "Bugünü tamamladın". Kullanıcı karar vermez, uygulama sıralar.
+- **Bildirim en çok iki:** (1) gün içinde, kullanıcının okuma saatinde: "Bugün 3 görevin var: durak, 6 kelime, quiz" (tek mesajda topluca); (2) akşam, yalnız gün tamamlanmadıysa ve seri varsa: seri hatırlatması. Yeni içerik bildirimi isteğe bağlı, haftada en çok bir.
+- **Don:** Kullanıcı uygulamaya bildirim olmadan da girdiğinde aynı listeyi görür; görevleri bildirime değil ana sayfaya bağlamak asıl çözüm.
+- **Nassim:** Akşam seri mesajı "kaybedeceksin" diliyle değil "bugün 1 durak kaldı" diliyle yazılmalı (madde 9).
+- **Bugünkü 11 bildirim türü** bu iki mesaja eşlenir; eşlenemeyen susar (Activation, WinBack gibi geri kazanım mesajları ayrı kural: haftada bir).
+
+**Diğer:**
+- **Seviye zorunlu:** onboarding'deki seviye ölçümü atlanamaz olur (yeni ekran eklenmez; var olan tur zorunlu hale gelir). Nassim: zorunlu test onboarding'i bırakanları artırabilir; ölçülsün.
+- **Günlük hak serbest:** Keşfet'te başka metin açan kullanıcının yolculuğu o gün ilerlemez; ana sayfa ertesi gün yine yolculuğu önerir.
+
+**Mehmet'ten beklenen:**
+1. Görev listesi (durak, tekrar, quiz) ana sayfanın ilk kartı olsun mu?
+2. Bildirim: günde en çok iki (görev çağrısı + koşullu akşam) uygun mu?
+3. Satış yüzeylerinin kararı canlı veriden sonra; editöre dört satın almanın dökümü sorulsun mu?
