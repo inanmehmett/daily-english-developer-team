@@ -59,3 +59,32 @@ Kural: 2 haftada bir okunur. Ertesi gün dönüş belirgin düşerse önce çevi
 ## İtirazlar
 - **Nassim:** 2+ metin bulgusu 11 kişiden geliyor; ilk gün 2 durağı açmak ucuz bir deney, ama sonuç ölçülmeden ders sayılmaz.
 - **Paul:** Sınırları daraltmak A2 okuyucusunu en çok etkiler (ilk metinde 25'e sığan %55); A2 ertesi gün dönüşü ayrıca izlenecek.
+
+---
+
+## Gözden geçirme (18 Kas 2026, 00:21) – "Doğru mu yapıyoruz, en iyisi bu mu?"
+
+**Hüküm:** Yön doğru, plan olduğu hâliyle en iyisi değildi. Dört düzeltme yapıldı, bir de planın çözmediği asıl sınır yazıldı.
+
+### 1. Planın kendi içinde çelişkisi (düzeltildi)
+Tutmanın kaldıracı "ilk gün 2 metin bitirmek" dedik; aynı planda her dokunuşu sayan günde 25 sınırı koyduk. İlk metinde ortanca 16 dokunuş var; iki metin yaklaşık 32 eder. Yani sınır, tam da kalmasını istediğimiz kullanıcıyı ikinci metnin ortasında durdururdu (A2'de ilk metinde bile %45'i). **Düzeltme:** başlangıç yolculuğunun 4 durağında dokunuş haktan düşmez. Başlangıç tam tat; sınır ondan sonra ve diğer metinlerde.
+
+### 2. Çok şey aynı anda (düzeltildi)
+Sınırlar, yolculuk, görev listesi, bildirimler, harita, paywall: hepsi birden çıkarsa hangisinin işe yaradığı okunamaz ve büyük bir yapı hata riski taşır (onboarding'i kilitleyen tooltip hatası tek küçük değişiklikti). **Düzeltme:** yolculuk iki sürüme bölündü. Sürüm 1: yolculuk tanımı, ana sayfa kartı, bitiş ekranında "sıradaki", ilk gün 2 durak, başlangıç sonu teklifi, 3. durak kilidi, ölçüm. Görev listesi, bildirim eşlemesi, harita ve rütbe sürüm 2'ye, veriden sonra.
+
+### 3. Hazır düzeltmeler rafta bekliyor
+Müşterilerin en yeni sürümü 1.0.2+45. Satın alma vazgeçme nedenleri, paywall tetikleyicisi, küçük ekran düzeltmeleri, ilk hikâye sonu: hepsi yayınlanmamış kodda. Ölçemediğimiz her gün kayıp. **En değerli tek adım: 1.0.4'ü yayınlamak** (Mehmet). Yarım kalan 10 satın almanın 10'u yıllık plandaydı; 14 basandan 4'ü aldı. Bu kaçağın nedeni öğrenilirse satış, başka hiçbir şey yapmadan ikiye katlanabilir.
+
+### 4. Ölçüm gerçeği
+Günde yaklaşık 13 yeni müşteri var. Ertesi gün dönüşteki değişim 3–4 haftada okunur; satıştaki değişim (bugüne dek 4 satış) 2 haftada **okunamaz**. "2 haftada bir bakıp geri alırız" sözü dönüş için geçerli, satış için değil. Satış kararları aylar boyunca hipotez kalacak.
+
+### 5. Planın çözmediği asıl sınır: hacim
+Ayda yaklaşık 400 yeni müşteri × %1,5 satın alma = ayda 6 satış. Uygulama içi plan kusursuz işleyip oranı üçe katlasa ayda 18 satış. Bu, uygulamayı iyileştirir ama tek başına bir iş yapmaz. 140 bin takipçili hesaptan 20 günde 268 müşteri gelmiş; en büyük boşluk burada. Üstelik alıcıların çoğu kayıttan 3 dakika sonra aldı: satış uygulamada değil, uygulamaya gelmeden önce (Instagram'daki güvenle) yapılmış görünüyor (hipotez, 4 kişi).
+**Sıra yine de doğru:** önce kova (tutma), sonra su (trafik). Ama kova için aylar beklenmez. **Kural:** sürüm 1 yayınlandıktan sonra ertesi gün dönüş %25'e yaklaşırsa ağırlık Instagram'dan uygulamaya geçişe kayar; 4 haftada kıpırdamazsa yolculuk fikri sorgulanır, üstüne yeni katman eklenmez.
+
+### 6. Açık riskler
+- Android: 93 müşteri, 0 satış. Mağazadaki gerçek satın alma akışı doğrulanmadı.
+- A1'de 24 metin var; en kalabalık başlangıç grubu A1. Premium alan A1 kullanıcısına satılan içerik az.
+- Editör büyük işlerde hata üretebilir; her sürüm gerçek cihazda, küçük ekranda ve büyük yazıda denenmeden çıkmaz.
+
+**Başarı ihtimali (Nassim, açıkça):** Bu planla uygulamanın tuttuğunu ve sattığını *öğrenme* ihtimalimiz yüksek. Para kazanan bir işe dönüşmesi ise plana değil, tutma düzeldikten sonra Instagram kitlesinin uygulamaya taşınıp taşınamayacağına bağlı. Bunu bugünden kimse bilemez; 4–6 hafta içinde verinin söyleyeceği şey bu.

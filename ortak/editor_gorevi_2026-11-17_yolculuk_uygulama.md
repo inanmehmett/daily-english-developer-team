@@ -3,6 +3,9 @@
 **Tarih:** 17 Kasım 2026 · **Dayanak:** `raporlar/2026-11-17_tutma_ve_satis_plani.md`, `ortak/okuma_yolu_sistemi.md`, `ortak/okuma_yolu_sinirlari.md`, `raporlar/2026-11-17_ilk_uc_yolculuk_ve_kancalar.md`.
 Önce ücretsiz sınır görevini bitir. Bu iş büyük: önce kısa bir uygulama planı yaz (`raporlar/` altına), sonra bölüm bölüm ilerle; her bölüm ayrı commit. Canlı veritabanına yazma yalnız Mehmet'in onayıyla ve yedekle. Sürüm kararı Mehmet'te.
 
+## Kapsam düzeltmesi (18 Kas): önce dar sürüm
+Bu belgenin tamamı tek seferde yapılmaz. **Sürüm 1 (şimdi):** bölüm 1 (tanım ve açılma), bölüm 2'den yalnız ana sayfa yolculuk kartı (görev listesi olmadan, tek düğme "Sıradaki durak"), bitiş ekranı ve başlangıç bitince teklif, 3. durak kilidi; bölüm 4, 5, 6. **Sürüm 2 (sürüm 1'in verisi okunduktan sonra, ayrı onayla):** görev listesi, seri kuralı değişikliği, bildirim eşlemesi, harita sayfasının dönüştürülmesi ve rütbe adlarının kaldırılması. Gerekçe: `raporlar/2026-11-17_tutma_ve_satis_plani.md`, "Gözden geçirme".
+
 ## 1. Yolculuk tanımı ve açılma
 - Yolculuk = sıralı metin listesi (başlangıç 4 durak + seviye yolculukları). Tanım veriyle tutulur (tablo ya da yapılandırma), kodda sabit değil.
 - Kullanıcıya seviyesine (ve mümkünse ilgi alanına) göre yolculuk atanır; seviye belirleme zorunlu, kullanıcı yolculuk dışından da okuyabilir.
