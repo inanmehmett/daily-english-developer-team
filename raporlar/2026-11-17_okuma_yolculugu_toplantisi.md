@@ -16,3 +16,21 @@ Sayfa XP'ye bağlı bir rütbe haritası ("~N günde [rütbe]"). Dört yerden a�
 
 ## Karar
 Hüküm veri gelince. Editör soruları çalıştırır; ekip raporu okuyup "tut / sadeleştir / kaldır" kararını önerir. Ölçüt: kendiliğinden ikinci kez açan var mı, açılıştan sonra okumaya geçiş var mı, aynı etkinlik düzeyinde dönüşle ilişki var mı, paywall yüzeyleri satış getiriyor mu.
+
+---
+
+## Veriden sonra (17 Kas, `raporlar/2026-11-17_okuma_yolculugu_verisi.md`)
+
+**Özet:** 243 müşteriden 25'i (%10) açmış; yarısı kutlamadan. Kendi isteğiyle farklı günlerde dönen 3 kişi. Açılıştan sonra okumaya geçiş sıradan bir uygulama açılışıyla aynı (%61). Aynı etkinlik düzeyinde dönüşle olumlu ilişki yok. Gelir sıfır (şerit 10 gösterim, 0 satın alma; sandık hiç gösterilmemiş). Hepsi az veri, hepsi hipotez.
+
+- **Steve:** Sayfa bugün işini yapmıyor ama zarar da vermiyor. Ne kaldırmaya ne geliştirmeye zaman harcanır.
+- **Nassim:** "Etkisi yok" değil, "bu veriyle görünmüyor". 25 kişiyle kaldırma kararı da kanıtsız olur. Kutlama gösterimi kaydedilmediği için asıl soru (kutlama haritaya mı gitmeli) cevaplanamadı.
+- **Don:** Ana sayfadaki yolculuk şeridi neredeyse kimseye gösterilmemiş; onu yargılayamayız.
+- **Paul:** Sayfa öğrenmeyi değil puanı gösteriyor. İleride "kaç kelime öğrendin, hangi seviyeyi okuyabiliyorsun" yönü denenebilir; şimdi değil.
+- **Sean:** Gelir yüzeyi olarak sıfır. Şerit kalabilir, beklenti yok.
+- **Nate:** İki ölçüm eksiği kapatılırsa 4 hafta sonra karar verilebilir.
+
+## Karar
+1. **Dondur:** sayfa olduğu gibi kalır; kaldırma ya da geliştirme yok.
+2. **İki küçük ölçüm (editör):** kutlama gösterimi olay olarak kaydedilsin; ana sayfa yolculuk şeridinin gösterimi kaydedilsin.
+3. **Yeniden bakış:** 15 Aralık civarı, kitle büyüdüğünde aynı sorularla.
