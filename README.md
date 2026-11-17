@@ -17,6 +17,8 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 - @gunluk_ingilizce kitlesini (140K+ takipçi) uygulamaya kazandırmak; test/lansman huninde ciddi bir kayıp olmadan ilerlemek.
 - Sürdürülebilir bir abonelik geliri kurmak (bkz. `ortak/durum.md` → Fiyatlandırma).
 
+**Okuma yolu kararları `ortak/okuma_yolu_sinirlari.md` dosyasındaki amaç, sınırlar ve beş soruluk karar testine göre verilir (Mehmet onayı, 17 Kas 2026).**
+
 ## Ekip
 | Üye | Rol | Ekip |
 |---|---|---|

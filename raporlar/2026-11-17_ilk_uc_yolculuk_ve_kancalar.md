@@ -135,3 +135,5 @@ Notlar: Rabbits içerik incelemesine göre etiketinden zor; A2 yolculuğunun son
 - **Nassim:** 2 durak, 4 durak, 10 metin tahmin. Her satış anında gösterim → satın alma ölçülür; 4 hafta sonra sınır ayarlanır.
 
 **Mehmet'ten:** seviye yolculuklarında kaç durak ücretsiz (öneri 2) ve deneme teklifi aşama 2'de mi.
+
+**Mehmet onayı (17 Kas 16:10):** seviye yolculuklarında ilk 2 durak ücretsiz; 7 gün deneme teklifi başlangıç yolculuğu bitince. Bundan sonraki kararlar `ortak/okuma_yolu_sinirlari.md` içinde.
