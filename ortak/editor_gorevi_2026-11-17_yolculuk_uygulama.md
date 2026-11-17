@@ -1,5 +1,7 @@
 # Editör görevi – yolculuk çekirdeği
 
+> **18 Kas 00:27:** Bu görevin yerini `ortak/editor_gorevi_2026-11-18_surum1_ilk_oturum.md` aldı (tek akış). Bu belge ayrıntı için duruyor; Sürüm 2 ve 3 maddeleri `ortak/butun_plan.md`'de.
+
 **Tarih:** 17 Kasım 2026 · **Dayanak:** `raporlar/2026-11-17_tutma_ve_satis_plani.md`, `ortak/okuma_yolu_sistemi.md`, `ortak/okuma_yolu_sinirlari.md`, `raporlar/2026-11-17_ilk_uc_yolculuk_ve_kancalar.md`.
 Önce ücretsiz sınır görevini bitir. Bu iş büyük: önce kısa bir uygulama planı yaz (`raporlar/` altına), sonra bölüm bölüm ilerle; her bölüm ayrı commit. Canlı veritabanına yazma yalnız Mehmet'in onayıyla ve yedekle. Sürüm kararı Mehmet'te.
 
