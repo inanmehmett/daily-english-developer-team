@@ -1,47 +1,37 @@
-# Yolculuk çekirdeği – uygulama planı
+# Sürüm 1 – ilk oturum: uygulama planı (güncellendi)
 
-**Tarih:** 17 Kasım 2026. **Görev:** `ortak/editor_gorevi_2026-11-17_yolculuk_uygulama.md`.
-**Dallar:** sunucu ve Flutter'da `feat/journey-core`; ikisi de `feat/free-limits` dalının üstünde, çünkü günlük hak ve sınır sayfaları ona dayanıyor. Her bölüm ayrı commit. Canlıya yazma yok; sürüm Mehmet'te.
+**Tarih:** 18 Kasım 2026 (ilk sürümü 17 Kasım). **Görev:** `ortak/editor_gorevi_2026-11-18_surum1_ilk_oturum.md`. **Dayanak:** `ortak/butun_plan.md`.
+Bu plan, önceki "yolculuk çekirdeği" planının yerini alır. O planla yapılan işler korunur; durumları `raporlar/2026-11-18_yolculuk_uygulama.md`'de.
 
-## Koddan bilinen (planın dayandığı)
-- **Ücretsiz erişim** `FreeUnlockService` üzerinden işliyor:
-  - 3 metin her zaman açık.
-  - Havuzdan günde 1 açma yapılabiliyor; açılan metin kalıcı.
-  - Gün, profildeki saat dilimine göre hesaplanıyor (`TimeZoneOffsetMinutes`). "Cihazın yerel günü" kuralı zaten bu yolla uygulanıyor.
-- **Seri** okuma, quiz ve kelime çalışmasıyla sayılıyor (`StreakGateway.RecordActivityAsync`). "Kelime tekrarı günü kurtarır" kuralı büyük olasılıkla hazır; doğrulanacak.
-- **Metin kimlikleri** yerel ve canlı veritabanında farklı. Yolculuk tanımı metinlere `Slug` ile bağlanır, kimlikle değil.
-- **`NextHook`** canlıda 287 metnin hepsinde boş.
+**Dallar:** sunucu ve Flutter'da `feat/journey-core`; zincir şöyle: `fix/paywall-trigger-attribution` → `feat/free-limits` → `feat/journey-core`. Her madde ayrı commit. Canlıya yazma ve yayın Mehmet'te.
 
-## Kurallar (tek yorum)
-| Kural | Uygulama |
-|---|---|
-| Günlük ücretsiz hak | Hesabın ilk yerel gününde 2 açma, sonra günde 1. Hak tek: yolculuk durağı da havuz metni de aynı haktan düşer (`FreeTextUnlocks`). |
-| Durak açmak | Ücretsiz kullanıcı bir durağı açınca `FreeTextUnlocks`'a satır düşer. Her zaman açık metinler de yolculuk içinde açılınca hak harcar; böylece "ilk gün 2, sonra günde 1" yolculukta gerçekten uygulanır. Kütüphaneden açılan her zaman açık metin hak harcamaz. |
-| Ücretsiz duraklar | Başlangıç yolculuğunun 4 durağının hepsi; seviye yolculuklarında ilk 2 durak. 3. ve sonrası Premium. |
-| Sıra | Bir durak, öncekisi bitmeden açılmaz. Premium'da sıra var, bekleme yok. |
-| Erişim | `CanAccessReadingTextAsync`: her zaman açık **ya da** (açılmış **ve** (havuz metni **ya da** ücretsiz yolculuk durağı)). |
-| Atama | Yolculuk, profildeki seviyeye göre atanır. Önce başlangıç yolculuğu; o bitince seviye yolculuğu; o bitince sıradaki (`NextJourney`). İlgi alanına göre tanımlı bir yolculuk varsa o seçilir; bugün yok (aşağıya bkz.). |
-| Mevcut kullanıcılar | Biten metinler (`ReadingProgresses.IsCompleted`) yolculukta tamamlanmış sayılır; ilk bitmemiş duraktan devam edilir. |
+## Maddeler: ne hazır, ne yapılacak
 
-## Bölümler ve commit sırası
-| # | Bölüm | Sunucu | Flutter | Doğrulama |
-|---|---|---|---|---|
-| 1 | **Yolculuk verisi** | `Journeys`, `JourneyStops`, `UserJourneys` tabloları. Migration, 3 başlangıç ve 3 seviye yolculuğunu slug ile tohumlar (eksik metin atlanır). | — | Migration testi (gerçek Postgres), tohum sayıları |
-| 2 | **Kurallar ve API** | `JourneyService`: atama, durak durumları (bitti / açık / yarın / Premium), açma. `FreeUnlockService`'te ilk gün 2 hak ve yolculuk durakları; erişim kuralı. `GET /api/journey`, `POST /api/journey/stops/{id}/open`. Sunucu olayları: `journey_assigned`, `journey_stop_unlocked`. | — | Birim testleri: ilk gün 2, ertesi gün 1, ortak hak, sıra, 3. durak Premium, mevcut kullanıcı |
-| 3 | **Ana sayfa kartı** | — | İlk kart: "Senin yolculuğun · 2/4" + "Bugünün görevleri" (durak → kelime tekrarı → günün quizi), tek düğme "Sıradaki görev". | Widget testi, simülatör görüntüsü |
-| 4 | **Bitiş = yolculuk ekranı** | Bitiş verisine sıradaki durak ve `NextHook` | Küçük harita (biten durak işaretli), sıradaki durak ve cümlesi. Açıksa "Sıradaki durak"; kapalıysa "Yarın açılır" + "Premium'la şimdi oku". 3. durak kilidi `journeyLocked`. | Widget testi, görüntü |
-| 5 | **Başlangıç bitince** | Gerçek sayılar: durak, kelime, gün | İlerleme kartı + "7 gün ücretsiz dene" (`starterComplete`). Ekranı kesen teklif günde en çok 1 (şerit, profil ve kilit sayılmaz). | Test |
-| 6 | **Harita sayfası** | — | `/career`: rütbe adları kalkar; seviye ve duraklar görünür. | Görüntü |
-| 7 | **Onboarding bağı** | — | Onboarding'deki ilk okuma, başlangıç yolculuğunun 1. durağı olur (aynı metin, aynı sıra). | Test |
-| 8 | **Görevler, seri, bildirim** | Bildirim günde en çok 2: okuma saatinde görev çağrısı, akşam yalnız gün tamamlanmadıysa. 11 türün eşlemesi; geri kazanım haftada en çok 1; 09–21. | Görev bitince gün seriye sayılır (doğrulama). | Birim testleri + eşleme tablosu |
-| 9 | **Ölçüm** | — | `journey_stop_started`, `journey_stop_completed`, `journey_next_tapped`, `daily_tasks_shown`, `daily_task_completed`, `offer_shown`, `offer_accepted` / `offer_dismissed` | Cihazda olay kaydı ya da görüntü |
-| 10 | **İçerik (`NextHook`)** | Yedek betiği + 32 satırlık, slug'a dayalı yazma betiği. **Çalıştırılmaz**; Mehmet'in onayı ve yedekle. | — | Yerel veritabanında deneme |
+| # | Madde | Durum | Yapılacak |
+|---|---|---|---|
+| 1 | Yolculuk tanımı ve atama | **Hazır** (sunucu `2947cbf`, `235a739`, `cacd039`, `1df4e31`) | — |
+| 2 | Onboarding sonu: "{ad}, yolculuğun hazır" + 4 durak; teklif (`onboarding`): "7 gün ücretsiz dene" + kaydırmadan görünen "Ücretsiz başla: günde bir durak"; kapatınca durak 1 | Kısmen: son ekran ilk hikâyeyi açıyor (`21fec0a6`), paywall ilk okumaya erteleniyor | Plan ekranı metni ve 4 durak; erteleme yerine onboarding sonu teklifi; teklif kapanınca durak 1 |
+| 3 | Ana sayfa kartı: "Senin yolculuğun · 1/4 · Sıradaki: {ad}", tek düğme | Kart var, ama görev listesi de içinde (`9b1fd41c`) | Görev listesi Sürüm 3'e ait: kart sadeleşir, tek düğme "Sıradaki durak"; kelime ve quiz yuvası eski yerine döner |
+| 4 | Bitiş ekranı: n/4, sıradaki ad + `NextHook` (boşsa açıklama); açıksa "Sıradaki durak"; kapalıysa "Sıradaki yarın açılır" + "Yarın hatırlat" (izin akışı) + "Premium'la şimdi oku" (`journeyNext`) | Kısmen (`bbe55037`) | Açıklama yedeği, "Yarın hatırlat" kapısı, tetikleyici adı `journeyWait` → `journeyNext` |
+| 5 | Deneme/Premium başlayınca "Premium açıldı: yolculuğun bekliyor" → sıradaki durak | Yok | Satın alma başarı akışından sıradaki durağa |
+| 6 | Paywall: yıllığın aylığa bölünmüşü, "7 gün ücretsiz, sonra {fiyat}/{dönem}; istediğin an iptal", gerçek sayılar, yanlış satırlar yok, SE 3 | Çoğu hazır (`a8acbb77`, `a4ab665f`) | Deneme satırı metni |
+| 7 | Vazgeçince ikinci yol: paywall açık kalır; yıllık seçiliyse "Yıllık fazla mı geldi? Aylık planla başla" | Yok | İptal/hata sonrası satır ve aylığa geçiş |
+| 8 | Ücretsiz sınırlar + başlangıç istisnası; sınır ekranı tetikleyicisi `limitReached` | Sınırlar hazır (sunucu `19d1482`, Flutter `a8acbb77`) | Başlangıç duraklarında dokunuş haktan düşmez (istemci metin kimliğini gönderir); tetikleyici `limitReached`, alt tür `limit_reached` olayında |
+| 9 | Kilitli içerik: metnin adı; "Premium'la şimdi oku"; hak varsa "Bugünkü ücretsiz hakkımla aç" | Genel uyarı var | Ekran yeniden: ad + iki yol |
+| 10 | Teklif sayısı: ilk oturumda en çok 2 (onboarding sonu, durak 2 bitişi), sonra günde 1 | Günde 1 tavanı var (`7d882b42`) | İlk oturum için 2 |
+| 11 | Olaylar + cihazda kayıtla doğrulama | Çoğu var (`19909e5d`) | `journey_wait_shown`, `remind_tomorrow_tapped`, `purchase_downsell_shown/accepted`, onboarding anı; yerel sunucuyla cihazda doğrulama |
+| 12 | 12 başlangıç durağı için Türkçe `NextHook` taslağı | Yok (seviye yolculuklarının 32 cümlesi için betik hazır, `f0988dc`) | Metinleri okuyup tablo; canlıya yazma yok |
 
-1–2 sunucu çekirdeğidir; 3–9 onun üstüne kurulur. Her bölüm biter bitmez testleriyle commit'lenir; ara durum `raporlar/` altında not edilir.
+## Sürüm 1 dışında kalan ama yapılmış işler
+Aşağıdakiler yolculuk çekirdeği görevinde yapıldı, ama bütün planda Sürüm 2 ya da 3'e ait. Kod dalda duruyor; Sürüm 1 ile çıkıp çıkmayacağı Mehmet'in kararı:
+- **Başlangıç bitince ilerleme kartı ve ana teklif** (Sürüm 2, `7d882b42`).
+- **3. durak kilidi** (Sürüm 2, `bbe55037`).
+- **Harita sayfası** (Sürüm 3, `ab7af6ce`).
+- **Bildirim düzeni**, günde 2 (Sürüm 3, sunucu `c516c1b`, Flutter `595293bd`).
 
-## Bilinçli sınırlar ve açık noktalar
-- **İlgi alanı:** bugün her seviyede tek yolculuk var. Seçim mantığı ilgi alanını destekleyecek biçimde yazılır; içerik gelene kadar etkisi yoktur. Plan ekranındaki "ilgi alanına göre" ifadesi o zamana kadar tam doğru değil.
-- **B2 ve üstü:** başlangıç yolculuğu tanımsız. Geçici kural: B2+ kullanıcıya B1 başlangıcı, sonra Dünya şehirleri. İçerik kararı ekipte.
-- **A1 ikinci yolculuk:** New in Town'dan sonra Coffee Shop (A2).
-- **Seviye zorunluluğu:** onboarding'deki ölçümün zorunlu olması bu görevin kapsamında değil; seviye yoksa onboarding'de seçilen seviye kullanılır.
-- **Bildirim yayını:** sunucu kodu yazılır, test edilir; canlıya çıkışı sunucu yayınıyla, Mehmet'in kararıyla.
+Görev listesi madde 3 ile karttan çıkıyor.
+
+## Doğrulama
+- Her madde: `flutter analyze` ve testler temiz, sunucu testleri temiz.
+- Ekran görüntüleri: iPhone SE 3, normal ve en büyük yazı boyutunda (uygulamanın 1,3 tavanı).
+- Cihazda olay doğrulaması için sunucu yerelde, **yerel veritabanına** bağlanarak çalıştırılır. Ayarlar değiştirilmezse yerel `dotnet run` canlı veritabanına bağlanıp migration'ı kendiliğinden uygular; bağlantı ayarı her çalıştırmadan önce kontrol edilir.
