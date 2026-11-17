@@ -55,6 +55,8 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 ## Mehmet'e çıkış yalnızca
 2 turda çözülmeyen itiraz, para/fiyatlandırma ve mağaza hesabı kararları, silme işlemleri, Mehmet'in sesi ya da zamanı gereken işler (ör. App Store/Play konsolunda elle yapılacak adımlar). İçerik ve üretim kararlarını ekip verir.
 
+**Karar yetkisi (Mehmet, 17 Kas 2026):** "Kararları ben vermiyorum; para veriyor. Uzman sizsiniz." Ürün, UX, tutma, ücretsiz sınırlar, satış anları, bildirim, yolculuk ve içerik sırası kararlarını ekip verir; veriyle gerekçelendirir, ölçer ve tutmayanı geri alır. Mehmet'e yalnızca şunlar çıkar: fiyat değişikliği, mağaza ve sürüm yayını, canlı veritabanına yazma, silme, geri dönüşü olmayan işler. Mehmet'e soru değil, alınmış karar ve sonucu raporlanır.
+
 ## Kurallar (herkes için)
 1. Veri varken varsayımla konuşma. Önce Metricool/App Store Connect/Play Console verisini, mevcut `ortak/durum.md`'yi oku.
 2. İstatistik uydurma. Her dış iddiaya (ASO önerisi, platform kuralı) kaynak (link) ekle.
