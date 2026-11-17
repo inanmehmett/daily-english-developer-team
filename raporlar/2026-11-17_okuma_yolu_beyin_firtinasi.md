@@ -39,3 +39,26 @@ Bunlar birbirinin alternatifi değil; bir iskelet (kur + sıra + gün) ve bir s�
 2. Kur uzunluğu (önce seviye başına metin sayısı çıkarılacak).
 3. Ücretsiz/Premium sınırı kurun neresinde?
 4. "Bugün bunu değil" kaçış hakkı olsun mu, günde kaç kez?
+
+---
+
+## Tur 2 (14:36): "A2 kurunu bitir" çok geniş bir vaat
+
+**Mehmet'in itirazı:** Kur vaadi geniş; tema bazlı kurlara içerik bulmak zor; seviye + kur, kurun geçerliliği ve kapsamı nasıl çözülecek? Yoksa vaat etmeyen bir yolculuk mu?
+
+**Ekibin cevabı: "kur" değil, "yol". Seviye vaat değil, filtre.**
+- **Paul:** CEFR dört beceri (okuma, dinleme, konuşma, yazma). Biz yalnız okumayı ölçüyoruz. "A2'yi bitirdin" diyemeyiz; diyebileceğimiz "A2 düzeyindeki metinleri okuyabiliyorsun". Kur, müfredat ve kazanım vaadi taşır; bunu karşılayacak içerik ve ölçüm yok.
+- **Nassim:** Okurun hissetmediği bir vaat güveni bitirir (README madde 9: dürüstlük).
+- **Sean:** Soyut vaat ("A2 bitir") somut vaatten ("7 günde 7 kısa hikâye") daha az satar. Sayılabilen şeyi vaat et.
+- **Don:** İnsanlar bitirebildikleri küçük birimleri sever. Bütün yol açık uçlu olabilir; ama her hafta kapanmalı.
+- **Paul (tema):** Tema başına ayrı yol içerik açısından yürümez. Tema, yolun içinde kendiliğinden gelen rozet olsun; yeterli içerik olan temada ileride kısa, isteğe bağlı bir koleksiyon olabilir.
+- **Nate (geçerlilik):** Bir metnin yola uygunluğu veriyle sınanır: 50 kelimede bakış sayısı ve bitirme oranı. Uymayan metin yoldan çıkar ya da yer değiştirir.
+
+**Önerilen yapı:**
+1. **Okuma yolu:** kullanıcının seviyesine göre tek, sıralı, açık uçlu yol. Kullanıcı seçmez.
+2. **Hafta (bölüm):** 7 metinlik, bitirilebilir birim; her gün bir metin. Vaat yalnız sayılabilen şey: "Bu hafta 7 kısa hikâye, yaklaşık X yeni kelime."
+3. **Seviye geçişi:** vaat değil. Yeterli hafta bitirene isteğe bağlı okuma seviyesi ölçümü; geçen bir üst seviyedeki yola geçer.
+4. **Tema:** rozet olarak, sırayı belirlemeden.
+5. **Premium:** ilk hafta ücretsiz (7 günlük denemeyle örtüşür), sonrası Premium.
+
+**Önce bilinmesi gereken:** her seviyede kaç uygun metin var (kaç hafta çıkar), kaçı ücretsiz, kaçı dizi.
