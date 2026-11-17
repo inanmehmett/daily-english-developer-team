@@ -62,3 +62,20 @@ Bunlar birbirinin alternatifi değil; bir iskelet (kur + sıra + gün) ve bir s�
 5. **Premium:** ilk hafta ücretsiz (7 günlük denemeyle örtüşür), sonrası Premium.
 
 **Önce bilinmesi gereken:** her seviyede kaç uygun metin var (kaç hafta çıkar), kaçı ücretsiz, kaçı dizi.
+
+---
+
+## Tur 3 (14:39): Sayılabilen vaat kullanıcıyı tutar mı, motivasyon ne?
+
+**Mehmet:** Tema bırakıldı. Amaç tutmak. "7 hikâye" vaadi bir birim, sebep değil; kullanıcı neden istekli olsun?
+
+**Ekibin cevabı:** Tutmaz. Sayılabilen vaat yapıdır, motivasyon değil. Motivasyon dört katmandan gelir:
+1. **Kişinin kendi nedeni (Paul):** Onboarding zaten soruyor: iş, yurt dışı, sınav, kişisel gelişim (`obGoal*`). Yol bu nedenle anlatılmalı ve metin seçimi ona yaslanmalı. Bu cevapların dağılımı canlıda var, henüz bakılmadı.
+2. **Hissedilen ilerleme (Nate):** Okuma uygulamasının dürüst ve ölçülebilir kanıtı: "İlk hafta 50 kelimede 5 kelimeye bakıyordun, bu hafta 3'üne." Metin kimliği ve kelime sayısı artık kelime bakışıyla kaydediliyor (Bölüm 1b), hesaplanabilir. Vaat buna dönüşür: "anlayarak okumak".
+3. **Hikâyenin çekişi (Paul, Don):** Dizi bölümleri ve bitişte "yarın ne olacak" kancası ertesi gün dönmek için doğal sebep. Metinlerde `NextHook` alanı var ama boş (içerik incelemesi P10).
+4. **Mehmet'in kendisi (Sean):** Kullanıcıların çoğu @gunluk_ingilizce'den geliyor; güvendikleri kişi Mehmet. "Mehmet'in senin için seçtiği yol" tanıdık ve dürüst bir motivasyon.
+
+**Nassim:** Dördü de hipotez. Elimizdeki tek bulgu "ilk gün metin bitiren daha çok dönüyor"; neden döndüğünü bilmiyoruz. Hangi katmanın işe yaradığı ölçülerek görülmeli.
+
+**Önerilen vaat:** "Her gün bir hikâye; her hafta daha az kelimeye bakarak okuduğunu göreceksin."
+**İlk adım:** onboarding'deki "neden öğreniyorsun" cevaplarının dağılımı ve her nedene göre ertesi gün dönüş (canlı veri).
