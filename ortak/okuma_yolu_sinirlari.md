@@ -34,7 +34,7 @@ Döngüde yeri olmayan özellik ana yolda görünmez: ya döngüye bağlanır ya
 - Gösterilen ilerleme yalnız gerçek veriden: biten durak, deftere eklenen kelime, okunan gün; "daha az kelimeye bakıyorsun" en az 5 metin sonra ve gerçekten düşüyorsa.
 
 **Satış**
-- Değer gösterilmeden teklif yok: ilk metin bitmeden Premium yüzeyi çıkmaz.
+- Premium'a giden yol baştan itibaren her zaman görünür (şerit, kilitli içerik, profil); doğrudan almak isteyen beklemez. Gerekçe: dört gerçek satın almanın üçü kayıttan sonraki ilk 3 dakikada, Premium şeridi görüldükten hemen sonra oldu (`raporlar/2026-11-17_satin_alma_anlari.md`). Ekranı kesen teklifler ise değer gösterildikten sonra ve sayılıdır.
 - Ücretsiz sınır: başlangıç yolculuğu 4 durak + her yolculuğun ilk 2 durağı; günde bir ücretsiz durak. Premium'da hepsi açık, bekleme yok.
 - Ana teklif başlangıç yolculuğu bitince (7 gün ücretsiz deneme); ikinci teklif yolculukların 3. durağında.
 - Günde en fazla bir teklif. Her teklifte ücretsiz yol görünür ("yarın devam").
