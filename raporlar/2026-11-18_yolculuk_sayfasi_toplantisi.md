@@ -52,3 +52,13 @@
 - **Paul:** Rütbe adları kanıtsız süs olarak kalıyor; 4 hafta sonra dokunulan/bakılan bir şey değilse kaldırılmasını yeniden önereceğim.
 - **Nassim:** Karar yine kanıtla değil mantıkla verildi; doğru çıkması garanti değil. Ucuz ve geri alınabilir olduğu için kabul.
 - **Nate:** Kutlama ekranı hâlâ olay yazmıyor; birleşik sayfayla birlikte eklenmeli, yoksa yine ölçemeyiz.
+
+## Ek (15:58) – Mehmet'in itirazı ve 3. maddenin düzeltilmesi
+**Mehmet:** "Rütbe bir yolculuk ya da seviye göstermiyorsa, kullanıcı sonraki adımda ne olacağını görmüyorsa rütbenin ne anlamı var?"
+**Ekip:** İtiraz haklı; toplantıda Paul'un söylediğiyle aynı. Sayfada duran her şey kullanıcıya bir şey söylemeli (Don: gösterge). XP ile kazanılan, hikâyeye de seviyeye de bağlı olmayan bir unvan yolculuk sayfasında hiçbir şey söylemiyor. Toplantı onu yalnız "kaldırmanın kanıtı yok, mantığına dokunmak riskli" diye tutmuştu; bu, sayfada göstermek için gerekçe değil.
+
+**Düzeltilmiş 3. madde:** Yolculuk sayfasında **rütbe gösterilmez.** Üstte yalnız gerçek olan iki şey durur: **seviye** ("A2") ve **yolculuk ilerlemesi** ("Başlangıç yolculuğu · 2/4"). Sonraki adım iki ölçekte görünür: sıradaki hikâye (belirgin kapak) ve sıradaki yolculuk (yolun sonu).
+- Rütbe ve XP'nin **koduna dokunulmaz** (Kent'in şartı korunur); rütbe yalnız profil kartında unvan olarak kalır. Kimse bir şey kaybetmez.
+- Seviye atlama sözü verilmez ("şu kadar hikâyeyle B1" denmez); gösterilen yalnız sayılabilir olan.
+- 4 hafta sonra profil kartındaki rütbeye bakılır; dokunulan/bakılan bir şey değilse kaldırılması yeniden önerilir (Paul).
+Diğer maddeler (1, 2, 4–8) aynen geçerli. Kapatma kuralı düzeltilmiş hâliyle işler.
