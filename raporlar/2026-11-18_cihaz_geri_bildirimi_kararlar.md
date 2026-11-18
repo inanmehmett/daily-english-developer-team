@@ -23,3 +23,12 @@ Editörün önerdiği sıra geçerli (1 → 10). Balon ölçümü ve taslakları
 ## İtirazlar
 - **Nassim:** Kapak ve kelime değişikliği paketi yine büyütüyor; ama ikisi de aynı ekranlara tek geçişte giriyor, ayrı sürüm daha pahalı olurdu.
 - **Paul:** Merak cümlelerinde "durak" geçmiyor; 4. cümlelerdeki "Başlangıç bitti. Sıradaki yolculuk…" ifadesi yeni kelimeyle uyumlu, değişmez.
+
+## Ek (18 Kas 14:19): kariyer yolculuğu kalıyor
+**Mehmet:** "Kariyer yolculuğu kalsa mı? Kullanıcılar ilerlemelerini görse."
+**Karar:** Kalır; rütbe adlarını kaldırma kararı geri alındı.
+- Veri (17 Kas, 243 müşteri): sayfayı %10 açmış, zararı da ölçülebilir faydası da görünmüyor. Sorun sayfanın kendisi değil, **görünmemesi**: ana sayfadan gelen açılış 0.
+- Tek ilerleme, iki ölçek: **kariyer yolu = uzun yol** (seviye ve rütbe), **hikâyeler = o yolun adımları.** Kutuların içinde yolculuğun kitap kapakları; okunan işaretli, sıradaki belirgin, kilitli olan kilitli.
+- Görünürlük: ana sayfa yolculuk kartı ve bitiş ekranındaki ilerleme çizgisi bu sayfaya açılır.
+- Sıra değişmez: bu sürümde eski sayfa olduğu gibi; kapaklı tasarım sonraki sürüm, önce taslak Mehmet'e.
+- Ölçüm: sayfanın açılışı (kaynağıyla) ve açılıştan sonra okumaya geçiş; 4 hafta sonra yeniden bakılır.
