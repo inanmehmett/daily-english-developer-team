@@ -1,6 +1,6 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 18 Kasım 2026, 23:40 (Mehmet'in 23:16 kararlarıyla). Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
+**Son güncelleme:** 18 Kasım 2026, 23:40 (Mehmet'in 23:16 ve 23:27 kararlarıyla). Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
 ## Hedef
@@ -15,14 +15,16 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | 4 | Y2: teklif ekranında yarım görünen satır; büyük yazıda durum çubuğuna giren "Paylaş" | editör | bekliyor |
 | 5 | Y3: "Elif K." yorumu gerçek değil (Mehmet). **Gerçek bir App Store yorumuyla değiştir:** yorumun metni App Store'daki hâliyle, kelimesi kelimesine; altında yorumcunun mağazada görünen takma adı ve "App Store yorumu · 5★". "Doğrulanmış kullanıcı" ibaresi kalkar. Öncelik sırası: 31 Ekim (kelimenin cümledeki anlamı), 8 Kasım (parçalar ve çeviri), 1 Kasım (sade tasarım). Ekrana sığan ilki; uzunsa kısaltma yapılmaz, bir sonraki seçilir | editör | yapılabilir |
 | 5a | **Y5 (Mehmet: şimdi):** cümle çevirisi görünür olsun. (1) Kelime balonunun en altına küçük metin bağlantısı "Cümleyi çevir ›": dokununca o kelimenin cümlesi bugünkü çeviri kartıyla açılır; balonun düğmeleri ve ölçüsü değişmez. (2) İlk hikâyedeki ilk ipucu "Kelimeye dokun · cümle için basılı tut" olur. (3) Onboarding'in balon adımına tek satır eklenir: "Cümlenin tamamı için basılı tut" (yeni ekran yok). Basılı tutma aynen çalışır. Olay: `sentence_translate_opened` (kaynak: balon / basılı tutma). Hak sayımı bugünkü kuralla | editör | yapılabilir |
-| 5b | **Y6 (Mehmet: kariyer işin içine):** bitiş ekranındaki "+N XP kazandın" satırı rütbeye bağlanır: "+N XP · {sıradaki rütbe}'a {kalan} XP" ve altında ince ilerleme çizgisi; dokununca kariyer sayfası açılır. Satır sayısı artmaz (Y1 ile çelişmez). Ana sayfa kişi kartında da aynı cümle ("Çaylak'a 58 XP"), dokununca kariyer. Rütbe eşikleri ve kutlamalar bu sürümde değişmez. Olay: `career_opened` kaynağıyla | editör | yapılabilir |
+| 5b | **Y6 (Mehmet: kariyer işin içine):** bitiş ekranındaki "+N XP kazandın" satırı rütbeye bağlanır: "+N XP · {sıradaki rütbe}'a {kalan} XP" ve altında ince ilerleme çizgisi; dokununca kariyer sayfası açılır. Satır sayısı artmaz (Y1 ile çelişmez). **Metinler `ortak/uygulamanin_sesi.md` tablosundan:** yakınsa sayı, uzaksa sayı yok ("3.000 XP kaldı" yazılmaz), sıcak davet "İlerlemeni gör ›". Ana sayfa kişi kartında aynı kural, dokununca kariyer. Rütbe eşikleri ve kutlamalar bu sürümde değişmez. Olay: `career_opened` kaynağıyla | editör | yapılabilir |
+| 5c | **Y7 (Mehmet 23:27):** alt çubuktaki bildirim işareti belirgin olsun. Kelime sekmesinde tekrar bekleyen kelime sayısı, Quiz sekmesinde günün quizi çözülmediyse işaret: dolu turuncu, sayılı rozet; uygulama açılışında bir kez hafif canlanır (sürekli titreme yok). Ana sayfaya günün quizi ve kelime defteri için kart **eklenmez**; bu ikisi alt çubuk ve bildirimle duyurulur | editör | yapılabilir |
+| 5d | Bu sürümde yeni gelen ekranların metinleri `ortak/uygulamanin_sesi.md` tablosundaki gibi (sınır ekranları, 2. hikâye bitişi, kilitli içerik, günlük açma; geri sayım kalkar) | editör | yapılabilir |
 | 6 | Eski sürümle (1.0.2) birleşmiş sunucuya karşı bir sürüş (Y4) | editör | bekliyor |
 | 7 | Sunucu yayını. **Mehmet önceden onayladı (18 Kas 23:16):** 2. ve 6. adım temiz geçince | editör hazırlar, Mehmet yayınlar | onaylı |
 | 8 | 44 merak cümlesi (yedekle). **Mehmet "yaz" dedi (18 Kas 23:16):** sunucu yayınından hemen sonra çalıştır, sonucu raporla | editör | onaylı |
 | 9 | TestFlight derlemesi (sıradaki boş numara), sürüm adayı için tek tam sürüş: SE 3 + büyük yazı | editör | bekliyor |
 | 10 | Beş kontrol (`raporlar/2026-11-18_surum1_ekip_degerlendirmesi.md`), Android'de gerçek satın alma, en az bir gün kullanım | **Mehmet** | bekliyor |
 | 11 | Mağazaya gönder | **Mehmet** | bekliyor |
-Bu sürüme 5a ve 5b dışında başka hiçbir şey eklenmez. 5, 5a ve 5b görünümü değiştirir: sürüm adayı sürüşünün görüntüleri TestFlight'tan önce rapora konur.
+Bu sürüme 5a–5d dışında başka hiçbir şey eklenmez. 5–5d görünümü değiştirir: sürüm adayı sürüşünün görüntüleri TestFlight'tan önce rapora konur.
 
 ## 2. Yayından sonraki iki hafta: ilk oturuma kod yok
 İzinli: hata düzeltme, ölçüm, içerik.
@@ -31,12 +33,13 @@ Bu sürüme 5a ve 5b dışında başka hiçbir şey eklenmez. 5, 5a ve 5b görü
 - **Ekip:** haftalık tek tablo; Play yorumları ve destek e-postası; 17 Kasım'daki 76 kişilik sıçramanın kaynağı; yolculuk zinciri; başlangıçların kısadan uzuna sıralanması; dönen kullanıcıya sorulacak tek soru.
 
 ## 3. Sonraki sürüm için hazırlık (kod yok; karar 2. hafta toplantısında)
-Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitişte tek kutlama · hikâye bitince kelime tekrarı ve günün quizine çağrı · kilitli 3. hikâyede iki kapı · "Senin Yolculuğun" sayfası.
+Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitişte tek kutlama · hikâye bitince kelime tekrarı ve günün quizine çağrı · kilitli 3. hikâyede iki kapı · "Senin Yolculuğun" sayfası · ana sayfanın sadeleşmesi (ilk hafta sayacı, yolculuk kartı ve kişi kartı üç ayrı ilerleme gösteriyor; tek resme indirilecek, taslakla) · bütün metinlerin `ortak/uygulamanin_sesi.md` ile taranması (yalnız metin; iki hafta içinde yapılabilir).
 
 ## 4. Durdurulanlar
 Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (kapandı) · kariyer/yolculuk adı ve yapısı üzerine yeni tartışma · anlam motorunun kalanları · boşluk doldurma soruları · kampanyalar · Instagram'dan uygulamaya yeni çağrı (Sürüm 1 mağazada olana kadar).
 
 ## Mehmet'ten doğrudan (editör yazar)
+- 18 Kas 23:27: uygulamanın dili sıcak olsun, robot gibi olmasın; büyük XP sayısı gösterilmesin, kariyer sayfasına sıcak bir davetle yönlendirilsin; ana sayfaya günün quizi ve kelime defteri konmasın, alt çubuktaki işaret belirgin olsun.
 - 18 Kas 23:16: cümle çevirisi bu sürümde görünür olsun; "Elif K." gerçek bir App Store yorumuyla değişsin; özellik dalları sorulmadan gönderilebilir; sunucu yayını ve merak cümleleri onaylı; kariyer yolculuğu uygulamanın içine katılsın.
 - 18 Kas: çeviri işi eski ayarlarla, 4 işçi.
 - 18 Kas akşam: kelime balonu tasarımı aynı kalır; düğme aralığı daraltıldı, çentik çizgisi kalktı.
