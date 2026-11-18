@@ -1,6 +1,7 @@
 # Bütün plan: tut ve sat – tek yol
 
 **Tarih:** 18 Kasım 2026 · **Karar sahibi:** ekip · **Mehmet'in yönergesi:** "Kullanıcıyı tutacağız ve para alacağız. İkisi birbirinden bağımsız değil; bütün olarak düşün."
+**Dil (18 Kas, cihaz testi):** kullanıcıya görünen kelime "durak" değil **"hikâye"**; bu belgedeki "durak" ekibin iç terimidir. Var olan bir ekranın görünümü Mehmet taslağı görmeden değiştirilmez. Kararlar: `raporlar/2026-11-18_cihaz_geri_bildirimi_kararlar.md`.
 Bu belge tek kaynaktır. Ayrıntılar: `raporlar/2026-11-17_tutma_ve_satis_plani.md`, `raporlar/2026-11-18_odeme_alma_plani.md`, `ortak/okuma_yolu_sistemi.md`. Çelişki olursa bu belge geçerlidir.
 
 ## Tek fikir: her bitişte iki kapı
