@@ -1,6 +1,8 @@
 # Sürüm 1 – ilk oturum: uygulama planı (güncellendi)
 
 **Tarih:** 18 Kasım 2026 (ilk sürümü 17 Kasım). **Görev:** `ortak/editor_gorevi_2026-11-18_surum1_ilk_oturum.md`. **Dayanak:** `ortak/butun_plan.md`.
+**Güncel durum (18 Kasım gece):** 12 maddenin hepsi bitti; ayrıntı, commit'ler, cihazda doğrulama ve açık noktalar `raporlar/2026-11-18_surum1_ilk_oturum.md`'de. Aşağıdaki tablo planın ilk hâlidir.
+
 Bu plan, önceki "yolculuk çekirdeği" planının yerini alır. O planla yapılan işler korunur; durumları `raporlar/2026-11-18_yolculuk_uygulama.md`'de.
 
 **Dallar:** sunucu ve Flutter'da `feat/journey-core`; zincir şöyle: `fix/paywall-trigger-attribution` → `feat/free-limits` → `feat/journey-core`. Her madde ayrı commit. Canlıya yazma ve yayın Mehmet'te.
