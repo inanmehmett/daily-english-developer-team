@@ -32,3 +32,5 @@ Editörün önerdiği sıra geçerli (1 → 10). Balon ölçümü ve taslakları
 - Görünürlük: ana sayfa yolculuk kartı ve bitiş ekranındaki ilerleme çizgisi bu sayfaya açılır.
 - Sıra değişmez: bu sürümde eski sayfa olduğu gibi; kapaklı tasarım sonraki sürüm, önce taslak Mehmet'e.
 - Ölçüm: sayfanın açılışı (kaynağıyla) ve açılıştan sonra okumaya geçiş; 4 hafta sonra yeniden bakılır.
+
+> **Güncelleme (18 Kas 15:55):** Bu ek ve rütbeyle ilgili sonraki ifadeler `raporlar/2026-11-18_yolculuk_sayfasi_toplantisi.md` kararıyla kesinleşti: tek sayfa, yol hikâyelerden, rütbe üstte unvan, rütbe mantığı değişmez.
