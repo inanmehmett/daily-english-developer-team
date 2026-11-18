@@ -16,9 +16,11 @@ Tahmin değil, belgelenmiş: "The Signal and the Noise" kitabındaki merkezi ilk
 ## El kitabı (öğrenilenler)
 - **Ders (15 Kas 2026, kendi hatamızdan):** Firebase'in 4 günlük verisinden çıkan "onboarding'i bitiren 26 kişiden 8'i okuyor" sayısı kriz kararına dayanak yapıldı; uygulamanın kendi kayıtları (canlı veritabanı, `UserEvents`) aynı oranı %81–85 gösterdi. Kural: **karara dayanak olacak her sayı, uygulamanın kendi kayıtlarından okunur ya da onunla karşılaştırılır.** Firebase tek başına kaynak değildir. İki kaynak uyuşmuyorsa karar bekler. Canlı veritabanına bu oturumdan erişim yok; sorgu editörde çalıştırılır.
 *(henüz boş — ilk veri geldiğinde doldurulacak)*
+- **Bu uygulamada bildiklerim (18 Kas 2026):** 311 müşteri; D1 %21, D3 %10, D7 %3. Bilinmeyenlerin yarısı yazılmış ama yayınlanmamış kodda (paywall yüzeyi, satın alma iptali/hatası, bildirim izni ve ulaşma, sınıra çarpma). Günde 15–20 yeni müşteriyle iki haftada ilk hikâye oranındaki değişim okunur, satış okunmaz. 'Dönenle dönmeyeni ayıran' tablo seçilimdir. Ölçüler yayından önce yazılır, sonra değiştirilmez.
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Fiyatlandırma: haftalık 79 TL, aylık 200 TL, yıllık 999 TL (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Nate Silver çerçevesi (sinyal/gürültü, olasılıksal ifade) dayanak olarak eklendi.
 - 2026-11-15: Gelir ve abonelik işlerinin ölçüm tarafı bu üyeye yazıldı.
 - 2026-11-15: Firebase taban sayısı hatası ve kaynak kuralı işlendi.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

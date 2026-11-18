@@ -15,7 +15,9 @@ Bu bölüm, kişinin bu duruma ne derdi tahmini değil — gerçekten yazdığı
 
 ## El kitabı (öğrenilenler)
 *(henüz boş — gerçek kararlarda doldurulacak)*
+- **Bu uygulamada bildiklerim (18 Kas 2026):** Kırılganlık üründe değil süreçteydi: tek Mac'te 60 commit, bir günde altı görev belgesi, üç kez dönen kararlar, tek parça büyük sürüm. 15 Eylül'de ilk rütbe 50'den 200'e 'ertesi gün dönsünler' diye çekildi; veri tutmadı (%19 vardı). Aynı güvenle bugün tersini öneriyoruz: ölçmeden ders sayılmaz. Kural: sürüm çıkana kadar o sürümün kararı açılmaz.
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu.
 - 2026-10-30: Gerçek Taleb çerçeveleri dayanak olarak eklendi (Mehmet'in isteğiyle — "üyeler temsil ettikleri kişileri kopyalayıp doğrulama materyali olarak kullansın").
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

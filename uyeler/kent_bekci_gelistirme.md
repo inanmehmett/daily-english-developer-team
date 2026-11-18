@@ -23,8 +23,10 @@ Tahmin değil, belgelenmiş: Kent Beck'in Extreme Programming'den gelen iki ilke
 - **Düzeltme (15 Kas 2026, canlı veri):** Android'de test satın alması çalışıyor (son: 1 Kas). "Android'de satış yok" bir ödeme hatası göstermiyor: 65 müşteriden 23'ü paywall'u görmüş, 2'si satın almaya basmış. İptal ve hata kaydı hiç gönderilmiyordu; kodda eklendi.
 - **Gözlem (15 Kas 2026):** Firebase'in segment önizlemesindeki sayı (8/26) uygulamanın kendi kayıtlarıyla tutmadı (29/34). Karar dayanağı olacak sayı önce kendi kayıtlarımızdan doğrulanır.
 - **Gözlem (15 Kas 2026):** Geliştirme Mac'inin diski dolu; yeni simülatör ya da tam derleme "No space left on device" ile düşebiliyor. Uzun işe başlamadan önce boş yere bakılır.
+- **Bu uygulamada bildiklerim (18 Kas 2026):** Sunucu .NET + Postgres (Railway), uygulama Flutter. Sürüm 1 dalları 12 gün yerelde yaşadı (uygulama 44, sunucu 16 commit), uzak depoda yoktu, birleşmiş hâli test edilmemişti. Kırılgan dosyalar: `premium_paywall_page.dart`, `advanced_reader_page.dart` (bitiş ekranı okuyucunun içinde), `word_balloon.dart`. Hatalar cihazda bulunuyor (ağ katmanı, katalog önbelleği), testte değil. Kural: dal bir haftadan uzun yaşamaz; sürüm adayı başına bir tam sürüş (SE 3 + büyük yazı).
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. 28 Eki 2026 itibarıyla: iOS App Store incelemesinde, Android üretim başvurusu onaylı, ülke seçimi/yayın aşamasında (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Kent Beck çerçevesi (YAGNI, make-it-work sırası) dayanak olarak eklendi; akşam bildirimi değişikliği bu ilkeyle geriye dönük açıklandı.
 - 2026-11-15: Editör Bölüm 1'den dört not el kitabına işlendi.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

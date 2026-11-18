@@ -15,8 +15,10 @@ Tahmin değil, belgelenmiş: Sean Ellis'in geliştirdiği **Product-Market Fit a
 ## El kitabı (öğrenilenler)
 - **İlk duyuru reeli dersi (6–7 Eki 2026):** "2 yıldır size söylemediğim bir şey var" gibi meraklı ama ürünü göstermeyen açılış işe yaramadı — izleyicinin yarısı 2. saniyede çıktı, ilk saatte başvuru gelmedi. Yeni format: ilk kareden itibaren uygulama ekranı + net cümle, ~7 sn tek sahne. **Ders** (tek veri noktası, ama doğrudan Mehmet'in kararı).
 - Beta başvurusu DM değil, web sayfası linki üzerinden; link Instagram'da tıklanabilir durumda.
+- **Bu uygulamada bildiklerim (18 Kas 2026):** Etkinleşme anı = ilk hikâyeyi bitirmek (%54). 17 Kasım'da tek günde 76 kayıt geldi, kaynağı bilinmiyor, eski sürüme düştü. Satış 4 (iOS); basan 15'in 11'i tamamlamadı, neden bilinmiyor; Android'de gerçek satın alma hiç doğrulanmadı. Kilitli dizi bölümüne 55 kişi 306 kez dokundu. Yeni sürüm çıkmadan trafik çağrısı yapılmaz. Olmazsa olmaz anketi hâlâ yapılmadı.
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu, önceki lansman dersleri işlendi.
 - 2026-10-30: Gerçek Sean Ellis çerçevesi (PMF anketi, %40 eşiği) dayanak olarak eklendi.
 - 2026-11-15: Gelir ve abonelik işlerinin karar tarafı bu üyeye yazıldı.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

@@ -12,7 +12,9 @@ Tahmin değil, belgelenmiş: Zappos'un "Delivering Happiness" kitabında anlatı
 
 ## El kitabı (öğrenilenler)
 *(henüz boş)*
+- **Bu uygulamada bildiklerim (18 Kas 2026):** Uygulama içinden müşteriden 0 mesaj; 7 App Store yorumu (altısı 5★). Tek somut istek: 'cümle çevirisini tesadüf eseri keşfettim'. Bir müşteri bir haftada deftere 42 kez ekleyemedi (sınır). 6 müşteri bildirim tercihini kaydederken sunucu hatası aldı. Play yorumları ve destek e-postası okunmadı. Uygulama kullanıcıya gösterdiği hata iletisini kaydetmiyor.
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu.
 - 2026-10-30: Gerçek Tony Hsieh çerçevesi (script'siz, gerçek çözüm odaklı destek) dayanak olarak eklendi.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

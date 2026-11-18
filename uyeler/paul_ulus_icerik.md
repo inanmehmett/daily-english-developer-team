@@ -36,7 +36,9 @@ Yardımsız okumada metni anlayabilmek için okurun metindeki kelimelerin yakla�
 - **Hipotez (15 Kas 2026, 7–16 okur):** "Thirty-One Mornings" A1 değil A2, "The Island Where Rabbits Won" A2 değil B1.
 - **Gözlem (15 Kas 2026):** Makine cümle çevirisi düz anlatımda iyi (10/10), eksiltili ve mecazlı cümlelerde yanılıyor ("it runs, but late" → "çalışıyor, ama gecikmeli").
 - **Gözlem (15 Kas 2026, 4 günlük veri):** Başlatılan 77 okumanın 61'i tamamlandı; içerik yarıda bırakılmıyor. Nassim Talip'in şerhi: bu yalnız okumaya başlayanları gösterir, açıp beğenmeyeni değil.
+- **Bu uygulamada bildiklerim (18 Kas 2026):** 287 metin; müşteriler yalnız 35'ini açmış, 6'sının 10'dan çok okuru var. 104–137 kelimelik metinler neredeyse hep bitiyor; 332 kelimelik Penguins %58 (hipotez: ilk metin kısa olmalı). B1 başlangıcı 281 ve 332 kelimeyle açılıyor. Dokunuşların %98,5'i elle düzeltilmiş ücretsiz rafta; Sürüm 1 okuru 12 başlangıç metnine yayacak, kaçının elle düzeltildiği bilinmiyor. Merak cümlesi ve bitiş cümlesi 287 metnin hepsinde boş. B2 ve üstü için yolculuk yok.
 
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in kararı). Sebep: "metinler mi, çeviriler mi, ses mi kötü" sorusuna ekipte bakan yoktu.
 - 2026-11-15: İlk içerik incelemesi (Bölüm 2) el kitabına işlendi.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

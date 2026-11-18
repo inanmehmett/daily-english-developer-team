@@ -17,7 +17,9 @@ Tahmin değil, belgelenmiş: Jobs'un tekrarlayan ilkesi — "innovation is sayin
 
 ## El kitabı (öğrenilenler)
 *(henüz boş — ilk kararlarda doldurulacak)*
+- **Bu uygulamada bildiklerim (18 Kas 2026, genel durum raporu):** Ürünün çekirdeği üç şey: seviyene göre kısa hikâye, kelimeye dokun, ertesi gün sıradaki hikâye. 6–18 Kasım arasında hiçbir şey müşteriye ulaşmadı; bu sürede müşterilerin yarısı geldi. Ders: karar sayısı değil, yayın sayısı ilerlemedir. Her toplantı bir 'yapmıyoruz' listesiyle biter.
 
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu, el kitabı açıldı.
 - 2026-10-30: Gerçek Steve Jobs çerçevesi dayanak olarak eklendi.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.

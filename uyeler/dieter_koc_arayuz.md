@@ -27,7 +27,9 @@ Asıl çalışma yeri editördür: ekranı ancak çalışan uygulamanın görün
 - **Öğrenilen:** `maxLines` + üç nokta, kullanıcının karar verdiği metinde (seviye açıklaması, paywall faydası) kullanılmaz; metin alt satıra iner.
 - **Öğrenilen:** Uygulama sistem yazı boyutunu 1,3 katta tutuyor. "En büyük yazı" taraması fiilen 1,3 kattır; sınır değişirse tarama yenilenir.
 - **Öğrenilen:** Otomatik tur (`integration_test/critique_shots_test.dart`) Android emülatöründe dışarıdan ekran görüntüsüyle çalışır (`DIS_CEKIM`); küçük ekran için `wm size 720x1280`, `wm density 320`, `font_scale 2.0`.
+- **Bu uygulamada bildiklerim (18 Kas 2026):** Küçük ekran + büyük yazı her paywall ve onboarding değişikliğinde bir şey taşırıyor. Bitiş ekranında yedi öğe yarışıyor (XP, Paylaş, defter kelimeleri, sıradaki kart, iki düğme, quiz, çıkış); ilk bitişte ayrıca 2–3 rozet penceresi düşüyor. Onboarding'deki 'doğrulanmış kullanıcı' yorumu gerçek değilse dürüst tasarım ilkesine aykırı.
 
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in tespiti: ekipte arayüzle ilgilenen yoktu).
 - 2026-11-15: İlk tam tarama yapıldı; el kitabına dört öğrenilen eklendi.
+- 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
