@@ -74,3 +74,6 @@ Kodun kuralı: tek metafor okuma; kapsam büyür (kelime → hikâye → kitap �
 - İki değişiklik önerisi (5 ve 8). Ad değişince rozet adları kendiliğinden güncellenir (kod notu); görseller değişmez.
 - **Dieter:** kariyer sayfasında ad tek başına yazılsın ("Çaylak"), "Çaylak Okur" gibi ekli hâl 3. rütbeyle ("Okur") karışır.
 - Ad değişikliği görünen metindir: Mehmet onaylarsa uygulanır.
+
+## Karar (Mehmet, 18 Kas 18:53)
+Rütbe adları **değişmez**; 12 ad bugünkü hâliyle kalır. Önerilen iki değişiklik (Hikâye Tutkunu, Derin Okur) reddedildi. Eşik önerisi (bölüm 2) editör verisini bekliyor.
