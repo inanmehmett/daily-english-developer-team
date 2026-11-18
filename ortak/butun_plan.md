@@ -2,7 +2,7 @@
 
 **Tarih:** 18 Kasım 2026 · **Karar sahibi:** ekip · **Mehmet'in yönergesi:** "Kullanıcıyı tutacağız ve para alacağız. İkisi birbirinden bağımsız değil; bütün olarak düşün."
 **Dil (18 Kas, cihaz testi):** kullanıcıya görünen kelime "durak" değil **"hikâye"**; bu belgedeki "durak" ekibin iç terimidir. Var olan bir ekranın görünümü Mehmet taslağı görmeden değiştirilmez. Kararlar: `raporlar/2026-11-18_cihaz_geri_bildirimi_kararlar.md`.
-**Yolculuk sayfası (18 Kas toplantısı):** kariyer ve okuma yolculuğu tek sayfa ("Okuma Yolculuğun"); yol hikâyelerden, rütbe ve seviye üstte unvan, rütbe mantığı değişmez; Sürüm 1'de eski sayfa, birleşik sayfa balon sürümünden sonra. Karar 4 hafta veri gelmeden yeniden açılmaz: `raporlar/2026-11-18_yolculuk_sayfasi_toplantisi.md`.
+**İlerleme (18 Kas 17:40 toplantısı):** iki sayfa, iki soru: "Senin Yolculuğun" (bugün ne okuyacağım; hikâye kapaklarından yol) ve "Okur Kariyerin" (ne kadar yol aldım; rütbe ve XP). İlk rütbeler hızlı; ilerleme bitiş ekranında gösterilir; kullanıcıya yolculuk seçtirilmez. Yön Mehmet'ten, yapılış ekipten, taslak görülmeden kod yok: `raporlar/2026-11-18_ilerleme_hissi_toplantisi.md`.
 Bu belge tek kaynaktır. Ayrıntılar: `raporlar/2026-11-17_tutma_ve_satis_plani.md`, `raporlar/2026-11-18_odeme_alma_plani.md`, `ortak/okuma_yolu_sistemi.md`. Çelişki olursa bu belge geçerlidir.
 
 ## Tek fikir: her bitişte iki kapı

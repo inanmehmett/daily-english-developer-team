@@ -1,5 +1,8 @@
 # Başlangıç bitince: sıradaki yolculuk nasıl gelir?
 
+> **18 Kas 17:40:** "Başka yolculuk seç" kaldırıldı; kilitte tek hikâye önerilir. Geçerli karar: `raporlar/2026-11-18_ilerleme_hissi_toplantisi.md`, D bölümü.
+
+
 **Tarih:** 18 Kasım 2026, 16:10 · Tek geçiş; üyeler kurgusaldır. **Soran:** Mehmet ("4 hikâyelik seri güzel; bitince sıradaki yolculukları nasıl görecek, bir sonraki nasıl gelecek?")
 
 ## Mehmet'in editöre verdiği talimatlar (kayıt)

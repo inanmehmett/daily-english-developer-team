@@ -1,5 +1,8 @@
 # Toplantı: kariyer yolculuğu ve okuma yolculuğu – ne yapıyoruz?
 
+> **18 Kas 17:40:** Bu toplantının "tek sayfa" kararı ve eki, Mehmet'in yönüyle değişti. Geçerli karar: `raporlar/2026-11-18_ilerleme_hissi_toplantisi.md` (iki sayfa, iki soru).
+
+
 **Tarih:** 18 Kasım 2026, 15:55 · Tek geçiş; üyeler kurgusaldır, görüşleri gerçek adaşlarının belgelenmiş çerçevelerine dayanır. **Çağıran:** Mehmet ("Bu konuda kriz yaşıyoruz. Çözelim.")
 **Katılanlar:** Steve İşler, Don Normal, Dieter Koç, Paul Ulus, Sean Büyüt, Nate Gümüş, Kent Bekçi, Tony Şeyh, Nassim Talip.
 
