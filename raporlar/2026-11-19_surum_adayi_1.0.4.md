@@ -180,7 +180,7 @@ Yalnız kod okundu ve canlı kayıtlara salt okunur bakıldı; hiçbir şey değ
 - Mağazaya ulaşılamazsa Android'de deneme hiç vaat edilmiyor (sunucudan gelen yedek fiyatlarda süre 0).
 - Başlangıç yolculuğu bitişindeki teklif düğmesi Android'de zaten hiçbir zaman süre söylemiyor.
 - "7 gün ücretsiz dene" metnini koşulsuz yazan tek yer (`tryFreeSevenDays`) hiçbir ekrandan çağrılmıyor; ölü kod.
-- Düğmedeki süre ile gönderilen teklif aynı listeden çıkıyor; ikisinin ayrışacağı bir yol bulamadım. Bu kural testle kilitli (`test/trial_days_single_source_test.dart`).
+- Düğmedeki süre ile gönderilen teklif aynı listeden çıkıyor; ikisinin ayrışacağı bir yol bulamadım. Testle kilitli olan kısım gösterim kuralı ("Android yalnız mağazadaki ücretsiz aşamayı gösterir", `test/trial_days_single_source_test.dart`). Teklifin seçilmesinin (`_purchaseProductFor`) testi **yok**; onu kod okuyarak doğruladım, cihazda gerçek bir denemeli satın almayla doğrulanmadı.
 
 **3. Satın almadan sonraki "denemen başladı" ekranı:** sunucunun kararına bağlı. Sunucu Google satın almasını, satın alınan teklifin etiketinde `freetrial` varsa deneme sayıyor (`GoogleReceiptValidator.cs:186`). Temel planla alınan satın alma deneme diye gösterilmez.
 
