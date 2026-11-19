@@ -222,3 +222,22 @@ Ayrıca: 19:11'deki "iptal" bildirimi işlenirken sunucu hata verdi ("A second o
 **Dikkat:** bu satın alma kayıtlara göre test satın alması değil (ortam "Production"). İptal edilmezse 26 Kasım'da ₺999,99 çekilir.
 
 **Öneri (sunucu kodu + yayın; Mehmet'in onayıyla):** (1) "süresi doldu" bildiriminde kaydı kapatmadan önce Google'dan o aboneliğin güncel durumu sorulsun; (2) tür 7 etkin sayılsın; (3) deneme `offerPhase.freeTrial`'dan da tanınsın; (4) iptal bildirimindeki eşzamanlılık hatası. Yayına kadar geçici çare: uygulamada "Satın alımları geri yükle".
+
+### Devamı (19 Kasım, 20:00): uygulamadaki karışıklık ve düzeltme dalı
+
+Mehmet'in gözlemi: Play'de abonelik etkin; uygulamada profil "Premium'a geç" diyor, dokununca paywall "Premium aktif" diyor, ama Premium kitap açılmıyor ve taç yok.
+
+**Neden iki farklı cevap:** sunucuda "Premium mu?" sorusunu iki uç ayrı kuralla cevaplıyor. Yetki ucu (kitaplar, taç, profil) kaydın durumuna bakıyor: "süresi doldu", yani Premium değil. Abonelik durumu ucu (paywall) yalnız bitiş tarihine bakıyor: 26 Kasım ileride, yani Premium. Kayıt yanlışlıkla "süresi doldu" olunca ikisi ayrıştı.
+
+**Düzeltme dalı hazır, yayınlanmadı:** `fix/google-resubscribe-expiry`, birleştirme isteği https://github.com/inanmehmett/DailyEnglish/pull/10 (birleştirme = yayın, Mehmet'in kararı).
+| Commit | Ne yapıyor |
+|---|---|
+| `9967e8e` | Deneme, Google'ın bildirdiği aşamadan tanınıyor; etiket yalnız yedek |
+| `2b148e6` | "Süresi doldu" bildiriminde kullanıcının en yeni satın alması Google'a soruluyor, hâlâ geçerliyse kayıt kapanmıyor; "yeniden başlatıldı" etkin sayılıyor; iptal bildirimindeki eşzamanlılık hatası giderildi (Apple tarafında da aynı kalıp vardı) |
+| `ddcb0d3` | Abonelik durumu ucu, süresi dolmuş ya da iadesi yapılmış kaydı Premium saymıyor; iki uç aynı cevabı veriyor |
+
+Yeni testler: eski satın almanın bildirimi canlı kaydı kapatmıyor; Google "bitti" derse kapanıyor; Google'a ulaşılamazsa daha yeni satın alma kaydı koruyor; deneme aşamadan / etiketten tanınıyor; durum ucu kapalı kaydı Premium saymıyor. İlgili 79 test geçti. **Tam test koşusu ilk denemede 42 dakika takıldı ve durduruldu; takılmanın nedeni henüz bilinmiyor, koşu takılma tespitiyle yeniden çalışıyor. Sonucu gelmeden bu dal yayına hazır sayılmaz.**
+
+**Bu dalda olmayan, bilinen iki şey:** (1) kayıt hâlâ ilk satın almanın anahtarıyla tutuluyor; yalnız yeni anahtarı taşıyan sonraki bildirimler (yenileme, bitiş) kayda bağlanamıyor. Bitiş tarihi geçince kayıt yine zamanında kapanıyor, ama yenileme bildirimi kaçabilir. (2) İptal edilmiş ama süresi dolmamış abonelik makbuz doğrulamasında geçersiz sayılıyor; böyle bir kullanıcıda "geri yükle" başarısız olur (19:34'teki 400 buna benziyor).
+
+**Mehmet'in hesabı:** kayıt canlıda hâlâ "süresi doldu". Canlıya yazmadım. Uygulamada "Satın alımları geri yükle" makbuzu yeniden doğrulatır; denenmedi.
