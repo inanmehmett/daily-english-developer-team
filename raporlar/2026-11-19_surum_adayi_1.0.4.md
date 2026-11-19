@@ -143,4 +143,4 @@ Kilitli 3. hikâyede iki kapı, rütbe eşikleri, kutlamaların azaltılması, "
   - **Karardan bir sapma:** kararda "'ayrıca' yoksa bağlantı o satırın yerinde durur" yazıyordu. Öyle yapınca balon bir satır büyüyor ve "bağlantısız hâlinden yüksek olamaz" kuralı bozuluyor. Bu yüzden bağlantı o durumda tür satırına taşındı.
   - **Bağlantının çizilmediği tek durum:** balonda ne tür ne "ayrıca" satırı varsa (yalnız anlam). Anlam satırını paylaşmak büyük yazıda satır ekliyordu. Basılı tutma o durumda da çalışıyor. Kaç balonun böyle olduğunu ölçmedim: **bilinmiyor**; sözlükteki kelimelerin türü var, makine çevirisiyle gelenlerin olmayabilir.
   - Ekranda henüz görülmedi; derleme 49'un tam sürüşünde görüntüsü gelecek.
-- **T3 bitti** (`42a03345`). Yorum ekranı kapalı; onboarding 15 ekrana döndü. Gerçek yorum verisi kodda duruyor.
+- **T3 bitti** (`42a03345`). Yorum ekranı kapalı; onboarding mağazadaki sürümle aynı sayıda ekran. Gerçek yorum verisi kodda duruyor.
