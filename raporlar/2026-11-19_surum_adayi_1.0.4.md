@@ -129,3 +129,18 @@ Silinmesi gereken madde yok. İngilizce metindeki "Translate sentence" uygulamad
 ## Bu sürüme girmeyenler (listeye uygun olarak)
 
 Kilitli 3. hikâyede iki kapı, rütbe eşikleri, kutlamaların azaltılması, "Senin Yolculuğun" sayfası, onboarding "dinle" hatası, bildirim tercihini kaydetme hatası.
+
+## Ek – 19 Kasım, öğleden önce
+
+**Sunucu yayını yapılamadı.** Ekip mesajıyla PR #9'u `master`'a birleştirmem istendi; birleştirme komutunu çalışma ortamımın izin katmanı reddetti (canlıya yayın sayıldığı için). Etrafından dolaşmadım. Birleştirmeyi Mehmet yapmalı; yayından sonraki doğrulama, bir saatlik 5xx izlemesi ve merak cümleleri bende. Yayın öncesi taban: son 24 saatte 10.565 istekte 1 tane 5xx.
+
+**Merak cümleleri 43 oldu (Mehmet'in doğrudan sözü).** "Doğrudan olsun, gereksiz ifade olmasın." 19 cümle kısaltıldı; Varanasi'nin cümlesi kaldırıldı. Yerel kopyada yeniden denendi: 43 satır yazıldı, yedek tablo doldu, ikinci çalıştırma bir şey bozmadı. İki örnek:
+- Two Cups'tan sonra: "Emma her sabah tilkiye biraz daha yaklaşıyor. Tilki her sabah kaçıyor. Şimdilik."
+- Başlangıç A2 ve Kasabaya Yeni Geldi bitince: "Howard her sabah 8.15'te aynı sandalyeye oturur. Bu sabah sandalye boş."
+
+**Derleme 49 hazırlığı (derleme çıkarılmadı):**
+- **T1 bitti** (`3889e7a6`). "Cümleyi çevir ›" kendi satırını almıyor; "ayrıca" satırının sağ ucunda, o satır yoksa tür satırının ("fiil · move") sağ ucunda duruyor. Yanındaki metin tek satır; sığmazsa üç noktayla kısalır. Düğmeler aynı. Testler bağlantılı balonun yüksekliğini bağlantısız hâliyle karşılaştırıyor (kısa anlam, uzun anlam, uzun "ayrıca", "ayrıca" yok; normal ve büyük yazı): hiçbirinde daha yüksek değil, kısa metinlerde birebir eşit.
+  - **Karardan bir sapma:** kararda "'ayrıca' yoksa bağlantı o satırın yerinde durur" yazıyordu. Öyle yapınca balon bir satır büyüyor ve "bağlantısız hâlinden yüksek olamaz" kuralı bozuluyor. Bu yüzden bağlantı o durumda tür satırına taşındı.
+  - **Bağlantının çizilmediği tek durum:** balonda ne tür ne "ayrıca" satırı varsa (yalnız anlam). Anlam satırını paylaşmak büyük yazıda satır ekliyordu. Basılı tutma o durumda da çalışıyor. Kaç balonun böyle olduğunu ölçmedim: **bilinmiyor**; sözlükteki kelimelerin türü var, makine çevirisiyle gelenlerin olmayabilir.
+  - Ekranda henüz görülmedi; derleme 49'un tam sürüşünde görüntüsü gelecek.
+- **T3 bitti** (`42a03345`). Yorum ekranı kapalı; onboarding 15 ekrana döndü. Gerçek yorum verisi kodda duruyor.
