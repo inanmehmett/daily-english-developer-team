@@ -42,6 +42,8 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 ## 3. Sonraki sürüm için hazırlık (kod yok; karar 2. hafta toplantısında)
 Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitişte tek kutlama · hikâye bitince kelime tekrarı ve günün quizine çağrı · kilitli 3. hikâyede iki kapı · "Senin Yolculuğun" sayfası · ana sayfanın sadeleşmesi (ilk hafta sayacı, yolculuk kartı ve kişi kartı üç ayrı ilerleme gösteriyor; tek resme indirilecek, taslakla) · bütün metinlerin `ortak/uygulamanin_sesi.md` ile taranması (yalnız metin; iki hafta içinde yapılabilir).
 
+**2. hafta toplantısında veriyle bakılacak soru (Mehmet, 19 Kas):** cümle çevirisine kelime balonundan geçmeden, doğrudan ve görünür bir yol açılsın mı? Ekip görüşü: şimdilik hayır; bu sürüm iki keşif yolu ekliyor (balondaki bağlantı, ipucu). `sentence_translate_opened` olayının kaynağına (balon / basılı tutma) ve kullanan kişi oranına (bugün %22) bakılır.
+
 ## 4. Durdurulanlar
 Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (kapandı) · kariyer/yolculuk adı ve yapısı üzerine yeni tartışma · anlam motorunun kalanları · boşluk doldurma soruları · kampanyalar · Instagram'dan uygulamaya yeni çağrı (Sürüm 1 mağazada olana kadar).
 
