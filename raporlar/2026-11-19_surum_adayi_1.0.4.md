@@ -20,7 +20,7 @@
 | 6 | Eski sürüm (1.0.2) birleşmiş sunucuya karşı | **bitti.** 48 istek, hata yanıtı yok |
 | 7 | Sunucu yayını | **hazır, Mehmet'i bekliyor:** https://github.com/inanmehmett/DailyEnglish/pull/9 |
 | 8 | 44 merak cümlesi | **bekliyor** (7'den hemen sonra). Betik yerel kopyada denendi: 44 satır yazıldı, yedek tablo doldu |
-| 9 | Sürüm adayı sürüşü ve TestFlight | **sürüş bitti** (SE 3, normal ve en büyük yazı; görüntüler aşağıda). TestFlight derlemesi yükleniyor |
+| 9 | Sürüm adayı sürüşü ve TestFlight | **bitti.** Sürüş: SE 3, normal ve en büyük yazı (görüntüler aşağıda). TestFlight: **1.0.4 (48) yüklendi**, App Store Connect'te işlendi (19 Kas 02:11). Derleme canlı sunucuya bağlı; yolculuğu ancak 7. adımdan sonra gösterir |
 
 Uygulama dalı `feat/journey-core`, sürüm `1.0.4+48`. Tam uygulama testi: 1.135 geçti, 0 hata.
 
