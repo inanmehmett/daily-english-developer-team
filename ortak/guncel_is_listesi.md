@@ -53,6 +53,8 @@ Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitiş
 ## 4. Durdurulanlar
 Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (kapandı) · kariyer/yolculuk adı ve yapısı üzerine yeni tartışma · anlam motorunun kalanları · boşluk doldurma soruları · kampanyalar · Instagram'dan uygulamaya yeni çağrı (Sürüm 1 mağazada olana kadar).
 
+**Editör notu (T6-a, 19 Kas):** koddan doğrulandı, değişiklik gerekmedi. Deneme teklifi Play döndürüyorsa seçilip gönderiliyor; düğme metni Play'in döndürdüğü teklife göre değişiyor (deneme yoksa "Premium'a geç"). Ayrıntı ve Play Console'da bakılacak dört şey: `raporlar/2026-11-19_surum_adayi_1.0.4.md`, "T6" bölümü. Sıra T6-b'de (Mehmet).
+
 ## Mehmet'ten doğrudan (editör yazar)
 - 19 Kas 13:00 (telefonda derleme 49 adayına bakınca): (1) T1'in sonucu beğenilmedi: bağlantı "ayrıca"nın yanına gelince balon enine genişliyor, "bu daha kötü". Editör üç yerleşimi yan yana taslağa koydu (`raporlar/ekran_2026-11-19/taslak_balon_baglanti.png`); seçim Mehmet'te, seçilene kadar kod yok. (2) Onboarding sonunda doğrudan metin açılmasın: en azından yolculuk ve kitabın önizlemesi (kapak sayfası) görünsün, "görsel olarak da doysunlar". Editör önerisi ve Mehmet'in kararı raporda. (3) Yorumlar yalnız App Store'dan olmasın, Play'den de olsun: Play'in açık sayfasında yorum görünmüyor; Play Console'dan yorum gelince eklenecek.
 - 19 Kas 12:10: yorum ekranı kapanmasın; App Store yorumlarından en iyi iki üçü alt alta, hafif kaydırılabilir gösterilsin. Editör taslak hazırladı (`raporlar/ekran_2026-11-19/taslak_yorum.png`); Mehmet onaylayınca derleme 49'a girer (T3 "kalsın" koluna döner).

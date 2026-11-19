@@ -163,3 +163,35 @@ Mehmet: "App Store yorumlarından en iyi iki ya da üçünü seç, alt alta gös
 ![Yorum ekranı taslağı](ekran_2026-11-19/taslak_yorum.png)
 
 Seçilen üç yorum (kelimesi kelimesine, takma adlarıyla): Osdmc (31 Eki), mmmmöşişş (1 Kas), Delikurtttttt (7 Kas); üçü de 5 yıldız. Seçilmeyenler: şikâyet içeren (8 Kas), emoji içeren (7 Kas), 4 yıldızlı (7 Kas), çok kısa olan (13 Kas).
+
+## T6 – Android'de deneme süresi: koddan doğrulama (19 Kasım)
+
+Yalnız kod okundu ve canlı kayıtlara salt okunur bakıldı; hiçbir şey değiştirilmedi. **Kod değişikliği gerekmedi.**
+
+**1. Deneme teklifi seçilip Google'a gönderiliyor mu? Evet, Play teklifi döndürüyorsa.**
+- Play her teklifi ayrı bir kayıt olarak veriyor. Satın alma başlarken kod, o ürünün kayıtları içinde **ücretsiz aşaması olanı** seçiyor; yoksa temel planı (`in_app_purchase_service.dart`, `_purchaseProductFor`).
+- Seçilen kaydın teklif anahtarını (offerToken) Google'a eklenti gönderiyor (`in_app_purchase_android` 0.5.0: satın alma çağrısı anahtarı seçilen kayıttan alıyor).
+- Bu düzeltme 30 Eylül'den beri kodda (`d97ff80f`); mağazadaki 1.0.2'de de, sürüm adayında da var.
+- Yani Google sayfası "Başlangıç tarihi: bugün · ₺999,99" gösterdiyse, **Play o hesaba o an denemeli bir teklif döndürmemiş** demektir. Kod, dönmeyen bir teklifi gönderemez.
+
+**2. Deneme yokken düğme yine "7 gün ücretsiz dene" mi yazıyor? Koda göre hayır.**
+- Android'de gösterilen deneme süresi sabit değil; Play'in döndürdüğü tekliflerdeki ücretsiz aşamanın süresinden okunuyor (`_storeTrialDays`). Ücretsiz aşama yoksa süre 0.
+- Süre 0 iken: düğme "Premium'a geç", altındaki satır yalnız fiyat ("₺999,99/yıl"), onboarding teklifinin başlığı "Beklemeden oku" (sayısız). Süre varsa: "7 gün ücretsiz dene" ve "7 gün ücretsiz, sonra …".
+- Mağazaya ulaşılamazsa Android'de deneme hiç vaat edilmiyor (sunucudan gelen yedek fiyatlarda süre 0).
+- Başlangıç yolculuğu bitişindeki teklif düğmesi Android'de zaten hiçbir zaman süre söylemiyor.
+- "7 gün ücretsiz dene" metnini koşulsuz yazan tek yer (`tryFreeSevenDays`) hiçbir ekrandan çağrılmıyor; ölü kod.
+- Düğmedeki süre ile gönderilen teklif aynı listeden çıkıyor; ikisinin ayrışacağı bir yol bulamadım. Bu kural testle kilitli (`test/trial_days_single_source_test.dart`).
+
+**3. Satın almadan sonraki "denemen başladı" ekranı:** sunucunun kararına bağlı. Sunucu Google satın almasını, satın alınan teklifin etiketinde `freetrial` varsa deneme sayıyor (`GoogleReceiptValidator.cs:186`). Temel planla alınan satın alma deneme diye gösterilmez.
+
+**Bilmediğim:** Mehmet'in o anda uygulamadaki düğmede ne gördüğü. Koda göre "Premium'a geç" yazmış olmalı. "7 gün ücretsiz dene" yazdıysa bu, yukarıdaki okumayla çelişir; o durumda paywall'un ve Google sayfasının arka arkaya iki ekran görüntüsü gerekir. Android müşterilerinin düğmede ne gördüğü de kayıtlarda yok: paywall olayları gösterilen deneme süresini taşımıyor.
+
+**Play Console'da bakılacaklar (Mehmet, T6-b):**
+1. `com.dailyenglish.premium.yearly.launch` ürününün temel planında **etkin** bir ücretsiz deneme teklifi var mı (7 gün, fiyatı 0 olan aşama).
+2. Teklifin uygunluk koşulu: "yeni müşteri" ise Google, denemeyi daha önce kullanmış hesaba teklifi hiç döndürmez (test hesabında olası masum neden bu).
+3. Teklifin etiketi `freetrial` mı; değilse sunucu gerçek bir denemeyi deneme diye kaydetmez.
+4. Teklif Türkiye'de geçerli mi.
+
+**Okuma:** Etkin bir deneme teklifi yoksa Android'de düğme zaten "Premium'a geç" diyor ve bugün ücret alıyor; yanlış söz yok, ama iOS'taki "7 gün ücretsiz" Android'de hiç sunulmuyor demektir. Android'deki 4 basış / 0 satışın bununla ilgisi olabilir: **hipotez**; basanların ne gördüğü kayıtlı değil.
+
+**Öneri (kod, bu sürüme girmesi gerekmiyor):** satın almaya basış olayına o anda gösterilen deneme süresi eklensin; "Android kullanıcısı düğmede ne gördü" sorusu bir daha kayıtlardan cevaplanabilsin.
