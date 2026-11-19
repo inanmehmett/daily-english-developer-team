@@ -1,6 +1,6 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 18 Kasım 2026, 23:40 (Mehmet'in 23:16 ve 23:27 kararlarıyla). Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
+**Son güncelleme:** 19 Kasım 2026, 11:05 (TestFlight bulguları bölümü eklendi). Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
 ## Hedef
@@ -25,6 +25,13 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | 10 | Beş kontrol (`raporlar/2026-11-18_surum1_ekip_degerlendirmesi.md`), Android'de gerçek satın alma, en az bir gün kullanım | **Mehmet** | bekliyor |
 | 11 | Mağazaya gönder | **Mehmet** | bekliyor |
 Bu sürüme 5a–5d dışında başka hiçbir şey eklenmez. 5–5d görünümü değiştirir: sürüm adayı sürüşünün görüntüleri TestFlight'tan önce rapora konur.
+
+## 1b. TestFlight bulguları (1.0.4 derleme 48) – hepsi tek derlemede (49) toplanır
+Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölümdekiler birlikte yapılır, sonra tek tam sürüş.
+| # | Bulgu | Karar | Durum |
+|---|---|---|---|
+| T1 | Mehmet (19 Kas): balondaki "Cümleyi çevir ›" bağlantısı iyi, ama balon bir satır büyümüş | **Balon bağlantısız hâlinden yüksek olamaz.** Bağlantı kendi satırını almaz; son metin satırının ("ayrıca: …") sağ ucuna, aynı hizaya yerleşir. "Ayrıca" metni uzunsa üç noktayla kısalır; "ayrıca" yoksa bağlantı o satırın yerinde durur. Düğmelerin ölçüsü ve yeri değişmez. Test: bağlantılı balonun yüksekliği bağlantısız hâline eşit (kısa ve uzun anlam, SE 3, normal ve büyük yazı). | bekliyor |
+| T2 | Ekip (19 Kas): `ekran_2026-11-19/normal_okuma.jpg` N8–N9 karelerinde cümle işaretli ama çeviri kartı görünmüyor | Çekim anı mı, kart mı açılmıyor: cihazda doğrula; açılmıyorsa düzelt | bekliyor |
 
 ## 2. Yayından sonraki iki hafta: ilk oturuma kod yok
 İzinli: hata düzeltme, ölçüm, içerik.
