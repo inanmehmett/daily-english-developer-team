@@ -199,3 +199,26 @@ Yalnız kod okundu ve canlı kayıtlara salt okunur bakıldı; hiçbir şey değ
 **T6-b, Mehmet'in Play Console'dan yapıştırdığı iki sayfa (19 Kas):** ikisi de "Temel planı düzenleyin" sayfası (`yearly` temel planı; biri Türkiye'de ₺1.299,99, diğeri ₺999,99). Bu sayfalardaki "Ücretsiz kullanım süresi: 7 gün", "Ek süre ve askıya alınmış hesap" başlığının altında: ödeme alınamadığında tanınan **ek süre**, ücretsiz deneme değil. Play'de ücretsiz deneme temel planın alanı değil, temel plana eklenen ayrı bir **teklif**tir; yapıştırılan sayfalarda teklif listesi yok, temel planın etiketleri de boş. Yani bu iki sayfa Android'de bir deneme teklifinin tanımlı olduğunu **göstermiyor**. Tanımlı olup olmadığı abonelik sayfasındaki teklif listesinden görülür; oraya henüz bakılmadı.
 
 **T6-b, üçüncü sayfa ("Teklifi düzenle", `com.dailyenglish.premium.yearly.launch`):** Android'de deneme teklifi **tanımlı**: aşama "Ücretsiz deneme · 7 gün", 175 ülkenin 175'inde, uygunluk "Yeni müşteri edinme". Yapıştırılan metinden okunamayanlar: teklifin durumu (etkin mi, taslak mı) ve iki uygunluk seçeneğinden hangisinin işaretli olduğu. **Etiket alanı boş:** sunucu Google satın almasını yalnız teklifin etiketinde `freetrial` varsa deneme sayıyor (`GoogleReceiptValidator.cs:186`); etiket eklenmezse Android'deki gerçek bir deneme, ücretli satın alma gibi kaydedilir. Etiket teklife eklenmeli, temel plana değil (temel planın etiketi denemesiz satın almalara da geçer). Mehmet'in test hesabında deneme çıkmamasının olası nedeni uygunluk: hesap bu aboneliği daha önce aldıysa "yeni müşteri" sayılmaz ve Play teklifi hiç döndürmez. Doğrulama: bu uygulamada hiç abonelik almamış bir Google hesabıyla denemek.
+
+## Android'de gerçek satın alma: üç sunucu hatası (19 Kasım akşam, Mehmet'in denemesi)
+
+Mehmet 19:08'de Google Play'den yıllık lansman planına abone oldu; panelde kullanıcı Premium görünmedi, abonelik "denemesiz satın alma" yazdı. Canlı kayıtlar salt okunur incelendi; kod değişmedi.
+
+**Ne oldu (canlı kayıtlardan, abonelik 28):**
+| Saat | Olay |
+|---|---|
+| 19:08 | Google "satın alındı" bildirdi; uygulama makbuzu doğrulattı. Bitiş tarihi 26 Kasım 19:08: **Google 7 günlük ücretsiz denemeyi verdi.** |
+| 19:10–19:11 | Abonelik iptal edildi (Google "iptal" bildirdi). |
+| 19:35:37 | Yeniden abone olundu; Google "satın alındı" bildirdi. |
+| 19:35:39 | Uygulama yeni makbuzu doğrulattı; abonelik Etkin oldu. |
+| 19:35:39 | Google **eski** satın almanın "süresi doldu" bildirimini gönderdi; sunucu bunu aynı abonelik kaydına uyguladı ve kaydı **Süresi doldu** yaptı. Kullanıcı o andan beri bizde Premium değil; Google'da aboneliği etkin. |
+
+**Hata 1 – etkin abonelik "süresi doldu" oluyor.** Yeniden abone olunca Google yeni satın almayı eskisine bağlıyor; biz kaydı hâlâ eski satın almanın anahtarıyla tutuyoruz. Eski satın alma için gelen "süresi doldu" bildirimi bu yüzden canlı kaydı buluyor ve kapatıyor (`WebhookEventProcessor.ProcessGoogleExpirationAsync`: Google'a güncel durumu sormuyor, kaydın yenilenip yenilenmediğine bakmıyor). İptal edip yeniden abone olan her Android kullanıcısında tekrarlanır.
+**Hata 2 – "yeniden başlatıldı" bildirimi de "süresi doldu" sayılıyor** (`WebhooksController.cs:415`, bildirim türü 7). Kullanıcı iptal ettiği aboneliği Play'den geri açarsa Premium'u kapanır. Bu denemede tetiklenmedi; kodda duruyor.
+**Hata 3 – deneme "satın alma" diye kaydediliyor.** Sunucu Google denemesini yalnız teklifin etiketinden (`freetrial`) tanıyor; etiket yoksa ya da geç eklendiyse 7 günlük deneme "Satın alındı" yazılıyor. Panelde "denemesiz satın aldı" görünmesinin nedeni bu. Google'ın yanıtında denemenin kendisi de geliyor (`offerPhase.freeTrial`); oradan okunursa etikete bağımlılık kalkar.
+Ayrıca: 19:11'deki "iptal" bildirimi işlenirken sunucu hata verdi ("A second operation was started on this context"); iptal yine de kayda geçmiş görünüyor. Google bildirimlerinin ham kaydı tutulmuyor (`WebhookEventLogs` boş).
+
+**İyi haber:** Android'de 7 günlük deneme teklifi çalışıyor; yeni bir hesaba uygulandı.
+**Dikkat:** bu satın alma kayıtlara göre test satın alması değil (ortam "Production"). İptal edilmezse 26 Kasım'da ₺999,99 çekilir.
+
+**Öneri (sunucu kodu + yayın; Mehmet'in onayıyla):** (1) "süresi doldu" bildiriminde kaydı kapatmadan önce Google'dan o aboneliğin güncel durumu sorulsun; (2) tür 7 etkin sayılsın; (3) deneme `offerPhase.freeTrial`'dan da tanınsın; (4) iptal bildirimindeki eşzamanlılık hatası. Yayına kadar geçici çare: uygulamada "Satın alımları geri yükle".
