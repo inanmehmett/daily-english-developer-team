@@ -393,3 +393,36 @@ Mağaza gizlilik beyanları (Mehmet, 20 Kasım): Play'de "Cihaz veya diğer kiml
 **Ufuk'un kaybının kaynağı (kayıtlardan):** 19 Kasım 14:36 ile 15:10 arasında uygulama silinip mağazadan yeniden kuruldu: tanıtım turu baştan başladı, Play'in kurulum yönlendireni "belirtilmemiş"ten "organik"e döndü, bildirim adresi değişti, sürüm aynı kaldı (1.0.2+45). Beta'dan mağaza sürümüne güncelleyerek geçmek hesabı koruyor (eski hesap dört sürüm boyunca aynı kaldı). Mehmet'in kararı: silip kurma kullanıcının seçimi, sorun sayılmaz; kayıtlı kullanıcının verisi girişte geliyor. Telefon kimliğiyle kurtarma yine de kalıyor, çünkü 30 gün açmayan misafirin hesabının düşmesi bizim oturum süremizden kaynaklı.
 
 **Kurtarmanın sınırı:** yalnız telefon kimliği sunucuya kaydedilmiş hesaplar kurtarılır; bunun için o kurulumda derleme 49'un en az bir kez açılmış olması gerekir.
+
+## T9 ve T10 (20 Kasım gece; Mehmet: "bu iki sorunu çöz hemen, derleme beklesin")
+
+### T9: uygulama içinden iptal mağazada iptal etmiyordu
+
+**Koddan doğrulandı, iki platformda da.** "Üyeliği iptal et" yalnız kendi sunucumuzda kaydı "iptal edildi" yapıp ekranda "Üyelik iptal edildi" gösteriyordu; Google'a da Apple'a da hiçbir şey gitmiyordu. Mağaza yenilemeye devam ediyordu.
+
+Mehmet'in kararı: uygulamadan yapılabiliyorsa yapılsın, yapılamıyorsa mağazaya yönlendirilsin.
+
+| Platform | Ne olacak |
+|---|---|
+| Android | Sunucu iptali **Google'da** yapar (yenilemeyi durdurur; erişim dönem sonuna kadar sürer, kullanıcı Play'den yeniden başlatabilir). Google onaylarsa kayıt "iptal edildi" olur. Google reddederse kayda dokunulmaz, kullanıcı Play'in abonelik sayfasına götürülür |
+| iOS | Apple sunucudan iptale izin vermiyor. Pencere baştan söyler: "Aboneliğin App Store üzerinden yönetiliyor. İptal için seni oraya götürelim mi?"; düğme "App Store'a git". Kayda dokunulmaz; durum yalnız Apple'dan gelen bilgiyle değişir |
+
+Pencerenin metni (görünüm aynı, yalnız yazılar): "İptal işlemi geri alınamaz" satırı yanlıştı, kalktı. Yeni madde işaretleri: "Premium, dönem sonuna kadar açık kalır · Yenileme durur, yeni ücret alınmaz · İstediğin zaman yeniden başlatabilirsin". Kırmızı düğme "İptal" yerine "Üyeliği iptal et" ("Vazgeç"in yanında "İptal" iki anlama geliyordu). Dönüş teklifi bildirimi artık onay düğmesine basınca değil, iptal gerçekten olunca kuruluyor. Görüntüsü derleme 49 sürüşünde rapora girecek.
+
+Eski sürümler (48 ve öncesi): Android'de güncelleme gerekmeden düzelir (iptal artık gerçek). iOS'ta yanlış "iptal edildi" yerine genel "iptal edilemedi" mesajı görünür; doğru yönlendirme derleme 49 ile gelir.
+
+**Denenmedi:** Google'a iptal isteği canlıda çalışmadı. Hizmet hesabının abonelik yönetme izni yoksa Google reddeder; o durumda kullanıcı Play'e yönlendirilir (yanlış söz verilmez) ve kayıtta "Google subscription could not be cancelled" görünür.
+
+### T10: Play Store'da kullanılan promosyon kodu Premium'u açmıyordu
+
+**Mehmet doğruladı; koddan nedeni:** uygulama mağazaya yalnız kullanıcı "Satın alımları geri yükle"ye basınca soruyordu. Kodu Play Store'da kullanan kişi uygulamayı açınca Premium kapalıydı.
+
+Düzeltme (yalnız uygulama, derleme 49): Android'de açılışta ve uygulama her öne geldiğinde, Premium kapalıysa, mağazadaki sahip olunan satın almalar sessizce sorulur ve sunucuya doğrulatılır. Pencere açılmaz, hata gösterilmez; Premium açıkken hiç sorulmaz. Kullanıcı kodu Play Store'da kullanıp uygulamaya dönünce Premium açılır. Doğrulanan satın alma Google'da onaylanır (onaylanmayan satın almayı Google üç gün sonra iade ediyor). iOS'a dokunulmadı: orada mağaza bu işlemleri kendisi teslim ediyor.
+
+**Denenmedi:** gerçek kodla cihazda. "Daily English Founder" kodlarından biriyle derleme 49'da denenmeli (30 Kasım'da bitiyor, 0 kullanılmış).
+
+### Nerede duruyor
+
+- Sunucu: dal `fix/in-app-cancel-goes-to-store`, https://github.com/inanmehmett/DailyEnglish/pull/14. **Yayınlanmadı.** Şema değişikliği yok. Tam test 1.741 geçti, 3 atlandı.
+- Uygulama: `feat/journey-core` (`905b2abb` mağaza eşitlemesi, `2b9710ae` iptal). Tam test 1.159 geçti. Derleme çıkarılmadı.
+- PR #13 sonrası canlı izleme (01:38'e kadar): 209 istek, 0 adet 5xx.
