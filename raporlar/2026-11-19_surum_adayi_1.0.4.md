@@ -426,3 +426,9 @@ Düzeltme (yalnız uygulama, derleme 49): Android'de açılışta ve uygulama he
 - Sunucu: dal `fix/in-app-cancel-goes-to-store`, https://github.com/inanmehmett/DailyEnglish/pull/14. **Yayınlanmadı.** Şema değişikliği yok. Tam test 1.741 geçti, 3 atlandı.
 - Uygulama: `feat/journey-core` (`905b2abb` mağaza eşitlemesi, `2b9710ae` iptal). Tam test 1.159 geçti. Derleme çıkarılmadı.
 - PR #13 sonrası canlı izleme (01:38'e kadar): 209 istek, 0 adet 5xx.
+
+### Yayın (20 Kasım, 01:56; Mehmet: "PR 14'ü yayınla")
+
+PR #14 `master`'a birleşti (`c8497c6`); Railway yayını 01:59'da başarıyla bitti, sağlık ucu 200, yayın sonrası kayıtlarda hata satırı yok. Şema değişikliği yok. Bundan sonra uygulama içinden iptal Android'de Google'da yapılıyor (eski sürümler dahil); iOS'ta kayda dokunulmuyor. Google'a ilk gerçek iptal isteği geldiğinde sonucu buraya yazılacak. 5xx izlemesi 03:00'e kadar sürüyor.
+
+Uygulamanın son hâli (derleme numarası hâlâ 48; dalın ucu `2b9710ae` + onaylanmamış üç yorumlu yorum ekranı) Mehmet'in telefonuna 01:57'de kuruldu; canlı sunucuya bağlı.
