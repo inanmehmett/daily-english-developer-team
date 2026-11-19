@@ -1,6 +1,6 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 19 Kasım 2026, 11:05 (TestFlight bulguları bölümü eklendi). Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
+**Son güncelleme:** 19 Kasım 2026, 11:20 (sürüm adayı raporundan sonra). Adım 1–6 ve 9 bitti (`raporlar/2026-11-19_surum_adayi_1.0.4.md`); sıra 7. adımda. Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
 ## Hedef
@@ -31,7 +31,10 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 | # | Bulgu | Karar | Durum |
 |---|---|---|---|
 | T1 | Mehmet (19 Kas): balondaki "Cümleyi çevir ›" bağlantısı iyi, ama balon bir satır büyümüş | **Balon bağlantısız hâlinden yüksek olamaz.** Bağlantı kendi satırını almaz; son metin satırının ("ayrıca: …") sağ ucuna, aynı hizaya yerleşir. "Ayrıca" metni uzunsa üç noktayla kısalır; "ayrıca" yoksa bağlantı o satırın yerinde durur. Düğmelerin ölçüsü ve yeri değişmez. Test: bağlantılı balonun yüksekliği bağlantısız hâline eşit (kısa ve uzun anlam, SE 3, normal ve büyük yazı). | bekliyor |
-| T2 | Ekip (19 Kas): `ekran_2026-11-19/normal_okuma.jpg` N8–N9 karelerinde cümle işaretli ama çeviri kartı görünmüyor | Çekim anı mı, kart mı açılmıyor: cihazda doğrula; açılmıyorsa düzelt | bekliyor |
+| T2 | Çeviri kartı N8–N9'da yok | Açıklandı: yerel sunucuda çeviri servisi yok. Sunucu yayınından sonra TestFlight'ta bağlantıdan ve basılı tutmadan birer cümle denenir | Mehmet bakar |
+| T3 | Editör: gerçek yorum eklenince yorum ekranı müşteriye de açıldı; onboarding'e bir ekran eklenmiş oldu ("Elif K." mağaza sürümünde hiç görünmüyordu) | **Ekran kapatılır** (Mehmet'in kuralı: onboarding'e ekran eklenmez; ilk hikâyeden önce her ek adım kayıp). Gerçek yorum saklanır; ileride paywall'da kullanılabilir. Mehmet "kalsın" derse kalır | bekliyor |
+| T4 | Editör: 2. günden sonraki bitiş cümlesi tabloda yoktu | Editörün yazdığı uygun: "Bugünün hikâyesini okudun, harika gidiyorsun. Sıradaki yarın seni bekliyor." (ses belgesine eklendi) | bitti |
+| T5 | Ana sayfa kişi kartındaki rütbe satırı gecikmeli geliyor (N14 → N15) | Yayını durdurmaz; gecikmenin süresi ve nedeni yayından sonra bakılır | sonra |
 
 ## 2. Yayından sonraki iki hafta: ilk oturuma kod yok
 İzinli: hata düzeltme, ölçüm, içerik.

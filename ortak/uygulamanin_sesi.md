@@ -24,7 +24,8 @@ Uygulamada kullanıcının okuduğu her cümle bu belgeye uyar.
 | | Uzak | "{Rütbe} yolundasın · ilerlemeni gör ›" |
 | Çeviri sınırı | | "Bugün 25 kelimeye baktın, eline sağlık. Yarın yine buradayız. Sınırsız bakmak istersen Premium seni bekliyor." Düğmeler: "Premium'a bak" / "Okumaya devam et" |
 | Defter sınırı | | "Defterin 15 kelimeyle doldu, güzel bir başlangıç. Hepsini saklamak istersen Premium'da yer bol." Düğmeler: "Premium'a bak" / "Tamam" |
-| 2. hikâye bitişi | | "Bugünlük iki hikâye, harika gidiyorsun. Sıradaki yarın seni bekliyor." |
+| Günün son hikâyesi bitti | İlk gün (iki hikâye) | "Bugünlük iki hikâye, harika gidiyorsun. Sıradaki yarın seni bekliyor." |
+| | Sonraki günler (bir hikâye) | "Bugünün hikâyesini okudun, harika gidiyorsun. Sıradaki yarın seni bekliyor." |
 | Kilitli içerik | | "Bu hikâye Premium'da. İstersen şimdi açalım." Düğmeler: "Premium'a bak" / "Şimdi değil" |
 | Günlük açma kullanılmış (kapak sayfası) | Bugün "Bugünkü hakkını kullandın" + geri sayım | "Bugünün hikâyesini okudun. Yenisi yarın açılır; beklemek istemezsen Premium seni bekliyor." Geri sayım kalkar; düğme "Yarın açılır" |
 Rütbe adına gelen ek (Çaylak'a, Meraklı'ya, Okur'a) Türkçe ses uyumuna göre yazılır.
