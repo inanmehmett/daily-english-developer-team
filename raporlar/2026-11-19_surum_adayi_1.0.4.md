@@ -249,3 +249,32 @@ Mehmet'in sözüyle ("değişiklikleri yap, canlıya al") PR #10 `master`'a birl
 Bundan sonra Android'de denemeyle başlayan abonelik panelde deneme olarak görünür ("denemede", "denemede ama yenilemeyi kapattı", "ödemeye döndü" ayrımı zaten vardı; eksik olan sunucunun Google denemesini tanımasıydı). Bugüne kadarki Android kayıtları "doğrudan satın alma" olarak kalır; geriye dönük düzeltilmedi.
 
 Abonelik 28 (Mehmet'in hesabı) canlıda hâlâ "süresi doldu"; canlıya elle yazılmadı. Uygulamadan makbuz yeniden doğrulanınca ("Satın alımları geri yükle") düzelmesi beklenir.
+
+## Panelde doğru veri (19 Kasım gece; Mehmet'in isteği)
+
+Dal `feat/panel-true-data`, birleştirme isteği https://github.com/inanmehmett/DailyEnglish/pull/11. **Yayınlanmadı.** Uygulamaya dokunmuyor.
+
+**Neden gerekti:** bir testçi gerçek satın alma yaptı (deneme çıkmadı, çünkü hesabı aynı aboneliği test satın almasıyla daha önce almıştı), ödeme Play Console'dan iade edildi ama erişim kaldırılmadı. Google bu durumu bildirmiyor; panelde kişi "ödeyen abone" ve "müşteri" görünmeye devam etti.
+
+| Commit | Ne yapıyor |
+|---|---|
+| `25a95cd` | Kullanıcılar sayfasında "Yalnız Premium" anahtarı (rozetle aynı tanım: erişimi süren abonelik) |
+| `a5c761e` | İadesi yapılan gerçek satın alma kişiyi müşteri yapmaz; geçmişte test satın alması olan hesap testçiye döner |
+| `a14efd4` | Sunucu Google'ın "iptal edilen satın almalar" listesini açılışta ve 6 saatte bir sorar; iade edilen aboneliği işaretler (yeni alan `PaymentVoidedAt`, geçmişe "PaymentRefunded" satırı). Erişime dokunmaz. Gelir ve "ücretli" sayıları iade edileni saymaz; rozet "İade edildi" |
+| `2dcc962` | Kullanıcılar sayfasında "Kişi (cihaza göre)" sayısı ve satırda "aynı cihazda N hesap" işareti: aynı telefondan açılan hesaplar tek kişi sayılır |
+
+Şema: `Subscriptions` tablosuna tek boş bırakılabilir alan; yayında kendiliğinden eklenir. Tam test (son commit öncesi) 1.697 geçti; kullanıcı listesi testleri son commit'le 3/3.
+
+**Canlıda mükerrer kayıt taraması (salt okuma):**
+| Kontrol | Sonuç |
+|---|---|
+| Aynı e-postayla birden çok hesap | yok |
+| Kullanıcı başına birden çok profil; aynı satın alma iki abonelikte; aynı makbuz iki kayıt; defterde aynı kelime iki kez | yok |
+| Aynı kullanıcıda aynı anda birden çok erişim veren abonelik | yok |
+| Abonelik geçmişinde aynı olay birkaç saniye içinde iki kez | **7 çift** (6 "satın alındı", 1 "deneme başladı"); 112 satırda |
+| Aynı kullanıcı + aynı metin için iki okuma ilerlemesi | 1 çift |
+| Aboneliği erişim veriyor ama profilde Premium bayrağı kapalı | 2 (ikisi de geliştirici hesabı) |
+| Profili olmayan kullanıcı | 1 |
+| Aynı telefondan açılmış birden çok hesap | 33 telefon, 79 hesap (29'u müşteri) |
+
+**Bu dalda olmayanlar:** geçmiş Android kayıtlarının (deneme yerine "satın alma" yazılanlar) düzeltilmesi; abonelik geçmişindeki çift satırların temizlenmesi ve önlenmesi; farklı telefondan açılan hesapların aynı kişiye bağlanması. Panelin yeni hâli ekranda görülmedi; yalnız testlerden geçti.
