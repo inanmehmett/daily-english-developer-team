@@ -278,3 +278,101 @@ Dal `feat/panel-true-data`, birleştirme isteği https://github.com/inanmehmett/
 | Aynı telefondan açılmış birden çok hesap | 33 telefon, 79 hesap (29'u müşteri) |
 
 **Bu dalda olmayanlar:** geçmiş Android kayıtlarının (deneme yerine "satın alma" yazılanlar) düzeltilmesi; abonelik geçmişindeki çift satırların temizlenmesi ve önlenmesi; farklı telefondan açılan hesapların aynı kişiye bağlanması. Panelin yeni hâli ekranda görülmedi; yalnız testlerden geçti.
+
+## Altı sorun turu (19 Kasım gece; Mehmet: "hepsini onayladım, hepsini yap")
+
+Mehmet'in sözü: "bu sorunların hepsini çözelim" ve altı maddelik planın tamamına onay. Ek istek: "promosyon kullanıcılarında Premium yazınca gerçek Premium ile karışabilir."
+
+| # | Sorun | Durum |
+|---|---|---|
+| 1 | İade eşitlemesi çalışmıyor | PR #12 **canlıda** (22:46). İstek artık 200 dönüyor ama asıl sorun başka çıktı, aşağıda |
+| 2 | Aynı olay iki üç kez yazılıyor | Sunucu ve uygulama düzeltmesi yazıldı; **yayın bekliyor** |
+| 3 | Canlıdaki fazla geçmiş satırları | **Silindi** (7 satır, yedekli) |
+| 4 | Misafir ilerlemesi kayboluyor | Sunucu ve uygulama yazıldı; **yayın + derleme 49 bekliyor** |
+| 5 | Panel farklı kurulumdaki hesapları bağlayamıyor | Yazıldı (kendiliğinden + elle bağlama); **yayın bekliyor** |
+| 6 | Bir kişinin birikimi eski hesabında kaldı | **Taşındı** (yedekli) |
+| + | Promosyon "Premium" görünüyor | Yazıldı; **yayın bekliyor** |
+
+### 1. İade: Google'ın listesi bu iadeyi hiç göstermiyor
+
+PR #12 (30 gün sınırının tam üstündeki istek reddediliyordu; 29 güne çekildi) 22:44'te birleşti, 22:46'da yayında. Eşitleme 22:51'de çalıştı, Google 200 döndü, **ama hiçbir abonelik işaretlenmedi.**
+
+Neden: Google'ın belgesi açık yazıyor: iade **erişim kaldırılmadan** yapıldıysa sipariş "iptal edilen satın almalar" listesinde görünmez, bildirim de gelmez. Bizim durum tam bu. PR #11'de kurduğum yol bu iadeyi hiçbir zaman göremezdi; yanlış varsayım bendeydi.
+
+Düzeltme (yeni dalda, yayın bekliyor): eşitleme ayrıca süren ya da yeni bitmiş her gerçek Android aboneliğinin **son siparişini** Google'a tek tek soruyor; sipariş "iade edildi" durumundaysa aboneliği işaretliyor. Canlıda bugün 3 gerçek Android aboneliği var; yük yok.
+
+**Bilinmeyen:** bu sorgu Google'a karşı canlıda denenmedi. Hizmet hesabının sipariş okuma izni yoksa Google reddeder; o zaman kayıtta "Google order could not be read" görünür ve Play Console'da hizmet hesabına sipariş görüntüleme izni vermek gerekir. Yayından sonra ilk çalışmayı izleyip sonucu buraya yazacağım.
+
+Şu an canlıda: abonelik 29 hâlâ "iptal edildi, ödeme iadesi işaretli değil"; hesap türü hâlâ "müşteri".
+
+### 2. Çift kayıtların kökü
+
+Uygulama aynı satın almayı mağazanın her tesliminde (ilk satın alma, açılışta yeniden teslim, geri yükleme) yeniden doğrulatıyor ve her seferinde "deneme başladı" olayını gönderiyor. Canlıda görülen: tek deneme için yarım saniye arayla üç olay; günler sonra geri yüklemede yenileri; promosyonla açılan hesapta bile "deneme başladı". Panel bu satırları saydığı için her tekrar bir deneme daha görünüyordu.
+
+- **Sunucu:** hiçbir şeyi değiştirmeyen doğrulama geçmişe ikinci kez yazılmıyor. "Deneme başladı" aynı kişi ve plan için 30 günde, "satın alma tamamlandı" 5 dakikada bir kez kaydediliyor (aynı anda gelen istekler için kilitli).
+- **Uygulama (derleme 49):** bu olaylar yalnız kullanıcının az önce başlattığı satın almada gönderiliyor; yeniden teslim ve geri yüklemede gönderilmiyor.
+
+### 3. Canlıda silinenler
+
+Abonelik geçmişinde aynı abonelik, aynı olay, aynı işlem kimliğiyle yazılmış 7 fazla satır silindi (6 abonelikte; biri üç kez yazılmıştı). Her gruptan ilk satır kaldı. Yedek: `Backup_SubscriptionHistoryDuplicates_2026_11_19`. Kontrol: çift kalmadı.
+
+### 4. Misafir ilerlemesi neden kayboluyordu, ne değişti
+
+Misafir hesabın anahtarı yalnız telefonda, uygulamanın verisinde duruyor. Kaybolduğu yollar:
+
+| Durum | Sonuç |
+|---|---|
+| Uygulamayı güncellemek | **Kaybolmaz.** Canlıda 10 misafir müşteri (3 Android, 7 iOS) aynı hesapla birden çok sürümde görünüyor |
+| Android'de silip yeniden kurmak, veri temizlemek, misafirken çıkış yapmak | Kaybolur |
+| 30 gün hiç açmamak (iki platformda da) | Kaybolur: oturum yenileme anahtarının ömrü 30 gün; süre dolunca giriş ekranı gelir, "Misafir olarak devam et" yeni hesap açar. Henüz kimsenin başına gelmedi (30 günü aşan misafir yok), gelecekti |
+| iOS'ta silip yeniden kurmak | Anahtar zincirinde durduğu için korunması beklenir; denenmedi |
+
+Çözüm: uygulama her istekte telefonun kimliğinin **özetini** gönderir (ham kimlik telefondan çıkmaz). Sunucu misafir hesap açılırken aynı telefondan daha önce açılmış, hâlâ misafir olan hesap varsa yenisini açmaz, onu geri verir. Birden çok aday varsa birikimi olan seçilir. **Üye hesabı bu yolla asla açılmaz;** üye e-postası, Google ya da Apple ile girer.
+
+Kimlik nereden: Android'de sistemin uygulamaya özel cihaz kimliği (silip kurunca değişmez, fabrika ayarına dönünce değişir; telefon el değiştirirse yeni sahibe eski hesap verilmez). iOS'ta böyle bir kimlik yok; ilk açılışta üretilen rastgele değer anahtar zincirinde saklanır.
+
+Yerelde uçtan uca: aynı telefondan art arda üç misafir isteği tek hesaba döndü; bozuk başlık eşleşmedi; hesap üyeliğe çevrilince telefon kimliğiyle geri verilmedi.
+
+**Mehmet'in yapacakları (derleme 49 mağazaya gitmeden):** Play Console → Uygulama içeriği → Veri güvenliği beyanına "Cihaz veya diğer kimlikler" eklenmeli (toplanıyor, paylaşılmıyor, amaç: uygulama işlevi ve hesap yönetimi). App Store'daki gizlilik etiketinde "Tanımlayıcılar → Cihaz Kimliği" (kullanıcıya bağlı, izleme için değil). Web sitesindeki gizlilik metnine "Cihaz Bilgileri" maddesi bu dalda eklendi; yayından önce okunmalı.
+
+### 5 ve ek istek. Panel (yayınlanmadı; görüntüler yerel sunucudan, örnek hesaplarla)
+
+![Kullanıcılar listesi](ekran_2026-11-19/panel_kullanicilar_liste.png)
+
+- **Durum sütunu** artık erişimin türünü söylüyor: "Premium" yalnız gerçekten ödeyen; ötekiler "Deneme", "Promosyon", "İade edildi", "Test", "Elle verildi". Üstteki kutu "Premium erişimi · N ödeyen" oldu.
+- "Kişi (cihaza göre)" → "Kişi (tahmini)"; satırdaki işaret "aynı kişi: N hesap".
+
+![Kullanıcı detayı](ekran_2026-11-19/panel_kullanici_detay.png)
+
+- Detayda yeni bölüm **"Aynı kişinin öbür hesapları"**: her hesabın açılışı, son görülmesi, birikimi ve neden aynı kişi sayıldığı (aynı telefon / elle bağlandı). Altında öbür hesabın kimliği ya da e-postasıyla **elle bağlama** ve bağı kaldırma. Bağlamak yalnız kişi sayımını düzeltir, veri taşımaz.
+- Hesaplar ortak izle kişiye toplanıyor: elle bağ, telefon kimliği, bildirim adresi. Bağ geçişli (A-B aynı telefon, B-C elle bağlıysa üçü tek kişi).
+
+Görünümü değişen yerler bunlar; Mehmet görmeden yayına girmez.
+
+### 6. Canlıda taşınan birikim
+
+Aynı kişinin eski misafir hesabındaki birikim üye hesabına taşındı: 2 okuma ilerlemesi, 2 quiz sonucu, 2 günlük okuma kaydı, 5 kelime turu, 1 seviye geçmişi, 1 yerleştirme, 48 olay. XP toplandı (28 + 362 = **390**), en uzun seri 2. Eski hesabın XP'si sıfırlandı (çift sayılmasın). Abonelik, makbuz ve denetim kayıtlarına dokunulmadı. Yedek: `Backup_AccountMerge_2026_11_19`.
+
+Panelde bu iki hesap ancak 5. madde yayınlanınca elle bağlanabilir.
+
+### Doğrulama
+
+| Ne | Sonuç |
+|---|---|
+| Sunucu tam test | 1.732 geçti, 3 atlandı |
+| Uygulama tam test | 1.149 geçti, 1 atlandı |
+| Android'de kimlik (emülatör, Android 15) | Okundu; uygulama silinip yeniden kurulunca **aynı** özet geldi |
+| Yerel sunucuda misafir geri dönüşü | Aynı telefondan üç istek tek hesaba döndü; üye hesabı verilmedi |
+| Canlı, PR #12 sonrası bir saat | 603 istek, 2 adet 5xx; ikisi de panelin Google Analytics ucu (13, 14 ve 17 Kasım'da da ara ara hata vermiş, bu yayınla ilgisi yok) |
+
+Denenmeyenler: iOS'ta silip yeniden kurma; Google'a sipariş sorgusu (canlıda ilk çalışmada görülecek); uygulamanın yeni sunucuyla gerçek telefonda uçtan uca misafir geri dönüşü (derleme 49 sürüşünde bakılacak).
+
+### Nerede duruyor
+
+- **Sunucu:** dal `fix/duplicate-history-and-person-identity`, birleştirme isteği https://github.com/inanmehmett/DailyEnglish/pull/13. Yayınlanmadı. Şema: `Users` tablosuna iki boş bırakılabilir alan (`DeviceIdentity`, `PersonLink`) ve bir dizin; yayında kendiliğinden eklenir.
+- **Uygulama:** `feat/journey-core` dalında iki commit (`fc24a3c7` telefon kimliği, `56ed8bec` dönüşüm olayları); derleme 49'a girer. Derleme çıkarılmadı.
+- **Sıra önemli değil:** sunucu önce yayınlanırsa eski uygulama başlık göndermez, hiçbir şey değişmez; uygulama önce çıkarsa sunucu başlığı yok sayar.
+
+**Mehmet'ten beklenen:** (1) panel görüntülerine bakıp PR #13 için yayın sözü; (2) derleme 49 mağazaya gitmeden iki gizlilik beyanı (yukarıda); (3) web sitesindeki gizlilik metnine eklenen "Cihaz Bilgileri" maddesini okumak.
+
+**Bu turda yapılmayanlar:** geçmiş Android kayıtlarının geriye dönük düzeltilmesi; aboneliğin ilk satın alma anahtarıyla tutulması; iptal edilmiş ama süresi dolmamış aboneliğin geri yüklenememesi; bildirim tercihi ucundaki 500; T9 (uygulama içi iptalin Google Play'de iptal etmemesi).
