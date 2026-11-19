@@ -151,7 +151,10 @@ Kilitli 3. hikâyede iki kapı, rütbe eşikleri, kutlamaların azaltılması, "
 - **Adım 8 bitti.** 12:13'te **43** merak cümlesi yazıldı; yedek tablo `Backup_NextHook_2026_11_18` 43 satır (hepsinin eski değeri boştu). Varanasi'nin cümlesi bilerek boş. İki örnek, canlıdan okundu:
   - Ali's First Snow: "Turuncu kedi iki yıldır her sabah tam yedi buçukta karşı pencerede. Bir salı sabahı pencere boş."
   - Two Cups: "Emma her sabah tilkiye biraz daha yaklaşıyor. Tilki her sabah kaçıyor. Şimdilik."
-- **5xx izlemesi:** yayından sonraki ilk on dakikada 0. İzleme 13:10'a kadar sürüyor; sonucu buraya eklenecek.
+- **5xx izlemesi bitti: yayından sonra 5xx yok.** 12:04–14:27 arasında 507 istek, 0 tane 5xx, 35 tane 4xx. (İzleme 12:52 ile 14:27 arasında ölçüm almadı; son ölçüm o aralığı da kapsıyor.) Geri alma gerekmedi.
+  - 4xx'lerin 15'i yayın bitmeden önce (12:04–12:07) benim yayını yoklayan isteklerim (`/api/Journey/starter` 404). Yayından sonra yolculuk uçlarına gelen 10 isteğin hiçbiri hata dönmedi.
+  - Bir tane `validate-receipt` 400 (12:38, testçi hesabı): makbuz doğrulaması reddedilmiş. Müşteri değil; nedenine bakmadım.
+  - Canlıda ilk yolculuk ataması yapıldı (1 hesap).
 
 ## Taslak – yorum ekranı (Mehmet'in 12:10 sözü)
 
