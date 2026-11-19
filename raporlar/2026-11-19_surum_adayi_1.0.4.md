@@ -241,3 +241,11 @@ Yeni testler: eski satın almanın bildirimi canlı kaydı kapatmıyor; Google "
 **Bu dalda olmayan, bilinen iki şey:** (1) kayıt hâlâ ilk satın almanın anahtarıyla tutuluyor; yalnız yeni anahtarı taşıyan sonraki bildirimler (yenileme, bitiş) kayda bağlanamıyor. Bitiş tarihi geçince kayıt yine zamanında kapanıyor, ama yenileme bildirimi kaçabilir. (2) İptal edilmiş ama süresi dolmamış abonelik makbuz doğrulamasında geçersiz sayılıyor; böyle bir kullanıcıda "geri yükle" başarısız olur (19:34'teki 400 buna benziyor).
 
 **Mehmet'in hesabı:** kayıt canlıda hâlâ "süresi doldu". Canlıya yazmadım. Uygulamada "Satın alımları geri yükle" makbuzu yeniden doğrulatır; denenmedi.
+
+### Yayın (19 Kasım, 20:49)
+
+Mehmet'in sözüyle ("değişiklikleri yap, canlıya al") PR #10 `master`'a birleşti (`2b76cb9`); Railway yayını 20:51'de başarıyla bitti. Yayın boyunca sağlık ucu hep 200 döndü. 5xx izlemesi 21:55'e kadar sürüyor; sonucu buraya eklenecek. Şema değişikliği yok.
+
+Bundan sonra Android'de denemeyle başlayan abonelik panelde deneme olarak görünür ("denemede", "denemede ama yenilemeyi kapattı", "ödemeye döndü" ayrımı zaten vardı; eksik olan sunucunun Google denemesini tanımasıydı). Bugüne kadarki Android kayıtları "doğrudan satın alma" olarak kalır; geriye dönük düzeltilmedi.
+
+Abonelik 28 (Mehmet'in hesabı) canlıda hâlâ "süresi doldu"; canlıya elle yazılmadı. Uygulamadan makbuz yeniden doğrulanınca ("Satın alımları geri yükle") düzelmesi beklenir.
