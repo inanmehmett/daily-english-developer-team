@@ -376,3 +376,20 @@ Denenmeyenler: iOS'ta silip yeniden kurma; Google'a sipariş sorgusu (canlıda i
 **Mehmet'ten beklenen:** (1) panel görüntülerine bakıp PR #13 için yayın sözü; (2) derleme 49 mağazaya gitmeden iki gizlilik beyanı (yukarıda); (3) web sitesindeki gizlilik metnine eklenen "Cihaz Bilgileri" maddesini okumak.
 
 **Bu turda yapılmayanlar:** geçmiş Android kayıtlarının geriye dönük düzeltilmesi; aboneliğin ilk satın alma anahtarıyla tutulması; iptal edilmiş ama süresi dolmamış aboneliğin geri yüklenememesi; bildirim tercihi ucundaki 500; T9 (uygulama içi iptalin Google Play'de iptal etmemesi).
+
+### Yayın (20 Kasım, 00:57; Mehmet: "PR 13'ü yayınla")
+
+PR #13 `master`'a birleşti (`d014bc2`); Railway yayını 00:59'da başarıyla bitti, sağlık ucu 200. Şema göçü uygulandı (`Users.DeviceIdentity`, `Users.PersonLink`).
+
+**İade tespiti canlıda çalıştı.** Eşitleme 01:04'te ilk kez koştu: Google'a iki sipariş soruldu, ikisi de 200 döndü (hizmet hesabının sipariş okuma izni varmış). Kayıt satırı: "Google listed 0 voided purchases, 1 subscriptions newly marked as refunded". Sonuç:
+
+- Abonelik 29: ödeme iadesi işaretlendi (19 Kasım 21:35, Play Console'daki iade saatiyle aynı); geçmişe "PaymentRefunded" satırı sipariş numarasıyla yazıldı; durumu ve erişimi değişmedi.
+- Hesap türü "müşteri"den "testçi"ye döndü (gerçek satın alması kalmadı, geçmişte test satın alması var).
+
+Yayın sonrası kayıtlarda hata satırı yok. 5xx izlemesi 02:00'ye kadar sürüyor; sonucu buraya eklenecek.
+
+Mağaza gizlilik beyanları (Mehmet, 20 Kasım): Play'de "Cihaz veya diğer kimlikler" zaten beyanlıydı; amaçlara "Uygulama işlevselliği" ve "Hesap yönetimi" eklendi, incelemeye gönderildi (yönetilen yayınlama açık; onaydan sonra "Yayın özeti"nde yayınlanması gerekir). App Store'da "Device ID" zaten beyanlıydı; amaca "App Functionality" eklendi. Mağazaların bağlandığı gizlilik metnine (`/legal/privacy-policy.html`, Türkçe ve İngilizce) "Cihaz kimliği özeti" satırı eklendi; bu yayınla canlıda.
+
+**Ufuk'un kaybının kaynağı (kayıtlardan):** 19 Kasım 14:36 ile 15:10 arasında uygulama silinip mağazadan yeniden kuruldu: tanıtım turu baştan başladı, Play'in kurulum yönlendireni "belirtilmemiş"ten "organik"e döndü, bildirim adresi değişti, sürüm aynı kaldı (1.0.2+45). Beta'dan mağaza sürümüne güncelleyerek geçmek hesabı koruyor (eski hesap dört sürüm boyunca aynı kaldı). Mehmet'in kararı: silip kurma kullanıcının seçimi, sorun sayılmaz; kayıtlı kullanıcının verisi girişte geliyor. Telefon kimliğiyle kurtarma yine de kalıyor, çünkü 30 gün açmayan misafirin hesabının düşmesi bizim oturum süremizden kaynaklı.
+
+**Kurtarmanın sınırı:** yalnız telefon kimliği sunucuya kaydedilmiş hesaplar kurtarılır; bunun için o kurulumda derleme 49'un en az bir kez açılmış olması gerekir.
