@@ -51,6 +51,8 @@ Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitiş
 Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (kapandı) · kariyer/yolculuk adı ve yapısı üzerine yeni tartışma · anlam motorunun kalanları · boşluk doldurma soruları · kampanyalar · Instagram'dan uygulamaya yeni çağrı (Sürüm 1 mağazada olana kadar).
 
 ## Mehmet'ten doğrudan (editör yazar)
+- 19 Kas 12:10: yorum ekranı kapanmasın; App Store yorumlarından en iyi iki üçü alt alta, hafif kaydırılabilir gösterilsin. Editör taslak hazırladı (`raporlar/ekran_2026-11-19/taslak_yorum.png`); Mehmet onaylayınca derleme 49'a girer (T3 "kalsın" koluna döner).
+- 19 Kas 12:03: "İzin veriyorum, sunucu yayınını yap." Editör PR #9'u birleştirdi; adım 7 ve 8 bitti.
 - 19 Kas: merak cümleleri doğrudan olsun, gereksiz ifade olmasın, ilgiyi anında çeksin. Editör 44 cümleyi taradı; 19'u kısaltıldı (giriş, duyuru ve yorum cümleleri çıktı), Varanasi'nin cümlesi kaldırıldı ("15 şehir daha" sözü tutulamıyordu). Mehmet önce/sonra tablosunu onayladı. Yazılacak sayı artık **43**. Betik: `MigrationScripts/SetJourneyNextHooks_2026_11_18.sql` (sunucu `74bc378`).
 - 18 Kas 23:27: uygulamanın dili sıcak olsun, robot gibi olmasın; büyük XP sayısı gösterilmesin, kariyer sayfasına sıcak bir davetle yönlendirilsin; ana sayfaya günün quizi ve kelime defteri konmasın, alt çubuktaki işaret belirgin olsun.
 - 18 Kas 23:16: cümle çevirisi bu sürümde görünür olsun; "Elif K." gerçek bir App Store yorumuyla değişsin; özellik dalları sorulmadan gönderilebilir; sunucu yayını ve merak cümleleri onaylı; kariyer yolculuğu uygulamanın içine katılsın.

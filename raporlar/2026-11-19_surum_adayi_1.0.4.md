@@ -144,3 +144,19 @@ Kilitli 3. hikâyede iki kapı, rütbe eşikleri, kutlamaların azaltılması, "
   - **Bağlantının çizilmediği tek durum:** balonda ne tür ne "ayrıca" satırı varsa (yalnız anlam). Anlam satırını paylaşmak büyük yazıda satır ekliyordu. Basılı tutma o durumda da çalışıyor. Kaç balonun böyle olduğunu ölçmedim: **bilinmiyor**; sözlükteki kelimelerin türü var, makine çevirisiyle gelenlerin olmayabilir.
   - Ekranda henüz görülmedi; derleme 49'un tam sürüşünde görüntüsü gelecek.
 - **T3 bitti** (`42a03345`). Yorum ekranı kapalı; onboarding mağazadaki sürümle aynı sayıda ekran. Gerçek yorum verisi kodda duruyor.
+
+## Ek – 19 Kasım, öğlen: sunucu yayını ve merak cümleleri
+
+- **Adım 7 bitti.** Mehmet'in yazılı izniyle PR #9 12:04'te `master`'a birleşti (`60640af`); 12:07'de canlıda `/api/Journey/starter` 200 dönmeye başladı. Canlı veritabanında son şema değişikliği `AddJourneys`; **6 yolculuk, 44 hikâye** (başlangıçlar 4'er, Kasabaya Yeni Geldi 10, Kafe Hikâyeleri 12, Dünya Şehirleri 10).
+- **Adım 8 bitti.** 12:13'te **43** merak cümlesi yazıldı; yedek tablo `Backup_NextHook_2026_11_18` 43 satır (hepsinin eski değeri boştu). Varanasi'nin cümlesi bilerek boş. İki örnek, canlıdan okundu:
+  - Ali's First Snow: "Turuncu kedi iki yıldır her sabah tam yedi buçukta karşı pencerede. Bir salı sabahı pencere boş."
+  - Two Cups: "Emma her sabah tilkiye biraz daha yaklaşıyor. Tilki her sabah kaçıyor. Şimdilik."
+- **5xx izlemesi:** yayından sonraki ilk on dakikada 0. İzleme 13:10'a kadar sürüyor; sonucu buraya eklenecek.
+
+## Taslak – yorum ekranı (Mehmet'in 12:10 sözü)
+
+Mehmet: "App Store yorumlarından en iyi iki ya da üçünü seç, alt alta göster; hafif kaydırılabilir olabilir." Bu, T3 kararının ("ekran kapatılır; Mehmet 'kalsın' derse kalır") "kalsın" kolu. Kod yok; önce taslak:
+
+![Yorum ekranı taslağı](ekran_2026-11-19/taslak_yorum.png)
+
+Seçilen üç yorum (kelimesi kelimesine, takma adlarıyla): Osdmc (31 Eki), mmmmöşişş (1 Kas), Delikurtttttt (7 Kas); üçü de 5 yıldız. Seçilmeyenler: şikâyet içeren (8 Kas), emoji içeren (7 Kas), 4 yıldızlı (7 Kas), çok kısa olan (13 Kas).
