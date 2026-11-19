@@ -1,6 +1,6 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 19 Kasım 2026, 11:20 (sürüm adayı raporundan sonra). Adım 1–6 ve 9 bitti (`raporlar/2026-11-19_surum_adayi_1.0.4.md`); sıra 7. adımda. Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
+**Son güncelleme:** 19 Kasım 2026, 12:40. Adım 1–9 bitti: sunucu 12:04'te canlıda, 43 merak cümlesi yazıldı, 1.0.4 (48) TestFlight'ta (`raporlar/2026-11-19_surum_adayi_1.0.4.md`). **Sıra 10. adımda: Mehmet'in TestFlight kontrolleri.** Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
 ## Hedef
@@ -30,9 +30,9 @@ Bu sürüme 5a–5d dışında başka hiçbir şey eklenmez. 5–5d görünümü
 Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölümdekiler birlikte yapılır, sonra tek tam sürüş.
 | # | Bulgu | Karar | Durum |
 |---|---|---|---|
-| T1 | Mehmet (19 Kas): balondaki "Cümleyi çevir ›" bağlantısı iyi, ama balon bir satır büyümüş | **Balon bağlantısız hâlinden yüksek olamaz.** Bağlantı kendi satırını almaz; son metin satırının ("ayrıca: …") sağ ucuna, aynı hizaya yerleşir. "Ayrıca" metni uzunsa üç noktayla kısalır; "ayrıca" yoksa bağlantı o satırın yerinde durur. Düğmelerin ölçüsü ve yeri değişmez. Test: bağlantılı balonun yüksekliği bağlantısız hâline eşit (kısa ve uzun anlam, SE 3, normal ve büyük yazı). | bekliyor |
+| T1 | Mehmet (19 Kas): balondaki "Cümleyi çevir ›" iyi, ama balon bir satır büyümüş | Bağlantı "ayrıca" satırının, o yoksa tür satırının sağ ucunda; balon bağlantısız hâlinden yüksek değil (testle kilitli). Tür de "ayrıca" da yoksa bağlantı çizilmez; basılı tutma çalışır. Görüntüsü derleme 49 sürüşünde | kod bitti (`3889e7a6`) |
 | T2 | Çeviri kartı N8–N9'da yok | Açıklandı: yerel sunucuda çeviri servisi yok. Sunucu yayınından sonra TestFlight'ta bağlantıdan ve basılı tutmadan birer cümle denenir | Mehmet bakar |
-| T3 | Editör: gerçek yorum eklenince yorum ekranı müşteriye de açıldı; onboarding'e bir ekran eklenmiş oldu ("Elif K." mağaza sürümünde hiç görünmüyordu) | **Ekran kapatılır** (Mehmet'in kuralı: onboarding'e ekran eklenmez; ilk hikâyeden önce her ek adım kayıp). Gerçek yorum saklanır; ileride paywall'da kullanılabilir. Mehmet "kalsın" derse kalır | bekliyor |
+| T3 | Yorum ekranı | **Mehmet (12:10): ekran kalır;** App Store'dan üç gerçek yorum alt alta, hafif kaydırılır, "Devam" sabit. Taslak: `raporlar/ekran_2026-11-19/taslak_yorum.png`. Ekip görüşü: uygun (kelimesi kelimesine, takma adlı, "App Store yorumu · 5★"); SE 3'te ilk yorumun tamamı ve "Devam" kaydırmadan görünmeli. Mehmet taslağa "olur" deyince derleme 49'a girer | taslak onayı bekliyor |
 | T4 | Editör: 2. günden sonraki bitiş cümlesi tabloda yoktu | Editörün yazdığı uygun: "Bugünün hikâyesini okudun, harika gidiyorsun. Sıradaki yarın seni bekliyor." (ses belgesine eklendi) | bitti |
 | T5 | Ana sayfa kişi kartındaki rütbe satırı gecikmeli geliyor (N14 → N15) | Yayını durdurmaz; gecikmenin süresi ve nedeni yayından sonra bakılır | sonra |
 
