@@ -39,7 +39,7 @@
 **Ortak nokta:** (1) ilerleme ana akışın içinde, (2) ölçü somut ve sık kıpırdıyor, (3) kullanıcının durduğu yer bir seviyeye bağlı, (4) sıradaki hedef yakın ve tarihli, (5) haritadan eylem başlıyor.
 
 ## 3. Ekip değerlendirmesi
-- **Paul:** Okuyarak öğrenen biri için gerçek ilerleme dört şeydir: okuduğu hikâye, okuduğu kelime, öğrendiği kelime, düzenli okuduğu gün. XP bunların gölgesi. Sayfanın başına bu dördü gelmeli. Seviye atlamayı okunan hikâye sayısına bağlayıp söz veremeyiz; ama kodda seviye hazırlığı ve değerlendirme altyapısı var: kullanıcı yeterince okuyunca "B1 denemesine hazırsın" denir, denemeyi geçerse seviye yükselir. Söz yok, kanıt var.
+- **Paul:** Okuyarak öğrenen biri için gerçek ilerleme dört şeydir: okuduğu hikâye, okuduğu kelime, öğrendiği kelime, düzenli okuduğu gün. XP bunların gölgesi. Sayfanın başına bu dördü gelmeli. Seviye atlamayı okunan hikâye sayısına bağlayıp söz veremeyiz; ama kodda seviye hazırlığı ve değerlendirme altyapısı var: kullanıcı yeterince okuyunca "B1 denemesine hazırsın" denir, denemeyi geçerse seviye yükselir. Söz yok, kanıt var. *(Düzeltme, 21 Kas: hazırlık sinyali ve geçiş sınavı Eylül'de koddan silinmiş; çalışan yalnız seviye ölçümü. Bkz. sondaki ek.)*
 - **Don:** Sayfa üç soruya cevap vermeli, bu sırayla: **Neredeyim? Ne başardım? Sırada ne var?** Bugün yalnız üçüncüye, o da XP diliyle cevap veriyor.
 - **Dieter:** Yol ve madalyalar kalır. Üstüne bir "Buradasın" kartı, yolun üstünde kullanıcının kendi işareti, kazanılan madalyada tarih ve o güne kadar okunanlar. Daha az süs, daha çok kanıt.
 - **Sean:** Dönüş sebebi yakın hedeftir: "Meraklı'ya 2 hikâye". Haftalık özet ("bu hafta 5 hikâye, 1.240 kelime") hem bildirim hem paylaşım kartı olur; paylaşılan kart Instagram'dan yeni kullanıcı getirir.
@@ -86,3 +86,39 @@ Her aşamadan sonra en az iki hafta ölçülür; ölçü kıpırdamıyorsa sonra
 - [LingQ istatistikleri](https://lingq-support.groovehq.com/help/understanding-lingq-statistics)
 - [Busuu çalışma planı](https://blog.busuu.com/new-feature-study-plan-achieve-language-learning-goals/)
 - [Xreading ile kademeli okuma yönetimi (JALT)](https://jalt-publications.org/node/4184)
+
+---
+
+## Ek (21 Kasım 2026): veriyle netleşen plan
+**Dayanak:** `raporlar/2026-11-20_ilerleme_verisi.md` (editör, 350 müşteri). Tek geçiş; üyeler kurgusaldır.
+
+### Veri planın neresini değiştirdi
+| Bulgu | Sonuç |
+|---|---|
+| Dört sayının dördü de bugün ve geriye dönük hesaplanabiliyor; yeni alan gerekmiyor | Aşama 2 sanıldığından ucuz |
+| "Öğrenilen kelime" bugünkü tanımla (tekrar aralığı en az 7 gün) 350 müşteriden 2'sinde var | Sayfaya "öğrendiğin kelime" yazılmaz; yerine **"defterindeki kelime"** (127 kişide var). "Öğrenilen" sayısı sıfırdan büyük olunca ayrıca görünür (Paul: sıfır gösteren sayı ilerleme değil, eksik gösterir) |
+| Okunan kelime dürüst: ortanca hız dakikada 46 kelime; şüpheli hızdaki bitirişler toplamın %1,7'si | "Okuduğun kelime" güvenle kullanılır |
+| İlk hafta en az 3 gün okuyan 30 kişi: 4 hikâye, ~750 kelime, 15 kelime, 3 gün | Kart, kalan kullanıcıda ilk haftada anlamlı sayılar gösterir |
+| 20 XP: ilk gün XP kazananların %70'i rütbe alır. 350 XP: düzenli okuyan 4. günde ikinci rütbede (11/17) | İlk iki eşik: **20 ve 350** |
+| Üçüncü eşik için 17–21 kişilik veri | Üçüncü eşik şimdilik **1.000** (geçici); bir ay sonra yeniden bakılır. Dördüncü ve sonrası değişmez |
+| Bitiş ekranındaki "Artık Çaylak!" satırı ile çıkıştaki tam ekran kutlama aynı şeyi iki kez söylüyor | **İlk rütbe bitiş ekranında kutlanır** (satır zenginleşir: rütbe görseli + "Yolunu gör ›"); tam ekran kutlama ilk rütbede çıkmaz, böylece "Sıradaki hikâye"nin önü kesilmez. İkinci rütbeden itibaren tam ekran kutlama kalır. İlk bitişte en çok bir rozet kutlaması (dar düzeltme) |
+| Kutlamanın gösterildiği ölçülmüyor | Aşama 1'e iki olay: kutlama gösterildi, "Yolunu gör"e dokunuldu |
+| Eşik inince 148 eski kullanıcı rütbeyi sessizce alır | Kabul; çoğu etkin değil, ayrı tören yapılmaz |
+| Seviye hazırlığı ve geçiş sınavı Eylül'de koddan silinmiş; "Seviyeni belgele"yi hiçbir müşteri denememiş; seviyesi sonradan değişen 9 kişinin 4'ü aşağı inmiş; içerik dengesiz (A1 24, C1 20, C2 4 hikâye) | **Aşama 3 (seviye yolu) beklemeye alındı.** İncelemedeki "altyapı var" cümlesi yanlıştı; düzeltildi |
+| Çalışan ve kullanılan şey: seviye ölçümü (97 tamamlanmış ölçüm) | "Neredeyim?" sorusunun cevabı ölçülen seviye olur; yanında "Yeniden ölç" bağlantısı. Yol resmi çizilmez, söz verilmez |
+| 104 müşteri hiç seçim yapmadığı için varsayılan A1 görünüyor | Bu kullanıcılara seviye yerine "Seviyeni ölç" gösterilir |
+
+### Netleşen yol haritası
+| Sıra | Aşama | İçerik | Büyüklük |
+|---|---|---|---|
+| 1 | **Görünür ve hızlı** | Eşikler 20 / 350 / 1.000 (geçici); ilk rütbe bitiş ekranında; ilk bitişte tek rozet; kutlama olayları; kariyer sayfasında "Sıradaki hikâye" düğmesi | Küçük (eşikler tek dosya; kutlama sınırı 1–2 dosya). Eşik değişikliği sunucu yayınıdır: Mehmet onayı |
+| 2 | **Kanıt** | "Buradasın" kartı: ölçülen seviye (yeniden ölç) · okuduğun hikâye · okuduğun kelime · defterindeki kelime · okuduğun gün; dördünü veren tek sunucu ucu; sayfanın adı; kazanılan rütbede tarih; haftalık özet | Orta |
+| 3 | **Tarih** | "Bu hızla perşembe" (tahmin ucu hazır) | Küçük; düzenli okuyan sayısı artınca anlamlı |
+| — | Seviye yolu | Beklemede: sorular okunmadan, içerik dengelenmeden ve yeniden yazım kararı verilmeden açılmaz | Büyük |
+
+Hepsi 1.0.4'ten sonra; her aşamadan sonra en az iki hafta ölçüm.
+
+### Yan bulgular (sonraki düzeltme sürümüne)
+- Kariyer sayfasındaki Premium kartının düğmesi çift tanım yüzünden "İncele" yerine "Bütün yolculukları aç" yazıyor.
+- Okuma süresi tutarsız: 137 kelimelik hikâye "3 dk", 254 kelimelik "2 dk" (veri; Paul bakar).
+- "A1 öncesi" değeri sıralamada C2'nin üstüne düşüyor; seviye gösteren her yerde sıra doğru kurulmalı.

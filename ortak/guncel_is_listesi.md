@@ -1,6 +1,6 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 20 Kasım 2026, 20:50. Sunucu ve ödeme düzeltmeleri canlıda; **derleme 49 TestFlight'ta ve Play dahili testte** (`raporlar/2026-11-20_editor_durum_raporu.md` Ek 4). Sırada Mehmet'in telefonda bakması ve "kontroller bitti" sözü. İlerleme verisi görevi bitti: `raporlar/2026-11-20_ilerleme_verisi.md` (bölüm 5 yayından bir hafta sonra). **Sıra: T11–T13 kodu, sonra Mehmet'in "kontroller bitti" sözü, tek derleme.** T11 bu sürüme eklenen son iştir; bundan sonra gelen her şey "sonraki sürüm" başlığına yazılır. Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
+**Son güncelleme:** 21 Kasım 2026, 00:30. **1.0.4 derleme 49 TestFlight'ta ve Play dahili testte** (`raporlar/2026-11-20_editor_durum_raporu.md` Ek 4). **Sıra Mehmet'te: 10. adım (kontroller), sonra mağaza.** Bu sürüme başka bir şey eklenmez.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
 ## Hedef
@@ -52,6 +52,8 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 2. Testçilere not Mehmet'te: "derleme 49 çıkana kadar uygulamayı silmeden güncelleyin ya da silmeden önce üye olun."
 3. Mağaza görsellerine okuma yolculuğu karesi eklenir; derleme 49 sürüşünden, T12'li ana sayfa karesiyle.
 4. "Daily English Founder" kodları derleme 49 mağazada olmadan dağıtılmaz. Promosyon 30 Kasım'da bitiyor; yetişmezse Mehmet yeni promosyon açar.
+| T15 | Derleme 49 görüntülerinde ekibin gördüğü küçük kusurlar (yayını durdurmaz) | İptal penceresinde tarih İngilizce biçimde ("Nov 19, 2027" → "19 Kas 2027"); düğme yazısı SE 3'te iki satıra kırılıyor ("Üyeliği iptal et", "App Store'a git"); başlık "Üyeliği iptal et" (yalnız ilk harf büyük). Mehmet'in kontrollerinden başka bir bulgu çıkıp derleme 50 gerekirse onunla; çıkmazsa ilk düzeltme sürümüyle | sonra |
+| T16 | Derleme 49'da gerçek cihazda henüz denenmeyenler | Yolculuk sayfası canlı sunucuyla gerçek telefonda; Google'da uygulama içinden iptal (test aboneliğiyle); gerçek bir promosyon koduyla Premium'un açılması; misafir kurtarma. Mehmet'in kontrol listesine eklendi | Mehmet |
 
 ## 2. Yayından sonraki iki hafta: ilk oturuma kod yok
 İzinli: hata düzeltme, ölçüm, içerik.
@@ -62,7 +64,7 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 ## 3. Sonraki sürüm için hazırlık (kod yok; karar 2. hafta toplantısında)
 Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitişte tek kutlama · hikâye bitince kelime tekrarı ve günün quizine çağrı · kilitli 3. hikâyede iki kapı · "Senin Yolculuğun" sayfası · ana sayfanın sadeleşmesi (ilk hafta sayacı, yolculuk kartı ve kişi kartı üç ayrı ilerleme gösteriyor; tek resme indirilecek, taslakla) · bütün metinlerin `ortak/uygulamanin_sesi.md` ile taranması (yalnız metin; iki hafta içinde yapılabilir).
 
-**Kariyer sayfasının geleceği (Mehmet, 20 Kas 14:13):** inceleme ve dört aşamalı yol haritası `raporlar/2026-11-20_ingilizce_yolculugu_incelemesi.md`. 1.0.4'e bir şey eklemez; ilk aşama (hızlı ilk rütbeler, tek kutlama, sayfada "Sıradaki hikâye") sonraki sürümün işidir.
+**Kariyer sayfasının geleceği (Mehmet, 20 Kas 14:13):** inceleme ve yol haritası `raporlar/2026-11-20_ingilizce_yolculugu_incelemesi.md`; veriyle netleşen hâli aynı dosyanın sonundaki ekte (21 Kas): sıra 1) eşikler 20/350/1.000 ve ilk rütbe bitiş ekranında, 2) "Buradasın" kartı, 3) tarih; seviye yolu beklemede. 1.0.4'e bir şey eklemez; ilk aşama (hızlı ilk rütbeler, tek kutlama, sayfada "Sıradaki hikâye") sonraki sürümün işidir.
 
 **2. hafta toplantısında veriyle bakılacak soru (Mehmet, 19 Kas):** cümle çevirisine kelime balonundan geçmeden, doğrudan ve görünür bir yol açılsın mı? Ekip görüşü: şimdilik hayır; bu sürüm iki keşif yolu ekliyor (balondaki bağlantı, ipucu). `sentence_translate_opened` olayının kaynağına (balon / basılı tutma) ve kullanan kişi oranına (bugün %22) bakılır.
 
