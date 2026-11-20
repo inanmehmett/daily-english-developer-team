@@ -1,6 +1,6 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 20 Kasım 2026, 20:50. Sunucu ve ödeme düzeltmeleri canlıda; **derleme 49 TestFlight'ta ve Play dahili testte** (`raporlar/2026-11-20_editor_durum_raporu.md` Ek 4). Sırada Mehmet'in telefonda bakması ve "kontroller bitti" sözü. **Sıra: T11–T13 kodu, sonra Mehmet'in "kontroller bitti" sözü, tek derleme.** T11 bu sürüme eklenen son iştir; bundan sonra gelen her şey "sonraki sürüm" başlığına yazılır. Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
+**Son güncelleme:** 20 Kasım 2026, 20:50. Sunucu ve ödeme düzeltmeleri canlıda; **derleme 49 TestFlight'ta ve Play dahili testte** (`raporlar/2026-11-20_editor_durum_raporu.md` Ek 4). Sırada Mehmet'in telefonda bakması ve "kontroller bitti" sözü. İlerleme verisi görevi bitti: `raporlar/2026-11-20_ilerleme_verisi.md` (bölüm 5 yayından bir hafta sonra). **Sıra: T11–T13 kodu, sonra Mehmet'in "kontroller bitti" sözü, tek derleme.** T11 bu sürüme eklenen son iştir; bundan sonra gelen her şey "sonraki sürüm" başlığına yazılır. Gerekçe: `raporlar/2026-11-18_yol_haritasi_toplantisi.md`.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
 ## Hedef
