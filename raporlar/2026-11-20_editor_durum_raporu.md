@@ -108,3 +108,57 @@ Var olan bir ekranın görünümü değiştiği için önce taslak: `raporlar/ek
 | B | Kapak sırası; küçük kapak da kalır (listede yazdığı gibi yalnız çizgi değişir) | 279 pt (+91) |
 
 Önerim A: aynı kapak iki kez görünmez, SE 3'te düğmenin ekranda kalması daha kolay. Uzun yolculukta sıra yana kayar ve sıradaki hikâyede açılır; ücretsiz hikâyeler bitince kilit işareti.
+
+## Ek 2 (20 Kasım, 14:30): "Senin Yolculuğun" sayfası ve balon taslağı
+
+### T11: "Senin Yolculuğun" sayfası (kod bitti, `80619066`)
+
+Onboarding'den sonra ("Ücretsiz başla" ya da deneme) ilk açılan ekran artık bu sayfa. Akış: yolculuk sayfası → kapağa ya da düğmeye dokun → hikâyenin kapak sayfası → okuma.
+
+Görüntüler iPhone SE 3 simülatöründen, uygulamanın kendi temasıyla; kapaklar canlıdaki gerçek kapaklar.
+
+![Yolculuk sayfası](ekran_2026-11-20/yolculuk_pano.png)
+
+Soldan sağa: ilk açılış (0/4, "İlk hikâyeni aç") · ikinci hikâyede (1/4, "Sıradaki hikâye") · aynı durum büyük yazıda (x1,35) · uzun yolculuk, sıradaki yarın açılıyor ve ileride Premium hikâyeler var.
+
+| Ne | Nasıl |
+|---|---|
+| Yol | Aşağıdan yukarı kıvrılan noktalı yol; ilk hikâye en altta. Okunan kısım dolu turuncu, kalanı soluk |
+| Duraklar | Kapak beyaz çerçevede; yanında ad ve süre. Okunan ✓, sıradaki büyük, turuncu çerçeveli ve hafifçe nefes alıyor (hareket azaltma açıksa durur), açılmayan soluk, Premium olan kilit işaretli |
+| Üst | Yolculuğun adı ve n/toplam; başka sayfadan gelindiyse geri düğmesi |
+| Alt | Sabit tek düğme: hiç okunmamışsa "İlk hikâyeni aç", sonra "Sıradaki hikâye"; yarın açılacaksa "Premium'la şimdi oku" |
+| Dokunma | Kapak da düğme de hikâyenin kapak sayfasını açar. Sıradaki olmayan kapakta da kapak sayfası açılır; kilit orada durur |
+| Uzun yolculuk | Sayfa sıradaki hikâyede açılır, yukarı doğru kayar |
+| Deneme başlatan | Satın alma sonrası aynı sayfaya düşer |
+| Yolculuk yoksa (sunucu vermediyse) | Eskisi gibi seviyenin ilk hikâyesinin kapak sayfası |
+
+Ölçüm, adım adım: `journey_page_shown` (kaynak: onboarding / purchase / home) → `journey_page_stop_tapped` (kapak mı düğme mi, sıradaki mi) → kapak sayfası → `journey_stop_started`.
+
+18 Kasım'da geri alınan kod düz bir listeydi; kullanılmadı. Sayfa, o gün onaylanmak üzere çizilen taslaktaki (`ekran_2026-11-18b/taslak_harita.png`) yol düzeniyle yeniden yazıldı. Kariyer sayfasına dokunulmadı.
+
+Testler: durak durumları, düğme metni, kapağa dokunma, SE boyutunda normal ve büyük yazıda taşma yok. Uygulama tam testi 1.175 geçti.
+
+**Bilinen eksikler:** sayfa gerçek sunucu verisiyle telefonda henüz baştan sona sürülmedi (görüntülerde yolculuk verisi örnek, kapaklar gerçek); "sıradaki yolculuk" bölümü (taslakta yolun sonunda) yok; koyu tema yok (sayfa açık temada sabit).
+
+### T12: ana sayfa kartı (kod bitti, aynı commit)
+
+Kart sade kaldı, kapak sırası eklenmedi. Başlık satırının sağına "Yolculuğunu gör ›" bağlantısı geldi; ilerleme çizgisi de dokunulur oldu (dokunma alanı çizginin üstüne ve altına 10 pt taşıyor, yerleşim değişmedi). İkisi de yolculuk sayfasını açar. Görüntüsü derleme 49 sürüşünde.
+
+### T13: balon taslağı (kod yok, Mehmet seçecek)
+
+![Balon taslağı](ekran_2026-11-20/taslak_balon_uc_secenek.png)
+
+Üç kelime (straight, mountains, uzun anlamlı "carries"), üç seçenek, hepsinde "ayrıca yarım gösterilmez" kuralı. iPhone SE eni, uygulamanın yazı tipleri.
+
+| | straight | mountains | carries |
+|---|---|---|---|
+| A · tür satırında küçük bağlantı | 185 pt (%49), kısa etiket | 234 pt (%62), **bağlantı sığmıyor** | 293 pt (%78), tam etiket |
+| B · düğme sütununda simge | 223 pt (%59) | 272 pt (%72) | 293 pt (%78) |
+| C · bugünkü hâl | 287 pt (%76) | 293 pt (%78), "ayrıca" çizilmiyor | 293 pt (%78), "ayrıca" çizilmiyor |
+
+Taslağın gösterdikleri:
+- **A'da "mountains" bağlantısız kalıyor:** "isim · mountain · Cümle ›" bağlantısız balonun enine 7 pt sığmıyor. Balon aynı ölçüde kalacaksa bu tür kelimelerde bağlantı olmaz. Sabah gerçek 800 anlamla yaptığım ölçüm de aynı yönü gösteriyordu (o ölçüm bağlantıyı "ayrıca" satırında deniyordu; A için yeniden ölçmedim).
+- **B her kelimede çalışıyor**, metin sütununa hiç dokunmuyor; bedeli balonun her zaman 38 pt geniş olması ve simgenin ne olduğunun ilk bakışta anlaşılmaması.
+- **C'de** "ayrıca yarım gösterilmez" kuralı iki kelimede "ayrıca"yı tamamen siliyor.
+
+**Dalda duran kod:** bu talimat gelmeden önce `59eefc1e` ile "balon bağlantısız hâliyle aynı ölçüde, bağlantı son satırda" kuralını yazıp göndermiştim (A'ya yakın ama bağlantı "ayrıca" satırında). Mehmet seçince yerine seçilen yazılacak; C seçilirse o commit geri alınır. Derleme 49 seçimden önce çıkarılmamalı.
