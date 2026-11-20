@@ -54,6 +54,11 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 4. "Daily English Founder" kodları derleme 49 mağazada olmadan dağıtılmaz. Promosyon 30 Kasım'da bitiyor; yetişmezse Mehmet yeni promosyon açar.
 | T15 | Derleme 49 görüntülerinde ekibin gördüğü küçük kusurlar (yayını durdurmaz) | İptal penceresinde tarih İngilizce biçimde ("Nov 19, 2027" → "19 Kas 2027"); düğme yazısı SE 3'te iki satıra kırılıyor ("Üyeliği iptal et", "App Store'a git"); başlık "Üyeliği iptal et" (yalnız ilk harf büyük). Mehmet'in kontrollerinden başka bir bulgu çıkıp derleme 50 gerekirse onunla; çıkmazsa ilk düzeltme sürümüyle | sonra |
 | T16 | Derleme 49'da gerçek cihazda henüz denenmeyenler | Yolculuk sayfası canlı sunucuyla gerçek telefonda; Google'da uygulama içinden iptal (test aboneliğiyle); gerçek bir promosyon koduyla Premium'un açılması; misafir kurtarma. Mehmet'in kontrol listesine eklendi | Mehmet |
+| T17 | **Mehmet (21 Kas 00:37):** balondaki çeviri simgesine dokununca cümle seslendirilmesin; cümleye basılı tutunca seslendirilsin | Simge: çeviri kartı sessiz açılır. Basılı tutma: bugünkü gibi çeviri ve ses | sıradaki derleme |
+| T18 | **Mehmet:** günün quizi gelmiş ama Quiz sekmesinde işaret yok | Hata: 5c'ye göre günün quizi çözülmediyse Quiz sekmesinde turuncu rozet olmalı. Doğrula, düzelt | sıradaki derleme |
+| T19 | **Mehmet:** "Seviyeni belgele" doğrudan zor bir boşluk doldurma ile başlıyor; bu hâliyle işe yaramaz | Sorular incelenip akış düzeltilene kadar profildeki "Seviyeni belgele" satırı **gizlenir** (müşteriden 0 deneme var; kayıp yok). Sunucudan gizlenebiliyorsa hemen, değilse sıradaki derlemeyle | editör bakar |
+
+**Mehmet'in 21 Kasım notlarının tamamı ve ekip değerlendirmesi:** `raporlar/2026-11-21_mehmet_notlari_degerlendirme.md` (metin seviyeleri, günün quizi, seviye testleri, güncelleme düzeni). Editör verisi: `ortak/editor_gorevi_2026-11-21_seviye_quiz_guncelleme_verisi.md`. Yeni ekip üyesi: Charles Kızılağaç (ölçme ve değerlendirme).
 
 ## 2. Yayından sonraki iki hafta: ilk oturuma kod yok
 İzinli: hata düzeltme, ölçüm, içerik.
@@ -88,6 +93,7 @@ Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (k
 - 19 Kas 12:10: yorum ekranı kapanmasın; App Store yorumlarından en iyi iki üçü alt alta, hafif kaydırılabilir gösterilsin. Editör taslak hazırladı (`raporlar/ekran_2026-11-19/taslak_yorum.png`); Mehmet onaylayınca derleme 49'a girer (T3 "kalsın" koluna döner).
 - 19 Kas 12:03: "İzin veriyorum, sunucu yayınını yap." Editör PR #9'u birleştirdi; adım 7 ve 8 bitti.
 - 19 Kas: merak cümleleri doğrudan olsun, gereksiz ifade olmasın, ilgiyi anında çeksin. Editör 44 cümleyi taradı; 19'u kısaltıldı (giriş, duyuru ve yorum cümleleri çıktı), Varanasi'nin cümlesi kaldırıldı ("15 şehir daha" sözü tutulamıyordu). Mehmet önce/sonra tablosunu onayladı. Yazılacak sayı artık **43**. Betik: `MigrationScripts/SetJourneyNextHooks_2026_11_18.sql` (sunucu `74bc378`).
+- 21 Kas 00:37: çeviri simgesi sessiz (T17); Quiz sekmesi rozeti (T18); seviye belgesi bu hâliyle işe yaramaz, hemen çözülsün (T19); metin seviyeleri denetlensin; günün quizi sayfası incelensin; ölçme uzmanı ekibe alınsın; eski sürümdeki kullanıcıların güncellemesi tartışılsın.
 - 20 Kas 19:04: balonda B (simge); ekranın altında şerit önerisi kabul edilmedi.
 - 20 Kas 13:25: onboarding'den sonra önce yolculuk sayfası (kariyer yolundaki gibi, sırayla kitaplar), sonra kapak sayfası, sonra okuma. "Görsel olarak da karınları doymalı."
 - 20 Kas 13:13: onboarding sonunda doğrudan okumaya girmesin, görsel bir geçiş olsun (T11); yolculuğun adımları görsel olarak görünsün (T12); balon enine uzamasın (T13).
