@@ -25,3 +25,10 @@
 1. Müşterilerin sürüm dağılımı: son 7 günde uygulamayı açanlar ve bütün müşteriler ayrı ayrı.
 2. Sunucudaki güncelleme ayarı (`MobileUpdateOptions`) ne yapabiliyor: öneri mi, zorunlu mu, ikisi de mi? Hangi uygulama sürümleri bu ayara uyuyor (denetim hangi derlemeden beri uygulamada)? Eski sürümde kullanıcı ne görüyor (ekran görüntüsü varsa)?
 3. Kullanıcıyı kilitleyen bilinen bir hatası olan sürümler hangileri (ör. onboarding'deki ipucu hatası hangi derlemelerde vardı); o sürümlerde kaç müşteri kaldı?
+
+## 5. Adlar ve açıklamalar (Mehmet, 21 Kas 00:44; inceleme ekipte)
+Dayanak: `raporlar/2026-11-21_baslik_ve_aciklama_incelemesi.md`.
+1. 287 etkin metnin tamamı için tek dosya (`raporlar/veri_2026-11-21/adlar_ve_aciklamalar.csv`): kimlik, İngilizce ad, Türkçe ad, **İngilizce açıklama**, **Türkçe açıklama**, tür, seviye, kelime sayısı, dizi ve bölüm, ücretsiz/günlük/Premium, başlangıç yolculuğunda mı, metnin ilk 80 kelimesi, merak cümlesi (varsa).
+2. Kullanıcı bu alanları nerede görüyor: kartta, kapak sayfasında, yolculuk sayfasında hangi alan yazıyor (ekran görüntüsüyle birer örnek). Tür (kurgu / gerçek hikâye / efsane / klasik) kullanıcıya bir yerde gösteriliyor mu?
+3. Sayılar: İngilizce açıklaması boş olan, Türkçe açıklaması boş olan, 40 karakterden kısa olan, aynı açıklamayı paylaşan metinler.
+4. Dizilerde açıklama dizinin mi, bölümün mü? Bölüm kendi açıklamasını taşıyor mu?
