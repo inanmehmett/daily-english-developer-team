@@ -171,3 +171,56 @@ Mehmet (18:40): "Yolculuk sayfası var ama kutuların içinde kitap görselleri 
 - **Arka plan:** düz geçişin yerine kariyer sayfasının manzara dili geldi: güneş, tepe sıraları, çamlar ve sırtlar; her sıra tepesinde belirgin, aşağı doğru saydamlaşıyor (keskin kenar yok). Saydamlıklar düşük; kapaklar ve adlar öne çıkıyor.
 
 Görüntüler yenilendi: `ekran_2026-11-20/yolculuk_pano.png` ve tekil dosyalar.
+
+### Ek 4 (20 Kasım, 21:00): derleme 49 (1.0.4+49)
+
+**Yükleme:** iOS TestFlight'a yüklendi (20:29, "Upload succeeded"). Android paketi Play dahili test kanalına yüklendi (20:46, sürüm kodu 49). İkisi de yalnız test kanalında; üretime ya da incelemeye hiçbir şey gönderilmedi, o adım Mehmet'te.
+
+**İçindekiler** (`feat/journey-core`, son commit `c639a389`, gönderildi):
+
+| İş | Commit | Durum |
+|---|---|---|
+| T13-B balon: düğme sütununda çeviri simgesi | `332aef81` | eni ve boyu testle kilitli; "ayrıca" ya tam ya hiç |
+| T14 yolculuk sayfası (S1–S5) | `0a43f712`, `c639a389` | aşağıda |
+| Yorum ekranı: üç gerçek yorum | `6f10495d` | iOS'ta iki App Store + bir Play, Android'de tersi |
+| T9 iptal, T10 promosyon, T11, T12, misafir kurtarma | önceki commit'ler | değişmedi |
+
+Uygulama tam testi: 1.219 geçti.
+
+**Yolculuk sayfası** (SE 3; ilk açılış, ikinci hikâye, yarın açılacak, büyük yazı):
+
+![Yolculuk sayfası](ekran_2026-11-20/d49_yolculuk_sayfasi.png)
+
+- S1: yarın açılacakken "Sıradaki hikâye yarın seni bekliyor." satırı, "Premium'la şimdi oku" ve altında "Yarın hatırlat" (bitiş ekranındaki hatırlatma kapısının aynısı; `remind_tomorrow_tapped` kaynağı `journey_page`).
+- S2: başlık alanı sabit ve zemin renginde; yol onun altında kayıyor. Ad etiketi kapağa binmiyor (testle kilitli, normal ve 1,6 kat yazı).
+- S3: "{ad}, yolculuğun burada başlıyor." yalnız ilk açılışta ve hiç hikâye okunmamışken; ad yoksa "Yolculuğun burada başlıyor."
+- S4: gelecek hikâyenin adı tam koyulukta, kapağı soluk.
+- S5: süreler gerçek. Canlıdaki başlangıç yolculuğunda 3, 3, 2, 2 dk; bütün yolculuklarda 2–6 dk. Bir tutarsızlık var: 137 kelimelik hikâye 3 dk, 254 kelimelik 2 dk yazıyor. Veri sorunu, bu sürümde dokunmadım.
+
+**Sürüşte bulunan ve düzeltilen bir kusur (`c639a389`):** sayfa yolculuğun ortasında açılınca sıradaki kapağı ekranın ortasına kaydırıyordu; bu yüzden üst kenar bir kapağın üstüne düşüyor, en üstteki kapak yarım kesiliyordu (ilk açılışta kusur yoktu, o yüzden önceki görüntülerde görünmedi). Artık tam durak aralığı kadar kaydırıyor: bir önceki hikâye altta, sıradaki üstünde, üst kenar iki durağın arasında. İki kapağın sığmadığı kısa ekranda bir buçuk kapak yerine tek kapak görünür. Testle kilitli: 7 duraklı yolda her konum, 375 ve 390 genişlik, normal ve 1,6 kat yazı. **Sınır:** 320×568 ekranda 1,6 kat yazıyla yola bir kapaklık yer bile kalmıyor; orada kapak kesiliyor.
+
+**Tam sürüş, SE 3, yerel sunucu (canlı kataloğun kopyası), normal yazı** (yorum ekranı → yolculuk → kapak sayfası → okuma → balon → balondan cümle çevirisi):
+
+![Sürüş, normal yazı](ekran_2026-11-20/d49_surus_normal.png)
+
+**Aynı sürüş, en büyük yazı ayarı** (80 kare, baştan sona geçti):
+
+![Sürüş, büyük yazı](ekran_2026-11-20/d49_surus_buyuk_yazi.png)
+
+**Balon (straight, mountains, carries; "cümle" yazılı ilk üç balon; büyük yazı) ve iptal penceresi (Android, iOS):**
+
+![Balon ve iptal penceresi](ekran_2026-11-20/d49_balon_ve_iptal.png)
+
+Balon ölçümü: simgeye dokunma `balloon_icon`, basılı tutma `long_press` kaynağıyla ayrı yazılıyor.
+
+**Sürüşün gösterdiği başka şeyler:**
+- **Misafir kurtarma iOS'ta silip kurmada çalıştı.** Büyük yazı sürüşünün ilk denemesinde uygulamayı silip kurdum; sunucu aynı misafir hesabı geri verdi (giriş yöntemi `anonymous_return`), yolculuk 2/4'ten devam etti. Simülatörde gördüm; gerçek telefonda denenmedi.
+- **İptal penceresinde düğme yazısı SE 3'te iki satıra kırılıyor** ("Üyeliği iptal / et", "App Store'a / git"). Çalışıyor, görünüm kusuru. "Bu sürüme başka bir şey eklenmez" dendiği için dokunmadım; karar ekipte.
+- Yerel sunucuda ses klibi ve çeviri hizmeti yok; sürüşteki "oynat düğmesi yok" satırı bundan.
+
+**Yapılmayanlar, olduğu gibi:**
+- "Telefonda baştan sona dene": sürüş SE 3 simülatöründe ve yerel sunucuda yapıldı, gerçek telefonda ve canlı sunucuda değil. Gerçek telefon denemesi TestFlight'taki derleme 49 ile Mehmet'te.
+- Normal yazı sürüşü `c639a389`'dan bir commit önce koşuldu (o commit yalnız yolun ortasındaki açılış konumunu değiştiriyor); yolculuk sayfası kareleri ve büyük yazı sürüşü son kodla.
+- 2. ve 7. gün kareleri (290–296) geçersiz: günü ilerleten betikler 20 Kasım'daki yeniden başlatmada silindi, yeniden yazılmadı.
+- Google'da uygulama içinden iptal canlıda gerçek bir istekle hâlâ denenmedi; T10 gerçek bir promosyon koduyla denenmedi.
+- Koyu tema yolculuk sayfasında yok (sayfa açık temada sabit).
