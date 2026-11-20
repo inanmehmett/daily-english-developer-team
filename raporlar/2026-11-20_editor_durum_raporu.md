@@ -94,3 +94,17 @@ Ayrıntı: "ayrıca"sı olmayan 265 kelimenin 228'inde bağlantı yok (balon, k�
 | C | Etiket yerine küçük bir simge (yaklaşık 18 pt) | Hiç büyümez | Hemen hepsinde; ama simgenin ne olduğu ilk bakışta anlaşılmayabilir |
 
 Mehmet'in şikâyeti bağlantı uzun "ayrıca"nın yanına gelince balonun belirgin biçimde uzamasıydı; B o durumu yine engelliyor. Önerim B. Karar gelene kadar A dalda duruyor.
+
+### T12 (kartta kapaklı adım sırası): taslak hazır, kod Mehmet'in seçiminden sonra
+
+Var olan bir ekranın görünümü değiştiği için önce taslak: `raporlar/ekran_2026-11-20/taslak_kart_kapak_sirasi.png` (gerçek kapaklar, iPhone SE eni).
+
+![Kart taslağı](ekran_2026-11-20/taslak_kart_kapak_sirasi.png)
+
+| | Ne | Kart yüksekliği |
+|---|---|---|
+| Bugün | İnce ilerleme çizgisi | 188 pt |
+| A | Kapak sırası; soldaki küçük kapak kalkar (sıradaki kapak sırada zaten çerçeveli) | 245 pt (+57) |
+| B | Kapak sırası; küçük kapak da kalır (listede yazdığı gibi yalnız çizgi değişir) | 279 pt (+91) |
+
+Önerim A: aynı kapak iki kez görünmez, SE 3'te düğmenin ekranda kalması daha kolay. Uzun yolculukta sıra yana kayar ve sıradaki hikâyede açılır; ücretsiz hikâyeler bitince kilit işareti.
