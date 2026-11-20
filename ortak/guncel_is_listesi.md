@@ -61,6 +61,8 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 - **Çeviri işi (tur04):** önce 12 başlangıç metni; işçi sayısı Mehmet'in dediği gibi. Sürüm 1 adımları sırasında editörün sınırını yiyorsa Mehmet'e söylenir.
 - **Ekip:** haftalık tek tablo; Play yorumları ve destek e-postası; 17 Kasım'daki 76 kişilik sıçramanın kaynağı; yolculuk zinciri; başlangıçların kısadan uzuna sıralanması; dönen kullanıcıya sorulacak tek soru.
 
+**Satış kanalı ve bildirim (toplantı, 21 Kas):** `raporlar/2026-11-21_satis_kanali_ve_bildirim_toplantisi.md`. Editör: `ortak/editor_gorevi_2026-11-21_kanal_ve_bildirim_verisi.md` (salt okuma, yayından sonra). Ekip: bildirim metinlerinin yeniden yazımı (Paul), Instagram bağlantılarına kampanya etiketi (Sean, Instagram ekibiyle). Mehmet: App Store Connect'e giriş (kaynak dökümü için). Bildirim düzeni 1.0.4'ten bir hafta sonra veriyle.
+
 ## 3. Sonraki sürüm için hazırlık (kod yok; karar 2. hafta toplantısında)
 Taslak ve veri: ilk rütbe hızlı (20 / 350 / üçüncü veriyle) ve ilk bitişte tek kutlama · hikâye bitince kelime tekrarı ve günün quizine çağrı · kilitli 3. hikâyede iki kapı · "Senin Yolculuğun" sayfası · ana sayfanın sadeleşmesi (ilk hafta sayacı, yolculuk kartı ve kişi kartı üç ayrı ilerleme gösteriyor; tek resme indirilecek, taslakla) · bütün metinlerin `ortak/uygulamanin_sesi.md` ile taranması (yalnız metin; iki hafta içinde yapılabilir).
 
