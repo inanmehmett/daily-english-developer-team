@@ -162,3 +162,12 @@ Taslağın gösterdikleri:
 - **C'de** "ayrıca yarım gösterilmez" kuralı iki kelimede "ayrıca"yı tamamen siliyor.
 
 **Dalda duran kod:** bu talimat gelmeden önce `59eefc1e` ile "balon bağlantısız hâliyle aynı ölçüde, bağlantı son satırda" kuralını yazıp göndermiştim (A'ya yakın ama bağlantı "ayrıca" satırında). Mehmet seçince yerine seçilen yazılacak; C seçilirse o commit geri alınır. Derleme 49 seçimden önce çıkarılmamalı.
+
+### Ek 3 (20 Kasım, 18:50): Mehmet telefonda baktı, iki düzeltme (`101e13e8`)
+
+Mehmet (18:40): "Yolculuk sayfası var ama kutuların içinde kitap görselleri yok; arka plan da sade gelmiş."
+
+- **Kapaklar boş çıkıyordu; benim hatam.** Sunucu durağın kapağını kısa yol olarak veriyor (`/images/…`); yolculuk verisi bunu tam adrese çevirmiyordu. İlk görüntüleri tam adresle aldığım için hata gizli kalmıştı (raporda "gerçek sunucu verisiyle sürülmedi" diye yazdığım eksik tam buydu). Düzeltildi; görüntü koşusu artık sunucunun verdiği kısa yolu kullanıyor, bir de testle kilitli.
+- **Arka plan:** düz geçişin yerine kariyer sayfasının manzara dili geldi: güneş, tepe sıraları, çamlar ve sırtlar; her sıra tepesinde belirgin, aşağı doğru saydamlaşıyor (keskin kenar yok). Saydamlıklar düşük; kapaklar ve adlar öne çıkıyor.
+
+Görüntüler yenilendi: `ekran_2026-11-20/yolculuk_pano.png` ve tekil dosyalar.
