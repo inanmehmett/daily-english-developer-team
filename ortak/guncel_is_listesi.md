@@ -58,6 +58,8 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 | T18 | **Mehmet:** günün quizi gelmiş ama Quiz sekmesinde işaret yok | Hata: 5c'ye göre günün quizi çözülmediyse Quiz sekmesinde turuncu rozet olmalı. Doğrula, düzelt | sıradaki derleme |
 | T19 | **Mehmet:** "Seviyeni belgele" doğrudan zor bir boşluk doldurma ile başlıyor; bu hâliyle işe yaramaz | Sorular incelenip akış düzeltilene kadar profildeki "Seviyeni belgele" satırı **gizlenir** (müşteriden 0 deneme var; kayıp yok). Sunucudan gizlenebiliyorsa hemen, değilse sıradaki derlemeyle | editör bakar |
 
+**En sadık kullanıcılar gitti (Mehmet, 21 Kas 00:58):** 4+ gün okuyan müşterilerin son oturumu tek tek incelenecek (kanal ve bildirim veri görevinin eki, öncelikli). Veri gelince ekip geri çağırma kararını verir; kullanıcıya gidecek her mesaj önce Mehmet'e taslak.
+
 **Adlar ve açıklamalar (Mehmet, 21 Kas 00:44):** adlardan ilk inceleme `raporlar/2026-11-21_baslik_ve_aciklama_incelemesi.md`; açıklamalar editörün dökümünü bekliyor (veri görevi bölüm 5). Değişiklikler canlıya Mehmet onayıyla.
 
 **Mehmet'in 21 Kasım notlarının tamamı ve ekip değerlendirmesi:** `raporlar/2026-11-21_mehmet_notlari_degerlendirme.md` (metin seviyeleri, günün quizi, seviye testleri, güncelleme düzeni). Editör verisi: `ortak/editor_gorevi_2026-11-21_seviye_quiz_guncelleme_verisi.md`. Yeni ekip üyesi: Charles Kızılağaç (ölçme ve değerlendirme).

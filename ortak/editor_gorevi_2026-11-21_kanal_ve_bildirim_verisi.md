@@ -19,3 +19,12 @@ Canlıya salt okunur bağlan; yalnız `AccountKind='customer'`; kişisel bilgi y
 7. Bildirim tercihini kaydetmedeki sunucu hatası (6 müşteri): neden; düzeltmesi ne kadar iş.
 8. Bildirim alıp sonraki 24 saatte bildirimleri kapatan ya da uygulamayı bir daha açmayan var mı (ölçülebiliyorsa).
 9. Derleme 49 ile gelenler: izin alanı, ulaşma kaydı ve "Yarın hatırlat" kapısı canlıda hangi tabloya, hangi adla düşecek (yayından sonraki okuma için).
+
+## Ek: En sadık kullanıcılar neden gitti? (Mehmet, 21 Kas 00:58; salt okuma, öncelikli)
+Mehmet'in gözlemi: 5-6 gün giren, hatta en çok giren müşteriler 6-7 gündür girmiyor. Kişi adı ve e-posta yazma; müşteri başına bir satır, sıra numarasıyla.
+1. En az 4 ayrı gün okuma yapmış gerçek müşterilerin tamamı: ilk gün, son gün, okuma günü sayısı, bitirdiği hikâye, okuduğu kelime, defterindeki kelime, seviyesi, cihaz (iOS/Android), uygulama sürümü, ödeme durumu, satın alma ekranını gördü mü / satın al'a bastı mı.
+2. Her biri için **son oturum**: son açtığı metin (bitirdi mi, yarıda mı), son gün bir sınıra çarptı mı (dokunma, kilit, defter), son gördüğü ekran biliniyorsa o.
+3. Son günden sonra kendisine giden bildirimler: kaç tane, hangi metinle, dokundu mu. Bildirim izni açık mı.
+4. Son okudukları ne tür: dizinin ortasında mı kaldılar, dizi mi bitti, seviyelerinde okunmamış ücretsiz metin kalmış mıydı?
+5. Özet: gidişlerde ortak bir an var mı (aynı gün, aynı sınır, aynı metin, dizi bitişi)? Kaçı hâlâ etkin sayılır (son 3 gün)?
+Çıktı: `raporlar/2026-11-21_sadik_kullanicilar.md`.
