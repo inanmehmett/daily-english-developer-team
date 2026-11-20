@@ -66,3 +66,31 @@ Promosyon verilen kullanıcının 362 XP'lik birikimi eski hesabında kalmışt�
 Geçmiş Android kayıtlarının geriye dönük düzeltilmesi; aboneliğin ilk satın alma anahtarıyla tutulması; iptal edilmiş ama süresi dolmamış aboneliğin geri yüklenememesi; bildirim tercihi ucundaki 500 (6 müşteri); misafirin var olan bir hesaba girerken birikiminin taşınmaması (uygulama uyarıyor, Mehmet değişiklik istemedi).
 
 Çeviri işi (tur04): 261 parçanın 150'si hazır (20 Kas 01:54), 4 işçi çalışıyor.
+
+## Ek (20 Kasım öğleden sonra): T11 ve T13 bitti, T13 için ekibin kararı gerek
+
+**T11 (kapaktan giriş) bitti** (`edc85742`): onboarding sonu, satın alma sonrası ve ana sayfa kartı aynı yoldan geçiyor; okunabilen hikâyede önce kapak sayfası açılıyor. Olay: `first_story_cover_shown` (ilk deneyim adımı). Eski `onboarding_first_story_tapped` olayı kalktı; sunucuda kullanan yer yoktu.
+
+**T9 metni** ekibin sadeleştirdiği hâliyle (`96d4d658`).
+
+**T13 (balonun eni) yazıldığı gibi uygulandı** (`59eefc1e`): balonun eni ve boyu bağlantısız hâliyle birebir aynı; test bunu beş durumda ve iki yazı boyunda kilitliyor. Bağlantı son satırın sağında; ilk kelime uzun etiketin yanına sığmıyorsa kısa etiket ("Cümle ›"); tür satırı bağlantı için kırpılmıyor.
+
+**Ama ölçüm kuralın bedelini gösteriyor.** Gerçek yazı tipleri (Lora, Inter) ve canlıdan rastgele 800 gerçek anlamla, iPhone 13 eninde, orta puntoda:
+
+| Sonuç | Kelime | Oran |
+|---|---|---|
+| Tam etiket "Cümleyi çevir ›" | 0 | %0 |
+| Kısa etiket "Cümle ›" | 398 | %50 |
+| Bağlantı yok | 402 | %50 |
+
+Ayrıntı: "ayrıca"sı olmayan 265 kelimenin 228'inde bağlantı yok (balon, kısa etiketin kendisinden dar); "ayrıca"sı olan 535 kelimenin 361'inde kısa etiket var, 174'ünde yok. Balon hiç büyümezse bağlantı kelimelerin yarısında görünmüyor; Y5'in amacı (cümle çevirisi görünür olsun) yarı yarıya kayboluyor.
+
+**Seçenekler (kod küçük, karar ekipte ve Mehmet'te):**
+
+| | Ne | Balon | Bağlantı |
+|---|---|---|---|
+| A | Bugünkü hâl (T13 yazıldığı gibi) | Hiç büyümez | %50 kısa, %50 yok |
+| B | Dar balon yalnız "Cümle ›" sığacak kadar genişler (en çok ~60 pt); geniş balon hiç büyümez | Yalnız dar balonlarda biraz | Hemen hepsinde, kısa etiket |
+| C | Etiket yerine küçük bir simge (yaklaşık 18 pt) | Hiç büyümez | Hemen hepsinde; ama simgenin ne olduğu ilk bakışta anlaşılmayabilir |
+
+Mehmet'in şikâyeti bağlantı uzun "ayrıca"nın yanına gelince balonun belirgin biçimde uzamasıydı; B o durumu yine engelliyor. Önerim B. Karar gelene kadar A dalda duruyor.
