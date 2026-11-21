@@ -10,7 +10,7 @@ Kalan işlerin çoğu "karar Mehmet'te" diye bırakılmıştı (E1/E2, kart göv
 ## 1. UI/UX incelemesi (Dieter, Don)
 İncelenenler: `ekran_2026-11-21/kariyer_pano.png`, `kariyer_buyuk_yazi_ve_esik.png`, `guncelleyen_kullanici_pano.png`.
 
-### 1a. Kariyer sayfası: **E1 seçildi**
+### 1a. Kariyer sayfası: **E1 seçildi** (Mehmet 20:28 ile düzeltildi; bkz. 1a-2)
 - **Neden E1:** E2'deki kemer biçimli eşik, o boyutta mıknatıs ya da nal gibi okunuyor. Kilitler kalktığı ve sıradaki rütbe halkayla öne çıktığı için ek işarete gerek yok (Dieter). Kullanıcı neye bakacağını E1'de de buluyor (Don).
 - **Mehmet'in 12:06 isteği karşılanıyor:** yol rozetin kenarından çıkıyor, öbür rozetin kenarında bitiyor. Hiçbir nokta rozetin altından ya da üstünden geçmiyor (`mockup/career-readability`).
 - **E1 ile birlikte düzeltilecekler:**
@@ -24,6 +24,27 @@ Kalan işlerin çoğu "karar Mehmet'te" diye bırakılmıştı (E1/E2, kart göv
 | K5 | Büyük yazıda alt şerit iki satıra çıkıyor | Kabul. İki satırda kalabilir |
 
 - **Değişmeyenler:** eşikler (20/350/1.000 sunucu değişikliğidir; sonraki sürümün işi olarak kalır), rütbe adları, rozet çizimleri.
+
+### 1a-2. Mehmet'in düzeltmesi (20:28) ve Dieter–Don ortak çalışması
+**Mehmet:** kapı olmasın. Rozetin etrafındaki doluluk dairesine gerek yok, yol zaten gösteriyor. Yolda yüzde görünsün. UI ve UX sorumluları birlikte çalışsın; gördükleri sorunları ve daha iyi fikirleri çözümüyle söylesinler.
+
+**Kesinleşen (Mehmet):**
+- E2'nin kapısı ve eşik işareti yok.
+- Sıradaki rozetin çevresindeki dolan halka kalkar. Sıradaki rütbe yarı renkli rozetle ve "Sıradaki: Meraklı" etiketiyle ayrışır; uzak rütbeler küçük ve soluk kalır.
+- **Yolda yüzde:** dolumun ucundaki bayrak yüzdeyi taşır ("%11"). İlerlemeyi gösteren tek yer yoldur.
+
+**Dieter ve Don'un birlikte bulduğu sorunlar ve çözümleri:**
+| # | Sorun | Çözüm | Kim |
+|---|---|---|---|
+| D1 | Mehmet'in halka için söylediği alt şerit için de geçerli: şeritteki ince ilerleme çubuğu yolun gösterdiğini üçüncü kez gösteriyor | Şeritteki çubuk kalkar. Şeritte yalnız eylem cümlesi kalır: "Meraklı'ya yaklaşık 5 günlük okuma kaldı" (60 XP ve altında "Meraklı olmana çok az kaldı!"). Yüzde yolda, gün şeritte; ikisi aynı şeyi tekrarlamaz | Dieter |
+| D2 | Yüzde etiketi rozete ya da rütbe adına binebilir (dolum %90'ı geçince uç sıradaki rozete yaklaşır; %5'in altında ise geçilen rozete) | Etiket hiçbir rozetle ve adla çakışmaz. Yolun bir yanında yer yoksa öbür yanına geçer. Bayrağın 24 pt kuralı (K3) yalnız bayrak simgesi için geçerli; yüzde, dolumun gerçek ucunu gösterir | Dieter |
+| D3 | Rütbe yeni kazanılmışken yol "%0" diyor; kutlamanın hemen ardından sıfır görmek kazanımı siliyor (ses kuralı 2) | Dolum %0 iken etikette sayı yerine "Yeni yol başladı" yazar. İlk XP ile yüzdeye döner | Don |
+| D4 | Yüzde küçük ve renkli yazılırsa zeminde okunmaz; büyük yazıda yolun üstünde taşar | Etiket beyaz zemin üstünde koyu yazı, en az 13 pt kalın, karşıtlık 4,5:1'in üstünde. Büyük yazıda 17 pt'de sabitlenir (yolu kapatmasın) | Dieter |
+| D5 | Kullanıcı yeniden geldiğinde ne kadar ilerlediğini görmüyor; sayfa hep son hâliyle açılıyor | Sayfa açılırken dolum, son açılışından bu yana eklenen kısmı 0,6 saniyede doldurur; yüzde de birlikte sayar. Yalnız XP değiştiyse ve bir kez; "hareketi azalt" açıksa animasyon yok | Don |
+| D6 | Halka kalkınca sıradaki rozet dokunulabilir mi, belli değil | Halka dokunma işaretiydi, değildi; rozet bugün dokunuluyorsa davranış aynı kalır, dokunulmuyorsa ekleme yapılmaz. **Editör koddan bakar**, raporlar | Don |
+| D7 | Ekran okuyucu yolu ve yüzdeyi duyurmuyor olabilir | Yolun erişilebilirlik etiketi: "Meraklı'ya giden yolun yüzde 11'i. Yaklaşık 5 günlük okuma kaldı." Editör bugünkü etiketi koddan döker | Don |
+
+**Bu turda yapılmayan (ikisi de kabul):** rozete dokununca rütbenin ne getirdiğini anlatan pencere. Önce rütbenin bugün bir şey açıp açmadığı koddan bakılmalı; bir şey açmıyorsa anlatacak bir şey de yok. Sonraki sürümün işi.
 
 ### 1b. Ana sayfa yolculuk kartı ve güncelleyen kullanıcı
 | # | Gözlem | Kim | Karar |
