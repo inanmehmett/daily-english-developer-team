@@ -59,5 +59,15 @@ Sürümden sonra şunları sayabilecek miyiz: yolculuk kartı gösterildi / doku
 ## H. Metin (derleme 50)
 Ayar sunucuya yazılamazsa çıkan uyarı: "Ayarın bu telefonda kayıtlı, ama sunucuya ulaşamadık. Birazdan yeniden dener misin?" (Paul; eski: "Ayarlar telefonda kaydedildi ama sunucuya ulaşılamadı. Biraz sonra yeniden kaydet.")
 
+## I. Sahiplenme verisi (salt okuma; sürümü beklemez, en sona)
+Mehmet (21 Kas 12:23): "Profil resmi yükleyen hiç kullanıcı yok sanırım. Kullanıcı hesabını, karakterini sahiplensin istiyoruz." Karar için sayılar:
+1. Müşterilerin kaçı misafir, kaçı üye (e-posta / Apple / Google)? Misafir profil resmi yükleyebiliyor mu, adını değiştirebiliyor mu?
+2. Profil resmi yükleyen kaç kişi? Adını girmiş kaç kişi (onboarding'de ve sonradan)? Ad nerelerde kullanılıyor?
+3. Profil sayfasını açan müşteri oranı; "Üye ol" çağrısına dokunan ve üyeliği tamamlayan.
+4. Kullanıcının **kendi eklediği** her şey: defter kelimesi, favori, yer imi, hedef, bildirim saati. Her biri için: kaç müşteri en az bir tane eklemiş; ekleyenlerle eklemeyenlerin 7. günde dönme oranı (az veri notuyla).
+5. Defter sınırı (15): sınıra çarpan kaç müşteri var, çarptıktan sonra kaçı satın alma ekranını gördü, kaçı satın al'a bastı, kaçı ertesi gün döndü?
+6. Profil ekranının bugünkü hâli, misafir ve üye için birer görüntü; kullanıcının değiştirebildiği her alanın listesi.
+Çıktı: `raporlar/2026-11-21_sahiplenme_verisi.md`.
+
 ## Rapor
-`raporlar/2026-11-21_editor_toplu_is.md`: A–H için ne yapıldı, ne yapılamadı, Mehmet'ten ne bekleniyor.
+`raporlar/2026-11-21_editor_toplu_is.md`: A–I için ne yapıldı, ne yapılamadı, Mehmet'ten ne bekleniyor.
