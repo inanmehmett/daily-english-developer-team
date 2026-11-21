@@ -28,7 +28,7 @@
 ## 3. Kararlar (derleme 50)
 | # | Karar |
 |---|---|
-| P1 | **Herkes (misafir dahil) hazır 12 profil resminden birini seçebilir.** Tek dokunuş, izin yok, kayıt yok. Resimler kodla çizilir, rütbe rozetlerinin çizim diliyle; okuma dünyasından karakterler (ör. baykuş, kedi, tilki, kaplumbağa, kitap kurdu, çay bardağı, fener, pusula…). Son listeyi Dieter çizimleri görünce onaylar |
+| P1 | **Herkes (misafir dahil) hazır 6 profil resminden birini seçebilir (önce 12'ydi; bkz. bölüm 5).** Tek dokunuş, izin yok, kayıt yok. Resimler kodla çizilir, rütbe rozetlerinin çizim diliyle; okuma dünyasından karakterler (ör. baykuş, kedi, tilki, kaplumbağa, kitap kurdu, çay bardağı, fener, pusula…). Son listeyi Dieter çizimleri görünce onaylar |
 | P2 | **Fotoğraf yükleme üyede kalır.** Misafirde seçim sayfasının son karesi "Kendi fotoğrafını ekle": dokununca bugünkü "hesabını koru" ekranı açılır; kayıttan sonra fotoğraf seçimine döner |
 | P3 | **Giriş yeri:** profil sayfasında resme dokunmak seçim sayfasını açar (misafirde de; bugünkü gizli kamera düğmesinin yerine herkes için küçük kalem işareti). Onboarding'e adım eklenmez |
 | P4 | **Bir kez hatırlatma:** kullanıcı ilk hikâyesini bitirdikten sonraki ilk profil açılışında resmin çevresinde tek seferlik hafif bir vurgu ve "Bir profil resmi seç" satırı. Pencere açılmaz, bildirim gitmez |
@@ -43,3 +43,8 @@
 - Karar kesin: **her yolculuğa bir rozet**, yolculuk bitince verilir; ara rozet yok; rozet bir şey açmaz.
 - Sıra: (1) editör canlıdaki yolculukları döker (bugün 6: üç başlangıç, New in Town, Coffee Shop Stories, World Cities; ad, seviye, durak sayısı, ücretsiz durak sayısı) ve S10–S12'yi cevaplar; (2) Paul rozet adlarını ve tek cümlelik metinlerini yazar (ses kuralı: Türkçe, büyük harf ve "LEGEND" yok); (3) Dieter her rozetin çizim tarifini verir (yolculuğun temasından: şehir, kafe, dünya şehirleri), editör kodla çizer; (4) rozet yolculuk sayfasında yolun sonunda durur; (5) görüntüler ekibe gelir.
 - Derleme 50'ye **girmez** (sunucu ve çizim işi; profil resmi bu sürümün işi). Sıradaki sürüm.
+
+## 5. Düzeltme (Mehmet 00:03: "12 fazla değil mi?") – 6 resim
+Mehmet haklı; ekip 12'yi 6'ya indirdi. Gerekçe: (1) resimler dışarıdan gelmiyor, editör kodla çiziyor; 12 çizim bu sürümü geciktirir ve kaliteyi düşürür; (2) 6 resim SE 3'te kaydırmadan tek bakışta görünür (iki sıra, üçer); (3) az seçenek hızlı seçilir. Çok seçilirse sonraki sürümde eklenir (P8 hangisinin seçildiğini ölçüyor).
+**Kaynak:** hazır paket ya da üretilmiş görsel kullanılmaz (lisans ve çizim dili uyumsuzluğu); rütbe rozetleri gibi kodla, vektör çizilir; dosya eklenmez, her boyutta net.
+**Tasarım (Dieter):** tek kalıp, altı karakter. Düz renkli daire zemin (uygulamanın paletinden altı ayrı renk); ortada yalnız baş, önden; iki-üç düz renk, kalın yuvarlak hatlar, gölge ve ayrıntı yok; 32 pt'de (ana sayfa) de tanınır olmalı. Karakterler: baykuş, kedi, tilki, kaplumbağa, ayı, tavşan. Gözlük, kitap gibi eşya yok (sonraki sürümlerde kazanılan eşyaya yer kalsın). Rütbe rozetleriyle karışmaması için madalya biçimi, kurdele ve altın rengi kullanılmaz. Premium tacı resmin üstünde durduğu için karakterlerin tepesi sade.
