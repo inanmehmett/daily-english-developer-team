@@ -26,3 +26,11 @@
 ## Ekibin önceki raporlarda kullandığı, senden doğrulanması istenen iki sayı
 - "A2 metinlerinin 69.091 kelimesinin 46.546'sı altı klasik uyarlamadan geliyor" (ekip betikle saydı; kaynak `veri_2026-11-21/A2_metinleri.md`). Veritabanındaki kelime sayılarıyla tutuyor mu?
 - "The Island Where Rabbits Won, A2 kullanıcısının ilk ücretsiz hikâyesi" (93 başlayan). A2 başlangıç paketinin sırası gerçekten bu mu?
+
+## Ek sorular (21 Kas 23:58) – yolculuğa özel rozet
+Mehmet sordu: "Okuma yolculuklarına özel rozetler tanımlamalı mıyız?" Ekibin ön görüşü: evet, ama dar (her yolculuğa tek rozet, yolculuk bitince; ara rozet yok; rozet bir şey açmaz). Karar için salt okuma üç bilgi gerekiyor. Cevaplar `raporlar/2026-11-22_editor_bilgi_cevaplari.md` dosyasının sonuna. Kod yazılmaz; derleme 50'ye girmez.
+| # | Soru | Neden |
+|---|---|---|
+| S10 | Bir yolculuk bitince bugün ne oluyor: kutlama ekranı, olay, XP, sıradaki yolculuğun atanması? Yolculuk sayfasında yolun sonunda ne görünüyor? | Rozetin verileceği an ve gösterileceği yer bugün var mı |
+| S11 | Kaç müşteri bir yolculuğu bitirdi, kaçı başlangıç yolculuğunda kaçıncı durakta (1.0.4 ve sunucunun eski metinlerden saydığı)? Seviye yolculuklarında 2. duraktan (ücretsiz sınır) öteye geçen var mı? | Rozet ulaşılabilir mi; yalnız Premium'un kazanabileceği rozet kaç kişiyi ilgilendirir |
+| S12 | `BadgeService` yeni bir "yolculuk" kümesini ve "yolculuk bitti" koşulunu bugünkü yapıyla alır mı; iş büyüklüğü (sunucu, uygulama, rozet çizimi)? Etkin 70 rozetten hiç kazanılmamış 46'sı hangileri (ad ve koşul)? | Yeni rozet eklemeden önce kazanılamayanların ayıklanması |
