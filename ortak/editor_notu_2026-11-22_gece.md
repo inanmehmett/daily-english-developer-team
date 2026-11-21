@@ -48,3 +48,11 @@ Rapor: `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md`. Sıradaki raporun
 - Uygulama işleri (C6–C8) sıradaki sürüm; derleme 50'ye girmez.
 - Dallarını uzak depoya gönderemiyorsan raporun başına yaz; Mehmet gönderir.
 Sonra kaldığın yerden: bölüm 5, 3, 4.
+
+## 7. Sınav sistemi derleme 50'ye giriyor (Mehmet 02:20: "bu sürümde bu işin hallolmasını istiyorum")
+Kapsam, metinler ve yeni parçalar: `raporlar/2026-11-22_sinav_sistemi_bu_surum.md`. Bölüm 6'daki "uygulama işleri sıradaki sürüm" satırı geçersiz. Sıra:
+1. **Sunucu, tek PR:** C1 (hazır) + C3 + C4 + C5 + C9. Yayın Mehmet'in sözüyle.
+2. **Canlı veri (yedekli betik; çalıştırma Mehmet'in sözüyle):** dört yeni B1 parçası eklenir, sonra 38–41 kapatılır (önce ekle, sonra kapat; havuz hiç daralmasın) · 29 sorunun kökü `veri_2026-11-22/belge_sorulari_yeni_kokler.md`'deki gibi güncellenir (şıklar aynı; bir şık düzeltmesi dosyanın sonunda). Tohum dosyaları da (`PlacementSeed`, `Assessment/reading-v1-*.json`) aynı hâle getirilir ki sonraki yayın geri almasın.
+3. **Uygulama (`feat/journey-core`):** C6 belge testinde sorular tek tek · C7 sonuç metinleri (rapor bölüm 2) ve tek ana düğme · C8 puan yerine sözle yer (bölüm 3). Sunucu "ilk ölçüm" bilgisini vermiyorsa (önceki seviye hiç seçilmemiş) nasıl ayırt edileceğini yaz; gerekiyorsa PR'a ekle.
+4. Sürüş görüntülerine ekle: iki testin ilk ekranı, bir soru ekranı, altı sonuç durumu (SE 3 + büyük yazı).
+Bir madde tahmininden (toplam 1–2 gün) belirgin uzun sürecekse dur ve yaz. Bölüm 5, 3, 4 (salt okuma) bunlardan sonra.

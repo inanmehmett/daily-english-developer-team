@@ -92,6 +92,7 @@ Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (k
 **Editör notu (T6-a, 19 Kas):** koddan doğrulandı, değişiklik gerekmedi. Deneme teklifi Play döndürüyorsa seçilip gönderiliyor; düğme metni Play'in döndürdüğü teklife göre değişiyor (deneme yoksa "Premium'a geç"). Ayrıntı ve Play Console'da bakılacak dört şey: `raporlar/2026-11-19_surum_adayi_1.0.4.md`, "T6" bölümü. Sıra T6-b'de (Mehmet).
 
 ## Mehmet'ten doğrudan (editör yazar)
+- 22 Kas 02:20 (ekip yazdı): "Ben bu sürümde bu işin hallolmasını istiyorum" (sınav sistemi). C1–C9 derleme 50 ile çıkar: `raporlar/2026-11-22_sinav_sistemi_bu_surum.md`; editöre `ortak/editor_notu_2026-11-22_gece.md` bölüm 7.
 - 22 Kas 02:30 (ekip yazdı): sınav sistemi değerlendirmesi ve kararları `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md` (C1–C10). Editöre: `ortak/editor_notu_2026-11-22_gece.md` bölüm 6.
 - 22 Kas 00:36 (ekip yazdı): "Tüm bunları bir yere not al; editör okusun, sana rapor göndersin." Not: `ortak/editor_notu_2026-11-22_gece.md` (belgeleme ısınma soruları; ölçme hocası Charles için sınav sistemi bilgileri H1–H8; yolculuk rozetleri; profil resmi; hesap teşviki). Cevap: `raporlar/2026-11-22_editor_gece_notu_cevabi.md`.
 - 22 Kas 00:29 (ekip yazdı): profil resmi **sonraki sürüme** (Mehmet: "tamam"). Derleme 50'den önce tek acil iş: "Seviyeni belgele" ısınma sorularının sırası (`ortak/editor_gorevi_2026-11-21_aksam.md` bölüm F); başka iş eklenmez.
