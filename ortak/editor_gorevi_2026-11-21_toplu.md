@@ -60,13 +60,16 @@ Sürümden sonra şunları sayabilecek miyiz: yolculuk kartı gösterildi / doku
 Ayar sunucuya yazılamazsa çıkan uyarı: "Ayarın bu telefonda kayıtlı, ama sunucuya ulaşamadık. Birazdan yeniden dener misin?" (Paul; eski: "Ayarlar telefonda kaydedildi ama sunucuya ulaşılamadı. Biraz sonra yeniden kaydet.")
 
 ## I. Sahiplenme verisi (salt okuma; sürümü beklemez, en sona)
-Mehmet (21 Kas 12:23): "Profil resmi yükleyen hiç kullanıcı yok sanırım. Kullanıcı hesabını, karakterini sahiplensin istiyoruz." Karar için sayılar:
-1. Müşterilerin kaçı misafir, kaçı üye (e-posta / Apple / Google)? Misafir profil resmi yükleyebiliyor mu, adını değiştirebiliyor mu?
-2. Profil resmi yükleyen kaç kişi? Adını girmiş kaç kişi (onboarding'de ve sonradan)? Ad nerelerde kullanılıyor?
-3. Profil sayfasını açan müşteri oranı; "Üye ol" çağrısına dokunan ve üyeliği tamamlayan.
-4. Kullanıcının **kendi eklediği** her şey: defter kelimesi, favori, yer imi, hedef, bildirim saati. Her biri için: kaç müşteri en az bir tane eklemiş; ekleyenlerle eklemeyenlerin 7. günde dönme oranı (az veri notuyla).
-5. Defter sınırı (15): sınıra çarpan kaç müşteri var, çarptıktan sonra kaçı satın alma ekranını gördü, kaçı satın al'a bastı, kaçı ertesi gün döndü?
-6. Profil ekranının bugünkü hâli, misafir ve üye için birer görüntü; kullanıcının değiştirebildiği her alanın listesi.
+Mevcut durum koddan çıkarıldı: `raporlar/2026-11-21_profil_ve_sahiplenme_mevcut_durum.md`. Orada yanlış ya da eksik gördüğün her şeyi düzelt. Eksik olan sayılar:
+1. Müşterilerin kaçı misafir, kaçı üye (e-posta / Apple / Google)? Üyeliğe geçenler kaydın kaçıncı gününde geçmiş?
+2. Profil resmi yükleyen kaç üye? Resim yüklemeye çalışıp kayıt ekranına düşen misafir sayılabiliyor mu; kaçı kaydı tamamlamış?
+3. Adını giren, kullanıcı adı alan, biyografi yazan, "Profil herkese açık"ı açan, ilgi alanı / hedef seçen kaç kişi?
+4. Rozetler: müşteri başına kazanılan rozet (ortanca, dağılım); her rozet kaç kişide; rozet sayfasını ve rozet ayrıntısını açan müşteri oranı; rozet paylaşan var mı? Sosyal rozetler (Top 100 vb.) kaç kişide, liderlik tablosu kapalıyken neye göre veriliyor?
+5. "Okuma listem"e ekleme yapan kaç müşteri? Haftalık özet sayfasını açan?
+6. Defter sınırı (15): sınıra çarpan kaç müşteri, çarptıktan sonra kaçı satın alma ekranını gördü, kaçı satın al'a bastı, kaçı ertesi gün döndü?
+7. Kendi bir şey ekleyenlerle (resim, ad, defter kelimesi, okuma listesi) eklemeyenlerin 7. günde dönme oranı; az veri notuyla.
+8. Liderlik tablosu neden ve ne zaman kapatıldı (commit notu); açmak için ne gerekir, bugünkü müşteri sayısıyla tablo nasıl görünürdü (kaç kişide XP > 0)?
+9. Profil ve rozet sayfasının bugünkü hâli: misafir ve üye için birer görüntü.
 Çıktı: `raporlar/2026-11-21_sahiplenme_verisi.md`.
 
 ## Rapor
