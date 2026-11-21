@@ -11,7 +11,7 @@ Görev kapsamında canlıya yazma, PR birleştirme ve yayın yapılmadı. A bitt
 | B | Açılışta kendiliğinden satın alma ekranı | **Yok.** Kod değişikliği gerekmedi |
 | C | Dizilerin ilk bölümü | Bitti (sayılar aşağıda) |
 | D | Ad ve açıklama dökümü | Bitti: `veri_2026-11-21/adlar_ve_aciklamalar.csv` |
-| F | Güncelleyen eski kullanıcı | Bitti: durduran bulgu yok; bir metin hatası (aşağıda) |
+| F | Güncelleyen eski kullanıcı | Bitti: durduran bulgu yok; bulunan metin hatası Mehmet'in sözüyle düzeltildi (`d2228a73`, derleme 50'de) |
 | G | Ölçüm doğrulaması | Bitti: bir eksik vardı (yolculuk kartı gösterimi), derleme 50'ye eklendi |
 | H | Ayar uyarısı metni | Bitti: derleme 50'ye eklendi |
 | I | Sahiplenme verisi | Bitti: `raporlar/2026-11-21_sahiplenme_verisi.md` |
@@ -195,7 +195,7 @@ Soldan sağa: ana sayfa ve yolculuk sayfası (bugünkü hak kullanılmamış), a
 | 3. Onboarding sonu teklifi ya da tanıtım yeniden çıkıyor mu | **Hayır.** Açılışta onboarding'e yönlendiren kural derleme 45'ten beri değişmedi (`onboarding_completed` bayrağı); eski sürümde onboarding'i bitiren kullanıcı onboarding'i ve sonundaki teklifi yeniden görmez. Cihazda açılışta yalnız "yeni hikâye gelince haber verelim mi?" sorusu çıktı; bu teklif değil, 3. günden sonra bir kez soruluyor ve eski sürümde de vardı |
 | 4. Günlük hakkını kullanmış kişide "yarın açılacak" ve Premium kapısı | Var. Ana sayfada "Sıradaki hikâye yarın açılır" ve "Premium'la şimdi oku"; yolculuk sayfasında "SIRADAKİ · YARIN AÇILIR", "Sıradaki hikâye yarın seni bekliyor.", "Premium'la şimdi oku" ve "Yarın hatırlat" |
 
-**Bulunan metin hatası (durdurucu değil):** ikinci yolculuğa geçen kullanıcıya yolculuk sayfası **"İlk hikâyeni aç"** düğmesini ve **"Yolculuğun burada başlıyor."** satırını gösteriyor. 6 hikâye okumuş birine yanlış. Neden: ikisi de yalnız *bu* yolculukta okunan hikâye sayısına bakıyor (0/12). Öneri: bu ikisi yalnız başlangıç yolculuğunda çıksın; sonraki yolculuklarda düğme "Sıradaki hikâye", satır hiç çıkmasın. İki satırlık iş; derleme 50'ye girip girmeyeceği ekibin kararı. Kod yazmadım.
+**Bulunan metin hatası (durdurucu değil):** ikinci yolculuğa geçen kullanıcıya yolculuk sayfası **"İlk hikâyeni aç"** düğmesini ve **"Yolculuğun burada başlıyor."** satırını gösteriyor. 6 hikâye okumuş birine yanlış. Neden: ikisi de yalnız *bu* yolculukta okunan hikâye sayısına bakıyor (0/12). Öneri: bu ikisi yalnız başlangıç yolculuğunda çıksın; sonraki yolculuklarda düğme "Sıradaki hikâye", satır hiç çıkmasın. **Düzeltildi** (Mehmet, 21 Kas akşam: "metin hatasını düzelt"; `d2228a73`): ikisi artık yalnız başlangıç yolculuğunda, hiç hikâye okunmamışken çıkıyor; sonraki yolculuklarda düğme "Sıradaki hikâye", karşılama satırı yok. Testle kilitli; uygulama testleri 1.224 geçti. Derleme 50'de.
 
 **Ayrıca:** B1'in sonraki yolculuğu (World Cities) bittiğinde zincir bitiyor; o kullanıcının kartında "sıradaki" boş kalır. Bunun için 10 durağın 8'i Premium olan yolculuğu bitirmek gerekiyor; bugün böyle bir müşteri yok.
 
@@ -227,15 +227,17 @@ Ayrı rapor: `raporlar/2026-11-21_sahiplenme_verisi.md`. Öne çıkanlar:
 
 ## Derleme 50'yi bekleyenler (güncel)
 
-`feat/journey-core`, son commit `9e302862`, uygulama testleri 1.223 geçti:
+`feat/journey-core`, son commit `d2228a73`, uygulama testleri 1.224 geçti:
 - Seslendirme devamında geri sarma (`a9249148`)
 - T15 iptal penceresi, T17 sessiz çeviri simgesi, T18 Quiz sekmesi rozeti, T19 "Seviyeni belgele" gizli (`3e6fd9b9`)
 - Bildirime dokunma ölçümü ve ayar kaydetme (`7273ca60`)
 - G: yolculuk kartı gösterimi; H: ayar uyarısı metni (`9e302862`)
+- F: ikinci yolculukta "İlk hikâyeni aç" düzeltmesi (`d2228a73`)
+
+Bu dalın son hâli Mehmet'in telefonuna kuruldu (21 Kas akşam); TestFlight ve Play'deki derleme 49'da bunların hiçbiri yok.
 
 ## Mehmet'ten beklenen
 
 1. **Derleme 50:** "çıkar" denince derlenir.
-2. **F'deki metin hatası** ("İlk hikâyeni aç" ikinci yolculukta): derleme 50'ye girsin mi? İki satır.
-3. **Kariyer taslağı:** E1 mi E2 mi, ya da ikisi de değil. Büyük yazıda kayıt kartının rozeti kapatması ayrıca çözülmeli.
-4. **Çeviri:** işçiler durdu (205/261), 22 Kasım 04:30'da kendiliğinden devam edecek.
+2. **Kariyer taslağı:** E1 mi E2 mi, ya da ikisi de değil. Büyük yazıda kayıt kartının rozeti kapatması ayrıca çözülmeli.
+3. **Çeviri:** işçiler durdu (205/261), 22 Kasım 04:30'da kendiliğinden devam edecek.
