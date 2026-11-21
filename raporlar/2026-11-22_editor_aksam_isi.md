@@ -18,7 +18,9 @@ Aşağıdaki tablo ve bölümler 21 Kasım 23:00'teki durumu anlatır. Sonrasın
 
 Canlıda artık: "geri dön" bildirimleri sıradaki hikâyenin adıyla ve kimliğiyle gidiyor · quiz cevabı tam eşleşmeyle sayılıyor · altı sıralama rozeti verilmiyor ve kazanmamış olana gösterilmiyor · dokuz metin B1.
 
-**Ekip için değişenler:** aşağıdaki 4 ve 4b kapandı. 1063 ve 1089 için "A2 kalır, Paul cümleleri böler" kararı geçersiz; ikisi de B1, cümleler bölünürse etiket yeniden bakılır. Mehmet ayrıca kelime defterindeki "Kelimeler unutmak üzereyken geri gelir" ekranını sordu; editörün cevabı: bugün bir kez gösteriliyor, öyle kalsın, ama sonradan açmanın yolu ve ölçümü yok (Mehmet'in kararını bekliyor).
+| 00:45 | "Ölçümü ekle, diğeri kalsın." | Kelime defterindeki "Kelimeler unutmak üzereyken geri gelir" ekranı artık ölçülüyor: `first_experience` adımları `study_journey_shown`, `study_journey_started`, `study_journey_closed` (`ee19fbc4`, `feat/journey-core`; derleme 50 ile gider). Görünüm değişmedi. "Nasıl çalışır?" bağlantısı yapılmadı. Dayanak: 378 müşterinin 137'sinin defterinde kelime var, 60'ı çalışma başlatmış, 43'ü bir oturumu bitirmiş, 24'ü ikinci kez çalışmış. Asıl kayıp ekrandan önce: kelimesi olan 137 kişinin 77'si hiç çalışmaya başlamamış |
+
+**Ekip için değişenler:** aşağıdaki 4 ve 4b kapandı. 1063 ve 1089 için "A2 kalır, Paul cümleleri böler" kararı geçersiz; ikisi de B1, cümleler bölünürse etiket yeniden bakılır. Kelime defterindeki açıklama ekranı bir kez gösterilmeye devam ediyor (Mehmet'in kararı); ölçümü eklendi. PR #17 (betiğin dokuz metinlik kaydı) açık, birleştirilmedi.
 
 ## Önce: ekibin bilmesi ve karar vermesi gerekenler
 
