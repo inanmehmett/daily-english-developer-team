@@ -9,6 +9,8 @@
 - **Sunucuda bildirim düzeltmeleri PR #15'te hazır;** Mehmet "yayınla" deyince canlıya girer. Ekibin "1.0.4 çıkmadan düzen değişmez" kararıyla çelişiyor; Mehmet'in doğrudan sözüyle yapıldı.
 - **Canlıya tek yazma:** "come here" kalıbı sözlüğe eklendi.
 - **Üç veri görevi bitti** (aşağıda bağlantılar).
+- **Yeni satış:** 21 Kasım 01:13, iOS, yıllık deneme; 18 Kasım'dan sonraki ilk satış. Beş gündür okuyan bir müşteri (`2026-11-21_sadik_kullanicilar.md`, 5 numara; satış ayrıntısı `2026-11-21_kanal_ve_bildirim_verisi.md` 1.1).
+- **Sadık kullanıcılar raporu bitti:** `2026-11-21_sadik_kullanicilar.md`.
 - **Çeviri işi (tur04) 195/261;** gece kullanım sınırına takıldı, sabah makine yeniden başlayınca durdu, 11:35'te yeniden başlattım.
 
 ## 1. Derleme 50'yi bekleyenler (uygulama, `feat/journey-core`)

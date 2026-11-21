@@ -5,7 +5,7 @@
 
 ## Özet
 
-1. **18 Kasım'dan sonra gerçek yeni satış, iptal ya da iade yok.** Dört satış, üçü etkin; hepsi iOS.
+1. **Beş satış var, hepsi iOS:** üçü etkin ödeyen, biri denemede (21 Kasım'da başladı; 1.1'deki ek), biri denemeyi kapatmıştı. İptal ya da iade yok.
 2. **Android'de geliş kaynağı kullanıcı başına tutuluyor ve dolu.** 137 Android müşterinin 85'i (%62) Instagram bağlantısından gelmiş: profil 53, hikâye 32. Play organik 43, bilinmeyen 9. Toplantıdaki "kaynak bilinmiyor" Android için doğru değil.
 3. **iOS'ta kullanıcı başına kaynak yok ve mağaza bağlantısıyla olamaz.** Dört alıcının dördü de iOS; nereden geldikleri uygulama kayıtlarından öğrenilemez.
 4. **17 Kasım sıçraması Instagram'dan:** o günkü 32 Android kaydın 23'ü Instagram etiketli. Tek bir saate yığılmıyor; 16 Kasım 23:00'te başlıyor, gün boyu sürüyor, 18 Kasım'da devam ediyor.
@@ -28,6 +28,18 @@
 - 18 Kasım'dan sonra: yeni gerçek satış yok, iptal yok, iade yok.
 - Tabloda müşteri türüyle görünen beşinci abonelik (19 Kas, Android, yıllık) Mehmet'in kendi denemesi; satış sayılmadı.
 - Satın almaya basıp tamamlamayan: 18 Kasım'da 11'di, bugün **18** (iOS 11, Android 7). 19 Kasım'dan beri 7 kişi bastı. Neden tamamlamadıkları hâlâ bilinmiyor.
+
+**Ek (21 Kasım 12:45): beşinci satış.** Bu rapor yazıldıktan sonra yeni bir satış geldi.
+
+| | Tarih | Platform | Plan | Deneme | Bugün |
+|---|---|---|---|---|---|
+| E | 21 Kas 01:13 | iOS | Yıllık | evet | denemede; 28 Kasım 01:13'te ücretliye döner, yenileme açık |
+
+- **Kim:** 16 Kasım'da kaydolmuş, 5 gün okumuş bir müşteri (sadık kullanıcılar raporunda 5 numara). Kayıttan satın almaya 4 gün 8 saat; dört satıştan üçü ilk üç dakikada olmuştu, bu ikinci "birkaç gün kullanıp alan" örnek.
+- **O an:** günlük hakla açtığı metni bitirdi, quizini çözdü; bir dakika sonra satın alma ekranı açıldı ve denemeyi başlattı. Öncesinde 6 kez kilitli dizi bölümüne, 4 kez kilitli kitaba dokunmuştu ve 19 Kasım'da satın al'a basıp tamamlamamıştı. Satın alma ekranını neyin açtığı kayıtta yok (eski sürüm yazmıyor).
+- **Kaynak:** iOS; nereden geldiği bilinmiyor.
+- Denemeden hemen sonra seviye ölçümü yaptı ve 3.150 kelimelik bir Premium metne başladı.
+- Güncel toplam: **beş satış, hepsi iOS;** üçü etkin ödeyen, biri denemede, biri denemeyi kapatmıştı. Satın almaya basıp tamamlamayan 18'den 17'ye indi (iOS 10, Android 7).
 
 ### 1.2 Sunucu kullanıcı başına ne tutuyor
 
