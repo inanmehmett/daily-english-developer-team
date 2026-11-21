@@ -60,7 +60,7 @@ Her bulgu için ayrı derleme çıkmaz; Mehmet'in kontrolleri bitince bu bölüm
 
 **Bekletilen editör promptu (Mehmet, 21 Kas 12:03):** K2–K4 promptu editöre verilmedi; Mehmet başka konular da ekleyecek, hepsi tek promptta gidecek.
 
-**Kariyer sayfası okunabilirliği (Mehmet, 21 Kas 12:03, ekran görüntüsüyle):** Dieter ve Don'un bulguları: sıradaki rütbe uzak rütbelerle aynı gri; yolda ilerleme görünmüyor; alt şerit "~5 gün → Meraklı" sönük ve robotik; üstteki rozet durum çubuğunun altında kesiliyor; her rozette kilit kalabalığı; kayıt kartı "kaybetme" diliyle. Kod yok; önce taslak Mehmet'e.
+**Kariyer sayfası okunabilirliği (Mehmet, 21 Kas 12:03, ekran görüntüsüyle):** Dieter ve Don'un bulguları: sıradaki rütbe uzak rütbelerle aynı gri; yolda ilerleme görünmüyor; alt şerit "~5 gün → Meraklı" sönük ve robotik; üstteki rozet durum çubuğunun altında kesiliyor; her rozette kilit kalabalığı; kayıt kartı "kaybetme" diliyle. Mehmet (12:06): yol rozetin merkezinden geçip rozetin üstünde/altında kalıyor; yol rozetin kenarından çıkıp öbür rozetin kenarında bitsin, belki uçta temsili kapı. Ekip: kenardan kenara evet; kapı yalnız sıradaki rütbede küçük bir eşik işareti olarak taslakta iki seçenekle gösterilecek. Kod yok; önce taslak Mehmet'e.
 
 **En sadık kullanıcılar (rapor geldi 21 Kas 11:50; kararlar `raporlar/2026-11-21_sadik_kullanicilar_ekip_karari.md`):** K1 1.0.4 bu hafta sonu mağazaya · K2 PR #15'te "geri dön" bildirimi susturma dışında ve öncelikli (yayından önce) · K3 açılışta kendiliğinden satın alma ekranı var mı, varsa kapat · K4 her dizinin ilk bölümü ücretsiz (sonraki sürüm; canlı yazma Mehmet onayıyla) · K5 günlük havuz gözden geçirme · K6 gidenlere çağrı 1.0.4 mağazadan sonra, metin Mehmet'e taslak · K7 ölçüm.
 
