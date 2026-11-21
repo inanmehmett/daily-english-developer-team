@@ -3,6 +3,8 @@
 **Son güncelleme:** 22 Kasım 2026, 02:35 (editörün 02:24 raporuna göre). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
 
 ## Şu anki durum
+**22 Kas 02:40 – Mehmet: "Bu sürümde kalan işleri editör full yetkiyle halletsin; sonraki sürüm işlerini sonra düşünürüz."** Editörün tek görev kaynağı: `ortak/editor_gorevi_2026-11-22_surum_kalan_isler.md` (PR #18 yayını → sınav sunucu PR'ı → canlı veri betiği → sınav uygulama işleri → derleme 50 TestFlight ve Play dahili test). Yayın ve canlıya yazma bu dosyadaki işler için editörde; mağaza gönderimi ve gerçek satın alma Mehmet'te. Aşağıdaki tabloda "Mehmet'in sözüyle" yazan satırlar bu sözle açıldı. Salt okuma raporları (S10–S15, profil resmi) ve sonraki sürüm işleri **beklemede**.
+
 **Canlıda:** PR #15 (geri dön kuralı) · PR #16 (yeni "geri dön" metinleri ve hikâye kimliği, quiz tam eşleşme, sıralama rozetleri kapalı, Haftalık Şampiyon kuralı) · dokuz metin B1.
 **Mağazada:** 1.0.2. **Mehmet'in telefonunda:** `feat/journey-core` son hâli (02:21; kariyer yolu rozet kenarında kesiliyor, `06d001c0`).
 
