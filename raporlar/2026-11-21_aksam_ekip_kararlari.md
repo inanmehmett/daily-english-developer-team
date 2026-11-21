@@ -119,7 +119,7 @@ Başlıklar ve hikâye aynı; bilgi çıkarılmadı. "Bilinmeyen hayvanlar öld�
 ## 5. Seviye testleri (Charles)
 - **"Seviyeni yeniden ölç" ana sayfa kartından başlatılınca seviyeyi düşürebiliyor.** Sunucuda "yalnız yükseltir" kuralı var ama uygulama işareti göndermiyor (veri raporu 2.1). Bu bir hata. **Karar:** derleme 50'de uygulama işareti gönderir.
 - **"Seviyeni belgele" gizli kalır** (derleme 50, T19). Gizli kaldığı sürede: ısınma soruları kolaydan zora sıralanır. Kullanıcının seviyesi A1–A2 ise ısınmadaki B2 sorusu yerine bir A1 sorusu gelir. 176 sorunun tamamını editör döker, Charles ve Paul okur. Satır ancak bundan sonra açılır.
-- **Açık soru (olgu, karar değil):** Mehmet'in gördüğü "zor boşluk doldurma" hangi testteydi? "Seviyeni belgele"de boşluk doldurma yok; boşluk doldurma "Seviyeni yeniden ölç"te var. Yeniden ölçme testindeyse gizlenen satır yanlış satır olabilir. Ekran görüntüsü varsa iyi olur. Yoksa editör iki testin ilk ekranlarını SE 3'te çeker; ekip görüntüden karar verir.
+- **Açık soru (olgu, karar değil; editöre soruldu, S1):** Mehmet'in gördüğü "zor boşluk doldurma" hangi testteydi? "Seviyeni belgele"de boşluk doldurma yok; boşluk doldurma "Seviyeni yeniden ölç"te var. Yeniden ölçme testindeyse gizlenen satır yanlış satır olabilir. Ekran görüntüsü varsa iyi olur. Yoksa editör iki testin ilk ekranlarını SE 3'te çeker; ekip görüntüden karar verir.
 
 ## 6. Durum tablosu (bu turun sonunda)
 | İş | Durum |
