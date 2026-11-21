@@ -36,7 +36,7 @@
 | E | 21 Kas 01:13 | iOS | Yıllık | evet | denemede; 28 Kasım 01:13'te ücretliye döner, yenileme açık |
 
 - **Kim:** 16 Kasım'da kaydolmuş, 5 gün okumuş bir müşteri (sadık kullanıcılar raporunda 5 numara). Kayıttan satın almaya 4 gün 8 saat; dört satıştan üçü ilk üç dakikada olmuştu, bu ikinci "birkaç gün kullanıp alan" örnek.
-- **O an:** günlük hakla açtığı metni bitirdi, quizini çözdü; bir dakika sonra satın alma ekranı açıldı ve denemeyi başlattı. Öncesinde 6 kez kilitli dizi bölümüne, 4 kez kilitli kitaba dokunmuştu ve 19 Kasım'da satın al'a basıp tamamlamamıştı. Satın alma ekranını neyin açtığı kayıtta yok (eski sürüm yazmıyor).
+- **O an:** günlük hakla açtığı metni bitirdi, quizini çözdü; bir dakika sonra satın alma ekranı açıldı ve denemeyi başlattı. Öncesinde 6 kez kilitli dizi bölümüne, 4 kez kilitli kitaba dokunmuştu ve kayıt günü (16 Kasım 22:32) satın al'a basıp tamamlamamıştı. Satın alma ekranını neyin açtığı kayıtta yok (eski sürüm yazmıyor).
 - **Kaynak:** iOS; nereden geldiği bilinmiyor.
 - Denemeden hemen sonra seviye ölçümü yaptı ve 3.150 kelimelik bir Premium metne başladı.
 - Güncel toplam: **beş satış, hepsi iOS;** üçü etkin ödeyen, biri denemede, biri denemeyi kapatmıştı. Satın almaya basıp tamamlamayan 18'den 17'ye indi (iOS 10, Android 7).

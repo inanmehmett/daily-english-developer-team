@@ -13,7 +13,7 @@
 6. **Bildirimler geri getirmedi:** giden altı kişiye gittikten sonra 46 bildirim gitti, dokunan olmadı.
 7. **Ödeyen iki sadık kullanıcı da düzenli değil:** biri 7 gündür yok (uzun bir Premium metni açıp yarıda bıraktı), öbürü 13 gün ara verip döndü.
 
-8. **Bir sadık kullanıcı bugün satın aldı:** 5 numara, kaydından 5 gün sonra, günlük metni bitirdikten bir dakika sonra yıllık denemeyi başlattı (21 Kasım 01:13, iOS). 18 Kasım'dan sonraki ilk satış. Öncesinde kilitli dizi ve kitaplara 10 kez dokunmuş, iki gün önce satın al'a basıp tamamlamamıştı. Ayrıntı: `2026-11-21_kanal_ve_bildirim_verisi.md` 1.1'deki ek.
+8. **Bir sadık kullanıcı bugün satın aldı:** 5 numara, kaydından 5 gün sonra, günlük metni bitirdikten bir dakika sonra yıllık denemeyi başlattı (21 Kasım 01:13, iOS). 18 Kasım'dan sonraki ilk satış. Öncesinde kilitli dizi ve kitaplara 10 kez dokunmuş, kayıt günü (16 Kasım) satın al'a basıp tamamlamamıştı. Ayrıntı: `2026-11-21_kanal_ve_bildirim_verisi.md` 1.1'deki ek.
 
 Bu rapor ne olduğunu gösteriyor; **neden** bıraktıkları veriden kesin okunamıyor. 6 kişilik bir gruptan çıkan örüntüler; "az veri" notu hepsi için geçerli.
 
