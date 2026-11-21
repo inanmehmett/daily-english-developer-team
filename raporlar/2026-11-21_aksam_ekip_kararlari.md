@@ -133,3 +133,20 @@ Başlıklar ve hikâye aynı; bilgi çıkarılmadı. "Bilinmeyen hayvanlar öld�
 | Günün quizi Q1–Q7 | Karar verildi; Q1 kapandı → editör (uygulama derleme 50, sunucu PR) |
 | Seviye denetimi | İlk tur bitti; etiketler ve Ada metni → editör betiği (canlıya yazma) |
 | Seviye testleri | Hata düzeltmesi derleme 50; 176 soru dökümü → editör |
+
+## 7. Editörün cevaplarından sonra (21 Kas 21:20) – ekip kararları
+Kaynak: `raporlar/2026-11-22_editor_bilgi_cevaplari.md`. Mehmet'e soru yok.
+
+| Soru | Cevap | Ekip kararı |
+|---|---|---|
+| S1 | Mehmet'in gördüğü test "Seviyeni belgele". Boşluk yok, ama ilk soru "…" ile biten tamamlama; 6 soru tek sayfada, sonda B2 paragrafı | T19 doğru; gizli kalır. Charles'ın okumasına iki madde eklendi: "…" ile biten 41 soru tam soru cümlesine çevrilir; ısınma tek sayfada 6 soru yerine soru soru gösterilir |
+| S2 | Rozet her durumda aynı alt sayfayı açıyor; rütbe bir şey açmıyor (bilinçli) | Davranış kalır, ekleme yok. Alt sayfadaki "2.750 / 4.500 XP · %61" ve "kalan XP" ses kuralı 3'e aykırı; Paul'un metin taramasına yazıldı (derleme 50'ye girmez) |
+| S3 | Kariyer sayfasında hiç ekran okuyucu etiketi yok | A-7'ye eklendi: yol için tek birleşik etiket; her rozet düğme rolüyle ve durumuyla ("Meraklı, sıradaki rütbe") |
+| S4 | Toplu ekleme yok; sonuçta "Sıradaki okuma" kartı zaten var | Q4: ana düğme "Sıradaki hikâye" (var olan kart ana eyleme çıkar). "Kaçırdığın kelimeleri çalış" → "Yeni tanıştığın kelimeler", ikincil. "Sonucu paylaş" yalnız 8 ve üstünde, ikincil. Toplu ekleme yazılmaz |
+| S5 | 99 tur başladı, 95 bitti; A1'de yarıda bırakma 24'te 1 | Q1 kapalı kalır. **Q7 küçüldü:** uygulamaya yeni olay eklenmez; başlama, bitiş ve skor sunucunun tur kaydından okunur (Nate, haftalık tablo) |
+| S6 | Dokunma iki sürümde de ana sayfaya; sunucu kimlik koymuyor; sıradaki hikâye hesaplanabiliyor ama servis yolculuk atıyor | Adlı metinler yayınlanır. Sunucu: atama yapmayan salt okuma sorgu ve bildirime hikâye kimliği; `action` "win_back" kalır (1.0.2 ana sayfaya açılmaya devam eder). Uygulama (derleme 50): kimlik varsa kapak sayfasına açan rota |
+| S7 | 1063'ü bir müşteri yarıda okuyor; 1089 günlük havuzda; öbür 7'sinde müşteri yok | **Betik 7 metinle çalışır** (6 klasik + 1067). 1063 ve 1089'a dokunulmaz; etiketleri A2 kalır, Paul uzun cümlelerini A2'ye böler (Ada metni gibi; sonraki içerik işi) |
+| S8 | Döküm geldi. Yolculuk kartı varken seri riski şeridi hiç çıkmıyor | Sadeleşme taslağı (D-14) bu dökümle çizilir. Seri riski: taslakta yolculuk kartının içinde tek satır olarak gösterilecek (ayrı şerit değil) |
+| S9 | "Yarın hatırlat" yeniden kullanılıyor, birkaç saat | G2 derleme 50'de kalır |
+
+**Ekibin düzeltmesi (bölüm 4, madde 5):** "The Island Where Rabbits Won, A2 kullanıcısının ilk hikâyesi" **yanlıştı.** 1.0.4'te A2 başlangıç yolculuğunun **4.** durağı; 1.0.2'de üç başlangıç metninden biriydi. Zorluk bulgusu (cümle ortalaması 13, en yüksek dokunma oranı) geçerli, aciliyeti düştü. **Yeni karar:** A2 yazımı yine uygulanır, ama 30 müşteri metni yarıda okuyor. Editör önce okuma konumunun nasıl tutulduğuna bakar: bölüm sırasıyla tutuluyorsa (yeni metin aynı dört bölümü aynı sırayla koruyor) betik çalışır; karakter ya da kelime konumuyla tutuluyorsa çalışmaz, raporlanır.

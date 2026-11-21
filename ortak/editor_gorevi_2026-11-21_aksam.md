@@ -7,6 +7,14 @@
 ## 0. Önce: ekibin bilgi istekleri (salt okuma)
 Sorular ve nasıl cevaplanacağı: **`raporlar/2026-11-21_editore_bilgi_istekleri.md`** (S1–S9 ve iki doğrulama). Cevaplar `raporlar/2026-11-22_editor_bilgi_cevaplari.md`. A bölümüne bunlar cevaplanmadan başlanmaz.
 
+**Cevaplardan sonra değişenler (21 Kas 21:20; gerekçe: kararlar raporu bölüm 7). Aşağıdaki maddelerle çelişen yerde bu satırlar geçerlidir:**
+- A-5: Q4 ana düğme "Sıradaki hikâye" (var olan `NextReadingCard` ana eyleme çıkar); "Kaçırdığın kelimeleri çalış" → "Yeni tanıştığın kelimeler", ikincil; "Sonucu paylaş" yalnız 8 ve üstünde. **Q7 kalktı:** yeni olay yazma.
+- A-7'ye ek: kariyer yolu için tek birleşik ekran okuyucu etiketi; rozetler düğme rolüyle ve durumuyla okunur. Rozet alt sayfasına dokunma.
+- A'ya yeni madde: "geri dön" bildiriminde hikâye kimliği varsa kapak sayfasına açan rota.
+- B-9: sıradaki hikâye **atama yapmayan** salt okuma sorguyla; bildirime hikâye kimliği; `action` "win_back" kalır.
+- C-11: **7 metin** (1096, 1098, 1039, 1097, 1103, 1094, 1067). 1063 ve 1089'a dokunma.
+- C-12: önce okuma konumu nasıl tutuluyor, bak. Bölüm sırasıyla değilse betiği çalıştırma, raporla.
+
 ## A. Uygulama → derleme 50 (`feat/journey-core`)
 1. **Ana sayfa kartının gövdesi** yolculuk sayfasını açar; düğme olduğu gibi kalır. Kaynak `home_card_body` (karar 1b-G1).
 2. **Hak kullanılmışken ana sayfa kartında "Yarın hatırlat"**: Premium düğmesinin altında, yolculuk sayfasındakiyle aynı biçimde ve aynı davranışla (1b-G2).
