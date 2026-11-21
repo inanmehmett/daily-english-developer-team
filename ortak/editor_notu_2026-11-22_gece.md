@@ -40,3 +40,11 @@ Ekibin ön görüşü: hatırlatma sayısı artmasın, anı ve içeriği değiş
 
 ## Sıra ve rapor
 1 → 2 → 5 → 3 → 4. Bölüm 2 en büyüğü; dosyaları hazır oldukça gönder, hepsini bekleme. Raporun başına: ekibin karar vermesi gerekenler.
+
+## 6. Sınav sistemi: ekip kararları geldi (22 Kas 02:30)
+Rapor: `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md`. Sıradaki raporunda cevapla:
+- **C1 onaylandı** (ısınma kuralın doğru).
+- **Sunucu, tek PR (C2–C5, istersen C9):** B1 parçaları 38–41 devre dışı (önce iki parçayla turun kilitlenmediğini doğrula; kilitleniyorsa dur ve yaz) · üçüncü parçada 3/3'ün sonucu o parçanın seviyesi · belge testi profil seviyesini yalnız yükseltir · kelime taraması kelime bazında kaydedilir · seviye değişince, o yolculukta bitmiş hikâye yoksa yeni seviyenin yolculuğu atanır. Yayın ve canlıya yazma Mehmet'in sözüyle.
+- Uygulama işleri (C6–C8) sıradaki sürüm; derleme 50'ye girmez.
+- Dallarını uzak depoya gönderemiyorsan raporun başına yaz; Mehmet gönderir.
+Sonra kaldığın yerden: bölüm 5, 3, 4.

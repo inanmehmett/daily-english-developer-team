@@ -22,5 +22,9 @@ Bizim için çıkan ilkeler:
 - **Gözlem (21 Kas, günün quizi ekranı):** "healthy" sorusunda şıklar "sağlıklı, önce, a, erken": çeldiriciler farklı türden ve biri anlamsız ("a"). İlke 3'e aykırı. Günün quizi herkese aynı 10 kelimeyi soruyor; seviyeye göre değil.
 - **Hipotez (21 Kas, 1 veri türü):** Müşterilerin bitirdiği hikâyelerde ortanca okuma hızı dakikada 46 kelime. Yabancı dilde rahat okuma bunun birkaç katıdır; metinler okurlarına zor geliyor olabilir (dokunup bakma süresi de bu sayının içinde; ayrıştırılmalı).
 
+- **Kanıt (22 Kas, 118 müşteri turu):** B1 boşluklarında doğru oranı %42; neden belirsiz sorular (dört parçada iki şık cümleye uyuyor). Taraması B1 olan 34 turun 27'si A2 bitti. Ders: şans düzeyindeki soru önce belirsizlik için okunur, sonra zorluk için.
+- **Kanıt (22 Kas, kod):** iki test var; ikisi de seviyeyi düşürebiliyordu; üçüncü parçada 3/3 sınanmamış seviye veriyordu. Kararlar: `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md`.
+
 ## Güncelleme günlüğü
 - 2026-11-21: Ekibe eklendi (Mehmet'in isteğiyle). İlk işi: metin seviyelerinin denetimi, iki seviye testinin ve günün quizinin incelenmesi.
+- 2026-11-22: İlk gerçek veriyle sınav sistemi değerlendirmesi; "seviyesi düşen 4 müşteri" düzeltildi (12).
