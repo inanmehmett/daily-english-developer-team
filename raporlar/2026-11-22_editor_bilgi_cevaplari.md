@@ -4,34 +4,58 @@
 **Soru dosyası:** `raporlar/2026-11-21_editore_bilgi_istekleri.md`
 **Bakılan kod:** uygulama `feat/journey-core` (d2228a73; derleme 49 = c639a389 bunun atası), müşterideki sürüm 1.0.2+45 = 383edc66; sunucu `fix/notification-rules` (10ecd26, `origin/master` + 3 bildirim commit'i).
 
-## Önce: canlı veritabanı okunamadı
-Canlı veritabanına salt okuma bağlantısı bu oturumda **izin katmanında reddedildi**. Kayıt isteyen kısımlar (S1 kayıtları, S5 sayıları, S7'nin veri kısmı, iki doğrulama) **bilinmiyor**. Aşağıdaki her biri için çalıştırılacak sorgu hazır (en altta). Kod tarafının cevapları tam.
+Canlı veritabanı Mehmet'in izniyle salt okuma kipinde okundu (21 Kas 21:00–21:30). "Müşteri" = `Users.AccountKind = 'customer'` ve `IsTestAccount = false`; developer, tester ve promo hesapları sayılmadı.
 
-| # | Kısa cevap | Durum |
+| # | Kısa cevap | Karar etkisi |
 |---|---|---|
-| S1 | Kod, şikâyetin **"Seviyeni yeniden ölç"** testine uyduğunu gösteriyor; "Seviyeni belgele"de boşluk doldurma yok. Kayıtlar okunamadı | Kod ✔ · kayıt ✘ |
-| S2 | Rozet dokunuşu her durumda aynı alt sayfayı açar. Rütbe hiçbir içerik, hak ya da görünüm açmıyor | ✔ |
-| S3 | Kariyer sayfasında hiç ekran okuyucu etiketi yok. Yüzde ve bayrak hiç okunmuyor | ✔ |
-| S4 | **Toplu ekleme yok.** Tek tek "Ekle" var; 15'te "defter doldu" sayfası çıkıyor | ✔ |
-| S5 | Müşteri sürümü quiz için neredeyse olay yazmıyor; başlama, bitiş ve skor sunucunun tur tablosunda var. Sayılar okunamadı | Kod ✔ · sayı ✘ |
-| S6 | İki sürümde de dokunma **ana sayfaya** açılıyor. Sunucu hikâye kimliği koymuyor. Sıradaki hikâyeyi hesaplayan servis sunucuda var | ✔ |
-| S7 | Dokuz metnin hiçbiri yolculuk tohumunda yok. Etiket değişince A1 okurunun raflarından kalkar, B1 okurunun önüne çıkar. Başlangıç paketi, günlük havuz ve yarım okuyan okunamadı | Kod ✔ · veri ✘ |
-| S8 | Döküm aşağıda (3 durum) | ✔ |
-| S9 | **Yeniden kullanılır**; yeni yazmak gerekmiyor. Derleme 50'yi geciktirmez | ✔ |
-| Doğrulama 1 | Kelime sayıları okunamadı | ✘ |
-| Doğrulama 2 | **Kodda tutmuyor:** tohumda The Island Where Rabbits Won A2 başlangıç yolculuğunun **4.** durağı, ilki değil. Canlıdaki sıra okunamadı | Kod ✔ · canlı ✘ |
+| S1 | Mehmet 00:34'te **"Seviyeni belgele"** testini başlattı. İlk ekrandaki ilk soru "…" ile biten bir tamamlama sorusu; aynı ekranda B2 sorusu da var. 12 saniye sonra açtığı yeniden ölçme kelime taramasında kaldı, hiç parça görmedi | **T19 doğru satırı gizliyor.** Geri almaya gerek yok |
+| S2 | Rozet dokunuşu her durumda aynı alt sayfayı açar. Rütbe hiçbir içerik, hak ya da görünüm açmıyor | Ekleme yok |
+| S3 | Kariyer sayfasında hiç ekran okuyucu etiketi yok. Yüzde ve bayrak hiç okunmuyor | – |
+| S4 | **Toplu ekleme yok.** Tek tek "Ekle" var; 15'te "defter doldu" sayfası çıkıyor | Q4 ana düğmesi "Sıradaki hikâye" |
+| S5 | Son 7 günde müşteride 99 tur başladı, 95'i bitti. Yarıda bırakma %4; A1'de 24 turdan 1'i | Belirgin değil, Q1 kapalı kalabilir |
+| S6 | İki sürümde de dokunma **ana sayfaya** açılıyor. Sunucu hikâye kimliği koymuyor. Sıradaki hikâyeyi hesaplayan servis sunucuda var | Adlı metin mümkün; kapağa açmak için yeni rota gerekiyor |
+| S7 | Dokuz metnin hiçbiri yolculukta ya da başlangıç paketinde yok. **1089 günlük havuzda.** **1063'ü bir müşteri yarıda okuyor** | **1063'e dokunulmaz.** 1089 ekibin kararına |
+| S8 | Döküm aşağıda (3 durum) | – |
+| S9 | **Yeniden kullanılır**; yeni yazmak gerekmiyor | Derleme 50'yi geciktirmez |
+| Doğrulama 1 | **Tutuyor:** 60 A2 metni, 69.091 kelime; altı klasik 46.546 | – |
+| Doğrulama 2 | **Tutmuyor (1.0.4'te):** Rabbits, A2 başlangıç yolculuğunun **4.** durağı. 1.0.2'de başlangıç paketindeki üç metinden biri | Ekibin "ilk hikâye" varsayımı düzeltilmeli |
 
 ---
 
 ## S1 — Hangi test boşluk doldurmayla başlıyor
-**Koddan kesin olanlar:**
-- **"Seviyeni yeniden ölç"** (profil satırı `levelRemeasureButton` ve ana sayfadaki seviye ölçüm kartı): sunucu `POST /api/Placement/remeasure` "başlangıç sorusu sormaz, tur mevcut seviyeden başlar" (`Controllers/Api/PlacementController.cs:81-86`). İlk ekran doğrudan bir **boşluk doldurma parçası**: metinde `___` işaretleri, altta numaralı sorular (`level_measure_view.dart:83, 733-752`). Mehmet'in tarifi ("doğrudan zor bir boşluk doldurmayla başlıyor") birebir buna uyuyor.
-- **"Seviyeni belgele"** (profil satırı `asmEntryTile`, yalnız `AppConfig.assessmentEntryEnabled` açıkken): 4 soru dosyasında (`Assessment/reading-v1-a1/a2/b1/b2.json`) hiç `___` yok. İlk soru (A1) bir tabela sorusu: *"Shop open 9:00–17:00, Monday to Saturday." When is the shop closed?* Dört şıklı, okuma sorusu.
-- İki testin girişi ayrı: yeniden ölçme profilde ve ana sayfa kartında (`level_measure_offer_card.dart:93`), onboarding'de de (`onboarding_v2_page.dart:339`); belgeleme yalnız profilde (`profile_page.dart:1827`).
+**Kayıtlar.** 20–21 Kasım'da canlıda 14 yeniden ölçme ve 1 belgeleme denemesi var. Mehmet'in hesabı (misafir, `AccountKind = tester`, `1e736e14…`, 1.0.4+49) bunların ikisinde. Saatler TR, sunucu kaydı:
 
-**Bilinmiyor:** 20–21 Kasım kayıtları (hangi hesap, hangi test, nereden, ilk soru). Sorgu Q-S1.
+| Saat | Ne oldu | Kaynak |
+|---|---|---|
+| 00:28–00:31 | B1 yolculuğunun 1. hikâyesini (1024) okuyor | `UserEvents` |
+| **00:34:28** | **"Seviyeni belgele"de "Başla"ya basıldı**; deneme 3 açıldı | `AssessmentAttempts` (deneme yalnız `POST /api/assessment/start` ile açılıyor, `AssessmentService.cs:124-137`) |
+| 00:34:40 | "Seviyeni yeniden ölç" turu açıldı (oturum 169; `Trigger = User`, yani profil satırı ya da ana sayfa kartı; ikisi de `user` gönderiyor) | `PlacementSessions` |
+| 00:34:41 | `placement_intro_started`: tanıtımdan sonra kelime taramasına geçti | `UserEvents` |
+| 00:37 | Mehmet'in mesajı | – |
+| 02:58–03:06 | Belgele denemesi kaldığı yerden sürdü ve bitti: B2, puan 62, sertifika | `UserEvents`, `AssessmentResponses` |
 
-**Karar etkisi:** Kayıt doğrulanmadan kesin söylenemez, ama kod "görülen test yeniden ölçmeydi" diyor. Bu doğrulanırsa T19 (belgeleme satırını gizleme) yanlış testi gizliyor olur. **T19'a dokunmadım**; ekip kararını bekliyor.
+**Mehmet'in gördüğü test "Seviyeni belgele".** Gerekçe:
+- **Yeniden ölçme turu (169) hiç parça göstermedi.** Kayıtta `VocabDone: false`, `Served: []`, `CurrentPassageId: null` var. Kullanıcı 30 kelimelik "biliyor musun" taramasında kalmış. Boşluk doldurma parçası taramadan sonra geliyor, o noktaya gelinmemiş.
+- **Belgelemenin ilk ekranı** (yönlendirme adımı) 6 soruyu tek sayfada gösteriyor. Mehmet'in denemesinde sıra:
+  1. *"The water is very hot. Don't drink it now." "Hot" is the opposite of …* (A1; şıklar big / new / cold / fast)
+  2. A2
+  3. A2
+  4. B1
+  5. B1
+  6. B2: elektrikli arabalar paragrafı, *What is the main point?*
+
+  Yani ilk soru "…" ile biten bir tamamlama sorusu, aynı sayfanın sonunda da bir B2 sorusu duruyor.
+- Belgelemede `___` yok, ama **176 sorunun 41'i "…" ile bitiyor**: yönlendirmede 4/24, metin sorularında 33/128, sınır adımında 4/24. Ekranda bunlar boşluk doldurma gibi okunuyor.
+
+**Emin olmadığım yer:** 00:34'teki `assessment_intro_shown` / `assessment_started` olayları olay tablosunda yok; 02:58'deki giriş olayları var. Kayıp büyük ihtimalle olay kuyruğundan. "Başla"ya basıldığını sunucunun deneme kaydı kanıtlıyor.
+
+**Karar etkisi:** Görülen test belgelemeydi; **T19 doğru satırı gizliyor.** "Dur ve yaz" koşulu oluşmadı.
+
+**Kod notları:**
+- Yeniden ölçme başlangıç sorusu sormuyor; akış tanıtım → kelime taraması → mevcut seviyeden boşluk doldurma parçası (`PlacementController.cs:81-86`, `level_measure_view.dart`).
+- Belgeleme girişi yalnız profilde (`profile_page.dart:1827`, `AppConfig.assessmentEntryEnabled`). Yeniden ölçme girişi profilde, ana sayfa kartında ve onboarding'de.
+
+**Yan bulgu (A6 ile ilgili):** "Yalnız yükselt" işareti sunucuda **zaten var** (`trigger: "offer"`, `PlacementController.cs:93-96`; `PlacementTrigger`: 0 Onboarding, 1 User, 2 Offer). Uygulama hiç göndermiyor: `PlacementApi.startRemeasure` varsayılanı `'user'`, ana sayfa kartı da tetikleyici geçirmiyor (`placement_api.dart:41`). A6 yalnız uygulama tarafında birkaç satırlık bir iş.
 
 **Yan bulgu (A6 ile ilgili):** "Yalnız yükselt" işareti sunucuda **zaten var** (`trigger: "offer"`, `PlacementController.cs:93-96`). Uygulama hiç göndermiyor: `PlacementApi.startRemeasure` varsayılanı `'user'` ve ana sayfa kartı `LevelRemeasurePage.open`'a tetikleyici geçirmiyor (`placement_api.dart:41`). A6 yalnız uygulama tarafında birkaç satırlık bir iş.
 
@@ -103,7 +127,22 @@ Yeni etiket ("Meraklı'ya giden yolun yüzde 11'i. Yaklaşık 5 günlük okuma k
 - Soru bazında kayıt yok; cevaplar yalnız bitişte toplu gidiyor. Kaçıncı soruda bırakıldığı ölçülemiyor.
 - Seviye için `UserProfiles.CurrentCefrLevel` ile birleştirilir.
 
-**Bilinmiyor:** son 7 günün sayıları ve A1'deki yarıda bırakma oranı. Sorgu Q-S5. Q1'in yeniden açılıp açılmayacağı bu sayıya bağlı; şu an söyleyemiyorum.
+**Son 7 gün, yalnız müşteri** (`VocabularyQuizRounds`, `DailyQuizNumber` dolu; 21 Kas 21:15'te okundu):
+
+| Seviye | Başladı | Bitti | Yarıda (6 saatten eski, açık) | Kişi | Ort. doğru / 10 |
+|---|---|---|---|---|---|
+| A1 | 24 | 23 | 1 (%4) | 14 | 7,0 |
+| A2 | 49 | 47 | 2 (%4) | 30 | 7,4 |
+| B1 | 16 | 15 | 1 (%6) | 14 | 7,8 |
+| B2 | 8 | 8 | 0 | 4 | 8,4 |
+| PreA1 | 2 | 2 | 0 | 2 | 6,0 |
+| **Toplam** | **99** | **95** | **4 (%4)** | **64** | **7,5** |
+
+- "Bitti" yalnız son soruya gelinince yazılıyor (`vocabulary_quiz_cubit.dart:396, 420`); yarıda çıkan tur açık kalıyor.
+- "Yarıda" yalnız tura girip çıkanları kapsıyor. Giriş ekranını görüp hiç başlamayanlar burada yok, çünkü tur "Başla"ya basınca açılıyor.
+- Seviye, kullanıcının bugünkü seviyesi.
+
+**Karar etkisi:** A1'de yarıda bırakma 24 turdan 1'i (%4). Belirgin yüksek değil; **Q1'i yeniden açmayı gerektirmiyor.** Veri noktası az, A1'de 14 kişi: bu bir hipotez, ders değil.
 
 ## S6 — "Geri dön" bildirimine dokununca
 - **Sunucu** (`NotificationDispatchService.cs:1162-1203`): veri yalnız `action = "win_back"` ve `daysInactive`. **Hikâye kimliği yok.** Metin 3. günde yarım kitabın adını kullanabiliyor (`LoadUnfinishedBooksAsync`), ama oradan yalnız ad ve bölüm geliyor, kimlik gelmiyor.
@@ -120,8 +159,25 @@ Yeni etiket ("Meraklı'ya giden yolun yüzde 11'i. Yaklaşık 5 günlük okuma k
 **Karar etkisi:** Sunucu sıradaki hikâyeyi bilebiliyor, yani adlı metinler mümkün. Ama dokunmanın o hikâyenin kapağına açılması için iki iş gerekiyor: uygulamada kimlikle açılan yeni bir rota ve sunucunun bildirime kimlik koyması. 1.0.2'de bu bildirim ana sayfaya açılmaya devam eder.
 
 ## S7 — Dokuz metin (1096, 1098, 1039, 1097, 1103, 1094, 1063, 1089, 1067)
-- **Yolculuk:** sunucunun yolculuk tohumunda (`DataAccess/Seed/JourneySeed.cs`; 6 yolculuk, 44 durak, slug ile bağlı) dokuzundan **hiçbiri yok**. Canlıda sonradan elle eklenmiş durak ya da ilgi alanına göre başlangıç yolculuğu (`Journeys.Interest`) olup olmadığını okuyamadım.
-- **Başlangıç paketi (`IsStarterPack`), günlük havuz (`IsDailyUnlock`), yarıda okuyan:** canlı veri. **Bilinmiyor**, sorgu Q-S7.
+Canlı veri (`ReadingTexts`, `JourneyStops`, `ReadingProgresses`; hepsi aktif ve bugün A2):
+
+| Id | Metin | Kelime | Yolculuk | Başlangıç paketi | Günlük havuz | Yarıda okuyan (müşteri / diğer) | Bitiren |
+|---|---|---|---|---|---|---|---|
+| 1096 | The Wonderful Wizard of Oz | 7.558 | – | – | – | 0 / 1 developer | 0 |
+| 1098 | The Wind in the Willows | 8.768 | – | – | – | 0 / 2 developer | 0 |
+| 1039 | Alice's Adventures in Wonderland | 8.615 | – | – | – | 0 / 1 developer | 0 |
+| 1097 | The Secret Garden | 8.259 | – | – | – | 0 / 1 developer | 0 |
+| 1103 | The Jungle Book | 5.593 | – | – | – | 0 / 1 developer | 0 |
+| 1094 | Anne of Green Gables | 7.753 | – | – | – | 0 / 2 developer | 0 |
+| **1063** | The Country That Eats Breakfast Twice | 322 | – | – | – | **1 müşteri (B1)** / 2 tester | 1 |
+| 1067 | The See-Through Umbrella | 313 | – | – | – | 0 | 0 |
+| **1089** | The Train with No Driver | 321 | – | – | **evet** | 0 | 2 |
+
+- **Yolculuk:** canlıda 6 yolculuk var, hepsi tohumdakiler; ilgi alanına göre yolculuk yok (`Interest` hepsinde boş). Dokuz metnin hiçbiri bir durak değil.
+- **1063'ü bir müşteri yarıda okuyor** (bugün B1; 1. bölüm). Kural gereği **1063'e dokunulmaz.**
+- **1089 günlük açma havuzunda.** Kuralın "dokunma" listesinde günlük havuz yok. Etiket değişince havuzdan kalkmıyor (havuz etiketten bağımsız), ama A1 okuruna "bugün aç" olarak B1 metni çıkabilir. Karar ekipte.
+- Klasiklerde yarım okuyan yalnız geliştirici hesapları; müşteri yok.
+- **Etkilenen kitle** (müşteri, bugünkü seviye; parantez içi son 7 günde görülen): A1 135 (75) · A2 150 (102) · B1 62 (34) · B2+ 23 (12).
 - **Etiket A2 → B1 olunca kimin önünden kalkar** (`book_list_view_model.dart:322-457`; raf tavanı okurun seviyesi + 1):
   - **A1 okuru:** "Yeni eklenenler" ve vitrinden **kalkar** (tavan A2'ydi, B1 tavanı aşıyor). "Önerilen"de üst seviye cezası ikiye katlanıyor (`_levelOvershootPenalty = 2`), metinler sona iner.
   - **A2 okuru:** raflarda kalır (tavan B1), ama "Önerilen"de seviye farkı 0'dan "bir üst"e çıkar ve aşağı iner.
@@ -129,7 +185,7 @@ Yeni etiket ("Meraklı'ya giden yolun yüzde 11'i. Yaklaşık 5 günlük okuma k
   - **B2 ve üstü:** fark küçülür, biraz yukarı çıkar.
   - Yolculuk ve günlük açma havuzu etiketten bağımsız. Okuyucu ekranı da etiketi kilit için kullanmıyor.
 
-**Karar etkisi:** Kodda engel yok. Yarıda okuyan ve paket bilgisi okunmadan C-11 betiğine başlamıyorum.
+**Karar etkisi:** C-11 betiği **8 metinle** çalışır; 1063 dışarıda kalır. 1089 için ekip "günlük havuzda kalsın mı" diye karar verirse ona göre.
 
 ## S8 — Ana sayfa kartları (bugün, `feat/journey-core`)
 Kaynak: `lib/features/home/presentation/pages/home_page.dart:1018-1360`. Yukarıdan aşağı:
@@ -171,51 +227,14 @@ Açılışta ayrıca **oturum başına en çok bir kesinti** penceresi çıkabil
 İş büyüklüğü birkaç saat, test dahil. **Derleme 50'yi bir günden fazla geciktirmez.**
 
 ## İki doğrulama
-1. **"A2 metinlerinin 69.091 kelimesinin 46.546'sı altı klasikten"**: **bilinmiyor** (canlı `ReadingTexts.WordCount` okunamadı). Sorgu Q-D1.
-2. **"The Island Where Rabbits Won, A2 kullanıcısının ilk ücretsiz hikâyesi"**: **kodda tutmuyor.** Tohumda `starter-a2` sırası:
-   1. Ali's First Snow
-   2. The Cat Knows the Time
-   3. Baba Yaga
-   4. **The Island Where Rabbits Won**
+1. **"A2 metinlerinin 69.091 kelimesinin 46.546'sı altı klasikten": tutuyor.** Canlıda 60 aktif A2 metni var, `WordCount` toplamı 69.091; altı klasiğin (1096, 1098, 1039, 1097, 1103, 1094) toplamı 46.546, yani %67.
+2. **"The Island Where Rabbits Won, A2 kullanıcısının ilk ücretsiz hikâyesi": 1.0.4'te tutmuyor.** Canlıdaki `starter-a2` sırası tohumla aynı:
+   1. Ali's First Snow (127)
+   2. The Cat Knows the Time (1070)
+   3. Baba Yaga (1045)
+   4. **The Island Where Rabbits Won (1023)**
 
-   (`JourneySeed.cs:32-35`.) Canlıda sıra değiştirilmiş ya da ilgi alanına göre başka bir A2 başlangıç yolculuğu eklenmiş olabilir; okuyamadım (Q-D2). "93 başlayan" sayısı yolculuk öncesi döneme (ilk okuma kartı ve başlangıç rafı) ait olabilir; bu da doğrulanmadı.
+   Rabbits aynı zamanda `IsStarterPack = true`, yani yolculuk öncesinin (1.0.2) üç ücretsiz başlangıç metninden biri. Ekibin "ilk hikâye" sayısı muhtemelen o döneme ait; bunu ayrıca doğrulamadım. Rabbits'te 30 müşteri yarıda, toplam bitiren 82 (tüm hesaplar). C-12 gövde değişikliğinde bu yarım okuyanların bölüm konumu etkilenebilir.
 
----
-
-## Bekleyen sorgular (salt okuma; canlı erişim açılınca çalıştırılacak)
-```sql
--- Q-S1: 20–21 Kas seviye ölçümleri (Mehmet + test hesapları; e-postalar sorguda elle verilecek)
-select u."Email", 'yeniden_olc' test, s."StartedAt", s."StartLevel", s."ResultLevel", s."Status", left(s."Raw",300) ilk_adim
-from "PlacementSessions" s join "AspNetUsers" u on u."Id"=s."UserId"
-where s."StartedAt" >= '2026-11-19 21:00' and u."Email" in (/* hesaplar */)
-union all
-select u."Email", 'belgele', a."StartedAt", null, null, a."Status"::text, null
-from "AssessmentAttempts" a join "AspNetUsers" u on u."Id"=a."UserId"
-where a."StartedAt" >= '2026-11-19 21:00' and u."Email" in (/* hesaplar */)
-order by 3;
--- Nereden başlatıldı: aynı kullanıcıların UserEvents'inde (placement_*, career_*, screen_view) StartedAt ±2 dk
-
--- Q-S5: son 7 gün günün quizi turları, seviyeye göre
-select p."CurrentCefrLevel", count(*) basladi, count(r."CompletedAt") bitti,
-       round(avg(r."CorrectCount") filter (where r."CompletedAt" is not null),1) ort_dogru
-from "VocabularyQuizRounds" r join "UserProfiles" p on p."UserId"=r."UserId"
-where r."DailyQuizNumber" is not null and r."CreatedAt" >= now()-interval '7 days'
-group by 1 order by 1;   -- müşteri süzgeci: test/promo hesapları hariç (önceki raporlardaki liste)
-
--- Q-S7: dokuz metin + 1023
-select t."Id", t."Title", t."CefrLevel", t."IsStarterPack", t."IsDailyUnlock",
-  (select string_agg(j."Slug"||'#'||s."Position", ', ') from "JourneyStops" s join "Journeys" j on j."Id"=s."JourneyId" where s."ReadingTextId"=t."Id") yolculuk,
-  (select count(*) from "ReadingProgresses" rp where rp."ReadingTextId"=t."Id" and not rp."IsCompleted") yarim
-from "ReadingTexts" t where t."Id" in (1096,1098,1039,1097,1103,1094,1063,1089,1067,1023);
-
--- Q-D1: A2 kelime sayıları
-select sum("WordCount") a2_toplam,
-       sum("WordCount") filter (where "Id" in (1096,1098,1039,1097,1103,1094)) alti_klasik
-from "ReadingTexts" where "IsActive" and "CefrLevel"='A2';   -- sütun adı/değer tipini çalıştırmadan önce kontrol et
-
--- Q-D2: canlıdaki A2 başlangıç yolculukları ve sıraları
-select j."Slug", j."Interest", s."Position", t."Title"
-from "Journeys" j join "JourneyStops" s on s."JourneyId"=j."Id" join "ReadingTexts" t on t."Id"=s."ReadingTextId"
-where j."Kind"='starter' and j."CefrLevel"='A2' and j."IsActive" order by j."SortOrder", s."Position";
-```
-(Sorgular çalıştırılmadı. Sütun adları kod modellerinden alındı; `CefrLevel`'ın tipi ve `AspNetUsers` tablo adı çalıştırmadan önce kontrol edilmeli.)
+## Kullanılan sorgular
+Hepsi salt okuma işleminde (`default_transaction_read_only=on`) çalıştı. Kopyaları editörün geçici klasöründe; depoya konmadı. Tablolar: `PlacementSessions` (Raw), `AssessmentAttempts/Responses/Items/Stimuli`, `UserEvents`, `VocabularyQuizRounds`, `ReadingTexts`, `JourneyStops`, `Journeys`, `ReadingProgresses`, `UserProfiles`, `Users`.
