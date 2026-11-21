@@ -34,3 +34,11 @@ Mehmet sordu: "Okuma yolculuklarına özel rozetler tanımlamalı mıyız?" Ekib
 | S10 | Bir yolculuk bitince bugün ne oluyor: kutlama ekranı, olay, XP, sıradaki yolculuğun atanması? Yolculuk sayfasında yolun sonunda ne görünüyor? | Rozetin verileceği an ve gösterileceği yer bugün var mı |
 | S11 | Kaç müşteri bir yolculuğu bitirdi, kaçı başlangıç yolculuğunda kaçıncı durakta (1.0.4 ve sunucunun eski metinlerden saydığı)? Seviye yolculuklarında 2. duraktan (ücretsiz sınır) öteye geçen var mı? | Rozet ulaşılabilir mi; yalnız Premium'un kazanabileceği rozet kaç kişiyi ilgilendirir |
 | S12 | `BadgeService` yeni bir "yolculuk" kümesini ve "yolculuk bitti" koşulunu bugünkü yapıyla alır mı; iş büyüklüğü (sunucu, uygulama, rozet çizimi)? Etkin 70 rozetten hiç kazanılmamış 46'sı hangileri (ad ve koşul)? | Yeni rozet eklemeden önce kazanılamayanların ayıklanması |
+
+## Ek sorular (22 Kas 00:40) – hesap açma ve profil resmi teşviki
+Mehmet: "Kullanıcıyı profil resmi eklemesi için arada teşvik etmek lazım; hem hesap oluşturması hem profil resmi için. Hesap için kayıp riski hatırlatılsın." Ekip karar vermeden önce (salt okuma; sonraki sürümün işi, derleme 50'ye girmez):
+| # | Soru | Neden |
+|---|---|---|
+| S13 | Misafire bugün hesap açmayı öneren her yer: ekran, koşul, sıklık, metin (ana sayfa "hesabını kaydet" kartı, profil "ilerlemeni kaybetme" kartı, kariyer "İlerlemeni güvene al" kartı, açılıştaki hesap koruma penceresi, başka varsa). Her birinden kayıt ekranına giden ve kaydı tamamlayan sayılabiliyor mu; sayılabiliyorsa sayılar | Yeni hatırlatma eklemeden önce var olanların ne yaptığını bilmek |
+| S14 | Misafir uygulamayı silip yeniden kurarsa ya da telefon değiştirirse ilerlemesine ne oluyor (iOS ve Android ayrı)? Geri getirmenin bir yolu var mı? | "Kayıp riski" cümlesi ancak doğruysa yazılır (ses kuralı 8) |
+| S15 | Üyeliğe geçen 31 misafir geçmeden hemen önce ne yapmıştı (son olaylar: hikâye bitişi, seri, defter, satın alma ekranı, hangi karttan)? | Hatırlatmanın doğru anı |
