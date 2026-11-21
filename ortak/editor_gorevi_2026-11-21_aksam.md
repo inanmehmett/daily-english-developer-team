@@ -67,12 +67,12 @@
 ## Rapor
 `raporlar/2026-11-22_editor_aksam_isi.md`: her madde için bitti / yapılmadı ve neden; ekibin karar vermesi gerekenler en üstte. A7 görüntüleri hazır olunca ayrı bir commit ile hemen gönder (ekip onu bekliyor). İş listesinin "Mehmet'ten doğrudan" bölümüne tek satır.
 
-## E. Profil resmi → derleme 50 (22 Kas 00:05; Mehmet: "bu sürümde halletmek istiyorum")
-Kararlar ve gerekçe: `raporlar/2026-11-22_profil_resmi_toplanti.md` (P1–P10). Sırayla:
-1. **Önce bak ve yaz (salt okuma, kısa):** profil resmi sunucuda nasıl tutuluyor (alan, yükleme ucu, üyelik şartı nerede); resim uygulamada nerelerde çiziliyor (profil, ana sayfa kişi kartı, başka); 1.0.2 bilinmeyen bir resim değeriyle ne yapar. P7'yi buna göre uygula; eski sürüm bozulacaksa ayrı alan.
-2. **P9:** üye hesapla fotoğraf yüklemeyi gerçek telefonda baştan sona dene (iOS, Android). Bozuksa düzelt.
-3. **P1:** **6** hazır profil resmi (12 değil; Mehmet 00:03), kodla çizilir (rütbe rozetlerinin yöntemi); tarif toplantı raporu bölüm 5: düz renkli daire zemin, yalnız baş, baykuş, kedi, tilki, kaplumbağa, ayı, tavşan; 32 pt'de tanınır. Önce altısının tek karede görüntüsünü (96 pt ve 32 pt) gönder; **Dieter onaylamadan** seçim sayfasına bağlama.
-4. **P2–P6:** seçim sayfası (6 resim + üyede "Fotoğraf seç / çek", misafirde "Kendi fotoğrafını ekle" → kayıt → fotoğraf seçimine dönüş); profilde resme dokunma ve kalem işareti; ilk hikâyeden sonraki ilk profil açılışında tek seferlik vurgu; seçilmemişse baş harf; resim her yerde aynı, Premium tacı üstte.
-5. **P8:** olaylar.
-6. Görüntüler (SE 3 + büyük yazı; misafir ve üye; seçilmemiş, seçilmiş, fotoğraflı) A7 sürüşüne eklenir.
-**Yolculuk rozetleri:** kod yazılmaz. Yalnız S10–S12 ve yolculuk dökümü (toplantı raporu bölüm 4, adım 1).
+## E. Profil resmi → **sonraki sürüm** (Mehmet 22 Kas 00:29: "tamam"; derleme 50'ye girmez)
+Kararlar: `raporlar/2026-11-22_profil_resmi_toplanti.md` (P1–P10; 6 resim, tarif bölüm 5). Derleme 50 mağazaya gittikten sonra, yolculuk rozetleriyle aynı sürümde. O zamana kadar yalnız salt okuma: profil resmi sunucuda nasıl tutuluyor, uygulamada nerelerde çiziliyor, 1.0.2 bilinmeyen değerle ne yapar; üye hesapla fotoğraf yükleme gerçek telefonda çalışıyor mu (P9). Yolculuk rozetleri için S10–S12 ve yolculuk dökümü.
+
+## F. Derleme 50'den önce tek acil iş: "Seviyeni belgele" ısınma soruları (22 Kas 00:35)
+Satır Mehmet'in sözüyle yeniden görünür; 176 soru henüz okunmadı. Mehmet'in 00:37'de gördüğü sorun yerinde duruyor (ilk ekranda altı soru, sonda B2 paragrafı). Ekip kararı (akşam raporu bölüm 5) satır gizliyken uygulanacaktı; satır açıldığı için **yayından önce** gerekiyor:
+1. Önce bak ve yaz: ısınma (yönlendirme) sorularının sırası ve seçimi sunucuda mı belirleniyor? Sunucudaysa yeni derleme gerekmez.
+2. Isınma soruları kolaydan zora sıralanır (bugün zaten öyleyse dokunma, yaz). Kullanıcının seviyesi A1–A2 ise ısınmadaki B2 sorusu yerine bir A1 sorusu gelir.
+3. Sunucu değişikliğiyse PR aç; yayın Mehmet'in sözüyle. Uygulama değişikliği gerekiyorsa `feat/journey-core`'a.
+Bunun dışında derleme 50'ye yeni iş eklenmez.
