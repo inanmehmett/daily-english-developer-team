@@ -23,7 +23,7 @@
   - Başlangıç seviyesi ısınmada sorulan en yüksek seviyeyi geçmez (yukarıda 1).
   - B1 ve üstü okurda hiçbir şey değişmedi.
 - **Testler:** 8 yeni test; tam sunucu turu temiz (1.812 geçti, 0 başarısız).
-- **Durum:** dal yerelde, commit'li. Uzak depoya göndermem izin katmanında reddedildi; PR açılamadı. Mehmet dalı gönderince PR'ı açarım; **yayın Mehmet'in sözüyle.**
+- **Durum:** dal uzak depoda, **PR #18 açık, birleştirilmedi:** https://github.com/inanmehmett/DailyEnglish/pull/18. Yayın Mehmet'in sözüyle; Charles'ın yukarıdaki 1. maddeye cevabı birleştirmeden önce gelirse iyi olur.
 - **Yapılmayan:** altı sorunun tek sayfada gösterilmesi uygulama işi (H8-b, yarım–1 gün, yeni derleme); bu notta istenmedi.
 
 ## 2. Sınav sistemi: Charles için dosyalar
@@ -56,4 +56,5 @@ Hepsi `raporlar/veri_2026-11-22/sinav_sistemi/` altında.
 Bölüm 5 (S13–S15: hesap hatırlatmaları), bölüm 3 (yolculuk dökümü, S10–S12), bölüm 4 (profil resmi). Henüz başlanmadı.
 
 ## Ayrıca (Mehmet'in doğrudan sözü, 01:10)
-Kariyer sayfasında yol ile rozetler arasında boşluk vardı ("kopukluk hissi veriyor"). Neden: yol rozetin çevresindeki dairenin dışında bitiyordu, rozet ise altıgen; düz kenarlarda 10–12 pt boşluk kalıyordu. Yol artık geldiği yönde altıgenin görünen kenarına kadar gidiyor ve ucu rozetin altına 4 pt giriyor (`0039a0ac`, `feat/journey-core`). Mehmet'in telefonuna kuruldu; görüşü bekleniyor.
+Kariyer sayfasında yol ile rozetler arasında boşluk vardı ("kopukluk hissi veriyor"). Neden: yol rozetin çevresindeki dairenin dışında bitiyordu, rozet ise altıgen; düz kenarlarda 10–12 pt boşluk kalıyordu. İlk düzeltme (`0039a0ac`): yol altıgenin görünen kenarına kadar gidiyor.
+Mehmet'in ikinci isteği (01:55): "Rozet ucu ile yol ucu bir bütün olsa; rozet büyüyüp küçülürken yol da yapışık kalsa." Yapıldı (`06d001c0`): yol rozetin kenar çizgisinde **kesiliyor**, rozetin altında yol kalmıyor (soluk uzak rozetlerin altından da görünmez); kullanıcının rozeti nefes alırken kesim de onunla büyüyor, ona bağlı iki yol ucu rozetle birlikte oynuyor. Tam test turu temiz (1.296). `feat/journey-core` uzak depoda; Mehmet'in telefonunda kurulu (02:21), görüşü bekleniyor. Dieter için not: rozetin köşe yuvarlaklığı tahminle alındı; yol tam sivri uca denk gelirse ince bir boşluk ya da bindirme olabilir, sürüşte bakılacak.
