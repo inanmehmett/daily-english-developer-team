@@ -4,19 +4,8 @@
 **Kural:** sırayla. Her işte önce koda bakılır; kararda yazan şey kodda zaten varsa ya da kodla çelişiyorsa yazılmaz, raporlanır. Kullanım sınırına takılırsan sıra bozulmaz; kaldığın yerden devam edersin. Çeviri işçileri 22 Kasım 04:30'da kendiliğinden başlıyor; bu görev bitmediyse işçileri bu görev bitene kadar ertele.
 **Onaylar:** Mehmet'in 20:16 sözü **derleme 50 için "çıkar" sözüdür.** Sunucu PR'ı ve içerik betiği için de bu söz geçerli: tam test temiz geçerse yayınla, betiği yedek alıp çalıştır. Bir şey ters giderse dur ve raporla.
 
-## 0. Önce: ekibin bilgi istekleri (salt okuma, kısa)
-Mehmet (20:30): "Bilgiye ihtiyacın varsa editörden iste." Ekip bu soruları Mehmet'e değil sana soruyor. Cevapları raporun en başına koy. Bir cevap bir kararı değiştiriyorsa o işe başlamadan yaz ve dur; ekip aynı gün karar verir.
-| # | Soru | Neden |
-|---|---|---|
-| S1 | Mehmet'in "zor boşluk doldurmayla başlıyor" dediği test hangisi? Mehmet'in hesabının (ve test hesaplarının) 20–21 Kasım'daki seviye ölçümü kayıtları: hangi test başlatıldı, ilk soru neydi | "Seviyeni belgele"de boşluk doldurma yok. Mehmet yeniden ölçmeyi gördüyse yanlış satırı gizliyoruz (T19) |
-| S2 | Kariyer sayfasında rozete dokununca bugün ne oluyor? Rütbe kazanmak bir şey açıyor mu? | D6 ve sonraki sürümdeki "rütbe ne getirir" penceresi |
-| S3 | Kariyer yolunun ve rozetlerin bugünkü ekran okuyucu etiketleri | D7 |
-| S4 | Günün quizi sonucunda yanlış kelimeleri toplu olarak deftere ekleyen bir yol var mı? | Q4'ün ana düğmesi |
-| S5 | Günün quizi için bugün hangi olaylar yazılıyor? | Q7 |
-| S6 | "Geri dön" bildirimine dokununca uygulama nereye açılıyor (1.0.4 ve 1.0.2)? Sunucu bildirime hikâye kimliği koyuyor mu? | Bölüm 2: dokunma kapak sayfasına açılmalı |
-| S7 | 9 metin (C-11 listesi) bir yolculukta, başlangıç paketinde ya da günlük havuzda mı? B1'e geçince kimin önünden kalkar, kimin önüne çıkar? | Etiket değişikliğinin yan etkisi |
-| S8 | Ana sayfada bugün hangi kartlar hangi koşulla çıkıyor (ilk hafta sayacı, kişi kartı, yolculuk kartı, seviye kartı ve öbürleri), sırayla | Sadeleşme taslağı (D-14); bu döküm taslaktan önce ekibe gelir |
-| S9 | Ana sayfa yolculuk kartı ve "Yarın hatırlat" için var olan bileşen yolculuk sayfasındakiyle aynı mı, yeniden kullanılabilir mi? | G2 iş büyüklüğü |
+## 0. Önce: ekibin bilgi istekleri (salt okuma)
+Sorular ve nasıl cevaplanacağı: **`raporlar/2026-11-21_editore_bilgi_istekleri.md`** (S1–S9 ve iki doğrulama). Cevaplar `raporlar/2026-11-22_editor_bilgi_cevaplari.md`. A bölümüne bunlar cevaplanmadan başlanmaz.
 
 ## A. Uygulama → derleme 50 (`feat/journey-core`)
 1. **Ana sayfa kartının gövdesi** yolculuk sayfasını açar; düğme olduğu gibi kalır. Kaynak `home_card_body` (karar 1b-G1).
