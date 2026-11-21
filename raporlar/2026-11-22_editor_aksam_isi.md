@@ -15,7 +15,7 @@
 | 3 | **Ada metni (1023) değiştirilmedi** (C) | Kural gereği: okuma konumu bölüm sırasıyla değil **sayfa numarasıyla** tutuluyor (metin bölümsüz kayıtlı; sayfalar telefonun ekranına göre 2–5 arası). Yarıda okuyan 24 müşterinin 17'si 1. sayfada, 7'si 2. ya da 3. sayfada. Yeni metin neredeyse aynı uzunlukta (287 → 286 kelime, aynı sıra); 7 kişi için kayma birkaç cümle olur | Bu kaymayı kabul ediyorsanız yazın, betiği hazırlarım. Çeviri ve sözlük eşleşmesi ayrıca yenilenecek |
 | 4 | **Etiket betiği canlıda çalışmadı** (C) | Betik ve yedek hazır; canlıya yazma editörün izin katmanında reddedildi (okuma serbest) | Mehmet çalıştıracak; komut en altta |
 | 4b | **Sunucu PR'ı açık, yayınlanmadı** (B) | Mehmet'in kayıtlı kuralı: sunucu yayınını (PR birleştirme) kendisi yapar ya da editöre o an açıkça söyler. İki dal Mehmet'in izniyle gönderildi (23:40); PR #16 açık, testler temiz | Mehmet birleştirecek |
-| 4c | **Sıralama rozetleri, liderlik tablosu kapalıyken verilmeye devam ediyor** | Mehmet sordu: "liderlik tablosu geri mi geldi?" Gelmedi. Ama altı sıralama rozeti hâlâ veriliyor: Top 100 (87 müşteri), Top 50 (27), Haftalık Şampiyon (8), Seviye Lideri (3), Top 10 (3). Kullanıcı sıralamayı göremiyor, rozetini alıyor. Dokunmadım | Mehmet'e soruldu: kalsın mı, tablo dönene kadar dursun mu? Cevabına göre |
+| 4c | **Sıralama rozetleri kapatıldı** (Mehmet, 23:55: "kapatılması gereken rozetleri kapat") | Liderlik tablosu kapalıyken altı sıralama rozeti verilmeye devam ediyordu: Top 100 (87 müşteri), Top 50 (27), Haftalık Şampiyon (8), Seviye Lideri (3), Top 10 (3). Kullanıcı sıralamayı göremiyor, rozetini alıyordu. PR #16'ya eklendi (`f873a43`): tablo kapalıyken altısı da verilmez ve kazanmamış olana hedef olarak gösterilmez; kazanılmış rozetler koleksiyonda kalır. Tablo dönünce tek sunucu ayarıyla (`Gamification:RankingBadgesEnabled=true`) birlikte geri gelir. Haftalık Şampiyon'un yeni kuralı kodda ama tablo dönene kadar uykuda; yukarıdaki 5 ve 6 o zamana kalır | Bilgi |
 | 5 | **Haftalık Şampiyon'un saati** (B) | Sunucuda hafta pazartesi 00:00 UTC'de (Türkiye saatiyle 03:00) kapanıyor; haftalık XP o an sıfırlanıyor. Rozet o an veriliyor, pazar 23:59'da değil. Pazar 23:59'a çekmek haftalık XP sıfırlamasını da taşımak demek (seri dondurma hesabı ona bağlı); bu PR'a almadım | 3 saatlik fark kabul mü? |
 | 6 | Haftalık Şampiyon: iki ayrıntı | Birincilik paylaşılıyorsa (aynı XP) o hafta rozet verilmiyor ("tek kişi" kuralı). Rozet haberi uygulama açıkken gidiyor; kullanıcı 03:00'te uygulamada değilse kutlama görmez, rozet koleksiyonunda bulur | Bilgi. Kutlamanın sonraki açılışta gösterilmesi ayrı iş |
 | 7 | **"Geri dön" metinlerinde tablonun söylemediği üç yer** (B) | (a) 14. gün, hikâye bilinmiyorsa tablo yalnız başlık veriyor. Yeni cümle yazmadım; gövde bugün canlıda giden cümle olarak kaldı: "Kelimelerin ve seviyen yerinde. Bir bölüm yeter, kaldığın yerden." (b) Hikâye bilinmiyorsa {dk} = 3. Veriden doğrulandı: her seviyenin başlangıç durakları 2–3 dakika, ücretsiz metinlerin ortancası 2–3. (c) Çok bölümlü kitapta {dk} bir bölümün süresi (kitabın süresi ÷ bölüm sayısı); yoksa "43 dakikalık hikâye" çıkardı | Paul (a) için gövde yazarsa bir satırlık değişiklik |
@@ -40,8 +40,8 @@ Tam test turu temiz: 1.284 test geçti. Analiz temiz.
 | A6 Bildirimden kapak | **Bitti** (`03eb5028`) | Bildirimde `readingTextId` varsa kapak sayfası; yoksa ya da hikâye katalogda değilse ana sayfa. Uygulama bildirimle soğuk açılırsa katalog için 8 saniyeye kadar bekliyor |
 | A7 Sürüş ve derleme | **Yapılmadı** | Mehmet: "derlemeyi daha sonra yapacağız" |
 
-## B. Sunucu (dal `feat/winback-story-quiz-exact-weekly-champion`, 5 commit, PR #16)
-Tam test turu son commit üzerinde tek geçişte temiz: 1.797 geçti, 0 başarısız, 3 atlandı. (İlk turda 2 test kalmıştı: biri yeni 30. gün metnini bekleyen eski test, düzeltildi; öbürü dokunulmayan beta daveti testi, makine yükü altında bir kez takıldı, sonraki iki turda geçti.) **PR #16 açık, birleştirilmedi:** https://github.com/inanmehmett/DailyEnglish/pull/16
+## B. Sunucu (dal `feat/winback-story-quiz-exact-weekly-champion`, 6 commit, PR #16)
+Tam test turu son commit (`f873a43`) üzerinde tek geçişte temiz: 1.800 geçti, 0 başarısız, 3 atlandı. (İlk turda 2 test kalmıştı: biri yeni 30. gün metnini bekleyen eski test, düzeltildi; öbürü dokunulmayan beta daveti testi, makine yükü altında bir kez takıldı, sonraki iki turda geçti.) **PR #16 açık, birleştirilmedi:** https://github.com/inanmehmett/DailyEnglish/pull/16
 
 | Madde | Durum | Not |
 |---|---|---|
@@ -66,5 +66,4 @@ Tam test turu son commit üzerinde tek geçişte temiz: 1.797 geçti, 0 başarı
 2. **Etiket betiği (canlıya yazma; editörün izin katmanı reddetti):** backend deposunda
    `psql "$DATABASE_PUBLIC_URL" -v ON_ERROR_STOP=1 -f MigrationScripts/RelabelTextLevels_2026_11_21.sql`
    Beklenen çıktı: `UPDATE 7`. Betik PR'dan bağımsız; istediğin zaman çalışır.
-3. **Sıralama rozetleri** (yukarıda 4c): kalsın mı, dursun mu?
-4. Derleme 50 sürüşü ve mağaza yüklemesi: "sonra" dediğin zaman.
+3. Derleme 50 sürüşü ve mağaza yüklemesi: "sonra" dediğin zaman. `feat/journey-core` son hâli 21 Kas 23:50'de Mehmet'in telefonuna kuruldu (canlı sunucuya bağlı); kariyer sayfasını gerçek ekranda ilk Mehmet görecek.
