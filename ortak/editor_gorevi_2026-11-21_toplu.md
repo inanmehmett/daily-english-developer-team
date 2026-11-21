@@ -45,5 +45,19 @@ Mehmet'in ekran görüntüsü (277 XP, Çaylak kazanılmış) üzerinden Dieter 
 Ölçerek yaz: sıradaki rütbe adının zeminle karşıtlığı, alt şerit yazı boyu, en küçük dokunma alanı.
 Karar Mehmet'in; onay olmadan ana dala girmez.
 
+## F. Güncelleyen eski kullanıcı ne görecek? (sürüm yolunda, B'den sonra; derleme 50 adayında)
+Sadık 17 kişinin 16'sı eski sürümde; 1.0.4 asıl onlara lazım. Yeni kullanıcı akışı sınandı, **güncelleyen kullanıcı sınanmadı.**
+1. Eski sürümde okuma geçmişi olan bir hesapla (başlangıç hikâyelerini bitirmiş, birkaç günlük metin okumuş, onboarding'i eskiden tamamlamış) 1.0.4'ü aç. Ana sayfada yolculuk kartı çıkıyor mu, "sıradaki hikâye" dolu mu, "Senin Yolculuğun" sayfası boş mu kalıyor?
+2. Başlangıç yolculuğunu zaten bitirmiş kişide sıradaki ne? Boş kart ya da yalnız kilitli metin çıkıyorsa bu sürümü durduran bir bulgudur; raporla, çözümü ekip söyler.
+3. Bu kişiye onboarding sonu teklifi ya da başka bir tanıtım yeniden çıkıyor mu? Çıkmamalı.
+4. Günlük hakkını kullanmış kişide ana sayfa "yarın açılacak"ı ve Premium kapısını gösteriyor mu?
+Yerelde, canlı verinin kopyasıyla ya da elle kurulmuş hesapla; canlıda hesap açma yok. Üç durumun ekran görüntüsü.
+
+## G. Ölçüm var mı? (yalnız doğrulama)
+Sürümden sonra şunları sayabilecek miyiz: yolculuk kartı gösterildi / dokunuldu; uygulama açıldı ama metin açılmadı oturumu; "Yarın hatırlat" seçildi; bitiş ekranında Premium kapısına dokunuldu. Eksik olan varsa adını yaz; küçükse derleme 50'ye ekle, büyükse yalnız raporla.
+
+## H. Metin (derleme 50)
+Ayar sunucuya yazılamazsa çıkan uyarı: "Ayarın bu telefonda kayıtlı, ama sunucuya ulaşamadık. Birazdan yeniden dener misin?" (Paul; eski: "Ayarlar telefonda kaydedildi ama sunucuya ulaşılamadı. Biraz sonra yeniden kaydet.")
+
 ## Rapor
-`raporlar/2026-11-21_editor_toplu_is.md`: A–E için ne yapıldı, ne yapılamadı, Mehmet'ten ne bekleniyor.
+`raporlar/2026-11-21_editor_toplu_is.md`: A–H için ne yapıldı, ne yapılamadı, Mehmet'ten ne bekleniyor.
