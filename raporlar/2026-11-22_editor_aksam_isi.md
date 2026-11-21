@@ -6,6 +6,20 @@
 1. "Seviyeni belgele gizli olmasın." → T19 geri alındı; satır yeniden görünür.
 2. "Derlemeyi daha sonra yapacağız." → A7 (sürüş, görüntüler, TestFlight, Play) ve gerçek ekran isteyen D taslağı yapılmadı.
 
+## Gece yarısı güncellemesi (22 Kasım 00:15): Mehmet'in doğrudan sözleriyle yapılanlar
+Aşağıdaki tablo ve bölümler 21 Kasım 23:00'teki durumu anlatır. Sonrasında Mehmet'in sözüyle şunlar oldu:
+
+| Saat | Mehmet | Yapılan |
+|---|---|---|
+| 23:40 | "Dalları gönder." | İki dal uzak depoda |
+| 23:55 | "Kapatılması gereken rozetleri kapat. Telefona kur." | Altı sıralama rozeti durduruldu (aşağıda 4c). `feat/journey-core` son hâli Mehmet'in telefonunda |
+| 23:57 | "Okuyan varsa yoksa önemli değil. Tüm içerikler doğru seviyede gösterilsin. Hemen uygula." | **Dokuz metin canlıda B1.** Ekibin dışarıda bıraktığı ikisi de (1063, bir müşteri yarıda okuyor; 1089, günlük havuzda) dahil. Betik `UPDATE 9` döndü, canlıdan doğrulandı; eski etiketlerin yedeği alındı. Yolculuklar etkilenmedi (dokuzundan hiçbiri durak değil) |
+| 00:09 | "PR 16'yı yayınla." | **PR #16 canlıda** (birleştirme `5881a30`, yayın 00:11'de başarılı, API sağlıklı). Yerel tam tur ve GitHub turu temizdi (1.800 test) |
+
+Canlıda artık: "geri dön" bildirimleri sıradaki hikâyenin adıyla ve kimliğiyle gidiyor · quiz cevabı tam eşleşmeyle sayılıyor · altı sıralama rozeti verilmiyor ve kazanmamış olana gösterilmiyor · dokuz metin B1.
+
+**Ekip için değişenler:** aşağıdaki 4 ve 4b kapandı. 1063 ve 1089 için "A2 kalır, Paul cümleleri böler" kararı geçersiz; ikisi de B1, cümleler bölünürse etiket yeniden bakılır. Mehmet ayrıca kelime defterindeki "Kelimeler unutmak üzereyken geri gelir" ekranını sordu; editörün cevabı: bugün bir kez gösteriliyor, öyle kalsın, ama sonradan açmanın yolu ve ölçümü yok (Mehmet'in kararını bekliyor).
+
 ## Önce: ekibin bilmesi ve karar vermesi gerekenler
 
 | # | Konu | Durum | Ekipten beklenen |
