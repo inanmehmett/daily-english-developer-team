@@ -1,6 +1,27 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 21 Kasım 2026, 20:30. **Mehmet (20:16): "Bu işlerin hepsi hemen sırayla yapılsın."** Bu söz 12:12'deki "sürümden önce iş eklenmez" kuralının üstündedir. **Sıradaki iş editörde (Mehmet 21:31: "hepsini yapması için talimat ver"):** `ortak/editor_gorevi_2026-11-21_aksam.md` (son hâl 21:35; tek başına okunur; bilgi soruları S1–S9 cevaplandı ve içine işlendi) (A uygulama → derleme 50; B sunucu PR; C içerik betiği; D veri ve taslak). Ekip kararları: `raporlar/2026-11-21_aksam_ekip_kararlari.md`. Derleme 50 çıkınca Mehmet'in 10. adımı (kontroller) derleme 50 üzerinde yapılır, sonra mağaza. PR #15 canlıda (21 Kas 13:33). Derleme 49'da olmayan, derleme 50'yi bekleyenler: `raporlar/2026-11-21_editor_toplu_is.md` son bölüm.
+**Son güncelleme:** 22 Kasım 2026, 02:35 (editörün 02:24 raporuna göre). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
+
+## Şu anki durum
+**Canlıda:** PR #15 (geri dön kuralı) · PR #16 (yeni "geri dön" metinleri ve hikâye kimliği, quiz tam eşleşme, sıralama rozetleri kapalı, Haftalık Şampiyon kuralı) · dokuz metin B1.
+**Mağazada:** 1.0.2. **Mehmet'in telefonunda:** `feat/journey-core` son hâli (02:21; kariyer yolu rozet kenarında kesiliyor, `06d001c0`).
+
+| Sıra | İş | Kim | Durum |
+|---|---|---|---|
+| 1 | **PR #18** (belge testi ısınması: A1–A2 okura B2 sorusu yok; başlangıç, sorulan en yüksek seviyeyi geçmez) | Editör yazdı; **Charles onayladı (C1)** | Açık, testler temiz. **Birleştirme Mehmet'in sözüyle.** Yeni derleme gerektirmez |
+| 2 | Sınav sistemi, sunucu: C3 sınanmamış seviye verilmez · C4 belge testi yalnız yükseltir · C5 kelime bazında kayıt · C9 seviye değişince yolculuk | Editör | Başlanmadı. **Ayrı PR** (#18 beklemesin). Yayın Mehmet'in sözüyle |
+| 3 | Sınav sistemi, canlı veri: dört yeni B1 parçası eklenir, sonra 38–41 kapanır · 29 sorunun kökü | Editör betiği hazırlar | Başlanmadı. İçerik hazır. Çalıştırma Mehmet'in sözüyle |
+| 4 | Sınav sistemi, uygulama: C6 sorular tek tek · C7 sonuç metinleri · C8 puan yerine söz | Editör | Başlanmadı (tahmin 1–2 gün) |
+| 5 | Derleme 50 sürüşü: SE 3 + büyük yazı görüntüleri → Dieter, Don → TestFlight ve Play dahili test | Editör, ekip | 4'ten sonra. Kodda hazır olanlar: ana sayfa kartı, kariyer, quiz, yorum ekranı, yeniden ölçme `offer`, bildirimden kapak, kelime defteri açıklama ölçümü |
+| 6 | Telefonda kontroller (satın alma, iptal, promosyon kodu, bildirimden kapak) ve mağaza | Mehmet | 5'ten sonra |
+| – | Salt okuma raporları: S13–S15 hesap hatırlatmaları, S10–S12 ve yolculuk dökümü, profil resminin koddaki durumu | Editör | Başlanmadı; 4'ten sonra |
+| – | Kalan 147 belge sorusunun okunması; B9'daki beş boşluk; 1063 ve 1089'un uzun cümleleri | Charles, Paul | Sürüyor (sürümü beklemez) |
+
+**Dieter'e (sürüşte ilk bakılacak):** kariyer yolunun rozetle birleştiği uç (köşe yuvarlaklığı tahminle; boşluk ya da bindirme olabilir), yüzde etiketinin yeri (bayrak kayınca etiket de 19 pt'e kadar kayıyor), büyük yazı.
+**Sonraki sürüm:** profil resmi (6 hazır resim) · yolculuk rozetleri · hesap açma teşviki · ana sayfa sadeleşmesi · belge testinde kelime adımı (C10) · quizde "aynı tür" (önce kelime türü verisi) · Ada metni (1023) A2 yazımı.
+**Ekipten bekleyen küçük kararlar (editörün akşam raporu):** Haftalık Şampiyon'un pazartesi 03:00'te verilmesi **kabul** (tablo kapalıyken etkisi yok) · 14. gün yedek gövdesi bugünkü cümleyle **kalır** · Ada metninde 7 kişide birkaç cümlelik kayma **kabul**, ama iş sonraki sürümde · kelime türü verisinin düzeltilmesi içerik işi, sonraki sürüm.
+**Belgeler:** editörün işi `ortak/editor_notu_2026-11-22_gece.md` (bölüm 6–7) ve `ortak/editor_gorevi_2026-11-21_aksam.md` · kararlar `raporlar/2026-11-22_sinav_sistemi_bu_surum.md`, `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md`, `raporlar/2026-11-21_aksam_ekip_kararlari.md`, `raporlar/2026-11-22_profil_resmi_toplanti.md`.
+
 **Yeni kural (21 Kas akşam):** listede "karar Mehmet'te" yazılmaz; ürün kararını ekip verir. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur. Editörün görüntüleri Mehmet'e gitmeden önce Dieter ve Don'dan geçer.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
 
