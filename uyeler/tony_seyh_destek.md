@@ -21,8 +21,16 @@ Tahmin değil, belgelenmiş: Zappos'un "Delivering Happiness" kitabında anlatı
 - **İç bulgu da geri bildirimdir.** **Bize uygulanışı:** Mehmet'in telefonda bulduğu her şey destek kaydı gibi tutulur; aynı türden üçüncü bulgu bir süreç sorununa işaret eder (ör. "ekran görülmeden karar").
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Geri bildirim yönetimi
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Kano modeli.** Noriaki Kano (1984): özellikler üç türdür; olmazsa olmaz (yokluğu kızdırır, varlığı sevindirmez), performans (ne kadar iyi o kadar memnuniyet), heyecan veren (beklenmez, sevindirir). **Bize uygulanışı:** Şikâyetler bu üç kutuya ayrılır. Yanlış çeviri ve çalışmayan satın alma olmazsa olmazdır ve her şeyden önce gelir; rozet ve profil resmi heyecan kutusundadır.
+- **Döngüyü kapatmak.** Müşteri deneyimi uygulaması: geri bildirim verene ne yapıldığı söylenir. **Bize uygulanışı:** Bir sorunu bildiren kullanıcıya düzeltme çıktığında haber verilir (mağaza yorumuna cevap, e-posta). Mağazada geliştirici cevabı yorumu görenlere de konuşur.
+- **Sessiz çoğunluk.** Şikâyet edenler azınlıktır; çoğu kullanıcı bir şey demeden gider. **Bize uygulanışı:** Bu yüzden davranış verisi (Nate) ile söz verisi (yorum, e-posta) yan yana okunur; tek başına ikisi de yanıltır.
+- **İlk uygulama:** Var olan bütün mağaza yorumları ve e-postalar tek tabloya: tarih, sürüm, dert, Kano kutusu, cevaplandı mı.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu.
 - 2026-10-30: Gerçek Tony Hsieh çerçevesi (script'siz, gerçek çözüm odaklı destek) dayanak olarak eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Geri bildirim yönetimi).

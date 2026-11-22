@@ -24,6 +24,13 @@ Onboarding akışı, gamification mantığı (XP, seviye, ödül) ve genel kulla
 - **Kök neden ve gözlem.** Kaynak: Norman'ın insan odaklı tasarım döngüsü gözlemle başlar; hatada kullanıcı değil tasarım sorgulanır ve "neden" sorusu kök nedene inene kadar sorulur. **Bize uygulanışı:** Öneriden önce var olanın dökümü ve gerçek davranışın kaydı (olay sırası) istenir. Hesap hatırlatmalarını saymadan yenisini önermek bu sıranın tersiydi.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Davranış tasarımı
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Davranış = güdü + kolaylık + tetik.** BJ Fogg'un davranış modeli (*Tiny Habits*, 2019): bir davranış, güdü ve yapabilirlik yeterliyken bir tetik geldiğinde olur; güdüyü artırmak zordur, işi kolaylaştırmak ucuzdur. **Bize uygulanışı:** Hesap açma: güdü düşük, iş zahmetli, tetik dört yerde. Çözüm beşinci tetik değil, işi kolaylaştırmak (tek dokunuşla Apple/Google ile kayıt var mı, koddan bakılır) ve tetiği güdünün yüksek olduğu ana koymak.
+- **Küçük alışkanlık ve çapa.** Aynı kaynak: yeni alışkanlık var olan bir rutine bağlanır ve çok küçük başlar. **Bize uygulanışı:** Hatırlatma saati kullanıcının zaten yaptığı bir şeye bağlanabilir ("sabah kahvesiyle bir hikâye"); onboarding'de saat yerine an sorulabilir.
+- **Zirve ve son.** Daniel Kahneman ve ark.: bir deneyim, en yoğun anı ve sonuyla hatırlanır. **Bize uygulanışı:** Hikâyenin son ekranı ürünün en çok hatırlanan anıdır; orada teklif, izin isteği ve hatırlatma yığılırsa hatıra o olur.
+- **İlk uygulama:** Bir hikâyeyi bitirdikten sonraki ekranların dökümü: sırayla ne çıkıyor, kaçı istek, kaçı ödül (editörden).
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Not: uygulamanın metin seslendirme özelliği var (kitap okurken dinleme); demo kullanıcı "Sarah" tanıtımlarda kullanılıyor.
 - 2026-10-30: İlk denemede (gece 02:08) Don Norman için belgelenmiş bir vaka bulamamıştım; ikinci aramada signifier/mapping/Norman doors kavramları bulundu, dayanak olarak eklendi.
@@ -31,3 +38,4 @@ Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün h
 - 2026-11-15: Editör Bölüm 1'de ekranlar görüldü; iki not eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Davranış tasarımı).

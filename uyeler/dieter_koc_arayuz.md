@@ -35,8 +35,16 @@ Asıl çalışma yeri editördür: ekranı ancak çalışan uygulamanın görün
 - **Az, ama daha iyi.** Kaynak: Rams'ın özeti (*Weniger, aber besser*): özün dışındaki her şey çıkarılır. **Bize uygulanışı:** Mehmet'in "rozet çevresindeki daireye gerek yok, yol zaten gösteriyor" sözü tam bu ilkeydi; onu benim söylemem gerekirdi. Aynı bilgiyi iki kez gösteren öğe ararım ve birini çıkarmayı öneririm.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Okuma tipografisi
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Satır uzunluğu ve satır aralığı.** Robert Bringhurst, *The Elements of Typographic Style*: tek sütun metinde rahat okunan satır kabaca 45–75 karakterdir; satır uzadıkça satır aralığı da açılır. **Bize uygulanışı:** Ürünün kendisi okuma sayfası. Telefonda satır 45 karakterin altına düşmeye yatkındır; büyük yazıda satır başına karakter ve satır aralığı ölçülmeli.
+- **Karşıtlık.** WCAG 2.x: gövde metninde en az 4,5:1, büyük metinde 3:1 karşıtlık. **Bize uygulanışı:** Slayttaki %85 beyaz Türkçe ad, görselin üstünde bu sınırı her görselde tutuyor mu; gece modunda okuma sayfası?
+- **Gestalt: yakınlık ve benzerlik.** Algı psikolojisinin gruplama ilkeleri: yakın duran ve benzer görünen öğeler tek grup okunur. **Bize uygulanışı:** Balonda kelime, karşılık, tür ve "ayrıca" satırı; hangisi hangisine ait, boşlukla anlatılmalı, çizgiyle değil.
+- **İlk uygulama:** Okuma sayfasının SE 3, 390 pt ve büyük yazıdaki karelerinde satır başına karakter sayısı, satır aralığı ve karşıtlık ölçülür (editörden görüntü ve değerler).
+
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in tespiti: ekipte arayüzle ilgilenen yoktu).
 - 2026-11-15: İlk tam tarama yapıldı; el kitabına dört öğrenilen eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Okuma tipografisi).

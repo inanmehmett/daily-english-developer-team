@@ -32,9 +32,17 @@ Tahmin değil, belgelenmiş: Kent Beck'in Extreme Programming'den gelen iki ilke
 - **Önce değişikliği kolaylaştır.** Kaynak: Beck'in bilinen öğüdü: önce değişikliği kolay hâle getir, sonra kolay değişikliği yap. **Bize uygulanışı:** Canlıda deneme hesabı ve gerçek bildirim gönderimi için kalıcı bir yol kurulur; her sürümde yeniden "yapılamadı" yazılmaz.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Sürüm mühendisliği
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Dört ölçü.** Forsgren, Humble ve Kim, *Accelerate* (2018): yazılım tesliminin dört ölçüsü; yayın sıklığı, değişikliğin canlıya çıkma süresi, hatalı yayın oranı, hatadan dönme süresi. **Bize uygulanışı:** Sunucuda bu hafta sonu dört yayın oldu, saatler içinde; uygulamada son mağaza sürümü haftalar önce. Darboğaz uygulama tarafı.
+- **Kademeli yayın.** Apple'ın kademeli yayını güncellemeyi yedi günde %1, 2, 5, 10, 20, 50, 100 oranında dağıtır; en çok 30 gün duraklatılabilir (App Store Connect Yardım; 22 Kas'ta doğrulandı). Google Play'de oran elle seçilir. **Bize uygulanışı:** 1.0.4 kademeli yayınlanır; ilk günlerde çökme ve satın alma hatasına bakılır, sorun varsa duraklatılır.
+- **Özellik anahtarı.** Yeni özellik kodda kapalı gönderilir, sunucudan açılır; sorun çıkarsa yeni sürüm beklemeden kapatılır. **Bize uygulanışı:** Sınav sistemi ve yolculuk gibi büyük parçalar için uzaktan açma kapama var mı, koddan bakılır.
+- **İlk uygulama:** 1.0.4 mağaza gönderiminde kademeli yayın seçeneği ve izlenecek üç sayı (çökmesiz oturum oranı, satın alma hatası, ilk hikâyeyi bitirme) Mehmet'e tek sayfa olarak hazırlanır.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. 28 Eki 2026 itibarıyla: iOS App Store incelemesinde, Android üretim başvurusu onaylı, ülke seçimi/yayın aşamasında (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Kent Beck çerçevesi (YAGNI, make-it-work sırası) dayanak olarak eklendi; akşam bildirimi değişikliği bu ilkeyle geriye dönük açıklandı.
 - 2026-11-15: Editör Bölüm 1'den dört not el kitabına işlendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Sürüm mühendisliği).

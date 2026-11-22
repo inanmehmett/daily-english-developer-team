@@ -25,8 +25,15 @@ Tahmin değil, belgelenmiş: Jobs'un tekrarlayan ilkesi — "innovation is sayin
 - **Tek sorumlu (DRI).** Kaynak: Apple'da her işin karşısında tek bir "doğrudan sorumlu kişi" adı yazılır (Lashinsky, *Inside Apple*). **Bize uygulanışı:** İş listesinde her satırın tek bir sahibi olur; "ekip" ya da "Mehmet'te" sahip değildir.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Ürün stratejisi
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Yapılacak iş (Jobs to be Done).** Clayton Christensen ve ark., *Competing Against Luck* (2016): insanlar ürünü bir işi gördürmek için "işe alır"; rakip, aynı işi gören her şeydir. **Bize uygulanışı:** Kullanıcı Daily English'i hangi iş için açıyor: "günde beş dakikada İngilizce okuyabildiğimi hissetmek" mi, "sınava hazırlanmak" mı, "boş vakti iyi geçirmek" mi? Rakip yalnız öbür dil uygulamaları değil, aynı beş dakikayı alan her şey.
+- **Dört risk.** Marty Cagan, *Inspired*: her ürün fikrinde dört risk ayrı ayrı sınanır; değer (kullanıcı ister mi), kullanılabilirlik (kullanabilir mi), yapılabilirlik (yapabilir miyiz), iş (bize yarar mı). **Bize uygulanışı:** Yeni iş önerilerinde dört satır yazılır. Profil resmi örneği: yapılabilirlik ve kullanılabilirlik düşük riskli, değer riski yüksek (kimse görmüyor).
+- **İlk uygulama:** Yayından sonra en az üç hikâye bitirmiş beş kullanıcıya tek soru: "Uygulamayı en son ne zaman, ne yaparken açtın?" Cevaplar iş cümlesine çevrilir (Tony ile).
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu, el kitabı açıldı.
 - 2026-10-30: Gerçek Steve Jobs çerçevesi dayanak olarak eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Ürün stratejisi).

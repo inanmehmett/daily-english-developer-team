@@ -45,8 +45,16 @@ Yardımsız okumada metni anlayabilmek için okurun metindeki kelimelerin yakla�
 - **Önce sık ve temel anlam.** Kaynak: Nation'ın kelime öğretimi sırası: sık kullanılan kelimeler ve kelimenin temel anlamı önce gelir. **Bize uygulanışı:** Balonda ilk satır kelimenin o cümledeki anlamıdır; "ayrıca" satırı ancak okurun gerçekten karşılaşacağı sık bir ikinci anlam varsa gösterilir.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Yaygın okuma
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Yaygın okumanın ilkeleri.** Richard Day ve Julian Bamford, *Extensive Reading in the Second Language Classroom* (1998) ve on ilke yazıları: malzeme kolaydır, çeşitlidir, okur kendi seçer, çok okur, amaç keyif ve genel anlamadır. **Bize uygulanışı:** Yolculuk sırayı bizim seçtiğimiz yapıdır; raf ise okurun seçtiği. İkisi de gerekli. Zorunlu sıra okuru sıkarsa "bu hikâyeyi geç" yolu düşünülmeli.
+- **Tekrar karşılaşma.** Kelime araştırmaları (ör. Stuart Webb, 2007): bir kelimenin kalıcı öğrenilmesi için bağlam içinde birçok kez (onun çalışmasında on civarı) karşılaşmak gerekir. **Bize uygulanışı:** Bir yolculuğun hikâyeleri aynı kelimeleri bilerek yeniden kullanmalı. Yeni yolculuk yazılırken kelime listesi önce çıkarılır, hikâyeler ona göre yazılır.
+- **Geri çağırma.** Roediger ve Karpicke (2006): bilgiyi yeniden okumaktansa hatırlamaya çalışmak kalıcılığı artırır. **Bize uygulanışı:** Günün quizi ve kelime defteri bu işi görür; soru okurun kendi dokunduğu kelimelerden gelirse etkisi artar.
+- **İlk uygulama:** Başlangıç yolculuklarının dört hikâyesinde ortak kelime sayımı: kaç kelime en az üç hikâyede geçiyor (editörden döküm).
+
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in kararı). Sebep: "metinler mi, çeviriler mi, ses mi kötü" sorusuna ekipte bakan yoktu.
 - 2026-11-15: İlk içerik incelemesi (Bölüm 2) el kitabına işlendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Yaygın okuma).

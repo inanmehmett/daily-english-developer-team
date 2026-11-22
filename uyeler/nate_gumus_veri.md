@@ -24,6 +24,13 @@ Tahmin değil, belgelenmiş: "The Signal and the Noise" kitabındaki merkezi ilk
 - **Tahmini önceden yaz, sonra karşılaştır.** Kaynak: Silver'ın iyi tahminci ölçütü kalibrasyondur: %70 dediğin şeyler yüzde yetmiş oranında gerçekleşmeli; bu ancak tahmin önceden kayda geçerse ölçülür. **Bize uygulanışı:** Her sürümden önce üç tahmin yazılır (ör. "1.0.4'te ilk hikâyeyi bitirenlerin oranı %X'ten %Y'ye çıkar"), iki hafta sonra sonuçla yan yana konur. Tutmayan tahmin de raporlanır.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Ürün analitiği
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Kohort ve tutunma eğrisi.** Ürün analitiğinin temel aracı: kullanıcılar başladıkları haftaya göre gruplanır; her grubun kaçının 1., 7., 30. günde döndüğü çizilir. Eğrinin düzleştiği yer ürünün kalıcı kitlesidir. **Bize uygulanışı:** Tek bir "7. gün dönüşü" yerine sürüm bazında eğri: 1.0.2 ile gelenler ve 1.0.4 ile gelenler ayrı çizilir.
+- **Küçük sayıda aralık.** Oranlar için Wilson aralığı: az kişide oran tek sayı değil aralıktır. 24'te 1 (%4) için aralık kabaca %1–%20'dir. **Bize uygulanışı:** Her oranın yanına aralığı yazılır; iki oran, aralıkları örtüşüyorsa "farklı" denmez.
+- **Simpson paradoksu.** Toplamda görülen yön, alt gruplarda tersine dönebilir. **Bize uygulanışı:** Misafir ve üye, iOS ve Android, kanal (Instagram, arama) ayrılmadan toplam orandan sonuç çıkarılmaz.
+- **İlk uygulama:** 1.0.4 yayınlandığı gün başlayan kohort için tablo şablonu hazırlanır; ilk doldurma 7. günde.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Fiyatlandırma: haftalık 79 TL, aylık 200 TL, yıllık 999 TL (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Nate Silver çerçevesi (sinyal/gürültü, olasılıksal ifade) dayanak olarak eklendi.
@@ -31,3 +38,4 @@ Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün h
 - 2026-11-15: Firebase taban sayısı hatası ve kaynak kuralı işlendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Ürün analitiği).

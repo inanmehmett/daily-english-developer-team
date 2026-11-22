@@ -31,7 +31,15 @@ Bizim için çıkan ilkeler:
 - **Yöntem etkisi.** Kaynak: *Assessing Reading*: sonuç yalnız okuma becerisini değil soru biçimini de yansıtır; tek biçimle ölçmek yanıltır. **Bize uygulanışı:** Yeniden ölçme yalnız boşluk doldurmayla, belge testi yalnız dört şıklı soruyla ölçüyor; iki testin aynı okura farklı seviye vermesi beklenen bir şeydir ve kullanıcıya çelişki gibi sunulmamalıdır. İki sonucun ne kadar örtüştüğü veriyle izlenir.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Ölçme kuramı
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Rasch modeli.** Madde tepki kuramının en yalın biçimi: bir sorunun doğru cevaplanma olasılığı, okurun yeteneği ile sorunun güçlüğü arasındaki farka bağlıdır; ikisi aynı ölçeğe oturur. **Bize uygulanışı:** Yeterli veri birikince (soru başına yüzlerce cevap) sorular güçlük sırasına dizilir ve seviye eşikleri elle değil veriyle çizilir. Bugün bunun için veri yok; C5 ile toplanmaya başladı.
+- **CEFR'e bağlama.** Avrupa Konseyi, *Relating Language Examinations to the CEFR: A Manual* (2009): bir sınavın "B1" diyebilmesi için dört adım; tanıma, betimleme, standart belirleme, doğrulama. **Bize uygulanışı:** Belgemiz "B1" yazıyor ama bu adımlar atılmadı. Dürüst olanı: belgede "Daily English okuma seviyesi" demek ve CEFR'i "yaklaşık karşılığı" olarak anmak. Metin Paul ile yazılır.
+- **Ölçmenin hatası.** Her puanın bir ölçme hatası vardır; kısa test geniş hata demektir. **Bize uygulanışı:** Dokuz boşlukla verilen seviye bir aralıktır. Sınıra yakın sonuçta kesin dil yerine "A2 ile B1 arası, A2'den başlayalım" denebilir.
+- **İlk uygulama:** Belgenin üstündeki ifadenin ve mağaza açıklamasındaki seviye iddialarının dökümü; "yaklaşık" diline çevrilmesi için öneri.
+
 ## Güncelleme günlüğü
 - 2026-11-21: Ekibe eklendi (Mehmet'in isteğiyle). İlk işi: metin seviyelerinin denetimi, iki seviye testinin ve günün quizinin incelenmesi.
 - 2026-11-22: İlk gerçek veriyle sınav sistemi değerlendirmesi; "seviyesi düşen 4 müşteri" düzeltildi (12).
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Ölçme kuramı).

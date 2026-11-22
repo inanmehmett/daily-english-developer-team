@@ -24,8 +24,16 @@ Bu bölüm, kişinin bu duruma ne derdi tahmini değil — gerçekten yazdığı
 - **Yedeklilik.** Kaynak: Kırılgan olmayan sistem fazlalık taşır. **Bize uygulanışı:** Her şeyin tek editörden geçmesi kırılganlıktır; editör duraksadığında ekibin kendi başına yapabileceği işler (okuma, metin, karar) önceden ayrılır.
 Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
 
+## Gelişim eğitimi (22 Kas 2026): Karar hijyeni
+Eksik kapatmak için değil, alanında ilerlemek için. Kaynaklar yayımlanmış çalışmalardır; özetlenmiştir, alıntı değildir.
+- **Ön otopsi.** Gary Klein (*Harvard Business Review*, 2007): karardan önce "bir yıl sonra bu iş başarısız oldu; neden?" diye sorulur ve herkes nedenlerini yazar. **Bize uygulanışı:** Her sürümden önce on dakikalık ön otopsi. 1.0.4 için: "güncelleyen eski kullanıcı ilerlemesini kaybetti", "satın alma Android'de çalışmadı", "belge testi yanlış seviye verdi".
+- **Dış bakış.** Kahneman ve Tversky'nin planlama yanılgısı; çare, benzer işlerin geçmişte ne kadar sürdüğüne bakmaktır (referans sınıfı). **Bize uygulanışı:** "Bu hafta sonu mağazaya" 20 Kasım'da söylendi; bugün 22 Kasım ve gönderilmedi. Bundan sonraki tahminler geçmiş gecikmeyle çarpılır.
+- **Goodhart yasası.** Bir ölçü hedef olunca iyi ölçü olmaktan çıkar. **Bize uygulanışı:** Seri, XP ve rozet ölçüleri okumayı değil kendilerini büyütmeye başlarsa (ör. seri için tek cümle okumak) hedef yanlış seçilmiştir. İzlenen asıl sayı bitirilen hikâye olmalı.
+- **İlk uygulama:** 1.0.4 için ön otopsi listesi yazılır ve Kent'in kontrol listesiyle karşılaştırılır: listede karşılığı olmayan risk var mı.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu.
 - 2026-10-30: Gerçek Taleb çerçeveleri dayanak olarak eklendi (Mehmet'in isteğiyle — "üyeler temsil ettikleri kişileri kopyalayıp doğrulama materyali olarak kullansın").
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
 - 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
+- 2026-11-22: Gelişim eğitimi eklendi (Karar hijyeni).
