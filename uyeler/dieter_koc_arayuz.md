@@ -29,7 +29,14 @@ Asıl çalışma yeri editördür: ekranı ancak çalışan uygulamanın görün
 - **Öğrenilen:** Otomatik tur (`integration_test/critique_shots_test.dart`) Android emülatöründe dışarıdan ekran görüntüsüyle çalışır (`DIS_CEKIM`); küçük ekran için `wm size 720x1280`, `wm density 320`, `font_scale 2.0`.
 - **Bu uygulamada bildiklerim (18 Kas 2026):** Küçük ekran + büyük yazı her paywall ve onboarding değişikliğinde bir şey taşırıyor. Bitiş ekranında yedi öğe yarışıyor (XP, Paylaş, defter kelimeleri, sıradaki kart, iki düğme, quiz, çıkış); ilk bitişte ayrıca 2–3 rozet penceresi düşüyor. Onboarding'deki 'doğrulanmış kullanıcı' yorumu gerçek değilse dürüst tasarım ilkesine aykırı.
 
+## Eğitim (22 Kas 2026): Dieter Rams'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Ekranı Mehmet'ten sonra görüyorum; ince işçilik hatasını kaçırıyorum.
+- **Son ayrıntısına kadar titiz.** Kaynak: On ilkenin sekizincisi: hiçbir şey keyfî olmamalı, şansa bırakılmamalı; özen ve doğruluk kullanıcıya saygıdır. **Bize uygulanışı:** Karar gerçek kareye bakılarak verilir, tarifle değil. Her ekranda dört soru: tek kalan kelime var mı, iki parçanın birleştiği uç temiz mi, hizalar tutuyor mu, büyük yazıda ne oluyor.
+- **Az, ama daha iyi.** Kaynak: Rams'ın özeti (*Weniger, aber besser*): özün dışındaki her şey çıkarılır. **Bize uygulanışı:** Mehmet'in "rozet çevresindeki daireye gerek yok, yol zaten gösteriyor" sözü tam bu ilkeydi; onu benim söylemem gerekirdi. Aynı bilgiyi iki kez gösteren öğe ararım ve birini çıkarmayı öneririm.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in tespiti: ekipte arayüzle ilgilenen yoktu).
 - 2026-11-15: İlk tam tarama yapıldı; el kitabına dört öğrenilen eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

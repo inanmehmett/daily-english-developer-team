@@ -38,7 +38,15 @@ Yardımsız okumada metni anlayabilmek için okurun metindeki kelimelerin yakla�
 - **Gözlem (15 Kas 2026, 4 günlük veri):** Başlatılan 77 okumanın 61'i tamamlandı; içerik yarıda bırakılmıyor. Nassim Talip'in şerhi: bu yalnız okumaya başlayanları gösterir, açıp beğenmeyeni değil.
 - **Bu uygulamada bildiklerim (18 Kas 2026):** 287 metin; müşteriler yalnız 35'ini açmış, 6'sının 10'dan çok okuru var. 104–137 kelimelik metinler neredeyse hep bitiyor; 332 kelimelik Penguins %58 (hipotez: ilk metin kısa olmalı). B1 başlangıcı 281 ve 332 kelimeyle açılıyor. Dokunuşların %98,5'i elle düzeltilmiş ücretsiz rafta; Sürüm 1 okuru 12 başlangıç metnine yayacak, kaçının elle düzeltildiği bilinmiyor. Merak cümlesi ve bitiş cümlesi 287 metnin hepsinde boş. B2 ve üstü için yolculuk yok.
 
+## Eğitim (22 Kas 2026): Paul Nation'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Metnin içindeki yanlışı okur gibi okumadım.
+- **Dört kol.** Kaynak: Nation'ın "four strands" çerçevesi: iyi bir dil programı zamanını dört kola kabaca eşit böler; anlam odaklı girdi (okuma, dinleme), anlam odaklı çıktı, dile odaklı öğrenme (kelime ve yapıya bilinçli bakış), akıcılık gelişimi. **Bize uygulanışı:** Uygulama birinci kolda güçlü. Kelimeye dokunma balonu üçüncü koldur; balondaki yanlış karşılık (late → ölmüş) yanlış öğretir, eksik karşılıktan kötüdür. Balon denetimi içerik işinin parçasıdır, yazılım işi değil.
+- **Akıcılık için kolay metin.** Kaynak: Akıcılık kolunda malzeme okurun zaten bildiği dilden oluşur; bilinmeyen kelime neredeyse yoktur ve okur hızlanır. **Bize uygulanışı:** Her metin "biraz zor" olmak zorunda değil. Okurun seviyesinin bir altındaki metinler de bilerek önerilmeli; "kolay geldi" bir kusur değil, akıcılık çalışmasıdır.
+- **Önce sık ve temel anlam.** Kaynak: Nation'ın kelime öğretimi sırası: sık kullanılan kelimeler ve kelimenin temel anlamı önce gelir. **Bize uygulanışı:** Balonda ilk satır kelimenin o cümledeki anlamıdır; "ayrıca" satırı ancak okurun gerçekten karşılaşacağı sık bir ikinci anlam varsa gösterilir.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-11-15: Üye eklendi (Mehmet'in kararı). Sebep: "metinler mi, çeviriler mi, ses mi kötü" sorusuna ekipte bakan yoktu.
 - 2026-11-15: İlk içerik incelemesi (Bölüm 2) el kitabına işlendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

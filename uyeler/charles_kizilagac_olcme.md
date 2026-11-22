@@ -25,6 +25,13 @@ Bizim için çıkan ilkeler:
 - **Kanıt (22 Kas, 118 müşteri turu):** B1 boşluklarında doğru oranı %42; neden belirsiz sorular (dört parçada iki şık cümleye uyuyor). Taraması B1 olan 34 turun 27'si A2 bitti. Ders: şans düzeyindeki soru önce belirsizlik için okunur, sonra zorluk için.
 - **Kanıt (22 Kas, kod):** iki test var; ikisi de seviyeyi düşürebiliyordu; üçüncü parçada 3/3 sınanmamış seviye veriyordu. Kararlar: `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md`.
 
+## Eğitim (22 Kas 2026): J. Charles Alderson'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Görmeden öneri verdim; okunmamış soru canlıda.
+- **Test geliştirme döngüsü.** Kaynak: Alderson, Clapham ve Wall, *Language Test Construction and Evaluation* (1995): önce test tanımı (ne ölçülüyor, kime), sonra soru yazımı, sonra yazarın dışındaki kişilerce gözden geçirme, sonra ön deneme ve madde analizi (kolaylık ve ayırt edicilik), en son kullanım. **Bize uygulanışı:** Bizde sıra tersine işledi: sorular üretildi ve doğrudan kullanıldı. 147 soru için gözden geçirme adımı şimdi yapılır; her soruya üç soru: tek doğru cevap mı, cevap metinden mi çıkıyor yoksa genel bilgiden mi, çeldiriciler akla yatkın mı.
+- **Yöntem etkisi.** Kaynak: *Assessing Reading*: sonuç yalnız okuma becerisini değil soru biçimini de yansıtır; tek biçimle ölçmek yanıltır. **Bize uygulanışı:** Yeniden ölçme yalnız boşluk doldurmayla, belge testi yalnız dört şıklı soruyla ölçüyor; iki testin aynı okura farklı seviye vermesi beklenen bir şeydir ve kullanıcıya çelişki gibi sunulmamalıdır. İki sonucun ne kadar örtüştüğü veriyle izlenir.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-11-21: Ekibe eklendi (Mehmet'in isteğiyle). İlk işi: metin seviyelerinin denetimi, iki seviye testinin ve günün quizinin incelenmesi.
 - 2026-11-22: İlk gerçek veriyle sınav sistemi değerlendirmesi; "seviyesi düşen 4 müşteri" düzeltildi (12).
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

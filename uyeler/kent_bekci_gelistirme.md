@@ -25,8 +25,16 @@ Tahmin değil, belgelenmiş: Kent Beck'in Extreme Programming'den gelen iki ilke
 - **Gözlem (15 Kas 2026):** Geliştirme Mac'inin diski dolu; yeni simülatör ya da tam derleme "No space left on device" ile düşebiliyor. Uzun işe başlamadan önce boş yere bakılır.
 - **Bu uygulamada bildiklerim (18 Kas 2026):** Sunucu .NET + Postgres (Railway), uygulama Flutter. Sürüm 1 dalları 12 gün yerelde yaşadı (uygulama 44, sunucu 16 commit), uzak depoda yoktu, birleşmiş hâli test edilmemişti. Kırılgan dosyalar: `premium_paywall_page.dart`, `advanced_reader_page.dart` (bitiş ekranı okuyucunun içinde), `word_balloon.dart`. Hatalar cihazda bulunuyor (ağ katmanı, katalog önbelleği), testte değil. Kural: dal bir haftadan uzun yaşamaz; sürüm adayı başına bir tam sürüş (SE 3 + büyük yazı).
 
+## Eğitim (22 Kas 2026): Kent Beck'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Derleme gerçek cihazda denenmeden yüklendi; çok iş tek derlemede birikti.
+- **Küçük sürümler.** Kaynak: Extreme Programming'in temel uygulamalarından biri: sık ve küçük sürüm; her sürüm az şey değiştirir ki sorun çıkınca nedeni belli olsun. **Bize uygulanışı:** Derleme 50 yirmiye yakın değişiklik taşıyor; biri bozuksa hangisi olduğunu bulmak zor. Bundan sonra bir derleme en çok bir konu taşır (yolculuk, sınav, kariyer ayrı ayrı); sunucu işleri zaten ayrı PR'larla böyle yapılıyor.
+- **Kabul testi.** Kaynak: XP'de her kullanıcı hikâyesinin, müşterinin gözüyle yazılmış bir kabul testi vardır; iş o test geçince biter, kod yazılınca değil. **Bize uygulanışı:** Her ekran işi için "bitti" tanımı: gerçek cihazda, adı yazılı biri şu adımları yaptı ve şunu gördü. Yapılamayan adım "denenmedi" diye kalır ve mağaza gönderiminin önünde durur.
+- **Önce değişikliği kolaylaştır.** Kaynak: Beck'in bilinen öğüdü: önce değişikliği kolay hâle getir, sonra kolay değişikliği yap. **Bize uygulanışı:** Canlıda deneme hesabı ve gerçek bildirim gönderimi için kalıcı bir yol kurulur; her sürümde yeniden "yapılamadı" yazılmaz.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. 28 Eki 2026 itibarıyla: iOS App Store incelemesinde, Android üretim başvurusu onaylı, ülke seçimi/yayın aşamasında (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Kent Beck çerçevesi (YAGNI, make-it-work sırası) dayanak olarak eklendi; akşam bildirimi değişikliği bu ilkeyle geriye dönük açıklandı.
 - 2026-11-15: Editör Bölüm 1'den dört not el kitabına işlendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

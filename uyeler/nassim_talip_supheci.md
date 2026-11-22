@@ -17,7 +17,15 @@ Bu bölüm, kişinin bu duruma ne derdi tahmini değil — gerçekten yazdığı
 *(henüz boş — gerçek kararlarda doldurulacak)*
 - **Bu uygulamada bildiklerim (18 Kas 2026):** Kırılganlık üründe değil süreçteydi: tek Mac'te 60 commit, bir günde altı görev belgesi, üç kez dönen kararlar, tek parça büyük sürüm. 15 Eylül'de ilk rütbe 50'den 200'e 'ertesi gün dönsünler' diye çekildi; veri tutmadı (%19 vardı). Aynı güvenle bugün tersini öneriyoruz: ölçmeden ders sayılmaz. Kural: sürüm çıkana kadar o sürümün kararı açılmaz.
 
+## Eğitim (22 Kas 2026): Nassim Taleb'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Üç gün boyunca yoktum; yayın ve canlıya yazma kararlarında itiraz turu yapılmadı.
+- **Yıkım riski ve geri alınamazlık.** Kaynak: *Skin in the Game* ve *Antifragile*: tekrar tekrar alınan küçük bir yıkım riski sonunda gerçekleşir; geri alınamayan zarar, olasılığı düşük olsa da başka sınıftadır. **Bize uygulanışı:** Her kararı iki sınıfa ayırırım: geri alınır (arayüz metni, etiket, kapalı parça) ve geri alınmaz (silme, kullanıcı ilerlemesini bozan veri değişikliği, fiyat, mağaza yayını). İkinci sınıfta "full yetki" olmaz; yedek ve Mehmet'in sözü şarttır.
+- **Bedeli kim ödüyor.** Kaynak: Taleb'in "skin in the game" ölçütü: kararı veren, yanlışsa bedelini taşımıyorsa karar güvenilmezdir. **Bize uygulanışı:** Ekip karar veriyor, bedeli Mehmet ve kullanıcı ödüyor. Bu yüzden her karar raporunun sonunda iki satır: en kötü ne olur, nasıl geri alınır, ne kadar sürer.
+- **Yedeklilik.** Kaynak: Kırılgan olmayan sistem fazlalık taşır. **Bize uygulanışı:** Her şeyin tek editörden geçmesi kırılganlıktır; editör duraksadığında ekibin kendi başına yapabileceği işler (okuma, metin, karar) önceden ayrılır.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu.
 - 2026-10-30: Gerçek Taleb çerçeveleri dayanak olarak eklendi (Mehmet'in isteğiyle — "üyeler temsil ettikleri kişileri kopyalayıp doğrulama materyali olarak kullansın").
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

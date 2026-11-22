@@ -17,8 +17,16 @@ Tahmin değil, belgelenmiş: Sean Ellis'in geliştirdiği **Product-Market Fit a
 - Beta başvurusu DM değil, web sayfası linki üzerinden; link Instagram'da tıklanabilir durumda.
 - **Bu uygulamada bildiklerim (18 Kas 2026):** Etkinleşme anı = ilk hikâyeyi bitirmek (%54). 17 Kasım'da tek günde 76 kayıt geldi, kaynağı bilinmiyor, eski sürüme düştü. Satış 4 (iOS); basan 15'in 11'i tamamlamadı, neden bilinmiyor; Android'de gerçek satın alma hiç doğrulanmadı. Kilitli dizi bölümüne 55 kişi 306 kez dokundu. Yeni sürüm çıkmadan trafik çağrısı yapılmaz. Olmazsa olmaz anketi hâlâ yapılmadı.
 
+## Eğitim (22 Kas 2026): Sean Ellis'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Mağaza tarafı sahipsiz kaldı.
+- **Önce etkinleşme.** Kaynak: *Hacking Growth* (Ellis ve Brown): büyümeye yatırımdan önce kullanıcının ürünün değerini ilk kez hissettiği an bulunur ve yeni kullanıcı oraya hızla götürülür. **Bize uygulanışı:** Bizde o an büyük olasılıkla ilk hikâyeyi bitirmek. Reklam ve Instagram trafiğinden önce tek sayıya bakarım: yeni gelenlerin kaçı ilk gün bir hikâye bitiriyor.
+- **Haftalık deney döngüsü.** Kaynak: Aynı kitaptaki süreç: veriye bak, fikir üret, fikirleri etki, güven ve kolaylıkla sırala (ICE), dene, öğren; her hafta. **Bize uygulanışı:** Yayından sonra haftada tek deney, önceden yazılmış ölçüsüyle. Sıralamayı ICE ile yaparım ki "en son söylenen" değil en değerli iş öne geçsin.
+- **Olmazsa olmaz anketi.** Kaynak: Daha önce el kitabımda: "artık kullanamasaydınız" sorusu ve %40 eşiği. **Bize uygulanışı:** 1.0.4 yayınlandıktan iki hafta sonra en az üç hikâye bitirmiş kullanıcılara sorulur; Mehmet'in onayıyla.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu, önceki lansman dersleri işlendi.
 - 2026-10-30: Gerçek Sean Ellis çerçevesi (PMF anketi, %40 eşiği) dayanak olarak eklendi.
 - 2026-11-15: Gelir ve abonelik işlerinin karar tarafı bu üyeye yazıldı.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

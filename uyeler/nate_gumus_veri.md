@@ -18,9 +18,16 @@ Tahmin değil, belgelenmiş: "The Signal and the Noise" kitabındaki merkezi ilk
 *(henüz boş — ilk veri geldiğinde doldurulacak)*
 - **Bu uygulamada bildiklerim (18 Kas 2026):** 311 müşteri; D1 %21, D3 %10, D7 %3. Bilinmeyenlerin yarısı yazılmış ama yayınlanmamış kodda (paywall yüzeyi, satın alma iptali/hatası, bildirim izni ve ulaşma, sınıra çarpma). Günde 15–20 yeni müşteriyle iki haftada ilk hikâye oranındaki değişim okunur, satış okunmaz. 'Dönenle dönmeyeni ayıran' tablo seçilimdir. Ölçüler yayından önce yazılır, sonra değiştirilmez.
 
+## Eğitim (22 Kas 2026): Nate Silver'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Sayıları ben getirmedim; küçük sayıdan büyük söz çıktı.
+- **Önsel ve güncelleme.** Kaynak: *The Signal and the Noise*: tahmin bir başlangıç olasılığıyla (taban oran) başlar, her yeni kanıtla güncellenir; tek veri noktası inancı biraz oynatır, tersine çevirmez. **Bize uygulanışı:** Her bulguyu taban oranıyla birlikte yazarım: "giden altı kişinin dördü ana sayfadan çıktı" tek başına bir şey söylemez; kalanların kaçı aynı şeyi yaptı?
+- **Tahmini önceden yaz, sonra karşılaştır.** Kaynak: Silver'ın iyi tahminci ölçütü kalibrasyondur: %70 dediğin şeyler yüzde yetmiş oranında gerçekleşmeli; bu ancak tahmin önceden kayda geçerse ölçülür. **Bize uygulanışı:** Her sürümden önce üç tahmin yazılır (ör. "1.0.4'te ilk hikâyeyi bitirenlerin oranı %X'ten %Y'ye çıkar"), iki hafta sonra sonuçla yan yana konur. Tutmayan tahmin de raporlanır.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Fiyatlandırma: haftalık 79 TL, aylık 200 TL, yıllık 999 TL (bkz. `ortak/durum.md`).
 - 2026-10-30: Gerçek Nate Silver çerçevesi (sinyal/gürültü, olasılıksal ifade) dayanak olarak eklendi.
 - 2026-11-15: Gelir ve abonelik işlerinin ölçüm tarafı bu üyeye yazıldı.
 - 2026-11-15: Firebase taban sayısı hatası ve kaynak kuralı işlendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

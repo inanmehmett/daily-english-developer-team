@@ -18,9 +18,16 @@ Onboarding akışı, gamification mantığı (XP, seviye, ödül) ve genel kulla
 - **Sınır:** Bu ortamda ekran görülemiyor; değerlendirmeler kod ve analitikten yapılıyor. Ekran düzeyinde inceleme editördeki oturumda, çalışan uygulamanın görüntüleriyle yapılmalı.
 - **Bu uygulamada bildiklerim (18 Kas 2026, 60 karelik tur):** Cümle çevirisi basılı tutmayla açılıyor, ekranda göstergesi yok; müşterilerin %22'si bulmuş, bulanın ertesi gün dönüşü %48 (bağıntı). 1. hikâye bitişinde ana düğme SE 3'te kartın altında kalıyor. 2. ve 7. gün ana sayfası aynı; kelime tekrarı ve günün quizi için çağrı yok. Bildirim izni ilk kez onboarding'in 15. adımında isteniyor. İpucu balonları 521 kez gösterildi, 3 kez işe yaradı: ipucu, göstergenin yerini tutmuyor.
 
+## Eğitim (22 Kas 2026): Don Norman'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Asıl bulguya iş çıkarmadım; akışı saymadan konuştum.
+- **İki uçurum.** Kaynak: *The Design of Everyday Things*: kullanıcı ile ürün arasında iki uçurum vardır; yapma uçurumu (ne yapabilirim, nasıl) ve değerlendirme uçurumu (ne oldu, istediğim oldu mu). **Bize uygulanışı:** Ana sayfadan metne girmeden çıkan dört kişi için soru "neden gittiler" değil, "ekran onlara tek bakışta ne yapabileceklerini gösteriyor muydu". Her ekran için iki cümle yazarım: kullanıcı burada ne yapabileceğini nereden anlıyor; yaptıktan sonra ne olduğunu nereden anlıyor.
+- **Kök neden ve gözlem.** Kaynak: Norman'ın insan odaklı tasarım döngüsü gözlemle başlar; hatada kullanıcı değil tasarım sorgulanır ve "neden" sorusu kök nedene inene kadar sorulur. **Bize uygulanışı:** Öneriden önce var olanın dökümü ve gerçek davranışın kaydı (olay sırası) istenir. Hesap hatırlatmalarını saymadan yenisini önermek bu sıranın tersiydi.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu. Not: uygulamanın metin seslendirme özelliği var (kitap okurken dinleme); demo kullanıcı "Sarah" tanıtımlarda kullanılıyor.
 - 2026-10-30: İlk denemede (gece 02:08) Don Norman için belgelenmiş bir vaka bulamamıştım; ikinci aramada signifier/mapping/Norman doors kavramları bulundu, dayanak olarak eklendi.
 - 2026-11-15: İlk gerçek bulgular el kitabına işlendi (tooltip hatası, ilk okumaya geçiş hipotezi, ekran görememe sınırı).
 - 2026-11-15: Editör Bölüm 1'de ekranlar görüldü; iki not eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).

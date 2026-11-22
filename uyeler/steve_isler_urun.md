@@ -19,7 +19,14 @@ Tahmin değil, belgelenmiş: Jobs'un tekrarlayan ilkesi — "innovation is sayin
 *(henüz boş — ilk kararlarda doldurulacak)*
 - **Bu uygulamada bildiklerim (18 Kas 2026, genel durum raporu):** Ürünün çekirdeği üç şey: seviyene göre kısa hikâye, kelimeye dokun, ertesi gün sıradaki hikâye. 6–18 Kasım arasında hiçbir şey müşteriye ulaşmadı; bu sürede müşterilerin yarısı geldi. Ders: karar sayısı değil, yayın sayısı ilerlemedir. Her toplantı bir 'yapmıyoruz' listesiyle biter.
 
+## Eğitim (22 Kas 2026): Steve Jobs'in yayımlanmış çalışmasından, öz değerlendirmedeki eksik için
+**Eksik:** Kapsamı tutamadım; iş sahipsiz kaldı.
+- **Dört kutu.** Kaynak: 1997'de Apple'a dönünce ürün yelpazesini dört kutuluk bir tabloya indirdi (tüketici / profesyonel × masaüstü / taşınabilir); tabloya girmeyen ürün iptal edildi (Isaacson, *Steve Jobs*). **Bize uygulanışı:** Her sürümün en çok dört kutusu olur; kutuya girmeyen iş, ne kadar iyi olursa olsun, sonraki sürümün listesine yazılır. 1.0.4'ün kutuları sonradan bakınca: yolculuk, kariyer, sınav sistemi, bildirim. Slayt, quiz ve yorum ekranı beşinci, altıncı, yedinci kutuydu.
+- **Tek sorumlu (DRI).** Kaynak: Apple'da her işin karşısında tek bir "doğrudan sorumlu kişi" adı yazılır (Lashinsky, *Inside Apple*). **Bize uygulanışı:** İş listesinde her satırın tek bir sahibi olur; "ekip" ya da "Mehmet'te" sahip değildir.
+Not: bunlar kişinin yayımlanmış çerçevelerinin özetidir; onun bu ürün hakkındaki görüşü değildir.
+
 ## Güncelleme günlüğü
 - 2026-10-29: Ekip kuruldu, el kitabı açıldı.
 - 2026-10-30: Gerçek Steve Jobs çerçevesi dayanak olarak eklendi.
 - 2026-11-18: Yol haritası toplantısı; uygulamaya özel bilgiler el kitabına işlendi.
+- 2026-11-22: Öz değerlendirme ve eğitim bölümü eklendi (`raporlar/2026-11-22_ekip_oz_degerlendirme.md`).
