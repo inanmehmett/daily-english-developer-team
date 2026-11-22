@@ -118,6 +118,7 @@ Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (k
 **Editör notu (T6-a, 19 Kas):** koddan doğrulandı, değişiklik gerekmedi. Deneme teklifi Play döndürüyorsa seçilip gönderiliyor; düğme metni Play'in döndürdüğü teklife göre değişiyor (deneme yoksa "Premium'a geç"). Ayrıntı ve Play Console'da bakılacak dört şey: `raporlar/2026-11-19_surum_adayi_1.0.4.md`, "T6" bölümü. Sıra T6-b'de (Mehmet).
 
 ## Mehmet'ten doğrudan (editör yazar)
+- 22 Kas 22:07 (ekip yazdı): belge için "B1 yazsın. Gerekli şeyler varsa yapalım." Plan: `raporlar/2026-11-22_belge_seviye_iddiasi_plani.md`; test tanımı `ortak/belge_testi_tanimi.md`. Editöre salt okuma dört soru (B1–B4) planın içinde. Sıradaki ekip işi: 176 sorunun okunması ve sepetlenmesi.
 - 22 Kas 21:58 (ekip yazdı): "Onları kendi alanlarında geliştirmek için birer eğitime daha gönder." Rapor: `raporlar/2026-11-22_ekip_gelisim_egitimi.md`; her üyenin dosyasına "Gelişim eğitimi" bölümü ve bir ilk uygulama eklendi.
 - 22 Kas 21:54 (ekip yazdı): "Her ekip üyesi temsil ettiği kişiden eğitim alsın." Rapor: `raporlar/2026-11-22_ekip_egitimi.md`; her üyenin dosyasına "Eğitim" bölümü eklendi. Rapordaki yedi madde ekip kuralıdır (görüntü karardan önce; bir derleme bir konu; geri alınmaz işte tam yetki yok; öbürleri).
 - 22 Kas 21:51 (ekip yazdı): "Tüm ekip üyeleri öz değerlendirme yapsın." Rapor: `raporlar/2026-11-22_ekip_oz_degerlendirme.md` (dört ortak kalıp, on üye, her biri için bundan sonrası).
