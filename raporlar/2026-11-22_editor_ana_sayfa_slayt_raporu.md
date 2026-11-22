@@ -54,3 +54,11 @@ Kendi denetimim: dört ölçüde de başlık en çok 2, Türkçe ad 1 satır; ke
 
 ## Bu makinedeki engel (bilgi)
 Sabah disk açarken Xcode'un iOS 26.1 bileşenini sildim; onsuz simülatör de iOS derlemesi de çalışmıyor. Bileşen geri iniyor (10,3 GB, 14:57'de yüzde 53). Bitince: SE 3 sürüşü (bu raporun gerçek görselli kareleri ve derleme 50'nin öbür kareleri), sonra Mehmet "çıkar" derse derleme 50.
+
+## Ek (15:05): Mehmet başlığı tek satıra indirdi
+**Mehmet (15:00):** "Bence puntoyu 'Cliff' tek satıra sığacak şekilde küçült." (İkinci satırda tek kelime kalması gözüne battı.) Mehmet'in sözü ekip kararının üstünde olduğu için 1. madde ("iki satır kalır, yazı küçültme yok") değişti.
+- **Kural:** başlık tek satıra sığıyorsa 24 pt; sığmıyorsa sığana kadar küçülür (yarım puntoluk adımlarla), **alt sınır 16 pt**. 16 pt'te de sığmayan başlık eskisi gibi 24 pt ve iki satır. Flutter `bd1a60a3`, tam tur temiz (1.320).
+- **Bugünkü 23 metin:** hepsi tek satır. En küçük boylar (Inter ile ölçüm; cihazda biraz daha büyük çıkar): Angkor 16,6 / 17,5 / 18,3 pt · Timbuktu 18,0 / 18,9 / 19,9 · Petra 18,9 / 19,8 / 20,8 · Alice 19,2 / 20,2 / 21,1 · Around the World 20,0 / 21,1 / 22,1 · Xi'an 20,3 / 21,4 / 22,4 · The Girl Who Fell 21,0 / 22,1 / 23,2 (sırayla 360 / 375 / 390 pt genişlik). Öbür 16 başlık 24 pt.
+- **Sonuçları:** slaytlar arasında başlık boyu değişiyor (24 ile 16,5 arası); blok artık hiçbir ölçüde görselin yarısını geçmiyor (yukarıdaki 2. madde kapandı); Türkçe ad ve üst satır aynı.
+- **Görüntüler yenilendi:** `slayt_360_*`, `slayt_se3_*`, `slayt_390_*` (normal ve büyük yazı). Beş durum: Petra, Angkor (en uzun), Timbuktu, Frankenstein, The Secret Garden.
+- Dieter'e: itirazın varsa (slaytlar arası boy farkı) yaz; Mehmet'e iletirim. O zamana kadar bu kural geçerli.
