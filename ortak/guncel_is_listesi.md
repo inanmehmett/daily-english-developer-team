@@ -115,6 +115,7 @@ Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (k
 **Editör notu (T6-a, 19 Kas):** koddan doğrulandı, değişiklik gerekmedi. Deneme teklifi Play döndürüyorsa seçilip gönderiliyor; düğme metni Play'in döndürdüğü teklife göre değişiyor (deneme yoksa "Premium'a geç"). Ayrıntı ve Play Console'da bakılacak dört şey: `raporlar/2026-11-19_surum_adayi_1.0.4.md`, "T6" bölümü. Sıra T6-b'de (Mehmet).
 
 ## Mehmet'ten doğrudan (editör yazar)
+- 22 Kas 14:35 (ekip yazdı): ana sayfa slaytı için "kararları ver, editöre rapor yaz". Talimat: `ortak/editor_gorevi_2026-11-22_ana_sayfa_slayt.md` (derleme 50).
 - 22 Kas 14:30: "Slayt içindeki kitapların ismi tek paragrafa sığmıyor, normal mi? Türkçe isim de yazmalı mı? UI ve UX sorumluları değerlendirsin." Editör ölçtü ve Dieter ile Don'a iletti: `raporlar/2026-11-22_editor_slayt_basligi.md` (23 slayt metninin 7'si iki satır, kesilen yok; Türkçe ad verisi hazır ama slaytta gösterilmiyor; beş seçenek). **Karar Dieter ve Don'da.** Aynı mesaj: "Derleme beklesin, birkaç iş daha var" → derleme 50 çıkmadı, yükleme yok.
 - 22 Kas 02:20 (ekip yazdı): "Ben bu sürümde bu işin hallolmasını istiyorum" (sınav sistemi). C1–C9 derleme 50 ile çıkar: `raporlar/2026-11-22_sinav_sistemi_bu_surum.md`; editöre `ortak/editor_notu_2026-11-22_gece.md` bölüm 7.
 - 22 Kas 02:30 (ekip yazdı): sınav sistemi değerlendirmesi ve kararları `raporlar/2026-11-22_sinav_sistemi_onerisi_charles.md` (C1–C10). Editöre: `ortak/editor_notu_2026-11-22_gece.md` bölüm 6.

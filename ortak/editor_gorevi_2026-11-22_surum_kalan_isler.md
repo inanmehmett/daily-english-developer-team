@@ -44,8 +44,8 @@ Metinler: `raporlar/2026-11-22_sinav_sistemi_bu_surum.md` bölüm 2 ve 3.
 | C8 | Belge sonucu: 100 üzerinden puan görünmez; "{seviye} seviyesinin başındasın / ortasındasın / sonuna yaklaştın". Belgede sayı yok. Profil seviyesi yükselmediyse ek satır (bölüm 3) |
 Metinler çeviri dosyasına; İngilizce karşılıklarını sen yaz, ekip sonra bakar.
 
-### 4b. Ana sayfa slaytı (22 Kas 14:40; Mehmet'in sorusu, Dieter ve Don'un kararı)
-`raporlar/2026-11-22_slayt_basligi_dieter_don_karari.md`: iki satır başlık kalır · altında tek satır Türkçe ad (aynıysa ya da cihaz dili Türkçe değilse yok) · üst satıra seviye · tür adı çevirisi kodda varsa Türkçe · "3 günlük seri". Yarım gün.
+### 4b. Ana sayfa slaytı ve görüntüdeki düzeltmeler (22 Kas 14:45)
+Tam talimat: **`ortak/editor_gorevi_2026-11-22_ana_sayfa_slayt.md`** (yedi madde: iki satır başlık kalır, Türkçe ad satırı, üst satıra seviye, tür adı, "Başka hikâyeler" başlığı, "3 günlük seri", ana sayfa açılış kaynağı ölçümü). Yarım gün.
 
 ### 5. Derleme 50 sürüşü
 Daldaki her şey bu derlemede: ana sayfa yolculuk kartı, kariyer sayfası (yol rozet kenarında kesiliyor), günün quizi, yorum ekranı, yeniden ölçme `offer`, bildirimden kapak, kelime defteri açıklama ölçümü, "Seviyeni belgele" görünür, önceki düzeltmeler (T15, T17, T18, seslendirme, bildirim ve kart ölçümleri, ayar uyarısı, `d2228a73`) ve yukarıdaki 4.

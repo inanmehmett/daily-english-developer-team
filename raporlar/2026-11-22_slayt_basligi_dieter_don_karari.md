@@ -26,3 +26,6 @@ Reddedilenler: B (yazı küçülür), C (üç nokta), E (süre kalkar; süre "k�
 
 ## Editöre
 S1–S6 ve G1, `feat/journey-core`'a, derleme 50'ye. Tahmin: yarım gün. Görüntü: SE 3 ve 390 pt'de üç slayt (tek satır başlık, iki satır başlık, iki dilde aynı ad), büyük yazıyla da. G3'ün cevabı raporda.
+
+## Ek (14:45, Mehmet: "kararları ver")
+G2 için karar değişti: bu sürümde slaytın üstüne "Başka hikâyeler" bölüm başlığı gelir (boy ve yer aynı) ve ana sayfadan açılışların kaynağı ölçülür. G3 bilgi olarak kalır. Editörün talimatı: `ortak/editor_gorevi_2026-11-22_ana_sayfa_slayt.md`.
