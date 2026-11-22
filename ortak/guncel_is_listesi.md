@@ -1,23 +1,26 @@
 # Güncel iş listesi – tek görev kaynağı
 
-**Son güncelleme:** 22 Kasım 2026, 02:35 (editörün 02:24 raporuna göre). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
+**Son güncelleme:** 22 Kasım 2026, 17:20 (editör; tablo `raporlar/2026-11-22_editor_surum_kalan_isler_raporu.md` ile aynı). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
 
 ## Şu anki durum
 **22 Kas 02:40 – Mehmet: "Bu sürümde kalan işleri editör full yetkiyle halletsin; sonraki sürüm işlerini sonra düşünürüz."** Editörün tek görev kaynağı: `ortak/editor_gorevi_2026-11-22_surum_kalan_isler.md` (PR #18 yayını → sınav sunucu PR'ı → canlı veri betiği → sınav uygulama işleri → derleme 50 TestFlight ve Play dahili test). Yayın ve canlıya yazma bu dosyadaki işler için editörde; mağaza gönderimi ve gerçek satın alma Mehmet'te. Aşağıdaki tabloda "Mehmet'in sözüyle" yazan satırlar bu sözle açıldı. Salt okuma raporları (S10–S15, profil resmi) ve sonraki sürüm işleri **beklemede**.
 
-**Canlıda:** PR #15 (geri dön kuralı) · PR #16 (yeni "geri dön" metinleri ve hikâye kimliği, quiz tam eşleşme, sıralama rozetleri kapalı, Haftalık Şampiyon kuralı) · dokuz metin B1.
-**Mağazada:** 1.0.2. **Mehmet'in telefonunda:** `feat/journey-core` son hâli (02:21; kariyer yolu rozet kenarında kesiliyor, `06d001c0`).
+**Canlıda:** PR #18 ve #19 (sınav sistemi, 22 Kas 14:15) · PR #15 (geri dön kuralı) · PR #16 (yeni "geri dön" metinleri ve hikâye kimliği, quiz tam eşleşme, sıralama rozetleri kapalı, Haftalık Şampiyon kuralı) · dokuz metin B1.
+**Mağazada:** 1.0.2. **Test kanallarında:** 1.0.4 (50), TestFlight ve Play dahili test. **Mehmet'in telefonunda:** derleme 50 kurulamadı (telefon ulaşılamıyordu); TestFlight'tan kurulabilir.
 
 | Sıra | İş | Kim | Durum |
 |---|---|---|---|
-| 1 | **PR #18** (belge testi ısınması: A1–A2 okura B2 sorusu yok; başlangıç, sorulan en yüksek seviyeyi geçmez) | Editör yazdı; **Charles onayladı (C1)** | Açık, testler temiz. **Birleştirme Mehmet'in sözüyle.** Yeni derleme gerektirmez |
-| 2 | Sınav sistemi, sunucu: C3 sınanmamış seviye verilmez · C4 belge testi yalnız yükseltir · C5 kelime bazında kayıt · C9 seviye değişince yolculuk | Editör | Başlanmadı. **Ayrı PR** (#18 beklemesin). Yayın Mehmet'in sözüyle |
-| 3 | Sınav sistemi, canlı veri: dört yeni B1 parçası eklenir, sonra 38–41 kapanır · 29 sorunun kökü | Editör betiği hazırlar | Başlanmadı. İçerik hazır. Çalıştırma Mehmet'in sözüyle |
-| 4 | Sınav sistemi, uygulama: C6 sorular tek tek · C7 sonuç metinleri · C8 puan yerine söz | Editör | Başlanmadı (tahmin 1–2 gün) |
-| 5 | Derleme 50 sürüşü: SE 3 + büyük yazı görüntüleri → Dieter, Don → TestFlight ve Play dahili test | Editör, ekip | 4'ten sonra. Kodda hazır olanlar: ana sayfa kartı, kariyer, quiz, yorum ekranı, yeniden ölçme `offer`, bildirimden kapak, kelime defteri açıklama ölçümü |
-| 6 | Telefonda kontroller (satın alma, iptal, promosyon kodu, bildirimden kapak) ve mağaza | Mehmet | 5'ten sonra |
-| – | Salt okuma raporları: S13–S15 hesap hatırlatmaları, S10–S12 ve yolculuk dökümü, profil resminin koddaki durumu | Editör | Başlanmadı; 4'ten sonra |
+| 1 | **PR #18** (belge testi ısınması) | Editör | **Canlıda** (PR #19'un içinde, 22 Kas 14:15). A1–A2 hesapla canlı deneme Mehmet'te |
+| 2 | Sınav sistemi, sunucu: C3, C4, C5, C9, `levelChosen` | Editör | **Canlıda.** PR #19, `ed539a6`. Yayından sonraki 50 dakikada sunucu hatası 0 |
+| 3 | Sınav sistemi, canlı veri | Editör | **Canlıda, doğrulandı:** B1'de 6 etkin parça (38–41 kapalı), "…" ile biten kök 0/176 |
+| 4 | Sınav sistemi, uygulama: C6, C7, C8 | Editör | **Bitti**, derleme 50'de |
+| 5 | Derleme 50 (1.0.4+50, `bd1a60a3`) | Editör | **TestFlight'ta ve Play dahili testte** (22 Kas 15:10 ve 17:15). Sürüş görüntüleri `raporlar/ekran_2026-11-22/d50_*.png`. İçinde ayrıca ana sayfa slaytı (Türkçe ad, seviye, "Başka hikâyeler", tek satır başlık) |
+| 6 | Telefonda kontroller ve mağazaya gönderim | Mehmet | Sırada. Liste: `raporlar/2026-11-22_editor_surum_kalan_isler_raporu.md` en altta |
+| – | "Geri dön" bildiriminin gerçek gönderimi | – | Editör gönderemedi (panel oturumu yok); cihaz denemesi Mehmet'te |
+| – | Salt okuma raporları (S10–S15, profil resmi) | Editör | Başlanmadı; sonraki sürüm |
 | – | Kalan 147 belge sorusunun okunması; B9'daki beş boşluk; 1063 ve 1089'un uzun cümleleri | Charles, Paul | Sürüyor (sürümü beklemez) |
+
+**Ekipten beklenen küçük kararlar (22 Kas):** slaytta büyük yazı kuralına onay · Adventure ve Curiosity türlerinin Türkçesi · ana sayfadaki halkanın altı rütbede kariyer sayfasından farklı yüzde göstermesi · slaytlar arasında başlık boyunun değişmesi (Mehmet'in isteği) · görüntülerde bulgu çıkarsa derleme 51.
 
 **Dieter'e (sürüşte ilk bakılacak):** kariyer yolunun rozetle birleştiği uç (köşe yuvarlaklığı tahminle; boşluk ya da bindirme olabilir), yüzde etiketinin yeri (bayrak kayınca etiket de 19 pt'e kadar kayıyor), büyük yazı.
 **Sonraki sürüm:** profil resmi (6 hazır resim) · yolculuk rozetleri · hesap açma teşviki · ana sayfa sadeleşmesi · belge testinde kelime adımı (C10) · quizde "aynı tür" (önce kelime türü verisi) · Ada metni (1023) A2 yazımı.
