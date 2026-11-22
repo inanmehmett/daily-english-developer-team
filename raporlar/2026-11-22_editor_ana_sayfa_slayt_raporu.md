@@ -1,6 +1,6 @@
 # Editörden: ana sayfa slaytı raporu
 
-**Tarih:** 22 Kasım 2026, 15:10 · **Kimden:** editör · **Kime:** ekip (Dieter, Don, Paul)
+**Tarih:** 22 Kasım 2026, 15:00 · **Kimden:** editör · **Kime:** ekip (Dieter, Don, Paul)
 **Görev:** `ortak/editor_gorevi_2026-11-22_ana_sayfa_slayt.md` (74074d2)
 **Kod:** Flutter `feat/journey-core`, commit `cb56d59f` (gönderildi). Tam test turu temiz: 1.315 geçti. Derleme 50 Mehmet'in sözünü bekliyor; bu iş dalda, derlemeye girer.
 
@@ -40,7 +40,7 @@ Derleme 49 ve öncesi yeni alanları göndermez; karşılaştırma derleme 50 ku
 Kendi denetimim: dört ölçüde de başlık en çok 2, Türkçe ad 1 satır; kesilen yazı yok; blok görselin yarısını geçmiyor (testle kilitli, SE 3 normal ve büyük yazı). Ekran okuyucu etiketi: "{İngilizce ad}, {Türkçe ad}, {tür}, {süre}, {seviye}" (testle kilitli). Noktalar, kaydırma ve dokunma değişmedi.
 
 ## Üç bilgi sorusu
-**Profil resminin çevresindeki halka ve nokta.** Halka, bulunulan rütbenin içindeki ilerlemeyi gösterir (XP'den; kariyer sayfasındaki yüzdeyle aynı sayı). Küçük nokta halkanın dolduğu yerin ucudur, ayrı bir anlamı yok. Resme ya da halkaya dokununca kariyer sayfası açılır (`career_opened`, kaynak `profile_card`). Altındaki "… yolundasın · ilerlemeni gör ›" satırı da aynı sayfayı açar (kaynak `home_card`).
+**Profil resminin çevresindeki halka ve nokta.** Halka XP ilerlemesini gösterir, ama **kariyer sayfasındaki yüzdeyle aynı sayı değil**: kariyer sayfası bulunulan rütbenin içindeki yeri gösterir; halka ise rütbe tablosunda art arda gelen ve aynı eski seviye etiketini taşıyan rütbeleri tek aralık sayar (Çaylak + Meraklı, Kelime Avcısı + Hikâye Avcısı, Kâşif + Kitap Kurdu). Örnek: Kitap Kurdu'nun başındaki kullanıcıda kariyer sayfası yüzde 0'a yakın, halka yaklaşık yarı dolu görünür. Öbür rütbelerde iki sayı aynıdır. Bu, rütbelerin seviye adı taşıdığı eski düzenden kalma; dokunmadım, karar sizde. Küçük nokta halkanın dolduğu yerin ucudur, ayrı bir anlamı yok. Resme ya da halkaya dokununca kariyer sayfası açılır (`career_opened`, kaynak `profile_card`). Altındaki "… yolundasın · ilerlemeni gör ›" satırı da aynı sayfayı açar (kaynak `home_card`).
 
 **Slayt kendiliğinden ilerliyor mu.** Evet, 6 saniyede bir; geçiş 0,45 saniye. Parmak değince durur, bırakıldıktan 10 saniye sonra yeniden başlar. Etkin slaytın görseli 7 saniyede yüzde 6 yakınlaşır. Tek slayt varsa dönmez.
 
@@ -53,4 +53,4 @@ Kendi denetimim: dört ölçüde de başlık en çok 2, Türkçe ad 1 satır; ke
 6. En çok 5 slayt.
 
 ## Bu makinedeki engel (bilgi)
-Sabah disk açarken Xcode'un iOS 26.1 bileşenini sildim; onsuz simülatör de iOS derlemesi de çalışmıyor. Bileşen geri iniyor (10,3 GB, 15:10'da yüzde 55). Bitince: SE 3 sürüşü (bu raporun gerçek görselli kareleri ve derleme 50'nin öbür kareleri), sonra Mehmet "çıkar" derse derleme 50.
+Sabah disk açarken Xcode'un iOS 26.1 bileşenini sildim; onsuz simülatör de iOS derlemesi de çalışmıyor. Bileşen geri iniyor (10,3 GB, 14:57'de yüzde 53). Bitince: SE 3 sürüşü (bu raporun gerçek görselli kareleri ve derleme 50'nin öbür kareleri), sonra Mehmet "çıkar" derse derleme 50.
