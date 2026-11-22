@@ -9,7 +9,7 @@
 ## Ne yapıldı
 | # | Şikâyet | Neden | Yapılan |
 |---|---|---|---|
-| 1 | Çizgi önce tek kelimede, sonra adda | Çizgi dokunulan kelimeye hemen çiziliyor; adın tamamını sunucu söylüyor, cevap gelince çizgi genişliyor | **Düzeltildi** (uygulama, `2687ee03`): dokunulan kelime ve yalnız boşlukla ayrılmış bir komşusu büyük harfle başlıyorsa çizgi sunucunun cevabını bekler (en çok 1 sn) ve tek seferde çizilir. Öbür kelimelerde bugünkü gibi anında |
+| 1 | Çizgi önce tek kelimede, sonra adda | Çizgi dokunulan kelimeye hemen çiziliyor; adın tamamını sunucu söylüyor, cevap gelince çizgi genişliyor | **Düzeltildi** (uygulama, `2687ee03` ve `6e07653f`): yalnız boşlukla ayrılmış büyük harfli kelimeler dizisi cümlenin ortasındaysa çizgi **hemen dizinin tamamına** çizilir; sunucu farklı derse düzeltir. Dizi cümleyi başlatıyorsa ("Yesterday Tom" gibi belirsiz durum) çizgi sunucunun cevabını bekler, en çok 0,6 sn. Öbür kelimelerde bugünkü gibi anında. (Mehmet: "1 saniye geç değil mi" → ilk hâldeki bekleme kaldırıldı.) |
 | 2 | Yalnız ilk kelime okunuyor | Balon ilk dokunulan kelimeyi tutuyordu | **Düzeltildi** (aynı commit): seslendirme altı çizili ifadenin tamamını okur |
 | 3 | Özel isimde "Türkçede de aynı" | Satır, yazımı aynı kalan kelimeler için ("kilometre"); özel isim de çevrilmediği için ona da çıkıyordu | **Kaldırıldı** (aynı commit), yalnız özel isimde. Balonda türü ("yer", "kişi") zaten yazıyor. Paul'e: itirazın varsa geri alınır |
 | 4 | "late" → "ayrıca: ölmüş" | Aşağıda | **Kural değişmedi**; bu cümle ek turla düzeltilecek |
