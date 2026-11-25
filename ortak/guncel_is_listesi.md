@@ -3,6 +3,8 @@
 **Son güncelleme:** 22 Kasım 2026, 17:20 (editör; tablo `raporlar/2026-11-22_editor_surum_kalan_isler_raporu.md` ile aynı). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
 
 ## Şu anki durum
+**25 Kas 17:45:** Instagram ekibine mağaza yorumu için içerik talebi gönderildi (`gunluk-ingilizce-ekip/raporlar/2026-11-25_uygulama_ekibinden_icerik_talebi_magaza_yorumu.md`; kopyası burada `raporlar/2026-11-25_instagram_ekibine_icerik_talebi_magaza_yorumu.md`). Cevap o depoda beklenecek.
+
 **25 Kas 17:35:** bildirim dönüş oranı ve yorum isteme raporu `raporlar/2026-11-25_bildirim_donus_orani_ve_yorum_isteme.md` (dokunma %2,3; seri hatırlatma %16,7, geri dön %0,5; yorum için Instagram yolu bugün, uygulama içi pencere sonraki derleme, bildirimle istenmez). Editörün görevine A10, A11, B4 eklendi.
 
 **25 Kas 17:15 – editörün güncel tek görevi:** `ortak/editor_gorevi_2026-11-25.md` (A: dokuz bilgi isteği, salt okuma; B: belge testinde şık karıştırma ve soru düzeltmeleri, derleme yok). Plan: `raporlar/2026-11-25_tutunma_ve_kullanici_sesi_plani.md` (tutunma, memnuniyet anketi, profildeki geri bildirim alanı, satın alanlara mesaj, mağaza yorumu isteme).

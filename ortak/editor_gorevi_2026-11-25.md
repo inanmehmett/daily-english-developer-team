@@ -18,7 +18,7 @@ Gerekçeler: `raporlar/2026-11-25_haftalik_rapor_ve_toplanti.md`, `raporlar/2026
 | A8 | **Belge testi:** şıklar ekranda kayıttaki sırayla mı görünüyor, karıştırılıyor mu; puandan seviyeye giden eşikler; soru bazında cevap kaydı tutuluyor mu; mağaza açıklamasında ve sitede seviye ya da sertifika iddiası geçen cümleler | `raporlar/2026-11-22_belge_seviye_iddiasi_plani.md` |
 | A9 | **Derleme 50 görüntü soruları:** kariyer alt şeridi neden gün tahmini yerine "…'ya doğru ilerliyorsun" diyor; belge testinde şıklar ekranın altında kalınca kaydırma ipucu var mı | Sonraki derleme |
 
-| A10 | **Yorum isteme altyapısı:** A6'ya ek: uygulamada sunucudan açılıp kapanan bir kart ya da duyuru alanı var mı; bildirim bir mağaza adresini açabiliyor mu. Mağazalardaki yorum sayısı ve son 10 yorumun metni (iki mağaza) | `raporlar/2026-11-25_bildirim_donus_orani_ve_yorum_isteme.md` bölüm 2 |
+| A10 | **Yorum isteme altyapısı:** A6'ya ek: uygulamada sunucudan açılıp kapanan bir kart ya da duyuru alanı var mı; bildirim bir mağaza adresini açabiliyor mu. Mağazalardaki yorum sayısı ve son 10 yorumun metni (iki mağaza); uygulamanın yorum ekranındaki üç gerçek yorumun metni (Instagram ekibine gidecek) | `raporlar/2026-11-25_bildirim_donus_orani_ve_yorum_isteme.md` bölüm 2 |
 | A11 | **Bildirim, 22 Kasım'dan sonra:** türe göre gönderim, dokunma ve dokunan kişi sayısı; "geri dön" için adlı ve yedek metin ayrı; 1.0.4 kullanıcılarında dokunmadan sonra hikâye açılıyor mu. Kelime tekrarındaki 3 gün arası hatası PR #15 ya da #16 ile düzeldi mi | Aynı rapor, bölüm 1 |
 
 ## B. Düzeltme (sunucu ve canlı veri; derleme yok)
