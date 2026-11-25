@@ -17,6 +17,11 @@
 - Play Store: play.google.com/store/apps/details?id=com.getdailyenglish.app
 - **Beta/test aşaması bitti.** Aşağıdaki "test/beta" bölümü artık tarihsel — ekip buna göre çalışmayı bıraktı, gerçek kullanıcı/mağaza verisine geçti.
 
+## Mağaza sürümleri (25 Kas 2026, Play Console'dan okundu)
+- **Android üretim:** 1.0.4 derleme 47 yayında (20 Kas 2026). 1.0.4 derleme 50 üretim kanalında hazır, **incelemeye gönderilmedi** (23 Kas'ta hazırlanmış).
+- **iOS:** bilinmiyor (App Store Connect oturumu kapalıydı); derleme 50 TestFlight'ta (22 Kas).
+- Kural (25 Kas): her toplantının başında mağaza durumu iki konsoldan okunur; hafızadan söylenmez.
+
 ## Fiyatlandırma (4 Kas 2026 — güncellendi)
 - Haftalık: 79 TL
 - Aylık: 200 TL
