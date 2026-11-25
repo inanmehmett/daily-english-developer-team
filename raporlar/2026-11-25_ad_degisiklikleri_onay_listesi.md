@@ -5,19 +5,30 @@
 **Dayanak sınırı:** öneriler metnin açıklamasına, İngilizce alt adına ve giriş cümlelerine dayanıyor. Metnin tamamı gerektiren iki konu en altta ayrı tutuldu.
 Boş bırakılan hücre: değişmiyor.
 
+## Tomris'in ikinci okuması (25 Kas 22:23, Mehmet: "Tomris isimlere tekrar baksın")
+İlk listede dokuz öneri Mehmet'in ad ölçütünden (heyecan ve duygu uyandırsın, Türkçesi eğreti durmasın) geçmedi; aşağıdaki tablolar düzeltilmiş hâlidir.
+- **1 (1059):** "3 Kilometreden Düşen Kız" soğuktu; sayı adın şiirini öldürdü. Yeni: "Gökten Amazon'a Düşen Kız". Duygu kaldı, gerçek yer eklendi.
+- **2 (1023), İngilizce:** "Island" iki kez geçiyordu.
+- **3 (1016):** "Kratersiz Patlama" uydurma ve soğuk bir sözdü. Yeni ad eski adın duygusunu koruyor, yeri ekliyor ve gece/sabah çelişkisini kapatıyor.
+- **8 (1055):** kümedeki öbür adlar sayıyı yazıyla veriyor ("Sahra'da Dokuz Gün"); buna uyduruldu.
+- **10 (1064):** "Suşi Bir Sokak Yemeğiydi" metnin cevabını adda söylüyordu.
+- **14, 15, 16:** "…Şehir" ile biten adlarda şehir sona alındı; rafta zaten böyle olanlarla aynı kalıp ("Dünyanın Kurduğu Şehir: Roma", "Gül Rengi Şehir: Petra").
+- **24 (1066):** ülke adı düşmüştü; geri kondu.
+- Kalan 15 satır ikinci okumada da aynı kaldı.
+
 ## A. Gerçek olay, masal gibi adlandırılmış (10)
 | No | Kimlik | İngilizce: önce | İngilizce: sonra | Türkçe: önce | Türkçe: sonra |
 |---|---|---|---|---|---|
-| 1 | 1059 | The Girl Who Fell From the Sky | The Girl Who Fell Three Kilometres | Gökten Düşen Kız | 3 Kilometreden Düşen Kız |
-| 2 | 1023 | The Island Where Rabbits Won | Rabbit Island: The Island Not on the Map | Haritadan Silinen Ada | Haritadan Silinen Tavşan Adası |
-| 3 | 1016 | The Night the Sky Fell | Siberia, 1908: The Blast with No Crater | Gökyüzünün Düştüğü Gece | Sibirya 1908: Kratersiz Patlama |
+| 1 | 1059 | The Girl Who Fell From the Sky | The Girl Who Fell into the Amazon | Gökten Düşen Kız | Gökten Amazon'a Düşen Kız |
+| 2 | 1023 | The Island Where Rabbits Won | Rabbit Island: Missing from the Map | Haritadan Silinen Ada | Haritadan Silinen Tavşan Adası |
+| 3 | 1016 | The Night the Sky Fell | The Morning the Sky Fell on Siberia | Gökyüzünün Düştüğü Gece | Sibirya'da Gökyüzünün Düştüğü Sabah |
 | 4 | 1017 | The Sound Heard Around the World | Krakatoa: The Sound Heard Around the World | Dünyanın Duyduğu Ses | Krakatoa: Dünyanın Duyduğu Ses |
 | 5 | 1020 | The Man Who Said No | The Man Who Said No to Nuclear War | Hayır Diyen Adam | Nükleer Savaşa Hayır Diyen Adam |
 | 6 | 1060 | The Most Successful Failure | Shackleton: The Most Successful Failure | En Başarılı Başarısızlık | Shackleton: En Başarılı Başarısızlık |
 | 7 | 1061 | The Woman They Hired to Sew | The Seamstress of Wrangel Island | Dikiş İçin Tutulan Kadın | Kutup Adasındaki Terzi |
-| 8 | 1055 | Forty-One Days by the Sun | Forty-One Days on a Broken Boat | Güneşle Kırk Bir Gün | Kırık Teknede 41 Gün |
+| 8 | 1055 | Forty-One Days by the Sun | Forty-One Days on a Broken Boat | Güneşle Kırk Bir Gün | Kırık Teknede Kırk Bir Gün |
 | 9 | 1082 | The Lamp Nobody Lit | The Moon's Borrowed Light | Kimsenin Yakmadığı Lamba | Ay'ın Ödünç Işığı |
-| 10 | 1064 | The Fish That Needs No Sauce | Sushi Was Street Food | Sos İstemeyen Balık | Suşi Bir Sokak Yemeğiydi |
+| 10 | 1064 | The Fish That Needs No Sauce | When Sushi Was Street Food | Sos İstemeyen Balık | Suşinin Sokak Günleri |
 
 ## B. İngilizce ad özel isim; Türkçe ad o ismi de taşısın (3)
 | No | Kimlik | İngilizce | Türkçe: önce | Türkçe: sonra |
@@ -29,9 +40,9 @@ Boş bırakılan hücre: değişmiyor.
 ## C. Şehir belgeselleri: Türkçe ad şehri de söylesin (8; İngilizceleri değişmiyor)
 | No | Kimlik | İngilizce | Türkçe: önce | Türkçe: sonra |
 |---|---|---|---|---|
-| 14 | 1003 | Istanbul: One City, Three Names | Tek Şehir, Üç İsim | İstanbul: Tek Şehir, Üç İsim |
-| 15 | 995 | Angkor: The City the Jungle Took Back | Ormanın Yuttuğu Şehir | Angkor: Ormanın Yuttuğu Şehir |
-| 16 | 1002 | Great Zimbabwe: The City Europe Refused to Believe | Avrupa'nın İnanmadığı Şehir | Büyük Zimbabve: Avrupa'nın İnanmadığı Şehir |
+| 14 | 1003 | Istanbul: One City, Three Names | Tek Şehir, Üç İsim | Tek Şehir, Üç İsim: İstanbul |
+| 15 | 995 | Angkor: The City the Jungle Took Back | Ormanın Yuttuğu Şehir | Ormanın Yuttuğu Şehir: Angkor |
+| 16 | 1002 | Great Zimbabwe: The City Europe Refused to Believe | Avrupa'nın İnanmadığı Şehir | Avrupa'nın İnanmadığı Şehir: Büyük Zimbabve |
 | 17 | 1015 | Xi'an: The Army Under the Field | Tarlanın Altındaki Ordu | Xi'an: Tarlanın Altındaki Ordu |
 | 18 | 1012 | Varanasi: The City That Never Stopped | Ganj Kıyısında Üç Bin Yıl | Varanasi: Ganj Kıyısında Üç Bin Yıl |
 | 19 | 1006 | Lhasa: The City Above the Clouds | Tibet'te Nefes Almak | Lhasa: Tibet'te Nefes Almak |
@@ -43,7 +54,7 @@ Boş bırakılan hücre: değişmiyor.
 |---|---|---|---|---|
 | 22 | 1063 | The Country That Eats Breakfast Twice | İspanya'nın Kahvaltı Kültürü | Günde İki Kahvaltı Yapan Ülke |
 | 23 | 148 | Why Italians Love Talking | İtalyanların Konuşma Aşkı | Elleriyle Konuşan Ülke |
-| 24 | 1066 | The Night India Turns On Its Lights | Hindistan'ın Işıl Işıl Gecesi | Uzaydan Görülen Gece |
+| 24 | 1066 | The Night India Turns On Its Lights | Hindistan'ın Işıl Işıl Gecesi | Hindistan'ın Uzaydan Görülen Gecesi |
 
 ## Bilerek dokunulmayanlar
 - **117 Kişi, Tek Kelime** (1022), **Islıkla Konuşan Köy** (1024), **İki Kez Ölü Sayılan Dağcı** (1062), **Batıktaki Hava Cebi** (1058): gerçek olay ama ad zaten somut.
