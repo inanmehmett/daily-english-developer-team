@@ -37,6 +37,7 @@
 
 **Yeni kural (21 Kas akşam):** listede "karar Mehmet'te" yazılmaz; ürün kararını ekip verir. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur. Editörün görüntüleri Mehmet'e gitmeden önce Dieter ve Don'dan geçer.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
+- 22 Kas 22:11 / 25 Kas: "Tomris hocamız incelesin; Baba Yaga'nın çevirisi 'Tavuk Bacaklı Kulübe' doğru mu?" Ekibe **Tomris Uyum** (çeviri ve Türkçe) eklendi: `uyeler/tomris_uyum_ceviri.md`. Bulgu: ifade doğru, ama Baba Yaga özel isim; Türkçe ad önerisi "Baba Yaga'nın Tavuk Bacaklı Kulübesi" (canlıya yazma Mehmet onayıyla). Editöre soru: metinde "Baba Yaga"ya dokununca balonda ne çıkıyor; özel isimler balonda nasıl işleniyor?
 
 ## Hedef
 Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da ödesin. (Bir hikâye bitiren %54 → %65; iki bitiren %22 → %35; ertesi gün dönen %21 → %28; yayından sonraki ilk 250 yeni müşteride.)

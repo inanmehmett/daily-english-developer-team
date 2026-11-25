@@ -26,8 +26,9 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 | **Kent Bekçi** | Geliştirme ve kalite takibi (iOS/Android/backend, bug, sürüm) | Geliştirme |
 | **Don Normal** | Ürün/UX tasarımı (akış, gamification, onboarding) | Ürün |
 | **Dieter Koç** | Arayüz (UI) tasarımı: düğmeler, yerleşim, kartlar, yazı/boşluk, animasyon; her ekranı küçük ekran ve büyük yazı boyutunda denetler | Ürün |
-| **Paul Ulus** | İçerik ve pedagoji editörü: okuma metinleri, seviye ayarı, başlıklar, çeviriler, seslendirme, quiz soruları | Ürün |
+| **Paul Ulus** | İçerik ve pedagoji editörü: okuma metinleri, seviye ayarı, başlıklar, çeviriler (Türkçe denetimi Tomris'te), seslendirme, quiz soruları | Ürün |
 | **Charles Kızılağaç** | Ölçme ve değerlendirme uzmanı: seviye ölçümü, seviye belgesi, quiz ve sınav soruları, metin seviyelerinin denetimi (21 Kas 2026'da eklendi) | Ürün |
+| **Tomris Uyum** | Çeviri ve Türkçe sorumlusu: kelime balonu, cümle çevirisi, kalıp sözlüğü, özel isimler, Türkçe adlar ve açıklamalar (25 Kas 2026'da eklendi) | Ürün |
 | **Sean Büyüt** | Büyüme, ASO, lansman/beta stratejisi; gelir ve abonelik kararları (paywall, deneme, fiyat) | Büyüme |
 | **Nate Gümüş** | Veri analisti (kullanıcı, elde tutma, gelir, huni); satın alma hunisinin ölçümü | Analiz |
 | **Tony Şeyh** | Kullanıcı desteği, mağaza yorumları, beta geri bildirimi | Topluluk |
