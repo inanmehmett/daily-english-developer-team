@@ -1,73 +1,69 @@
-# Ad değişiklikleri: önce / sonra (Mehmet'in onayına)
+# Ad değişiklikleri: önce / sonra (Mehmet'in onayına) – üçüncü okuma
 
 **Tarih:** 25 Kasım 2026 · **Hazırlayan:** Tomris Uyum, Paul Ulus · **Dayanak:** `raporlar/2026-11-25_ad_ve_aciklama_analizi.md`
-**Durum:** Mehmet iş sırasını onayladı (25 Kas 22:17); adlar için önce/sonra listesi istedi. **Hiçbiri canlıya yazılmadı.** Onay satır satır: "hepsi", "şunlar hariç" ya da satır numarasıyla düzeltme.
-**Dayanak sınırı:** öneriler metnin açıklamasına, İngilizce alt adına ve giriş cümlelerine dayanıyor. Metnin tamamı gerektiren iki konu en altta ayrı tutuldu.
-Boş bırakılan hücre: değişmiyor.
+**Durum:** hiçbiri canlıya yazılmadı. Mehmet'in satır onayı bekleniyor.
+**Dayanak sınırı:** öneriler metnin açıklamasına, İngilizce alt adına ve giriş cümlelerine dayanıyor; metinlerin tamamı okunmadı.
 
-## Tomris'in ikinci okuması (25 Kas 22:23, Mehmet: "Tomris isimlere tekrar baksın")
-İlk listede dokuz öneri Mehmet'in ad ölçütünden (heyecan ve duygu uyandırsın, Türkçesi eğreti durmasın) geçmedi; aşağıdaki tablolar düzeltilmiş hâlidir.
-- **1 (1059):** "3 Kilometreden Düşen Kız" soğuktu; sayı adın şiirini öldürdü. Yeni: "Gökten Amazon'a Düşen Kız". Duygu kaldı, gerçek yer eklendi.
-- **2 (1023), İngilizce:** "Island" iki kez geçiyordu.
-- **3 (1016):** "Kratersiz Patlama" uydurma ve soğuk bir sözdü. Yeni ad eski adın duygusunu koruyor, yeri ekliyor ve gece/sabah çelişkisini kapatıyor.
-- **8 (1055):** kümedeki öbür adlar sayıyı yazıyla veriyor ("Sahra'da Dokuz Gün"); buna uyduruldu.
-- **10 (1064):** "Suşi Bir Sokak Yemeğiydi" metnin cevabını adda söylüyordu.
-- **14, 15, 16:** "…Şehir" ile biten adlarda şehir sona alındı; rafta zaten böyle olanlarla aynı kalıp ("Dünyanın Kurduğu Şehir: Roma", "Gül Rengi Şehir: Petra").
-- **24 (1066):** ülke adı düşmüştü; geri kondu.
-- Kalan 15 satır ikinci okumada da aynı kaldı.
+## Bu okumada ne değişti (Mehmet, 25 Kas 22:26–22:27: "çok uzun", "kırık tekne ne?", "yanlış ifade edilenler var mı?")
+**Yeni ilke:** kartta İngilizce ad üstte, Türkçe ad altında duruyor. Özel ismi ve yeri İngilizce satır taşır; **Türkçe ad kısa ve duygulu kalır** (en çok 30 karakter kadar). İkisi birlikte okunur.
+**Yanlış ya da eğreti bulunan önceki öneriler:**
+| Önceki öneri | Sorun |
+|---|---|
+| Kırık Teknede Kırk Bir Gün | "Kırık tekne" diye bir şey yok; metinde kasırga yatın direğini, telsizini ve motorunu alıyor |
+| Sibirya 1908: Kratersiz Patlama | "Kratersiz" uydurma bir söz |
+| 3 Kilometreden Düşen Kız | Soğuk; adın duygusunu öldürüyor |
+| Nükleer Savaşa Hayır Diyen Adam | Okuduğumuz kısımda "nükleer" geçmiyor; adam bir ateşleme emrine imza atmıyor. Kanıtı olmayan bir iddia ada konmaz |
+| Kutup Adasındaki Terzi | "Kutup adası" Türkçede yok; ada kutupta değil, Kuzey Buz Denizi'nde |
+| Suşi Bir Sokak Yemeğiydi | Metnin cevabını adda söylüyor |
+| Şehir adlarını Türkçe ada eklemek (7 satır) | Adları gereksiz uzatıyor; şehri üstteki İngilizce ad zaten söylüyor. **Küme listeden çıkarıldı** |
+| Shackleton: … / Krakatoa: … (Türkçe adda) | Aynı gerekçe: özel isim yalnız İngilizce ada eklenir |
 
-## A. Gerçek olay, masal gibi adlandırılmış (10)
+## Güncel liste (17 satır)
 | No | Kimlik | İngilizce: önce | İngilizce: sonra | Türkçe: önce | Türkçe: sonra |
 |---|---|---|---|---|---|
 | 1 | 1059 | The Girl Who Fell From the Sky | The Girl Who Fell into the Amazon | Gökten Düşen Kız | Gökten Amazon'a Düşen Kız |
 | 2 | 1023 | The Island Where Rabbits Won | Rabbit Island: Missing from the Map | Haritadan Silinen Ada | Haritadan Silinen Tavşan Adası |
-| 3 | 1016 | The Night the Sky Fell | The Morning the Sky Fell on Siberia | Gökyüzünün Düştüğü Gece | Sibirya'da Gökyüzünün Düştüğü Sabah |
-| 4 | 1017 | The Sound Heard Around the World | Krakatoa: The Sound Heard Around the World | Dünyanın Duyduğu Ses | Krakatoa: Dünyanın Duyduğu Ses |
-| 5 | 1020 | The Man Who Said No | The Man Who Said No to Nuclear War | Hayır Diyen Adam | Nükleer Savaşa Hayır Diyen Adam |
-| 6 | 1060 | The Most Successful Failure | Shackleton: The Most Successful Failure | En Başarılı Başarısızlık | Shackleton: En Başarılı Başarısızlık |
-| 7 | 1061 | The Woman They Hired to Sew | The Seamstress of Wrangel Island | Dikiş İçin Tutulan Kadın | Kutup Adasındaki Terzi |
-| 8 | 1055 | Forty-One Days by the Sun | Forty-One Days on a Broken Boat | Güneşle Kırk Bir Gün | Kırık Teknede Kırk Bir Gün |
+| 3 | 1016 | The Night the Sky Fell | The Morning the Sky Fell on Siberia | Gökyüzünün Düştüğü Gece | Gökyüzünün Düştüğü Sabah |
+| 4 | 1017 | The Sound Heard Around the World | Krakatoa: The Sound Heard Around the World | Dünyanın Duyduğu Ses | (değişmiyor) |
+| 5 | 1020 | The Man Who Said No | The Man Who Would Not Sign | Hayır Diyen Adam | Üçüncü İmzayı Vermeyen Adam |
+| 6 | 1060 | The Most Successful Failure | Shackleton: The Most Successful Failure | En Başarılı Başarısızlık | (değişmiyor) |
+| 7 | 1061 | The Woman They Hired to Sew | The Seamstress of Wrangel Island | Dikiş İçin Tutulan Kadın | Buz Adasındaki Terzi |
+| 8 | 1055 | Forty-One Days by the Sun | Forty-One Days After the Hurricane | Güneşle Kırk Bir Gün | Kasırgadan Sonra Kırk Bir Gün |
 | 9 | 1082 | The Lamp Nobody Lit | The Moon's Borrowed Light | Kimsenin Yakmadığı Lamba | Ay'ın Ödünç Işığı |
 | 10 | 1064 | The Fish That Needs No Sauce | When Sushi Was Street Food | Sos İstemeyen Balık | Suşinin Sokak Günleri |
+| 11 | 1045 | Baba Yaga | (değişmiyor) | Tavuk Bacaklı Kulübe | Baba Yaga: Tavuk Bacaklı Kulübe |
+| 12 | 1046 | John Henry | (değişmiyor) | Makineyle Yarışan Adam | Makineyle Yarışan John Henry |
+| 13 | 1053 | Urashima Tarō | (değişmiyor) | Açılmaması Gereken Kutu | Urashima Tarō ve Yasak Kutu |
+| 14 | 992 | Rome: The Fountain That Is Not a Monument | (değişmiyor) | Trevi Çeşmesi | Trevi Bir Anıt Değil |
+| 15 | 1063 | The Country That Eats Breakfast Twice | (değişmiyor) | İspanya'nın Kahvaltı Kültürü | Günde İki Kahvaltı Yapan Ülke |
+| 16 | 148 | Why Italians Love Talking | (değişmiyor) | İtalyanların Konuşma Aşkı | Elleriyle Konuşan Ülke |
+| 17 | 1066 | The Night India Turns On Its Lights | (değişmiyor) | Hindistan'ın Işıl Işıl Gecesi | Uzaydan Görülen Gece |
 
-## B. İngilizce ad özel isim; Türkçe ad o ismi de taşısın (3)
-| No | Kimlik | İngilizce | Türkçe: önce | Türkçe: sonra |
-|---|---|---|---|---|
-| 11 | 1045 | Baba Yaga | Tavuk Bacaklı Kulübe | Baba Yaga: Tavuk Bacaklı Kulübe |
-| 12 | 1046 | John Henry | Makineyle Yarışan Adam | John Henry: Makineyle Yarışan Adam |
-| 13 | 1053 | Urashima Tarō | Açılmaması Gereken Kutu | Urashima Tarō: Açılmaması Gereken Kutu |
-
-## C. Şehir belgeselleri: Türkçe ad şehri de söylesin (8; İngilizceleri değişmiyor)
-| No | Kimlik | İngilizce | Türkçe: önce | Türkçe: sonra |
-|---|---|---|---|---|
-| 14 | 1003 | Istanbul: One City, Three Names | Tek Şehir, Üç İsim | Tek Şehir, Üç İsim: İstanbul |
-| 15 | 995 | Angkor: The City the Jungle Took Back | Ormanın Yuttuğu Şehir | Ormanın Yuttuğu Şehir: Angkor |
-| 16 | 1002 | Great Zimbabwe: The City Europe Refused to Believe | Avrupa'nın İnanmadığı Şehir | Avrupa'nın İnanmadığı Şehir: Büyük Zimbabve |
-| 17 | 1015 | Xi'an: The Army Under the Field | Tarlanın Altındaki Ordu | Xi'an: Tarlanın Altındaki Ordu |
-| 18 | 1012 | Varanasi: The City That Never Stopped | Ganj Kıyısında Üç Bin Yıl | Varanasi: Ganj Kıyısında Üç Bin Yıl |
-| 19 | 1006 | Lhasa: The City Above the Clouds | Tibet'te Nefes Almak | Lhasa: Tibet'te Nefes Almak |
-| 20 | 999 | Cusco: The City Built Without Cement | İnkaların Yıkılmayan Duvarları | Cusco: İnkaların Yıkılmayan Duvarları |
-| 21 | 992 | Rome: The Fountain That Is Not a Monument | Trevi Çeşmesi | Trevi: Anıt Sanılan Çeşme |
-
-## D. Türkçesi düz kalanlar (3; İngilizceleri değişmiyor)
-| No | Kimlik | İngilizce | Türkçe: önce | Türkçe: sonra |
-|---|---|---|---|---|
-| 22 | 1063 | The Country That Eats Breakfast Twice | İspanya'nın Kahvaltı Kültürü | Günde İki Kahvaltı Yapan Ülke |
-| 23 | 148 | Why Italians Love Talking | İtalyanların Konuşma Aşkı | Elleriyle Konuşan Ülke |
-| 24 | 1066 | The Night India Turns On Its Lights | Hindistan'ın Işıl Işıl Gecesi | Hindistan'ın Uzaydan Görülen Gecesi |
+Her önerinin dayandığı cümle:
+1. Açıklama: "koltuğuna bağlı hâlde yağmur ormanına düşen 17 yaşında bir kız"; uçuş Lima'dan Pucallpa'ya (Peru Amazonu).
+2. Açıklama: "dokuz yüz tavşan… Haritalardan bilerek silinmişti."
+3. Metnin ilk cümlesi ve açıklama: "On the morning of 30 June 1908", "1908'de bir sabah".
+5. Açıklama: "Ateşlemek için üç imza gerekiyordu. İki tane bulabildi."
+7. Metin: "Wrangel Island, a mountain of ice and stone in the Arctic Ocean"; açıklama: "terzi olarak işe aldı".
+8. Açıklama: "bir kasırga… yatı takla attırdı… direk yok, telsiz yok, motor yok"; İngilizce ad 41 gün.
+9. Açıklama: "Gökteki o parlaklık ödünç."
+10. Açıklama: "Suşi bir zamanlar Tokyo sokaklarında elle yenen ucuz bir atıştırmalıktı."
+13. İngilizce alt ad: "The Box He Must Never Open".
+14. İngilizce ad: "The Fountain That Is Not a Monument".
+15. Açıklama: "İspanya'da kahvaltı iki kere yapılır."
+16. Açıklama: "konuşmanın yarısını eller yapar."
+17. Açıklama: "ülkenin parladığı uzaydan bile görülüyor."
 
 ## Bilerek dokunulmayanlar
-- **117 Kişi, Tek Kelime** (1022), **Islıkla Konuşan Köy** (1024), **İki Kez Ölü Sayılan Dağcı** (1062), **Batıktaki Hava Cebi** (1058): gerçek olay ama ad zaten somut.
-- **Ağlayan Kadın** (La Llorona): gerçek karşılık.
-- Klasiklerin yerleşik Türkçe adları.
-- "Wrong…" ile başlayan beş ad ve "The List / The Saturday List": ad değil, benzer metin sorunu; ayrı iş.
+- Şehir belgesellerinin Türkçe adları (Trevi dışında): bugünkü hâlleriyle kalır.
+- 117 Kişi, Tek Kelime; Islıkla Konuşan Köy; İki Kez Ölü Sayılan Dağcı; Batıktaki Hava Cebi; Ağlayan Kadın; klasiklerin yerleşik adları.
 
-## Metnin tamamı gerektiği için öneri yapılmayanlar (editöre soru)
-1. **1016:** ad "Night" diyor; açıklama ve metnin ilk cümlesi "morning". Metinde geceyle ilgili bir bölüm var mı (patlamadan sonra Avrupa'da aydınlık geceler gibi)? Yoksa 3. satırdaki yeni ad bu çelişkiyi de kapatıyor.
-2. **867 "Kayıkhanedeki Kardeş"** (Room 214, 7. bölüm): önceki altı bölümde kardeşin nerede olduğu bilinmiyor mu? Bilinmiyorsa ad sırrı söylüyor; öneri o zaman yazılır.
+## Metnin tamamı gerektiği için öneri yapılmayan (editöre soru)
+- **867 "Kayıkhanedeki Kardeş"** (Room 214, 7. bölüm): önceki bölümlerde kardeşin yeri bilinmiyor mu? Bilinmiyorsa ad sırrı söylüyor.
+- **1016:** metinde geceyle ilgili bir bölüm var mı? Varsa 3. satır yeniden düşünülür.
+- **1020:** metinde silahın nükleer olduğu açıkça yazıyor mu? (Yalnız bilgi için; önerilen ad buna dayanmıyor.)
 
 ## Uygulama notu (onaydan sonra, editöre)
-- İngilizce ad değişen 10 metinde yalnız görünen ad (`Title`) değişir; adres (`slug`) değişmez, paylaşılmış bağlantılar bozulmasın.
-- İngilizce alt adlar (`SubtitleEN`) yeni adla aynı şeyi söylüyorsa gözden geçirilir (1059, 1016, 1060).
-- Merak cümlelerinde ve bildirim metinlerinde eski ad geçiyorsa birlikte düzeltilir.
+- İngilizce adı değişen metinlerde yalnız görünen ad (`Title`) değişir; adres (`slug`) değişmez.
+- İngilizce alt adlar, merak cümleleri ve bildirim metinlerinde eski ad geçiyorsa birlikte düzeltilir.
 - Canlıya yazmadan önce yedek; yazma Mehmet'in "yap"ıyla.
