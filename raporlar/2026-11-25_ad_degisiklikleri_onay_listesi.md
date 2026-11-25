@@ -1,7 +1,7 @@
 # Ad değişiklikleri: önce / sonra (Mehmet'in onayına) – üçüncü okuma
 
 **Tarih:** 25 Kasım 2026 · **Hazırlayan:** Tomris Uyum, Paul Ulus · **Dayanak:** `raporlar/2026-11-25_ad_ve_aciklama_analizi.md`
-**Durum:** hiçbiri canlıya yazılmadı. Mehmet'in satır onayı bekleniyor.
+**Durum:** **15 satırın tamamı Mehmet tarafından onaylandı (26 Kas 00:34, "Hepsi onay").** Henüz canlıya yazılmadı; editör görevi: `ortak/editor_gorevi_2026-11-26_ad_degisiklikleri.md`.
 **Dayanak sınırı:** öneriler metnin açıklamasına, İngilizce alt adına ve giriş cümlelerine dayanıyor; metinlerin tamamı okunmadı.
 
 ## Bu okumada ne değişti (Mehmet, 25 Kas 22:26–22:27: "çok uzun", "kırık tekne ne?", "yanlış ifade edilenler var mı?")
@@ -37,12 +37,12 @@
 | 6 | 1060 | The Most Successful Failure | Shackleton: The Most Successful Failure | En Başarılı Başarısızlık | (değişmiyor) |
 | 7 | 1061 | The Woman They Hired to Sew | The Seamstress of Wrangel Island | Dikiş İçin Tutulan Kadın | Buz Adasındaki Terzi |
 | 8 | 1055 | Forty-One Days by the Sun | Forty-One Days After the Hurricane | Güneşle Kırk Bir Gün | Kasırgadan Sonra Kırk Bir Gün |
-| 9 | 1082 | The Lamp Nobody Lit | The Moon's Borrowed Light | Kimsenin Yakmadığı Lamba | Ay Işığı (Mehmet) |
+| 9 | 1082 | The Lamp Nobody Lit | The Moon's Borrowed Light | Kimsenin Yakmadığı Lamba | Ay Işığı |
 | 10 | 1064 | The Fish That Needs No Sauce | When Sushi Was Street Food | Sos İstemeyen Balık | Suşinin Sokak Günleri |
 | 11 | 1045 | Baba Yaga | (değişmiyor) | Tavuk Bacaklı Kulübe | Baba Yaga: Tavuk Bacaklı Kulübe |
 | 13 | 1053 | Urashima Tarō | (değişmiyor) | Açılmaması Gereken Kutu | Urashima Tarō ve Yasak Kutu |
 | 15 | 1063 | The Country That Eats Breakfast Twice | (değişmiyor) | İspanya'nın Kahvaltı Kültürü | Günde İki Kahvaltı Yapan Ülke |
-| 16 | 148 | Why Italians Love Talking | (değişmiyor) | İtalyanların Konuşma Aşkı | İtalyanlar Neden Çok Konuşur? (öneri; Mehmet'in cevabı bekleniyor) |
+| 16 | 148 | Why Italians Love Talking | (değişmiyor) | İtalyanların Konuşma Aşkı | İtalyanlar Neden Çok Konuşur? |
 | 17 | 1066 | The Night India Turns On Its Lights | (değişmiyor) | Hindistan'ın Işıl Işıl Gecesi | Uzaydan Görülen Gece |
 
 Her önerinin dayandığı cümle:
