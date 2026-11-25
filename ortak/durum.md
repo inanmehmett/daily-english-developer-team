@@ -18,7 +18,7 @@
 - **Beta/test aşaması bitti.** Aşağıdaki "test/beta" bölümü artık tarihsel — ekip buna göre çalışmayı bıraktı, gerçek kullanıcı/mağaza verisine geçti.
 
 ## Mağaza sürümleri (25 Kas 2026, Play Console'dan okundu)
-- **Android üretim:** 1.0.4 derleme 47 yayında (20 Kas 2026). 1.0.4 derleme 50 üretim kanalında hazır, **incelemeye gönderilmedi** (23 Kas'ta hazırlanmış).
+- **Android üretim:** 1.0.4 derleme 47 yayında (20 Kas 2026). 1.0.4 derleme 50 **incelemede** (25 Kas 16:53'te gönderildi, tam kullanıma sunma). Yönetilen yayınlama açık: onaydan sonra elle yayınlanır.
 - **iOS:** 1.0.4 derleme 50 App Store'da yayında ("Ready for Distribution"; 25 Kas'ta okundu, yayın tarihi okunmadı).
 - Kural (25 Kas): her toplantının başında mağaza durumu iki konsoldan okunur; hafızadan söylenmez.
 

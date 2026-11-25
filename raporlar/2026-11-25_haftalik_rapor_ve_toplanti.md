@@ -139,3 +139,9 @@ Elde tutma grafiği (yalnız izin verenler) okunmadı. Ödemeli 4 planın içind
 - Üç tahminin saati iOS için başladı; yayın tarihi öğrenilince bakılacak gün yazılır.
 - Nate'in notu: indirmeden ödemeye 7. gün oranı %2,33'ten %1,53'e indi (indirme iki katına çıktı, ödeme aynı hızda artmadı). İki ölçüm; hipotez. Yeni gelenlerin kaynağı (Instagram, arama) ayrılmadan yorumlanmaz.
 - Editörün iş tanımına ek (bölüm 9, madde 1): iOS'ta 1.0.4 (50) hangi gün yayına girdi; kademeli yayın açık mı; o günden beri çökme ve satın alma hatası var mı.
+
+## 12. Ek (25 Kas 16:55): Play gönderimi ve abonelik düzeltmesi
+- **Play:** Mehmet'in sözüyle ("derlemeyi Play'de incelemeye gönder") derleme 50 (1.0.4), üretim kanalı, tam kullanıma sunma olarak **incelemeye gönderildi** (16:53). Durum: "İncelenmekte olan değişiklikler"; Google önce hızlı kontrolleri yapıyor. Aşamalı yayın seçilmedi (sürüm 23 Kasım'da tam kullanıma sunma olarak hazırlanmıştı; değiştirilmedi).
+- **Yönetilen yayınlama açık:** inceleme onaylanınca sürüm kendiliğinden yayına girmez; Play Console'da "Yayın özeti" sayfasından elle yayınlanması gerekir (Mehmet).
+- **Abonelik (Mehmet, 16:51):** "Satın almaların 4 tanesi şu an yıllık plan deneme aşamasında." Yani App Store Connect'teki 7 etkin planın 4'ü henüz ücret ödemedi (yıllık planın ücretsiz denemesi). Sayım kuralına göre bunlar deneme bitip ücret alınınca gerçek satış sayılır. Checkpoint'in "ödeyen abone en az 5" maddesi için bugünkü kesin sayı bu turda ayrılamadı; denemelerin bitiş tarihleri ve dönüşümü izlenecek (Nate; App Store Connect > Subscriptions).
+- Karar 2 kapandı (iOS yayında, Play incelemede). Açık kalan: inceleme onayından sonra Play'de elle yayın; telefon kontrolleri listesi; editörün iş tanımı.
