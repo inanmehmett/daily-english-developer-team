@@ -37,7 +37,6 @@
 
 **Yeni kural (21 Kas akşam):** listede "karar Mehmet'te" yazılmaz; ürün kararını ekip verir. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur. Editörün görüntüleri Mehmet'e gitmeden önce Dieter ve Don'dan geçer.
 **Kural:** Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. Burada yazan iş sorulmadan uygulanır. Mehmet'in editöre doğrudan sözü bu listenin üstündedir; editör uygular ve en alttaki "Mehmet'ten doğrudan" bölümüne bir satır yazar. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur.
-- 22 Kas 22:11 / 25 Kas: "Tomris hocamız incelesin; Baba Yaga'nın çevirisi 'Tavuk Bacaklı Kulübe' doğru mu?" Ekibe **Tomris Uyum** (çeviri ve Türkçe) eklendi: `uyeler/tomris_uyum_ceviri.md`. Bulgu: ifade doğru, ama Baba Yaga özel isim; Türkçe ad önerisi "Baba Yaga'nın Tavuk Bacaklı Kulübesi" (canlıya yazma Mehmet onayıyla). Editöre soru: metinde "Baba Yaga"ya dokununca balonda ne çıkıyor; özel isimler balonda nasıl işleniyor?
 
 ## Hedef
 Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da ödesin. (Bir hikâye bitiren %54 → %65; iki bitiren %22 → %35; ertesi gün dönen %21 → %28; yayından sonraki ilk 250 yeni müşteride.)
@@ -127,6 +126,7 @@ Günde iki bildirim düzeni · kelime balonu A/B (kapandı) · rütbe adları (k
 **Editör notu (T6-a, 19 Kas):** koddan doğrulandı, değişiklik gerekmedi. Deneme teklifi Play döndürüyorsa seçilip gönderiliyor; düğme metni Play'in döndürdüğü teklife göre değişiyor (deneme yoksa "Premium'a geç"). Ayrıntı ve Play Console'da bakılacak dört şey: `raporlar/2026-11-19_surum_adayi_1.0.4.md`, "T6" bölümü. Sıra T6-b'de (Mehmet).
 
 ## Mehmet'ten doğrudan (editör yazar)
+- 22 Kas 22:11 / 25 Kas: "Tomris hocamız incelesin; Baba Yaga'nın çevirisi 'Tavuk Bacaklı Kulübe' doğru mu?" Ekibe **Tomris Uyum** (çeviri ve Türkçe) eklendi: `uyeler/tomris_uyum_ceviri.md`. Bulgu: ifade doğru, ama Baba Yaga özel isim; Türkçe ad önerisi "Baba Yaga'nın Tavuk Bacaklı Kulübesi" (canlıya yazma Mehmet onayıyla). Editöre soru: metinde "Baba Yaga"ya dokununca balonda ne çıkıyor; özel isimler balonda nasıl işleniyor?
 - 22 Kas 22:11 (ekip yazdı): "İngilizce hocamız göz atsın sorulara." Paul 176 soruyu okudu: `raporlar/2026-11-22_belge_sorulari_paul_okumasi.md`. Yanlış anahtar yok; doğru şıkkın yeri soru türüne bağlı (editöre soru: şıklar karıştırılıyor mu?), B2 metinlerinde dört kolay soru için yenisi yazıldı, iki şık düzeltmesi.
 - 22 Kas 22:07 (ekip yazdı): belge için "B1 yazsın. Gerekli şeyler varsa yapalım." Plan: `raporlar/2026-11-22_belge_seviye_iddiasi_plani.md`; test tanımı `ortak/belge_testi_tanimi.md`. Editöre salt okuma dört soru (B1–B4) planın içinde. Sıradaki ekip işi: 176 sorunun okunması ve sepetlenmesi.
 - 22 Kas 21:58 (ekip yazdı): "Onları kendi alanlarında geliştirmek için birer eğitime daha gönder." Rapor: `raporlar/2026-11-22_ekip_gelisim_egitimi.md`; her üyenin dosyasına "Gelişim eğitimi" bölümü ve bir ilk uygulama eklendi.
