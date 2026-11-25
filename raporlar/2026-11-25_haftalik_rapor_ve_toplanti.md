@@ -105,3 +105,37 @@ Kareler: `raporlar/ekran_2026-11-22/d50_kariyer.png`, `d50_belge.png`, `d50_ana_
 4. Editöre bölüm 9'daki iş tanımını vermek.
 5. Telefon kontrollerinden hangilerini yaptığını tek satırla yazmak (satın alma, iptal, promosyon kodu, bildirim).
 6. Belge soruları için bir İngilizce öğretmeni (dış göz); acil değil.
+
+## 11. Ek (25 Kas 16:20): iOS sayıları ve mağaza durumu (App Store Connect, Mehmet oturum açtı)
+**Mağaza:** iOS'ta **1.0.4, derleme 50 "Ready for Distribution"**, yani App Store'da yayında. Yayın tarihi bu turda okunmadı; son 30 günde 135 güncelleme kaydı var. Bölüm 3'teki "iOS: bilinmiyor" satırı ve karar 2'nin iOS yarısı böylece kapandı; **açık kalan yalnız Play'deki derleme 50.**
+
+| Ölçü (son 30 gün, 23 Kasım'a kadar) | 13 Kas | 23 Kas |
+|---|---|---|
+| İlk kez indirme | 160 | **323** |
+| Yeniden indirme | – | 7 |
+| Gösterim | – | 6.440 |
+| Ürün sayfası görüntüleme | – | 927 |
+| Dönüşüm oranı (günlük ortalama) | – | %6,97 |
+| Güncelleme | – | 135 |
+| Uygulama içi satın alma | 6 | **9** |
+| Gelir (proceeds) | 20 dolar | **23 dolar** |
+| Etkin plan | 5 | **7** |
+| Ödemeli plan | 3 | **4** |
+| Plan başlangıcı / ödemeye dönüşen | – | 3 / 1 |
+| İndirmeden ödemeye, 1. gün / 7. gün | – / %2,33 | %0,3 / **%1,53** |
+Elde tutma grafiği (yalnız izin verenler) okunmadı. Ödemeli 4 planın içinde testçi promosyonu olup olmadığı bu turda ayrılmadı (13 Kasım'da 1 testçi promosyonu ve 1 deneme vardı); Mehmet'in sayım kuralına göre gerçek satış sayısı 4 ya da daha azdır.
+
+**Checkpoint (4 Aralık), düzeltilmiş:**
+| Madde | Hedef | Bugün | Durum |
+|---|---|---|---|
+| Toplam indirme | en az 275 | **~503** (iOS 323 + Android 180) | ✔ |
+| Android aylık etkin cihaz | en az 60 | 123 | ✔ |
+| Ödeyen abone | en az 5 | en çok 4 (iOS), Android 0 | henüz değil |
+| PMF anketi | en az bir kez | yok | tutmayacak (karar 6) |
+
+**Bu ekin değiştirdiği kararlar:**
+- Karar 2: yalnız Play kaldı (derleme 50'yi incelemeye göndermek).
+- Karar 5 (29 Kasım sınavı): iOS'ta 1.0.4 (50) yayında olduğu için sayım iOS için yapılabilir; editör yayın tarihini ve sürüme göre ayrımı verir.
+- Üç tahminin saati iOS için başladı; yayın tarihi öğrenilince bakılacak gün yazılır.
+- Nate'in notu: indirmeden ödemeye 7. gün oranı %2,33'ten %1,53'e indi (indirme iki katına çıktı, ödeme aynı hızda artmadı). İki ölçüm; hipotez. Yeni gelenlerin kaynağı (Instagram, arama) ayrılmadan yorumlanmaz.
+- Editörün iş tanımına ek (bölüm 9, madde 1): iOS'ta 1.0.4 (50) hangi gün yayına girdi; kademeli yayın açık mı; o günden beri çökme ve satın alma hatası var mı.

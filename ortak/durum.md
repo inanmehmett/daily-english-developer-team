@@ -19,7 +19,7 @@
 
 ## Mağaza sürümleri (25 Kas 2026, Play Console'dan okundu)
 - **Android üretim:** 1.0.4 derleme 47 yayında (20 Kas 2026). 1.0.4 derleme 50 üretim kanalında hazır, **incelemeye gönderilmedi** (23 Kas'ta hazırlanmış).
-- **iOS:** bilinmiyor (App Store Connect oturumu kapalıydı); derleme 50 TestFlight'ta (22 Kas).
+- **iOS:** 1.0.4 derleme 50 App Store'da yayında ("Ready for Distribution"; 25 Kas'ta okundu, yayın tarihi okunmadı).
 - Kural (25 Kas): her toplantının başında mağaza durumu iki konsoldan okunur; hafızadan söylenmez.
 
 ## Fiyatlandırma (4 Kas 2026 — güncellendi)

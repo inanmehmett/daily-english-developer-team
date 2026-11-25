@@ -3,7 +3,7 @@
 **Son güncelleme:** 22 Kasım 2026, 17:20 (editör; tablo `raporlar/2026-11-22_editor_surum_kalan_isler_raporu.md` ile aynı). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
 
 ## Şu anki durum
-**25 Kas 16:30 – haftalık rapor ve toplantı:** `raporlar/2026-11-25_haftalik_rapor_ve_toplanti.md`. Play üretimde 1.0.4 (47) 20 Kas'tan beri yayında (aşağıdaki "Mağazada: 1.0.2" satırı Android için yanlıştı); derleme 50 Play'de hazır, incelemeye gönderilmedi; iOS bilinmiyor. Bu haftanın tek işi: 1.0.4 (50) mağazada (Mehmet, 26 Kas). Editöre iş tanımı raporun 9. bölümünde. Depoda 22 Kas 22:13'ten beri editörden yeni rapor yok.
+**25 Kas 16:30 – haftalık rapor ve toplantı:** `raporlar/2026-11-25_haftalik_rapor_ve_toplanti.md`. Play üretimde 1.0.4 (47) 20 Kas'tan beri yayında (aşağıdaki "Mağazada: 1.0.2" satırı Android için yanlıştı); derleme 50 Play'de hazır, incelemeye gönderilmedi; **iOS'ta 1.0.4 (50) yayında** (16:20'de okundu). Bu haftanın tek işi: 1.0.4 (50) mağazada (Mehmet, 26 Kas). Editöre iş tanımı raporun 9. bölümünde. Depoda 22 Kas 22:13'ten beri editörden yeni rapor yok.
 
 **22 Kas 02:40 – Mehmet: "Bu sürümde kalan işleri editör full yetkiyle halletsin; sonraki sürüm işlerini sonra düşünürüz."** Editörün tek görev kaynağı: `ortak/editor_gorevi_2026-11-22_surum_kalan_isler.md` (PR #18 yayını → sınav sunucu PR'ı → canlı veri betiği → sınav uygulama işleri → derleme 50 TestFlight ve Play dahili test). Yayın ve canlıya yazma bu dosyadaki işler için editörde; mağaza gönderimi ve gerçek satın alma Mehmet'te. Aşağıdaki tabloda "Mehmet'in sözüyle" yazan satırlar bu sözle açıldı. Salt okuma raporları (S10–S15, profil resmi) ve sonraki sürüm işleri **beklemede**.
 
