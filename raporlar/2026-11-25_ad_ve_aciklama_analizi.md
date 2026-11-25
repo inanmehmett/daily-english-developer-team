@@ -21,7 +21,7 @@ Doğru ve açık; yanlış anlamayı kapatıyor. İki çekince:
 | İngilizce alt ad | 52 | 235 |
 | Merak cümlesi | 43 | 244 |
 
-- Mehmet'in sezgisi doğru: **metinlerin %71'inde İngilizce açıklama yok.** Boş olanların 187'si Premium, 16'sı günlük havuz, 2'si başlangıç hikâyesi. Başlangıç yolculuklarındaki 16 metnin 7'sinde yok.
+- Mehmet'in sezgisi doğru: **metinlerin %71'inde İngilizce açıklama yok.** Boş olanların 187'si Premium, 16'sı günlük havuz, 2'si başlangıç hikâyesi. Başlangıç yolculuklarında yer alan 7 metinde yok.
 - Etkisi sınırlı: uygulama İngilizce kullanılırken açıklama boşsa Türkçesi gösteriliyor (editör, 21 Kas). Türkçe kullanan okur farkı görmüyor.
 - Türkçe açıklamalar 51–434 karakter, ortanca 187. Aynı açıklamayı ya da adı paylaşan iki metin yok.
 
@@ -120,10 +120,10 @@ Türkçe kullanan okuru etkilemiyor. Karar: şimdi öncelik değil. Ama açıkla
 Ad ve açıklamadan bağımsız, metnin kendisinden kaynaklanan iki bulgu.
 
 ### 5.1 Ücretsiz okurun gördüğü metinler en eski ve en zayıf olanları içeriyor
-Ücretsiz 24 metin var (3 başlangıç + 21 günlük havuz). İçlerinde 2025'ten kalan ilk kuşak metinler duruyor: Breakfast in New York (104 kelime), Sunday Lunch with Grandma (89), Ali's First Snow (121), First Ramadan in London (137). Bunlarda bir olay ya da soru yok; açıklamaları da 4.1'deki jenerik küme.
+Ücretsiz 24 metin var (3 başlangıç + 21 günlük havuz). İçlerinde en düşük kimlik numaralı, ilk kuşak metinler duruyor: Breakfast in New York (104 kelime), Sunday Lunch with Grandma (89), Ali's First Snow (121), First Ramadan in London (137). Bunlarda bir olay ya da soru yok; açıklamaları da 4.1'deki jenerik küme.
 - **A2 başlangıç yolculuğunun ilk hikâyesi "Ali's First Snow".** Yeni A2 okurun uygulamada gördüğü ilk metin bu.
 - A1 başlangıç yolculuğunun ilk hikâyesi "First Ramadan in London" (137 kelime).
-- Sadık kullanıcı raporunda (21 Kas) gidenlerin son okudukları arasında bu metinler vardı. Nedensellik kanıtlı değil; ama en iyi metinlerimiz Premium'da, en zayıfları vitrinde.
+- Sadık kullanıcı raporunda (21 Kas) iki kişinin son okuduğu metin bu kümeden (Breakfast in New York, Sunday Lunch with Grandma). Bunun gidişe yol açtığına dair kanıt yok; söylenebilecek olan şu: en iyi metinlerimiz Premium'da, en zayıfları vitrinde.
 
 ### 5.2 Aynı kalıbın tekrarı
 | Kalıp | Metinler |
