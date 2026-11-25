@@ -18,7 +18,13 @@
 | Şehir adlarını Türkçe ada eklemek (7 satır) | Adları gereksiz uzatıyor; şehri üstteki İngilizce ad zaten söylüyor. **Küme listeden çıkarıldı** |
 | Shackleton: … / Krakatoa: … (Türkçe adda) | Aynı gerekçe: özel isim yalnız İngilizce ada eklenir |
 
-## Güncel liste (17 satır)
+## Mehmet'in kararları (26 Kas 00:31)
+- 9: "Ay'ın Ödünç Işığı" yerine **"Ay Işığı"**.
+- 12: **"Makineyle Yarışan Adam" kalıyor** (satır çıkarıldı).
+- 14: **"Trevi Çeşmesi" kalıyor** (satır çıkarıldı).
+- 16: "Elleriyle Konuşan Ülke" olmaz; sağır ve dilsizleri çağrıştırıyor. Yeni öneri aşağıda.
+
+## Güncel liste (15 satır)
 | No | Kimlik | İngilizce: önce | İngilizce: sonra | Türkçe: önce | Türkçe: sonra |
 |---|---|---|---|---|---|
 | 1 | 1059 | The Girl Who Fell From the Sky | The Girl Who Fell into the Amazon | Gökten Düşen Kız | Gökten Amazon'a Düşen Kız |
@@ -29,14 +35,12 @@
 | 6 | 1060 | The Most Successful Failure | Shackleton: The Most Successful Failure | En Başarılı Başarısızlık | (değişmiyor) |
 | 7 | 1061 | The Woman They Hired to Sew | The Seamstress of Wrangel Island | Dikiş İçin Tutulan Kadın | Buz Adasındaki Terzi |
 | 8 | 1055 | Forty-One Days by the Sun | Forty-One Days After the Hurricane | Güneşle Kırk Bir Gün | Kasırgadan Sonra Kırk Bir Gün |
-| 9 | 1082 | The Lamp Nobody Lit | The Moon's Borrowed Light | Kimsenin Yakmadığı Lamba | Ay'ın Ödünç Işığı |
+| 9 | 1082 | The Lamp Nobody Lit | The Moon's Borrowed Light | Kimsenin Yakmadığı Lamba | Ay Işığı (Mehmet) |
 | 10 | 1064 | The Fish That Needs No Sauce | When Sushi Was Street Food | Sos İstemeyen Balık | Suşinin Sokak Günleri |
 | 11 | 1045 | Baba Yaga | (değişmiyor) | Tavuk Bacaklı Kulübe | Baba Yaga: Tavuk Bacaklı Kulübe |
-| 12 | 1046 | John Henry | (değişmiyor) | Makineyle Yarışan Adam | Makineyle Yarışan John Henry |
 | 13 | 1053 | Urashima Tarō | (değişmiyor) | Açılmaması Gereken Kutu | Urashima Tarō ve Yasak Kutu |
-| 14 | 992 | Rome: The Fountain That Is Not a Monument | (değişmiyor) | Trevi Çeşmesi | Trevi Bir Anıt Değil |
 | 15 | 1063 | The Country That Eats Breakfast Twice | (değişmiyor) | İspanya'nın Kahvaltı Kültürü | Günde İki Kahvaltı Yapan Ülke |
-| 16 | 148 | Why Italians Love Talking | (değişmiyor) | İtalyanların Konuşma Aşkı | Elleriyle Konuşan Ülke |
+| 16 | 148 | Why Italians Love Talking | (değişmiyor) | İtalyanların Konuşma Aşkı | İtalyanlar Neden Çok Konuşur? (öneri; Mehmet'in cevabı bekleniyor) |
 | 17 | 1066 | The Night India Turns On Its Lights | (değişmiyor) | Hindistan'ın Işıl Işıl Gecesi | Uzaydan Görülen Gece |
 
 Her önerinin dayandığı cümle:
