@@ -22,6 +22,8 @@
 - 9: "Ay'ın Ödünç Işığı" yerine **"Ay Işığı"**.
 - 12: **"Makineyle Yarışan Adam" kalıyor** (satır çıkarıldı).
 - 14: **"Trevi Çeşmesi" kalıyor** (satır çıkarıldı).
+- 13: **"Urashima Tarō ve Yasak Kutu" onaylandı** (26 Kas 00:32).
+- 11: "Baba Yaga için karar Tomris'te." **Tomris'in kararı: "Baba Yaga: Tavuk Bacaklı Kulübe".** Gerekçe: özel isim çevrilmiş sanılmasın, kulübe görüntüsü de kalsın.
 - 16: "Elleriyle Konuşan Ülke" olmaz; sağır ve dilsizleri çağrıştırıyor. Yeni öneri aşağıda.
 
 ## Güncel liste (15 satır)
