@@ -3,6 +3,8 @@
 **Son güncelleme:** 22 Kasım 2026, 17:20 (editör; tablo `raporlar/2026-11-22_editor_surum_kalan_isler_raporu.md` ile aynı). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
 
 ## Şu anki durum
+**25 Kas 17:35:** bildirim dönüş oranı ve yorum isteme raporu `raporlar/2026-11-25_bildirim_donus_orani_ve_yorum_isteme.md` (dokunma %2,3; seri hatırlatma %16,7, geri dön %0,5; yorum için Instagram yolu bugün, uygulama içi pencere sonraki derleme, bildirimle istenmez). Editörün görevine A10, A11, B4 eklendi.
+
 **25 Kas 17:15 – editörün güncel tek görevi:** `ortak/editor_gorevi_2026-11-25.md` (A: dokuz bilgi isteği, salt okuma; B: belge testinde şık karıştırma ve soru düzeltmeleri, derleme yok). Plan: `raporlar/2026-11-25_tutunma_ve_kullanici_sesi_plani.md` (tutunma, memnuniyet anketi, profildeki geri bildirim alanı, satın alanlara mesaj, mağaza yorumu isteme).
 
 **25 Kas 16:30 – haftalık rapor ve toplantı:** `raporlar/2026-11-25_haftalik_rapor_ve_toplanti.md`. Play üretimde 1.0.4 (47) 20 Kas'tan beri yayında (aşağıdaki "Mağazada: 1.0.2" satırı Android için yanlıştı); derleme 50 Play'de **incelemede** (25 Kas 16:53; onaydan sonra elle yayın gerekir, yönetilen yayınlama açık); **iOS'ta 1.0.4 (50) yayında** (16:20'de okundu). Bu haftanın tek işi: 1.0.4 (50) mağazada (Mehmet, 26 Kas). Editöre iş tanımı raporun 9. bölümünde. Depoda 22 Kas 22:13'ten beri editörden yeni rapor yok.

@@ -18,11 +18,15 @@ Gerekçeler: `raporlar/2026-11-25_haftalik_rapor_ve_toplanti.md`, `raporlar/2026
 | A8 | **Belge testi:** şıklar ekranda kayıttaki sırayla mı görünüyor, karıştırılıyor mu; puandan seviyeye giden eşikler; soru bazında cevap kaydı tutuluyor mu; mağaza açıklamasında ve sitede seviye ya da sertifika iddiası geçen cümleler | `raporlar/2026-11-22_belge_seviye_iddiasi_plani.md` |
 | A9 | **Derleme 50 görüntü soruları:** kariyer alt şeridi neden gün tahmini yerine "…'ya doğru ilerliyorsun" diyor; belge testinde şıklar ekranın altında kalınca kaydırma ipucu var mı | Sonraki derleme |
 
+| A10 | **Yorum isteme altyapısı:** A6'ya ek: uygulamada sunucudan açılıp kapanan bir kart ya da duyuru alanı var mı; bildirim bir mağaza adresini açabiliyor mu. Mağazalardaki yorum sayısı ve son 10 yorumun metni (iki mağaza) | `raporlar/2026-11-25_bildirim_donus_orani_ve_yorum_isteme.md` bölüm 2 |
+| A11 | **Bildirim, 22 Kasım'dan sonra:** türe göre gönderim, dokunma ve dokunan kişi sayısı; "geri dön" için adlı ve yedek metin ayrı; 1.0.4 kullanıcılarında dokunmadan sonra hikâye açılıyor mu. Kelime tekrarındaki 3 gün arası hatası PR #15 ya da #16 ile düzeldi mi | Aynı rapor, bölüm 1 |
+
 ## B. Düzeltme (sunucu ve canlı veri; derleme yok)
 | # | İş | Not |
 |---|---|---|
 | B1 | **Şıkların karıştırılması.** A8'in cevabı "karıştırılmıyor" ise: şıklar her gösterimde karıştırılır; doğru cevap konuma değil şıkkın kimliğine bağlıdır. Sunucuda yapılabiliyorsa yap (1.0.2, 1.0.4-47 ve 1.0.4-50 istemcileri bozulmamalı; testle göster). Yalnız uygulamada yapılabiliyorsa yapma, iş büyüklüğünü yaz. Aynı soru "Seviyeni yeniden ölç" boşluk şıkları için de | Belgenin geçerliliği için en önemli düzeltme |
 | B2 | **Dört yeni B2 sorusu** (eski 130, 146, 136, 144 kapatılır, silinmez), **iki şık düzeltmesi** (133 "cheap" → "simple"; 161 doğru şık "believed it would be" ve öbür şıklar), **tür etiketleri** (56 ve boş olanlar). Kaynak: `raporlar/2026-11-22_belge_sorulari_paul_okumasi.md` bölüm 2–3. Yedekli betik; tohum dosyaları da aynı hâle | Mekanik denetimden geçmeli; doğru şıkkın konumu karıştırılır |
+| B4 | **Kelime tekrarı bildirimi:** 3 gün arası, araya başka tür girse de tutulsun (hâlâ bozuksa). Ayrıca "ilk okumaya çağrı" 1. gün başlığı hikâye adı biliniyorsa her zaman adlı gitsin. PR aç; **yayınlama**, raporla (yayın Mehmet'in sözüyle) | Bildirim raporu, öneri 1 ve 2 |
 | B3 | B1 ve B2'den sonra canlıda doğrula: B2 için etkin metin sorusu sayısı aynı; rastgele üç soruyu oku | – |
 
 ## Bu görevde olmayanlar
