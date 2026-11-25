@@ -68,3 +68,10 @@ Amaç satış değil, bağ ve bilgi. Dört kişi şu an yıllık planın denemes
 | Nassim | Dört deneme kullanıcısına Mehmet'in adıyla yazmak küçük bir grupta büyük etki yapar; yanlış tonda bir ileti iptale de götürebilir | **Kabul.** İleti soru sorar, satış yapmaz; gönderimden önce Mehmet okur |
 | Nassim | E-posta izni yoksa toplu e-posta hukuki risk | **Kabul.** İzin metni görülmeden e-posta yolu kullanılmaz |
 | Steve | Bu işler "iki hafta yeni özellik yok" kararını delmesin | **Kabul.** Derleme gerektirmeyenler şimdi; gerektirenler sonraki sürümün tek kutusu |
+
+## Düzeltme (25 Kas 17:16, Mehmet): "E-posta boşa uğraş olur. Biz verilerden devam edelim."
+- **E-posta yolu kapandı:** anket e-postası ve satın alanlara e-posta gönderilmeyecek. Bölüm 2'nin A aşaması ve bölüm 4 **uygulanmaz**; bölüm 4'teki metin kullanılmaz.
+- **Bu haftanın işi yalnız veri:** editörün sayımları (sürüm dağılımı, tutunma, ilk gün hikâye bitirme, satın alanların davranışı, quiz ve ölçüm sayıları) ve profildeki geri bildirim alanına bugüne kadar gelen iletilerin okunması. Kararlar bu veriden çıkar.
+- **Kullanıcıya soru sormak** yalnız uygulamanın içinden olur ve sonraki sürümün konusudur (tek soruluk kart, yorum isteme anı, "bize ulaş"ın görünürlüğü); 1.0.4'ün verisi görülmeden başlanmaz.
+- Checkpoint'in PMF anketi maddesi bu yüzden açık kalır; yerine şimdilik davranış ölçüleri izlenir: ilk gün hikâye bitirme, 7. gün dönüşü, denemeden ödemeye geçiş.
+- Belge düzeltmeleri (bölüm 6) değişmedi.
