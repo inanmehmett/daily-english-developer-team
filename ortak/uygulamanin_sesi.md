@@ -38,7 +38,11 @@ Rütbe adına gelen ek (Çaylak'a, Meraklı'ya, Okur'a) Türkçe ses uyumuna gö
 5. Suçlama, sahte aciliyet, abartı yok.
 6. Ücretle ilgili bildirim (deneme bitiyor) ne olacağını açıkça söyler: sonrasında hangi planın süreceğini ve iptal edilebildiğini.
 
-Örnekler ve türlerin dökümü: `raporlar/2026-11-26_bildirim_ornekleri_taslak.md`, `raporlar/2026-11-26_editor_cevap.md` ("Bildirim dökümü"). Reddedilen yön: hikâyeden merak cümlesi çıkarıp başlığa koymak ("Kedi bugün gelmedi.").
+7. His, kullanıcıya özgü doğru bir bilgiden doğar ("5 gündür okuyorsun", "Defterine eklediğin 7 kelime"); övgü sıfatından ("harika", "güzel") ve çekingenlikten ("istersen", "acelesi yok") doğmaz. Arkadaş taklidi yapılmaz ("aklımıza geldin", "seni özledik").
+8. Başlığın tamamı 22 karakteri geçmez; ad başlıkta ancak sığıyorsa, yoksa gövdenin başında.
+9. "Son hatırlatmamız" diyen bildirimden sonra gerçekten susulur.
+
+Onaylı metinler (26 Kas 17:44): `ortak/editor_gorevi_2026-11-26_bildirim_metinleri.md`. Örnekler ve türlerin dökümü: `raporlar/2026-11-26_bildirim_ornekleri_taslak.md`, `raporlar/2026-11-26_editor_cevap.md` ("Bildirim dökümü"). Reddedilen yön: hikâyeden merak cümlesi çıkarıp başlığa koymak ("Kedi bugün gelmedi.").
 
 ## Sonraki iş
 Paul, yayından sonraki iki haftada uygulamadaki bütün metinleri bu kurallarla tarar (yalnız metin değişikliği).

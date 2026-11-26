@@ -144,3 +144,6 @@ Her satırda his, kullanıcıya özgü doğru bir bilgiye yaslanıyor. {n} ve {f
 8. Deneme: iptal için son an bitişten 24 saat öncesi, yerel saatle, saat başına aşağı yuvarlanır. {fiyat} sunucuda biliniyorsa yazılır, bilinmiyorsa "ücretli yıllık plan".
 9. Doğrula ve raporla: E3 (seri bugün okuyunca geri geliyor mu, kimde), E7 ("seviyene göre seçtik" doğru mu), E8 (uygulama kaldığı yerden açıyor mu), "Profil'den iptal" yolu iki mağazada, 7. günden sonra hiç okumamış kullanıcıya başka bildirim gidiyor mu.
 10. Birleştirme ve yayın Mehmet'in sözüyle.
+
+
+**Onay (Mehmet, 26 Kas 17:44):** tablo onaylandı. Deneme başlığı ekibin önerisiyle "Küçük bir hatırlatma", ad gövdenin başında. Hikâyenin konusunu tek cümleyle söylemek **eklenmedi** (ekip öneri sunmamıştı; ayrı karar). Uygulanacak hâl: `ortak/editor_gorevi_2026-11-26_bildirim_metinleri.md`.
