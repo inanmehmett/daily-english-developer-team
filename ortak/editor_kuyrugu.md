@@ -25,6 +25,7 @@
    c) **"bıraktığın yerde duruyor" yerine devam nedeni.** Yarım kalan metin varsa: "{Türkçe ad} yarıda kaldı; devamı seni bekliyor." Metnin merak cümlesi varsa ve kullanıcı metne hiç başlamamışsa gövde merak cümlesi olsun.
    d) Önce döküm: bugün gönderilen bütün bildirim türlerinin başlık ve gövdesi, en uzun gerçek örnekle karakter sayısı; 22 karakteri aşan başlıklar ve İngilizce ad taşıyan gövdeler işaretli. Tablonun tamamı için yeni metin önerisini Paul yazacak; sen yalnız a–c'yi "seri başlat", "seri hatırlatma", "günlük hatırlatma" ve "geri dön" türlerine uygula.
    e) Doğrula: Mehmet'in hesabında bu metin gerçekten yarım mı kalmıştı; bildirime dokununca 1.0.4'te doğrudan o metnin kaldığı yer mi açılıyor, kapak mı?
+   **Düzeltme (26 Kas 08:24, Mehmet'in sorusu üzerine): a ve c'deki metinleri uygulama; yalnız d (döküm) ve e (doğrulama) yapılacak, b (Türkçe ad) geçerli.** "Bugün de olsun mu?" ve "devamı seni bekliyor" kullanıcının değil bizim isteğimizi söylüyor; merak uyandırmıyor. Yeni yön: başlık hikâyenin merak sorusu, gövde ad + küçük emek ("2 dakika"). Bunun için metin başına tek satırlık bildirim cümlesi gerekiyor; ücretsiz 24 metin için Paul ve Tomris yazıp Mehmet'e gösterecek. Sen şunu hazırla: bildirim şablonu metin başına özel bir alanı (ör. `NotificationHook`) okuyabilsin, alan boşsa bugünkü metne düşsün; yarım kalan metinde kalan okuma süresi dakika olarak hesaplanabiliyor mu, yaz.
    Ölçü: "seri başlat" dokunma oranı (bugün %3,8; 209 gönderim). PR hazır olunca Mehmet'e söyle; yayın onun sözüyle.
 
 ## Biten
