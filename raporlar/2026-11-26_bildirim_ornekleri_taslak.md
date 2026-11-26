@@ -25,3 +25,26 @@
 | Yeni rütbe | Tebrikler | Artık Meraklı'sın. Yolunu gör. |
 | Deneme bitmeden 2 gün önce | Küçük bir hatırlatma | Denemen cuma günü bitiyor. O güne kadar bütün hikâyeler açık. |
 | Premium'a yeni hikâye eklendi | Yeni hikâye | Rafına yeni bir hikâye eklendi. Göz at. |
+
+## Deneme hatırlatması: uzun metin (taslak, Mehmet 26 Kas 16:15: "daha uzun bir metin yazalım, hem başlık hem açıklama için")
+Teknik sınır: kilit ekranında başlık tek satır, yaklaşık 25–30 karakterden sonra kesiliyor; gövde dört satıra kadar (yaklaşık 170 karakter) görünüyor, bildirime basılı tutunca tamamı açılıyor. Bu yüzden başlık en çok 28 karakter, gövde uzun.
+Gönderim: deneme bitmeden 2 gün önce, bir kez. İki ayrı durum var; ikisi de dürüst olmalı (ücret alınacaksa söylenir).
+
+### Durum 1: yenileme açık (deneme bitince ücretli plan başlayacak)
+| | Metin | Karakter |
+|---|---|---|
+| Başlık A | Denemen cuma günü bitiyor | 25 |
+| Başlık B | Denemende son iki gün | 21 |
+| Başlık C | Mehmet, küçük bir hatırlatma | 28 |
+| Gövde (okumuşsa) | Bu hafta {n} hikâye okudun, çok güzel gidiyorsun. Denemen cuma günü bitiyor; devam edersen Premium kendiliğinden başlar, bir şey yapmana gerek yok. Vazgeçersen cumaya kadar ayarlardan kapatabilirsin. | ~200 |
+| Gövde (hiç okumamışsa) | Denemen cuma günü bitiyor ve bütün hikâyeler hâlâ açık. Bugün kısa bir tanesini dene; beğenmezsen cumaya kadar ayarlardan kapatabilirsin, senden ücret alınmaz. | ~165 |
+
+### Durum 2: yenilemeyi kapatmış (deneme bitince ücretsiz kullanıma dönecek)
+| | Metin | Karakter |
+|---|---|---|
+| Başlık A | Denemen cuma günü bitiyor | 25 |
+| Başlık B | Premium'da son iki gün | 22 |
+| Gövde (okumuşsa) | Bu hafta {n} hikâye okudun, eline sağlık. Cuma gününe kadar bütün hikâyeler ve diziler açık. Sonrasında ücretsiz okumaya devam edersin; Premium'da kalmak istersen yenilemeyi açman yeter. | ~190 |
+| Gövde (hiç okumamışsa) | Premium denemen cuma günü bitiyor. O güne kadar bütün hikâyeler ve diziler açık; bir tanesine göz atmak ister misin? Sonrasında ücretsiz okumaya devam edebilirsin. | ~165 |
+
+Notlar: gün adı gerçek bitiş gününden yazılır ("cuma", "yarın"). {n} deneme süresince bitirilen hikâye sayısı; 1 ise "bir hikâye". Bugünkü deneme bildiriminin metni ve iki durumu ayırıp ayırmadığı editörden bekleniyor (kuyruk 2c).
