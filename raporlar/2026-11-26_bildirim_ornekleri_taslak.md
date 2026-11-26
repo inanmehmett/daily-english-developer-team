@@ -1,40 +1,27 @@
-# Bildirim örnekleri (taslak 2, Mehmet'in görüşüne)
+# Bildirim örnekleri (taslak 3, Mehmet'in görüşüne)
 
 **Tarih:** 26 Kasım 2026 · Paul Ulus, Tomris Uyum · Tek geçiş; üyeler kurgusaldır.
-**Durum:** taslak; hiçbiri gönderilmiyor. Dayanak: hikâyelerin açıklamaları. Dakikalar örnektir; gerçek kalan süreden hesaplanacak.
-**Mehmet (26 Kas 08:45):** "Başlık daha kısa olsun, sığmıyor. Görünce kullanıcıyı harekete geçirsin. Bir duygu yaratsın, gerçek bir duygu!"
-**İlke (taslak 2):** başlık **en çok 20 karakter** ve bir soru değil, hikâyeden **tek somut görüntü**: okur bir şey hissetsin (endişe, şaşkınlık, sıcaklık, gerilim). Gövde tek cümle ve bir eylem: ne kadar sürer, ne yapacak. Suçlama, "seni bekliyor", "bıraktığın yerde duruyor" yok; hikâyenin sonu söylenmez.
+**Durum:** taslak; hiçbiri gönderilmiyor.
+**Mehmet (26 Kas 08:46):** "Mesela başlık: 'İyi haber', açıklama: 'Günün ücretsiz metni açıldı' ya da 'Hemen oku' gibi. Kitap isimleri başlık olmaz. Bu uygulama ekibi pazarcı mı, domates mi satıyor? İğrenç ifadeler bunlar!"
+**Taslak 1 ve 2 reddedildi.** Hikâyenin içinden merak cümlesi çıkarıp başlığa koymak ("Kedi bugün gelmedi.", "Oradan dönen yok.") tıklama avcılığıydı; uygulamanın sesi değil.
 
-## A. Hikâyeye özel
-| Hikâye | Başlık | Karakter | Duygu | Gövde |
-|---|---|---|---|---|
-| Saati Bilen Kedi | Kedi bugün gelmedi. | 19 | endişe | İki yıldır her sabah oradaydı. 2 dakikada öğren. |
-| Gökten Amazon'a Düşen Kız | Tek kurtulan o. | 15 | hayranlık, gerilim | 17 yaşında, ormanda tek başına. Gerçek hikâye; devam et. |
-| Finalde Yedek | Babası tribünde. | 16 | sıkışma | Final başladı, Tom yedekte. Sonu 2 dakika. |
-| Baba Yaga: Tavuk Bacaklı Kulübe | Oradan dönen yok. | 17 | korku | Kız yine de kapıyı çalıyor. 3 dakika, Mehmet. |
-| Haritadan Silinen Tavşan Adası | Bu ada haritada yok. | 20 | şaşkınlık | 900 tavşan var, adı yoktu. Nedenine 2 dakika kaldı. |
-| İki Bardak Çay | İkinci bardak kime? | 19 | sıcaklık | Her sabah tek bardak koyardı. 2 dakikalık bir hikâye. |
-| Duvarı Açan Not | Tek bir not yetti. | 18 | hayret | İki saat sonra binlerce kişi Duvar'daydı. Devam et. |
-| Islıkla Konuşan Köy | Islıkla Türkçe! | 15 | şaşkınlık | Bir kilometre öteden cümle kuruyorlar. 2 dakika. |
-| Penguen Neden Uçamaz? | Penguenler uçuyor! | 18 | şaşkınlık | Ama havada değil. Nerede olduğunu öğren. |
+## Kural (uygulamanın sesi belgesine girecek)
+1. **Bildirim bir arkadaşın kısa mesajı gibidir.** Satmaz, kışkırtmaz, sır vaat etmez.
+2. **Başlık iki üç kelime, sade ve sıcak:** bir haber ya da bir selam ("İyi haber", "Hazır", "Tebrikler"). Hikâye adı, hikâyeden cümle, soru ve ünlem yığını başlık olmaz.
+3. **Gövde ne olduğunu düz söyler, sonra tek küçük davet:** "Günün ücretsiz metni açıldı. Hemen oku."
+4. Hikâyenin adı gerekiyorsa yalnız gövdede ve Türkçe adıyla.
+5. Suçlama, sahte aciliyet, abartı yok.
 
-## B. Genel şablonlar (özel cümlesi olmayan hikâyeler; dönüşümlü)
-| No | Başlık | Karakter | Gövde |
-|---|---|---|---|
-| 1 | Sonu ne oldu? | 13 | {Türkçe ad}: son {n} dakika. |
-| 2 | Az kaldı, {isim}. | ~17 | {Türkçe ad} bitmek üzere. {n} dakika yeter. |
-| 3 | {n} dakikan var mı? | 17 | {Türkçe ad} yarıda. Hadi bitirelim. |
-| 4 | Çay molası kadar. | 17 | {Türkçe ad}, {n} dakikada biter. |
-| 5 | Bir sayfa daha? | 15 | {Türkçe ad} kaldığın satırdan açılıyor. |
-
-## C. Öbür durumlar
-| Durum | Başlık | Karakter | Gövde |
-|---|---|---|---|
-| Günün ücretsiz hikâyesi açıldı | Hikâyen açıldı. | 15 | {sıradaki hikâyenin merak cümlesi} |
-| Serisi 3 gün ve üstü, bugün okumamış | {n}. gün, {isim}! | ~15 | Bu akşam bir hikâye daha; {n+1} olsun. |
-| 3 gündür gelmeyen | {sıradaki hikâyenin başlığı, A kümesinden} | ≤20 | {isim}, kısa bir hikâye: {n} dakika. |
-| Deneme bitmeden 2 gün önce | Deneme cuma bitiyor. | 20 | O güne kadar bütün hikâyeler açık. Sırada: {Türkçe ad}. |
-
-## Doğrulanacaklar (metnin tamamıyla, yazımdan önce)
-- "Kız yine de kapıyı çalıyor" (Baba Yaga) ve "Tom yedekte / sonu" (Finalde Yedek): metinle uyuşuyor mu, sonu ele veriyor mu?
-- "Penguenler uçuyor!": cevabın yarısını söylüyor; açıklamada da var ("o başka bir yerde uçuyor").
+## Örnekler
+| Durum | Başlık | Gövde |
+|---|---|---|
+| Günün ücretsiz metni açıldı | İyi haber | Günün ücretsiz metni açıldı. Hemen oku. |
+| Yarım kalan hikâyesi var | Az kaldı | Hikâyenin bitmesine 2 dakika var. Kaldığın yerden devam et. |
+| Dün okudu, bugün henüz okumadı | İyi akşamlar, Mehmet | Bugünkü hikâyen hazır. 3 dakika yeter. |
+| Serisi 3 gün ve üstü, bugün okumamış | 5 gün oldu | Harika gidiyorsun. Bugün de okursan 6 olacak. |
+| Günün quizi | Günün quizi hazır | 5 soru, 1 dakika. |
+| Kelime tekrarı | Küçük bir tekrar | Defterindeki kelimelere birlikte bakalım mı? |
+| 3 gündür gelmiyor | Seni özledik | Yeni hikâyen hazır. Kısa bir tanesiyle başlayalım mı? |
+| Yeni rütbe | Tebrikler | Artık Meraklı'sın. Yolunu gör. |
+| Deneme bitmeden 2 gün önce | Küçük bir hatırlatma | Denemen cuma günü bitiyor. O güne kadar bütün hikâyeler açık. |
+| Premium'a yeni hikâye eklendi | Yeni hikâye | Rafına yeni bir hikâye eklendi. Göz at. |
