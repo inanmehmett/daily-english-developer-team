@@ -1,7 +1,9 @@
 # Editör raporu: bildirim metinleri, onaylı son hâl (copy_v4)
 
 **Tarih:** 26 Kasım 2026 · **Görev:** `ortak/editor_gorevi_2026-11-26_bildirim_metinleri.md`
-**Durum:** kod yazıldı, testler geçti, PR açık: **[sunucu #24](https://github.com/inanmehmett/DailyEnglish/pull/24)**. Birleştirilmedi; birleştirme ve yayın Mehmet'in sözüyle.
+**Durum: canlıda (26 Kas 23:20).** Mehmet: "Birleştir ve yayınla." [Sunucu #24](https://github.com/inanmehmett/DailyEnglish/pull/24) GitHub testi geçtikten sonra birleştirildi; dağıtım başarılı, API cevap veriyor, yayından sonraki günlükte hata yok. Bildirimler 23:00'ten sonra gitmediği için ilk `copy_v4` gönderimleri **27 Kasım 09:05'ten itibaren** beklenir; canlıda henüz gözlenmedi.
+
+**Bu akşam taslak 3 ile gidenler (`copy_v3`, 17:30–23:00, müşteriler):** 59 gönderim, 1 dokunma (kelime tekrarı). Geri dön 21, seri başlat 11, seri 6, ilk okuma 6, kelime tekrarı 6, günün quizi 5, günlük hatırlatma 4. Bir gönderim hatası kayıtlı. Tek akşam; karşılaştırma için az.
 
 ## Önce bilinmesi gereken: PR #23 zaten yayında
 Görev "PR #23'ün bugünkü hâlini birleştirme" diyor. PR #23, Mehmet'in "hepsini sen yap" sözüyle **17:30'da birleştirildi ve yayına girdi**; görev dosyası 17:45'te yazıldı. Bu yüzden:

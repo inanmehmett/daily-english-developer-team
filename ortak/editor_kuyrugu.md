@@ -5,7 +5,8 @@
 **26 Kas notu:** canlı veriye erişim Mehmet'in sözüyle eklenen izin kuralıyla açıldı (salt okunur sorgu; yazma yalnız adı kurala yazılmış betik için). Yeni bir canlı betik için yeni kural ve Mehmet'in sözü gerekir.
 
 ## Bekleyen
-1. **3 Aralık: yeni bildirim metinlerinin ölçümü** · `raporlar/2026-11-26_editor_canli_sayimlar.md` bölüm 6'daki tablo `copy_v3` için yeniden çekilir, `copy_v2` ile yan yana.
+1. **27 Kasım: ilk `copy_v4` gönderimlerinin doğrulanması** · kayıtta tür ve anahtar (`copy_v4:E…`), gönderim hatası, hikâyesi anılamadığı için bildirim gitmeyen okur sayısı (önceki günün aynı saatleriyle karşılaştır).
+   **10 Aralık: ölçüm** · `raporlar/2026-11-26_editor_canli_sayimlar.md` bölüm 6'daki tablo `copy_v4` için metin anahtarına göre; `copy_v2` tabanıyla yan yana. `copy_v3` yalnız 26 Kasım akşamı gitti (59 gönderim); karşılaştırmaya girmez.
 2. **Tutunmanın sürüme göre ayrımı** · Android 7. gün dönüşündeki sıçrama (16 Kasım haftası, 8/53) 1.0.4 (47) ile mi geldi.
 3. **"Hiç olay göndermemiş" 35 müşteri** (11–25 Kasım) · onboarding'i bitirmiş görünüp olay göndermeyen hesaplar: platform, sürüm, hesap açılış yolu; ölçüm kaybı mı, gerçek terk mi.
 4. **Denemeden kalanlar (koddan)** · deneme yenilenmeden bitince kullanıcının gördüğü ekran; "Aylık planla başla" teklifinin bu durumda çıkıp çıkmadığı; kayıt 34'ün hangi ekrandan satın aldığı.
@@ -33,4 +34,4 @@
 | Canlı sayımlar: A1, A2, A3, A4, A5, A7, A11; deneme ve yenileme dökümü (2a, 2b, 2d); abonelik kayıtları (3d, 3e) | 26 Kas | `raporlar/2026-11-26_editor_canli_sayimlar.md` |
 | PR #21 canlıda doğrulama (B3) | 26 Kas | Havuz istenen hâlde; karışık şık sırası ilk gerçek denemede görülecek |
 | Ad betiğinin canlıda çalıştırılması | 26 Kas | 15 satır, yedekli; `raporlar/2026-11-26_editor_ad_degisiklikleri.md` |
-| Bildirim metinleri, onaylı son hâl (`copy_v4`): doğrulama tablosu, kod, testler | 26 Kas | Sunucu PR #24 (**birleştirme Mehmet'in sözünü bekliyor**); `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
+| Bildirim metinleri, onaylı son hâl (`copy_v4`): doğrulama tablosu, kod, testler | 26 Kas | Sunucu PR #24, **canlıda** (26 Kas 23:20); `raporlar/2026-11-26_editor_bildirim_metinleri.md` |

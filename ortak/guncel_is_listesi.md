@@ -18,7 +18,8 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | Android | 1.0.4 (47) yayında; (50) için Mehmet: "yayına gönderdim". Canlı veride derleme 50'de bugün yalnız 1 müşteri var: yayın henüz kullanıcıya ulaşmamış ya da yeni ulaşıyor | Play Console 25 Kas; Mehmet 26 Kas; canlı veri 26 Kas 17:50. **Konsoldan doğrulanmadı** |
 | Sunucu, canlıda | PR #15, #16, #18, #19, #20 (özel isimler; 25 Kas), **#21** (şık karıştırma ve B2 soruları; 26 Kas 17:22) ve **#23** (bildirim metinleri; 26 Kas 17:30). İki yayın da başarılı, API cevap veriyor, günlükte hata yok | depo, Railway |
 | Ad değişiklikleri | PR #22 canlıda (17:48), betik canlıda çalıştırıldı (17:52): 15 metin yeni adıyla, önceki adlar yedekte | `raporlar/2026-11-26_editor_ad_degisiklikleri.md` |
-| Açık PR, sunucu | **#24 bildirim metinleri, onaylı son hâl (`copy_v4`)**: testler geçti, **birleştirme Mehmet'in sözünü bekliyor**. Canlıda şu an taslak 3 (`copy_v3`, PR #23) gidiyor · #17 (21 Kas'tan beri) | depo; `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
+| Bildirim metinleri | **#24 (`copy_v4`, onaylı son hâl) canlıda** (26 Kas 23:20, Mehmet'in sözüyle). İlk gönderimler 27 Kas sabahı; canlıda henüz gözlenmedi. 17:30–23:00 arası taslak 3 (`copy_v3`) gitti: 59 gönderim, 1 dokunma | `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
+| Açık PR, sunucu | #17 (21 Kas'tan beri) | depo |
 | Uygulama deposu | PR #5 birleşti (26 Kas): `main` artık mağazadaki 1.0.4 (50) ve bekleyen iki okuyucu düzeltmesi | depo |
 | Canlı sayımlar | Çekildi (26 Kas 17:50): sürüm dağılımı, 29 Kasım sayımı, tutunma, abonelikler, geri bildirimler, bildirimler, haftalık tablo, çekirdek grup | `raporlar/2026-11-26_editor_canli_sayimlar.md` |
 
@@ -45,7 +46,8 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 6. Instagram: bio linki ve öne çıkan (yukarıda).
 
 ## Editörde (ayrıntı `ortak/editor_kuyrugu.md`)
-- 3 Aralık: bildirim tablosunun yeni metinlerle (`copy_v3`) yeniden çekilmesi; tutunmanın sürüme göre ayrımı.
+- 27 Kasım: ilk `copy_v4` gönderimlerinin kayıttan doğrulanması (tür, anahtar, hikâyesi anılamadığı için gitmeyenlerin sayısı).
+- 10 Aralık: bildirim tablosunun `copy_v4` için, metin anahtarına göre yeniden çekilmesi (yayından iki hafta sonra); tutunmanın sürüme göre ayrımı.
 - Canlıda şıkların karıştığının ilk gerçek denemede görülmesi (yayından beri deneme yok).
 - "Hiç olay göndermemiş" 35 müşterinin incelenmesi.
 - Köprü denemesi için metinlerin ücretsiz olduğunun doğrulanması.
@@ -98,3 +100,4 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 - 26 Kas (akşam): "Hepsini sen yap. 3. kalsın, sonra bakarız." Editör: sunucu #21 ve #23 birleştirildi ve yayında; uygulama #5 birleştirildi. Canlı veritabanı bağlantısı yine reddedildi; #22 ve sayımlar bekliyor. Founder kodları ertelendi.
 - 26 Kas (17:45): "İzin kuralını sen ekle." Editör: salt okunur canlı sorgu ve yalnız ad betiği için iki izin kuralı eklendi (`~/.claude/settings.json`). Canlı sayımlar çekildi (`raporlar/2026-11-26_editor_canli_sayimlar.md`); PR #22 birleştirildi ve ad betiği canlıda çalıştırıldı.
 - 26 Kas (akşam): "`editor_gorevi_2026-11-26_bildirim_metinleri.md` dosyasını oku ve uygula… Birleştirme ve yayın için bana sor." Editör: görev geldiğinde PR #23 zaten yayındaydı (17:30); onaylı son hâl yeni PR olarak yazıldı (sunucu #24), birleştirilmedi. Rapor: `raporlar/2026-11-26_editor_bildirim_metinleri.md`. Ayrıca iki soru cevaplandı: kayıt 34'te deneme bitince ücret alınmayacak; iade edilen satın alma kayıt 29, kayıt 28 7 günlük deneme olarak bitmiş görünüyor.
+- 26 Kas 23:19: "Birleştir ve yayınla." Editör: sunucu #24 birleştirildi ve yayında (23:20).
