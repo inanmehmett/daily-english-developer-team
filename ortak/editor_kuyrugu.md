@@ -10,7 +10,7 @@
 3. **"Hiç olay göndermemiş" 35 müşteri** (11–25 Kasım) · onboarding'i bitirmiş görünüp olay göndermeyen hesaplar: platform, sürüm, hesap açılış yolu; ölçüm kaybı mı, gerçek terk mi.
 4. **Denemeden kalanlar (koddan)** · deneme yenilenmeden bitince kullanıcının gördüğü ekran; "Aylık planla başla" teklifinin bu durumda çıkıp çıkmadığı; kayıt 34'ün hangi ekrandan satın aldığı.
 5. **Köprü denemesi için doğrulama** · reelde kullanılacak metinler belli olunca: uygulamada gerçekten ücretsiz okunabiliyor mu.
-6. **Kalan bildirim türlerinin metni** · Paul ve Tomris tabloyu yazınca uygulanır.
+6. **Bildirim metinleri, hikâyesiz hâller** · ekip E7, E9–E14 ve E11 için hikâyesiz metin verirse (ya da "gitmesin" derse) uygulanır; D1–D4'te dokununca Profil için derleme 51 ihtiyaç tanımı.
 7. **Panel sayaçlarının karşılaştırması** · abonelikler sayfasının üstündeki sayaçlar ile sayım raporunun 4. bölümü (panel oturumu gerekir).
 6. **Kartta görünmeyen adlar ve adsız dizi kartı (önce doğrula ve taslak; kod sonraki derleme)** · eklendi 26 Kas 21:30 · `raporlar/2026-11-26_kartta_gorunmeyen_adlar.md`.
    a) Doğrula: mağazadaki 1.0.4 (50)'de `BookTitleLines.maxTrChars = 28` kuralı ana sayfa raflarında, keşifte ve kütüphanede aynı mı; başka hangi ekran Türkçe adı uzunluğa göre gizliyor ya da kesiyor (yolculuk sayfası, bitiş kartı, kapak, bildirim)? Her yer için sınır ve davranış tablosu.
@@ -32,3 +32,4 @@
 | Canlı sayımlar: A1, A2, A3, A4, A5, A7, A11; deneme ve yenileme dökümü (2a, 2b, 2d); abonelik kayıtları (3d, 3e) | 26 Kas | `raporlar/2026-11-26_editor_canli_sayimlar.md` |
 | PR #21 canlıda doğrulama (B3) | 26 Kas | Havuz istenen hâlde; karışık şık sırası ilk gerçek denemede görülecek |
 | Ad betiğinin canlıda çalıştırılması | 26 Kas | 15 satır, yedekli; `raporlar/2026-11-26_editor_ad_degisiklikleri.md` |
+| Bildirim metinleri, onaylı son hâl (`copy_v4`): doğrulama tablosu, kod, testler | 26 Kas | Sunucu PR #24 (**birleştirme Mehmet'in sözünü bekliyor**); `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
