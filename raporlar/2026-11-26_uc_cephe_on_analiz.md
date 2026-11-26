@@ -165,3 +165,55 @@ Ayrıca: kapak üretiminde günde ne kadar zaman ayırabileceğiniz (Leonardo'da
 İkinci tur: bu belge itiraz turundan ve bağımsız gözden geçer. Ardından üç ayrı plan: `plan_teslim_paketi`, `plan_kapaklar`, `plan_elevenlabs`; her biri kapsam, adımlar, kapılar, sorumlular, ölçüm ve geri dönüş yoluyla. Editörün envanteri gelmeden takvime gün yazılmaz.
 
 **Kaynak (fiyat, resmî değil):** [Wireflow: ElevenLabs API pricing](https://www.wireflow.ai/blog/elevenlabs-api-pricing) (17 Kasım 2026 tarihli üçüncü taraf yazı).
+
+---
+# İkinci tur: bağımsız gözün itirazları ve belgede değişenler (27 Kas 00:30)
+Bağımsız göz (planı görmüş, gerekçeyi görmemiş ayrı oturum) belgeyi çürütmeye çalıştı. Kabul edilen itirazlar aşağıda; bu bölüm yukarıdaki bölümlerle çeliştiği yerde **bu bölüm geçerlidir.**
+
+## A. Belgenin zayıf çıkan beş yeri
+| No | İtiraz | Karar |
+|---|---|---|
+| 1 | **Envanter mutabık değil.** 159, 160, 161–174 ve 364 yan yana duruyor. Gerçek sayı 364'e yakınsa ad işi, karakter, maliyet ve kapak sayısı iki katını aşar; bölüm 7 ve 9 geçersiz olur | Kabul. **Mutabık kayıt birimi sayısı gelmeden takvim, maliyet ve "bir haftada şu olur" cümlesi kurulmaz.** Bölüm 7'deki tahmin bu sayıya kadar askıda |
+| 2 | **"Yalnız değişen cümle yeniden üretilir" komşu cümle bağlamı açılınca tam doğru değil.** Klip komşularına da bağlanır: tek cümle yenilenirse ton kopabilir, kopmasın denirse üç cümle yenilenir. ElevenLabs çıktısı aynı girdiyle aynı sesi veriyor mu, bilinmiyor | Kabul. Denemeye **tek cümle yenileme testi** eklendi: bağlam açıkken bir cümle değiştirilir, önce tek, sonra komşularıyla üretilir, fark dinlenir. Maliyet kuralı bu testten sonra yazılır |
+| 3 | **Yükleme hem "tamamı mümkün" hem darboğaza bağlı gösterilmiş.** Adlar ön koşulsa yükleme de 160 adın arkasında kalır | Kabul. **Yükleme adlardan ayrılır:** metinler etkin olmadan, Türkçe ad alanı boş olarak girer; adlar sonradan güncellenir (`update_packages.py`) ve **yayın kapısında** denetlenir |
+| 4 | **Çeviri kapıların dışında kalmış.** Pakette Türkçe çeviri yok, balon doğruluğu %77,6; yayın koşulu yalnız metin, kapak, ses. Bu hâliyle 160 metin ham çeviriyle yayına girer | Kabul. Yayın kapısına dördüncü koşul: **çeviri ve kelime balonu denetimi** (en azından özel isimler ve en sık bakılan kelimeler). Kapsamı Tomris ve editör belirler; çeviri düzeltme işinin (tur04) yeni metinlerdeki maliyeti envanterle birlikte hesaplanır |
+| 5 | **Aşama 0 "1–2 gün" iyimser; "ses bir iki günde üretilir" hiçbir ölçüme dayanmıyor.** Hepsi tek editörde; bir gün tıkanırsa üç cephe durur | Kabul. İki cümle de geri alındı. Hız sınırı ve plan kotası bilinmeden üretim süresi söylenmez |
+
+## B. Belgede olmayan, eklenen riskler
+| No | Risk | Önlem / kim |
+|---|---|---|
+| R18 | **Ticari lisans:** ElevenLabs ve Leonardo'da ticari kullanım hakkı plana bağlı olabilir; mağazaların yapay zekâ içeriği beyanı | Satın almadan önce iki hizmetin lisans koşulu ve mağaza beyanı okunur (Sean, editör); karar Mehmet'in |
+| R19 | **Aynı metinde iki ses:** eksik klipte Google'a düşmek, tek metinde iki ayrı ses demek | Önlem değişti: ElevenLabs sesli metin **ancak bütün cümleleri üretilmişse** o sese geçer; yarım metin eski sesinde kalır. Karışık ses yok |
+| R20 | **Yarım kalan okurlar:** dizinin ortasında ses değişir; silinen metinde (Peter Pan) ilerleme, favori, kelime kayıtları | Ses bir dizinin tamamı için birlikte değişir. Silinecek metne bağlı kayıtlar sayılır; silme yerine yayından kaldırma seçeneği Mehmet'e |
+| R21 | **Eski sürümler ve önbellek:** kelime takibi sapma düzeltmesi istemcideyse eski sürümde vurgu kayar; cihazda eski klip kalabilir | Editör koddan cevaplar; gerekirse yeni ses yalnız 1.0.4 ve üstüne |
+| R22 | **Quiz ve kelime bütünlüğü:** üç sütunlu kelime tablosunda eksik sütun (seviye) ne oluyor; quizi olmayan metin yolculuğu ve rozetleri nasıl etkiliyor | Envanterde alan alan; kayıt aracı uyarlanırken karar |
+| R23 | **Raf ve bildirim davranışı:** 160 metin birden açılırsa "yeni" rafı, günlük metin seçimi, "yeni hikâye geldi" bildirimi | Dalga büyüklüğü sınırlanır; bildirim yeni içerik için 7 gün arayla gidiyor, doğrulanır |
+| R24 | **Kalıcı gider ve gelir:** çok az abone varken ücretsiz okura pahalı ses; her yeni metin için süren gider; çift klip depolaması | Tavan tek seferlik değil **aylık** hesaplanır; ElevenLabs sesinin ücretsiz metinlerde mi Premium'da mı açılacağı ayrı ürün kararı (Sean, Nate) |
+| R25 | **Geri alma yeni metinlerde işlemez; ölçüm karışır:** yeni metnin Google sesi yok; ses, kapak ve içerik aynı hafta açılırsa hangisinin etkili olduğu ayrıştırılamaz | Yeni metinler için yedek ses kararı (Google ile de üretmek ücretsiz kotada mümkün mü); dalgalar arasında en az birkaç gün ve dalga başına ölçüm |
+| R26 | **Tek kişiye bağımlılık:** editör ve Mehmet | İşler birbirini beklemeyecek biçimde sıralanır (D bölümü) |
+
+## C. "Metin dondu" kapısı: genişletilmiş hâli
+Kapı yalnız denetim listesi değil, **teknik kilit** olacak.
+1. Kapıdan **önce**: seviye, olgu, yazım, cümle bölme, özel isim ve telaffuz denemesi, çeviri ve balon denetimi, paketin bekleyen karar maddeleri (8.4).
+2. Donma anında metnin özeti kaydedilir. Donmuş metnin İngilizce gövdesine yazma **tek betikten** geçer; betik önce kaç cümlenin sesinin yenileneceğini ve tahmini maliyeti gösterir.
+3. Kapıdan sonra Türkçe taraf (ad, açıklama, çeviri) serbestçe değişir; ses etkilenmez.
+4. İngilizce düzeltmeler tek tek değil, **haftalık tek pencerede** toplanır.
+5. Cümle bölücünün ve metin normalleştirmenin (tırnak, tire, "Mr.") sürümü sabitlenir; değişmeden önce "kaç özet değişir" kuru çalıştırması yapılır, eşik aşılırsa durur.
+6. Sonradan seviye yanlış çıkarsa metin değil **etiket** değişir.
+7. Cümle başına yeniden üretim deneme sınırı ve metin başına sayaç; aşılırsa alarm.
+
+## D. Düzeltilmiş sıra: ilk üç gün
+Belgedeki sıradan üç yerde ayrılıyor: ses denemesi **mevcut metinlerle** başlar (onlar zaten donmuş; yeni metinler en geç donacak olanlar) · yükleme adlardan ayrılır · Mehmet'in kulağı ve eli **birinci gün** devreye girer (ses adayı ve kapak en uzun bekleyen işler).
+- **Gün 1:** mutabık envanter ve kesin adresler · lisans, resmî fiyat, hız sınırı · canlıda ElevenLabs için anlık üretimin kapalı olduğunun doğrulanması · Mehmet'e ses adayı dinletisi (mevcut bir metinden aynı paragraf, üç dört ses) · öncelikli kümenin kapak üretimi başlar.
+- **Gün 2:** kayıt aracının uyarlanması ve üç dosyalık deneme · seçilen sesle, komşu bağlam açıkken 20 cümlelik uçtan uca deneme ve tek cümle yenileme testi · çeviri yolu kararı.
+- **Gün 3:** yerelde tam yükleme ve alan raporu · mevcut metinlerde ilk ElevenLabs dalgası · Türkçe adların birinci turu.
+
+## E. Mehmet'ten gerekenler: düzeltilmiş liste
+Bölüm 9'un yerine geçer.
+1. **"Tamamlanmış" tanımı.** Ekibin (c) önerisi (öncelikli küme yayında, kalan yüklü) Mehmet'in "mutlaka tamamlanması gerek" sözünü **tam karşılamıyor**; bunu açıkça söylüyoruz. Hepsinin yayında olması isteniyorsa neyin feda edileceği (ad ve çeviri denetimi mi, dalga arası ölçüm mü) envanterden sonra sayılarla sunulacak.
+2. **Günde kapak için ayırabileceğiniz süre.** Takvimi en çok bu belirliyor; kapak seçimi elle ve sizde.
+3. **Ses seçiminde kulak onayı.** Dinletiyi ekip hazırlar; seçim sizin.
+4. **ElevenLabs ve Leonardo için plan satın alma.** Ekip resmî fiyat, kesin karakter sayısı ve lisans koşuluyla tek seferlik ve aylık tavanı getirir; siz onaylarsınız. (Önceki soru erkendi: bütçe, resmî olmayan fiyatla sorulmaz.)
+5. **Canlıya yazma pencereleri.** Yükleme, kapak yayını ve klip taşıma için.
+6. **Silme:** Peter Pan (kimlik 1095) ve teliften çıkarılan kalemler; bağlı kayıtlar sayıldıktan sonra.
+"Ses kalitesi düşük metinler" sorusu size yük bindiriyordu; **aday listeyi ekip çıkaracak** (ses ve metin bazında, dinleme verisiyle), siz onaylayacaksınız. Elinizde hazır bir liste varsa yine de işimizi hızlandırır.
