@@ -3,6 +3,12 @@
 **Son güncelleme:** 22 Kasım 2026, 17:20 (editör; tablo `raporlar/2026-11-22_editor_surum_kalan_isler_raporu.md` ile aynı). Aşağıdaki "Şu anki durum" tablosu geçerlidir; alttaki bölümlerle çelişen yerde bu tablo doğrudur.
 
 ## Şu anki durum
+**26 Kas 17:00 – ekip değerlendirmesi, kalan işler (Mehmet: "başka iş kaldı mı?"):**
+- **Editörde (kuyruk, `ortak/editor_kuyrugu.md`):** 1 onaylı 15 ad (doğrula → SQL → Mehmet'e sor) · 2 denemede yenilemeyi kapatanlar · 3 abonelikler sayfası denetimi · 4 bildirim dökümü ve üç hazırlık sorusu. Ayrıca 25 Kasım görevi (`ortak/editor_gorevi_2026-11-25.md`).
+- **Mehmet'te:** Play'de derleme 50 onaylandıysa elle yayın · kapalı test kanalını duraklatma (T8) · Founder kodları 30 Kasım'da bitiyor (0 kullanılmış) · onay bekleyenler: deneme hatırlatmasının dört gövdesi, bildirim tablosu (taslak 3), editör sorunca adlar için "yap".
+- **Ekipte, sırayla:** (1) 1.0.4 ölçümü: ilk 250 yeni müşteride hedef tablosu, haftalık · (2) eski sürümdekilere güncelleme çağrısı ve gidenlere tek seferlik çağrı (K6), metin Mehmet'e taslak · (3) ücretsiz 24 metnin açıklamaları, önce/sonra tablosu · (4) A1 ve A2 başlangıç yolculuğunun ilk hikâyesi için değişim önerisi · (5) bildirim tablosunun tamamı (döküm gelince) ve ses belgesine bildirim kuralı · (6) A1–A2 dizilerin 22 bölüm açıklaması · (7) kalan 147 belge sorusu.
+- **Nassim'in uyarısı:** iki günde beş cephe açıldı (adlar, açıklamalar, bildirimler, deneme, yönetim paneli). Hiçbiri 1.0.4'ün işe yarayıp yaramadığını söylemez; (1) ve (2) öbürlerinin önünde.
+
 **25 Kas 17:45:** Instagram ekibine mağaza yorumu için içerik talebi gönderildi (`gunluk-ingilizce-ekip/raporlar/2026-11-25_uygulama_ekibinden_icerik_talebi_magaza_yorumu.md`; kopyası burada `raporlar/2026-11-25_instagram_ekibine_icerik_talebi_magaza_yorumu.md`). Cevap o depoda beklenecek.
 
 **25 Kas 17:35:** bildirim dönüş oranı ve yorum isteme raporu `raporlar/2026-11-25_bildirim_donus_orani_ve_yorum_isteme.md` (dokunma %2,3; seri hatırlatma %16,7, geri dön %0,5; yorum için Instagram yolu bugün, uygulama içi pencere sonraki derleme, bildirimle istenmez). Editörün görevine A10, A11, B4 eklendi.
