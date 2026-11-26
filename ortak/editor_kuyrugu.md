@@ -21,6 +21,7 @@
 5. **PR #21 yayına girince canlıda doğrulama (B3):** B2 için etkin metin sorusu sayısı aynı; rastgele üç soruyu oku; bir denemede şıkların karıştığını gör.
 6. **Köprü denemesi için doğrulama** · eklendi 26 Kas (ortak toplantı, karar 5) · reelde kullanılacak metinler belli olunca: uygulamada gerçekten ücretsiz okunabiliyor mu (başlangıç paketi, günlük açma, yolculuk), koddan ve canlı veriden.
 7. **Kalan bildirim türlerinin metni** · Paul ve Tomris tabloyu yazınca (`raporlar/2026-11-26_editor_cevap.md`, "Bildirim dökümü", "Paul'e" yazan satırlar) uygulanır.
+5. **PR #23'ü turlu incelemenin son hâline göre güncelle** · eklendi 26 Kas 17:45 · `raporlar/2026-11-26_bildirim_metinleri_turlu_inceleme.md` ("Editöre" bölümü, 7 madde). Taslak 3 üç turdan ve bağımsız gözden geçti; 19 satırın hepsi değişti. **Metinleri Mehmet onaylayana kadar yalnız hazırlık:** doğrulama soruları (madde 6) şimdi cevaplanabilir; kod değişikliği Mehmet "olur" deyince. #23 bu hâliyle birleştirilmemeli.
 
 ## Biten
 | İş | Tarih | Sonuç |
