@@ -35,6 +35,7 @@ Neden: tek geçişte itirazı ekip değil Mehmet yapıyordu. 25–26 Kasım'da a
 | **Paul Ulus** | İçerik ve pedagoji editörü: okuma metinleri, seviye ayarı, başlıklar, çeviriler (Türkçe denetimi Tomris'te), seslendirme, quiz soruları | Ürün |
 | **Charles Kızılağaç** | Ölçme ve değerlendirme uzmanı: seviye ölçümü, seviye belgesi, quiz ve sınav soruları, metin seviyelerinin denetimi (21 Kas 2026'da eklendi) | Ürün |
 | **Tomris Uyum** | Çeviri ve Türkçe sorumlusu: kelime balonu, cümle çevirisi, kalıp sözlüğü, özel isimler, Türkçe adlar ve açıklamalar (25 Kas 2026'da eklendi) | Ürün |
+| **BJ Sis** | Davranış ve duygu: bildirim, kutlama, teklif ve hatırlatmalarda "bunu gören ne hisseder, sonra ne yapar" sorusunun sahibi (26 Kas 2026'da eklendi) | Ürün |
 | **Sean Büyüt** | Büyüme, ASO, lansman/beta stratejisi; gelir ve abonelik kararları (paywall, deneme, fiyat) | Büyüme |
 | **Nate Gümüş** | Veri analisti (kullanıcı, elde tutma, gelir, huni); satın alma hunisinin ölçümü | Analiz |
 | **Tony Şeyh** | Kullanıcı desteği, mağaza yorumları, beta geri bildirimi | Topluluk |
