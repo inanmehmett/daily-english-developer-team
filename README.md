@@ -4,13 +4,19 @@ Bu depo, **Daily English: İngilizce Oku** mobil uygulamasına bakan ekibin haf�
 
 Ekip üyeleri yapay zekâ ajanlarıdır, gerçek kişiler değildir. İsimleri alanının en iyilerine esprili göndermelerdir; bu depo yalnızca ekibe özeldir. Her üye işe başlamadan önce `ortak/` klasörünü ve kendi el kitabını okur, iş bitince öğrendiğini el kitabına yazar.
 
-## Çalışma modu: baştan tek geçişli (29 Eki 2026)
+## Çalışma modu: önce kalite, turlu çalışma (26 Kas 2026)
 
-Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yaktı ve sürdürülemedi; ekip o yüzden rol yapma modundan **tek geçişli kontrole** geçti. Bu ekip aynı dersle, **baştan tek geçişli modda** kuruluyor:
+**Mehmet (26 Kas 2026, 17:16):** "Tasarruflu çalış, alt ajan yok, tek geçiş kuralını iptal et. Bize kaliteli sonuç lazım. İkinci tur gerekirse sonraki turlardan olsun. Amacımız en iyi sonucu almak." 29 Ekim'deki tek geçiş kuralı kalktı.
 
-- Her inceleme `ortak/kontrol-listesi.md` ile **tek geçişte** yapılır — ayrı ayrı 7 ajan turu yok.
-- El kitapları (`uyeler/`) bilgiyi tutar; bir üyenin görüşü gerçekten gerekiyorsa (ör. karmaşık bir fiyatlandırma kararı, ASO'da köklü bir değişiklik) o tek dosya okunur ya da dar kapsamlı bir alt ajan o konuda çağrılır.
-- Ekip rol yapma moduna yalnızca şu durumlarda döner: büyük bir sürüm/lansman kararı, çelişen veri, Mehmet'in anlaşılmayan itirazı, aylık sağlık kontrolü.
+Neden: tek geçişte itirazı ekip değil Mehmet yapıyordu. 25–26 Kasım'da ad listesi üç okumada, bildirim metinleri üç taslakta ancak tuttu; hataları ("kırık tekne", "kratersiz", satıcı ağzı başlıklar) ekip içinde yakalayan olmadı.
+
+- **Tur 1, taslak:** işin sahibi üyeler yazar. Dayanak (veri, metin, kod) okunmadan taslak yazılmaz.
+- **Tur 2, itiraz:** taslağı yazmayan üyeler (her zaman Nassim Talip ve konunun doğal karşı tarafı) taslağı Mehmet'in yazılı ölçütleriyle satır satır sınar: `ortak/uygulamanin_sesi.md`, ad ve açıklama kuralları, `ortak/kontrol-listesi.md`, Mehmet'in o konudaki önceki sözleri. Her satır ya geçer ya gerekçesiyle elenir.
+- **Tur 3 ve sonrası, düzeltme:** elenenler yeniden yazılır; itiraz eden son hâli tekrar görür. İtiraz kalmayana kadar sürer. Tur sayısına üst sınır yok; aynı itiraz iki turda çözülmezse iki görüş yan yana Mehmet'e çıkar.
+- **Bağımsız göz (ayrı alt ajan):** kullanıcıya gidecek her metin (ad, açıklama, bildirim, mesaj, mağaza metni), görünüm değişikliği taslakları, fiyat ve satış kararları ile sürüm adayları, taslağın gerekçesini görmemiş ayrı bir oturumda eleştirilir. Alt ajan dar görevle çağrılır: "şu ölçütlere göre şu listeyi ele".
+- **Tek geçiş yeten işler:** veri okuma, durum özeti, editörün raporunu aktarma. Bunlarda da her sayı kaynağıyla yazılır.
+- **Mehmet'e giden her öneride** "Turlarda elenenler" bölümü bulunur: ne elendi, neden. Mehmet yalnız turlardan geçmiş hâli görür.
+- El kitapları (`uyeler/`) bilgiyi tutar; turda görev alan üyenin dosyası okunur.
 
 ## Hedef
 - **Daily English: İngilizce Oku** uygulamasını yayına çıkarmak ve büyütmek (iOS hazır, Android üretim onayında — bkz. `ortak/durum.md`).
@@ -37,7 +43,7 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 ## Ritim
 - **Her Pazartesi raporu hedef kontrolüyle başlar** (bkz. `ortak/hedef.md`): huni/gelir durumu, açık, durum. Geride kalınıyorsa ekip yeni yollar önerir.
 - **Her Pazartesi:** Nate Gümüş haftalık metrik raporu yazar (indirme, aktivasyon, elde tutma, abonelik), Kent Bekçi sürüm/bug durumunu özetler, Sean Büyüt lansman/ASO durumunu günceller. Hepsi el kitaplarını günceller. Rapor `raporlar/YYYY-AA-GG.md` olarak kaydedilir.
-- **Her mağaza sürümü (TestFlight/Play) öncesi:** Kent Bekçi + Don Normal + Tony Şeyh tek geçişte `ortak/kontrol-listesi.md` ile inceler.
+- **Her mağaza sürümü (TestFlight/Play) öncesi:** Kent Bekçi + Don Normal + Tony Şeyh `ortak/kontrol-listesi.md` ile inceler; bulgular itiraz turundan geçer.
 - **Her fiyat/paket değişikliği önerisinde:** Nate Gümüş veri getirir, Nassim Talip riskleri sorar, Steve İşler karar paketini Mehmet'e sunar.
 - **Ayda bir:** Ekip sağlık kontrolü (bkz. aşağıda).
 
@@ -48,8 +54,8 @@ Instagram ekibinde çok rollü alt ajan incelemesi bir turda ~190 bin token yakt
 ## Çalışma akışı ve itirazlar
 0. **Kadro:** Steve İşler her iş için yalnızca ilgili üyeleri çağırır (her işe herkes bakmaz).
 1. **Taslak/öneri:** İlgili üye (Kent Bekçi, Don Normal veya Sean Büyüt) taslağı hazırlar.
-2. **Tek geçişli inceleme:** `ortak/kontrol-listesi.md` ile kontrol edilir; gerekiyorsa ilgili tek üyenin görüşü eklenir.
-3. **İtiraz varsa düzeltme turu:** Düzeltmeyi uygulayan kişi kendi kendine onay vermez — itiraz eden kişi son sürümü tekrar görür. **En fazla 2 tur.**
+2. **İtiraz turu:** taslağı yazmayan üyeler `ortak/kontrol-listesi.md` ve Mehmet'in yazılı ölçütleriyle sınar (bkz. "Çalışma modu").
+3. **İtiraz varsa düzeltme turu:** Düzeltmeyi uygulayan kişi kendi kendine onay vermez — itiraz eden kişi son sürümü tekrar görür. **İtiraz kalmayana kadar; tur sınırı yok.**
 4. **Çözülemezse Mehmet'e çıkar:** İki görüş gerekçeleriyle yan yana sunulur, karar onundur.
 5. **Raporlama:** Mehmet'e giden her öneride kısa bir **"İtirazlar"** bölümü bulunur.
 6. **Son kapı:** Steve İşler mağaza sürümü / büyük karar / fiyat değişikliği öncesi paketi bütün olarak son kez görür.
