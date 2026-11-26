@@ -30,5 +30,15 @@ Uygulamada kullanıcının okuduğu her cümle bu belgeye uyar.
 | Günlük açma kullanılmış (kapak sayfası) | Bugün "Bugünkü hakkını kullandın" + geri sayım | "Bugünün hikâyesini okudun. Yenisi yarın açılır; beklemek istemezsen Premium seni bekliyor." Geri sayım kalkar; düğme "Yarın açılır" |
 Rütbe adına gelen ek (Çaylak'a, Meraklı'ya, Okur'a) Türkçe ses uyumuna göre yazılır.
 
+## Bildirimler (Mehmet, 26 Kasım 2026)
+1. Bildirim bir arkadaşın kısa mesajı gibidir. Satmaz, kışkırtmaz, sır vaat etmez.
+2. Başlık iki üç kelime, sade ve sıcak: bir haber ya da bir selam ("İyi haber", "Hazır", "Tebrikler"). Hikâye adı, hikâyeden cümle, soru ve ünlem yığını başlık olmaz.
+3. Gövde ne olduğunu düz söyler, sonra tek küçük davet: "Günün ücretsiz metni açıldı. Hemen oku."
+4. Hikâyenin adı gerekiyorsa yalnız gövdede ve Türkçe adıyla.
+5. Suçlama, sahte aciliyet, abartı yok.
+6. Ücretle ilgili bildirim (deneme bitiyor) ne olacağını açıkça söyler: sonrasında hangi planın süreceğini ve iptal edilebildiğini.
+
+Örnekler ve türlerin dökümü: `raporlar/2026-11-26_bildirim_ornekleri_taslak.md`, `raporlar/2026-11-26_editor_cevap.md` ("Bildirim dökümü"). Reddedilen yön: hikâyeden merak cümlesi çıkarıp başlığa koymak ("Kedi bugün gelmedi.").
+
 ## Sonraki iş
 Paul, yayından sonraki iki haftada uygulamadaki bütün metinleri bu kurallarla tarar (yalnız metin değişikliği).

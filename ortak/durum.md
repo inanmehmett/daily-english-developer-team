@@ -20,6 +20,7 @@
 ## Mağaza sürümleri (25 Kas 2026, Play Console'dan okundu)
 - **Android üretim:** 1.0.4 derleme 47 yayında (20 Kas 2026). 1.0.4 derleme 50 **incelemede** (25 Kas 16:53'te gönderildi, tam kullanıma sunma). Yönetilen yayınlama açık: onaydan sonra elle yayınlanır.
 - **iOS:** 1.0.4 derleme 50 App Store'da yayında ("Ready for Distribution"; 25 Kas'ta okundu, yayın tarihi okunmadı).
+- **26 Kas (Mehmet'in sözü, konsoldan doğrulanmadı):** "Yayına gönderdim." Play'de 1.0.4 derleme 50'nin yayını; bir sonraki toplantının başında Play Console'dan okunup bu satır düzeltilecek.
 - Kural (25 Kas): her toplantının başında mağaza durumu iki konsoldan okunur; hafızadan söylenmez.
 
 ## Fiyatlandırma (4 Kas 2026 — güncellendi)
@@ -49,6 +50,7 @@
 - Kent Bekçi'nin (geliştirme) rolü de buna göre: "nasıl kodlanır" değil, "ne kodlanmalı ve neden" — gerçek Kent Beck'in YAGNI/basitlik ilkesini spesifikasyon kalitesine uygular.
 
 ## Açık sorular / takip edilecekler
+> **Not (26 Kas 2026):** bu bölüm 15 Kasım'dan kalma; maddelerin çoğu kapandı ya da eskidi. Güncel açık işler `ortak/guncel_is_listesi.md` dosyasında.
 - **[Kodda düzeltildi, 15 Kas: `e9130b9`, sürüm 1.0.4 (47) hazırlandı; mağazalarda yayınlandığı doğrulanmadı]** Onboarding 1. ekranda kullanıcı takılıyor (15 Kas, gerçek kullanıcı bildirimi, Reeder S19 Pro Max)** — "Bilmediğin kelimeye dokun" adımında (`step_01_tap_word.dart`) içerik kaydırılamıyor; telefon yazı boyutu büyükse kelime kartı ekrana sığmıyor ve "Devam" düğmesi ekranın altında kalıp basılamıyor. Diğer bazı adımlarda kaydırma var, bunda yok. Düzeltme isteği: içerik kaydırılabilir olsun, "Devam" düğmesi altta sabit kalsın; kaydırması olmayan diğer onboarding adımları (00, 06, 08, review_proof, progress_promise) da büyük yazı boyutuyla denensin. İlk ekran olduğu için öncelik yüksek. Kullanıcının netleştirmesi: düğme kelimeye dokununca görünüyor, "Deftere ekle"ye basınca kayboluyor ("✓ Defterde" etiketi genişleyip anlam metnini daha çok satıra bölüyor, kart uzuyor).
   - **Doğrulama (15 Kas, editör):** iOS simülatöründe varsayılan ve en büyük sistem yazı boyutunda tooltip sayfayı itmiyor, "Devam" görünür kalıyor (görüntüler `raporlar/ekran_2026-11-15/1d_*`). Küçük ekran yalnız otomatik testle doğrulandı; Android cihazda denenmedi.
 - **[Mehmet onayladı, 15 Kas; bekleme anı düzeltildi; `main`'e alınması ekran doğrulamasını bekliyor]** **Onboarding'den ilk okumaya geçiş: taslak hazır, Mehmet'in onayını bekliyor (15 Kas)** — son ekran seçilen hikâyeyi gösteriyor, "İlk hikâyeni oku" okuyucuyu doğrudan açıyor. Flutter dalı `feat/onboarding-first-story` (yerel, `main`'e girmedi). Üç karar noktası ve görüntüler: `raporlar/2026-11-15_editor_bolum1.md` → 1a.
