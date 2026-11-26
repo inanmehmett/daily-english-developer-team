@@ -19,6 +19,13 @@
    d) Kayıt numarası 34 iken gerçek müşteri satışı tek haneli: aradaki kayıtlar ne (deneme hesapları, yenilemeler, geri yüklemeler, silinmiş satırlar)?
    e) Tarihler: başlangıç 24.11, bitiş 1.12; Apple'ın bildirdiği bitişle aynı mı, saat dilimi kayması var mı?
    Rapor: 2. işin raporuna ek bölüm olarak.
+4. **Bildirim metinleri: kilit ekranında kesilme ve İngilizce ad (sunucu, metin; PR hazırla, yayınlama)** · eklendi 26 Kas 08:20 · Mehmet'in telefonuna 25 Kas 19:22 civarı gelen "seri başlat" bildirimi: başlık "Mehmet, dün okudun, bugü…" (kesilmiş), gövde "The Island Where Rabbits Won bıraktığın yerde duruyor." Ekip kararı (Don, Dieter, Paul, Tomris):
+   a) **Başlıkta asıl söz önde, ad sonda.** Kilit ekranında başlığın görünen kısmı zaman damgasıyla birlikte yaklaşık 24 karakter. Kural: bütün bildirim başlıklarının ilk 22 karakteri tek başına anlamlı olsun; ad eklenecekse sona. Bu tür için: "Bugün de olsun mu, {ad}?"; adsız: "Bugün de olsun mu?".
+   b) **Gövdede Türkçe ad.** Bütün bildirim türlerinde {kitap} yerine Türkçe ad (`SubtitleTR`); Türkçe ad yoksa İngilizce ad. Uygulama dili İngilizce olan kullanıcıda bugünkü gibi İngilizce ad.
+   c) **"bıraktığın yerde duruyor" yerine devam nedeni.** Yarım kalan metin varsa: "{Türkçe ad} yarıda kaldı; devamı seni bekliyor." Metnin merak cümlesi varsa ve kullanıcı metne hiç başlamamışsa gövde merak cümlesi olsun.
+   d) Önce döküm: bugün gönderilen bütün bildirim türlerinin başlık ve gövdesi, en uzun gerçek örnekle karakter sayısı; 22 karakteri aşan başlıklar ve İngilizce ad taşıyan gövdeler işaretli. Tablonun tamamı için yeni metin önerisini Paul yazacak; sen yalnız a–c'yi "seri başlat", "seri hatırlatma", "günlük hatırlatma" ve "geri dön" türlerine uygula.
+   e) Doğrula: Mehmet'in hesabında bu metin gerçekten yarım mı kalmıştı; bildirime dokununca 1.0.4'te doğrudan o metnin kaldığı yer mi açılıyor, kapak mı?
+   Ölçü: "seri başlat" dokunma oranı (bugün %3,8; 209 gönderim). PR hazır olunca Mehmet'e söyle; yayın onun sözüyle.
 
 ## Biten
 (editör taşır: iş, tarih, rapor dosyası)
