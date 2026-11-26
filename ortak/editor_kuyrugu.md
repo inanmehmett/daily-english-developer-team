@@ -17,8 +17,8 @@
    d) Kayıt numarası 34 iken gerçek müşteri satışı tek haneli: aradaki kayıtlar ne?
    e) Başlangıç 24.11, bitiş 1.12: Apple'ın bildirdiği bitişle aynı mı, saat dilimi kayması var mı?
    Rapor: 2. işin raporuna ek bölüm.
-4. **Ad betiğinin canlıda çalıştırılması** · PR #22 yayına girdikten sonra · `MigrationScripts/RenameFifteenTexts_2026_11_26.sql`; 15 satırı okuyarak doğrula; telefonda katalog önbelleğinin yenilendiğine bak.
-5. **PR #21 yayına girince canlıda doğrulama (B3):** B2 için etkin metin sorusu sayısı aynı; rastgele üç soruyu oku; bir denemede şıkların karıştığını gör.
+4. **Ad betiğinin canlıda çalıştırılması** · **canlı veri bekliyor**; PR #22 erişim açılınca birleştirilir, betik yayından hemen sonra çalıştırılır · `MigrationScripts/RenameFifteenTexts_2026_11_26.sql`; 15 satırı okuyarak doğrula; telefonda katalog önbelleğinin yenilendiğine bak.
+5. **PR #21 yayında (26 Kas 17:22); canlıda doğrulama (B3), canlı veri bekliyor:** B2 için etkin metin sorusu sayısı aynı; rastgele üç soruyu oku; bir denemede şıkların karıştığını gör.
 6. **Köprü denemesi için doğrulama** · eklendi 26 Kas (ortak toplantı, karar 5) · reelde kullanılacak metinler belli olunca: uygulamada gerçekten ücretsiz okunabiliyor mu (başlangıç paketi, günlük açma, yolculuk), koddan ve canlı veriden.
 7. **Kalan bildirim türlerinin metni** · Paul ve Tomris tabloyu yazınca (`raporlar/2026-11-26_editor_cevap.md`, "Bildirim dökümü", "Paul'e" yazan satırlar) uygulanır.
 5. **PR #23'ü turlu incelemenin son hâline göre güncelle** · eklendi 26 Kas 17:45 · `raporlar/2026-11-26_bildirim_metinleri_turlu_inceleme.md` ("Editöre" bölümü, 7 madde). Taslak 3 üç turdan ve bağımsız gözden geçti; 19 satırın hepsi değişti. **Metinleri Mehmet onaylayana kadar yalnız hazırlık:** doğrulama soruları (madde 6) şimdi cevaplanabilir; kod değişikliği Mehmet "olur" deyince. #23 bu hâliyle birleştirilmemeli.
@@ -27,10 +27,10 @@
 | İş | Tarih | Sonuç |
 |---|---|---|
 | 25 Kasım görevi, koddan cevaplananlar (A6, A8, A9, A10'un bir kısmı) | 26 Kas | `raporlar/2026-11-26_editor_cevap.md` |
-| B1 şıkların karıştırılması; B2 dört yeni B2 sorusu ve iki şık düzeltmesi | 26 Kas | Sunucu PR #21 (birleştirme Mehmet'te) |
+| B1 şıkların karıştırılması; B2 dört yeni B2 sorusu ve iki şık düzeltmesi | 26 Kas | Sunucu PR #21, **canlıda** (26 Kas 17:22) |
 | B4 | 26 Kas | 3 gün arası PR #15 ile düzelmiş; "adlı başlık" maddesi Mehmet'in 26 Kasım yönüyle geçersiz |
 | Onaylı ad değişiklikleri: doğrulama, eski adların geçtiği yerler, betik ve geri alma | 26 Kas | Sunucu PR #22; `raporlar/2026-11-26_editor_ad_degisiklikleri.md`. Canlıda çalıştırma 4. işte |
 | Denemede yenilemeyi kapatanlar: c (koddan) | 26 Kas | Editör cevabı, "Kuyruk 2" |
 | Abonelikler sayfası: a, b (koddan) | 26 Kas | Editör cevabı, "Kuyruk 3"; ödeme türü sütunu önerisi Dieter'de |
-| Bildirimler: döküm (d), dokununca ne açıldığı (e), üç hazırlık sorusu; taslak 3'ün uygulanması | 26 Kas | Sunucu PR #23 (birleştirme Mehmet'te); editör cevabı, "Bildirim dökümü" |
-| Uygulama deposu: mağazadaki sürüm `main`'e | 26 Kas | Uygulama PR #5 (birleştirme Mehmet'te) |
+| Bildirimler: döküm (d), dokununca ne açıldığı (e), üç hazırlık sorusu; taslak 3'ün uygulanması | 26 Kas | Sunucu PR #23, **canlıda** (26 Kas 17:30); editör cevabı, "Bildirim dökümü" |
+| Uygulama deposu: mağazadaki sürüm `main`'e | 26 Kas | Uygulama PR #5, birleşti (26 Kas) |

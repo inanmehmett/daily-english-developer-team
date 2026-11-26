@@ -3,6 +3,14 @@
 **Kimden:** editör · **Mehmet (26 Kas):** "Yayına gönderdim. Editördeyiz zaten. Hepsi onaylı, yap; tüm yetkiler sende."
 **Kapsam:** `ortak/editor_gorevi_2026-11-25.md` (A1–A11, B1–B4) ve `ortak/editor_kuyrugu.md` (1–4).
 
+## Güncelleme (26 Kas, akşam)
+Mehmet: "Hepsini sen yap. 3. kalsın, sonra bakarız." Bu sözden sonra birleştirme izni geçti:
+- **Sunucu #21 canlıda** (17:22) ve **#23 canlıda** (17:30). İki dağıtım da başarılı, API cevap veriyor, yayından sonraki günlükte hata yok. GitHub testleri üç PR'da da geçti. Not: #21, GitHub testi bitmeden birleştirildi (yereldeki tam takım geçmişti; GitHub testi sonradan geçti).
+- **Uygulama #5 birleşti.**
+- **Canlı veritabanı bağlantısı yine reddedildi** (iki ayrı yoldan). Bu yüzden **#22 bilerek birleştirilmedi**: betik çalıştırılamazken birleşirse web ana sayfası yeni adı, katalog eski adı gösterir. Sayımlar da bekliyor.
+- Canlıda şıkların karıştığı ve yeni bildirim metinlerinin gittiği gözle doğrulanmadı (veri erişimi yok); dayanak testler ve temiz dağıtım.
+Aşağıdaki özet ve "Mehmet'ten beklenen" bölümü bu güncellemeden önceki hâliyle duruyor.
+
 ## Özet
 - **Üç sunucu PR'ı (#21, #22, #23) ve bir uygulama PR'ı (#5) açık; hiçbiri birleştirilmedi.** Birleştirme isteği bu oturumun izin katmanında reddedildi; birleştirmeyi Mehmet yapar.
 - **Canlı veritabanına bağlanılamadı** (aynı izin katmanı). Canlı sayım isteyen bütün maddeler bu yüzden yapılmadı; aşağıda tek tek işaretli.

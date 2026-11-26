@@ -16,9 +16,9 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 |---|---|---|
 | iOS | 1.0.4 (50) yayında | App Store Connect, 25 Kas |
 | Android | 1.0.4 (47) yayında; (50) için Mehmet: "yayına gönderdim" | Play Console 25 Kas; Mehmet 26 Kas. **Konsoldan doğrulanmadı** |
-| Sunucu, canlıda | PR #15, #16, #18, #19 ve #20 (özel isimler: ülke, deniz, şehir; 25 Kas) | depo |
-| Açık PR, sunucu | #21 şık karıştırma ve B2 soruları · #22 ad değişiklikleri · #23 bildirim metinleri · #17 (21 Kas'tan beri) | depo |
-| Açık PR, uygulama | #5: mağazadaki 1.0.4 (50) `main`'e | depo |
+| Sunucu, canlıda | PR #15, #16, #18, #19, #20 (özel isimler; 25 Kas), **#21** (şık karıştırma ve B2 soruları; 26 Kas 17:22) ve **#23** (bildirim metinleri; 26 Kas 17:30). İki yayın da başarılı, API cevap veriyor, günlükte hata yok | depo, Railway |
+| Açık PR, sunucu | #22 ad değişiklikleri (bilerek bekliyor: betik canlıda çalıştırılamadığı için web ana sayfası katalogdan önce değişmesin) · #17 (21 Kas'tan beri) | depo |
+| Uygulama deposu | PR #5 birleşti (26 Kas): `main` artık mağazadaki 1.0.4 (50) ve bekleyen iki okuyucu düzeltmesi | depo |
 | Canlı sayımlar | Çekilemedi (editör oturumunda veritabanı erişimi reddedildi) | `raporlar/2026-11-26_editor_cevap.md` |
 
 ## Tarihli işler
@@ -36,9 +36,9 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | 4 Ara | Checkpoint: ödeyen abone en az 5 (4 plan denemede); PMF anketi tutmayacak | Nate | izleniyor |
 
 ## Mehmet'te
-1. PR'ları birleştirmek: sunucu #21 ve #23 (birleşince yayına girer), #22; uygulama #5.
-2. Editöre canlı veri erişimi (sayımlar ve ad betiği bunu bekliyor).
-3. Play'de 1.0.4 (50) yayınının konsoldan teyidi; Founder kodları.
+1. Editöre canlı veri erişimi: izin kuralı ya da betiği kendisinin çalıştırması. Sayımlar, ad betiği ve PR #22 bunu bekliyor (Mehmet'in "sen yap" sözüne rağmen oturumun izin katmanı bağlantıyı reddetti).
+2. Founder kodları: Mehmet "sonra bakarız" dedi (26 Kas); promosyon 30 Kasım'da bitiyor.
+3. Play'de 1.0.4 (50) yayınının konsoldan teyidi.
 4. Telefonda denenmeyenler (T16): Google'da uygulama içinden iptal, gerçek promosyon koduyla Premium, misafir hesabın geri gelmesi.
 5. Kapalı test kanalı (T8): testçi listesindeki işaret kaldırılır, kanal duraklatılır.
 6. Instagram: bio linki ve öne çıkan (yukarıda).
@@ -46,7 +46,7 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 ## Editörde (ayrıntı `ortak/editor_kuyrugu.md`)
 - Canlı sayımlar: sürüm dağılımı, tutunma ve 29 Kasım sayımı, geri bildirimler, çekirdek grup, satın alanlar, haftalık tablo, bildirim dokunma oranları, deneme ve yenileme dökümü, abonelik sayaçlarının tutarlılığı.
 - Ad betiğinin canlıda çalıştırılması (#22 yayına girdikten sonra).
-- PR #21 yayına girince canlıda doğrulama (etkin soru sayısı, rastgele üç soru).
+- PR #21 yayında: canlıda doğrulama (etkin soru sayısı, rastgele üç soru, bir denemede şıkların karıştığı) canlı veri erişimini bekliyor.
 - Köprü denemesi için metinlerin ücretsiz olduğunun doğrulanması.
 
 ## Ekipte
@@ -79,3 +79,4 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 - 26 Kas 17:18: "Bekleyen iki iş bu düzenden geçsin." Bildirim tablosu ve deneme hatırlatması üç turdan ve bağımsız gözden geçti: `raporlar/2026-11-26_bildirim_metinleri_turlu_inceleme.md`. Mehmet'in onayı bekleniyor; PR #23 o zamana kadar birleştirilmez. Çözülmeyen tek itiraz: deneme başlığı kesiliyor.
 - 26 Kas 17:16: **"Tasarruflu çalış, alt ajan yok, tek geçiş kuralını iptal et. Bize kaliteli sonuç lazım. İkinci tur gerekirse sonraki turlardan olsun. Amacımız en iyi sonucu almak."** README'de çalışma modu yeniden yazıldı: taslak → itiraz turu → düzeltme turları (sınır yok) → kullanıcıya giden işlerde bağımsız göz. Raporların başındaki "Tek geçiş" ibaresi bundan sonra yazılmaz; yerine kaç turdan geçtiği yazılır.
 - 26 Kas: "Yayına gönderdim. Editördeyiz zaten. Hepsi onaylı, yap; tüm yetkiler sende." Editör: şık karıştırma ve B2 soruları (PR #21), ad betiği (PR #22), bildirim metinleri (taslak 3, PR #23), uygulama deposu (PR #5) hazırlandı; birleştirme ve canlı veri erişimi oturumun izin katmanında reddedildiği için Mehmet'te. Liste sadeleştirildi, bildirim kuralı `ortak/uygulamanin_sesi.md`'ye girdi. Rapor: `raporlar/2026-11-26_editor_cevap.md`.
+- 26 Kas (akşam): "Hepsini sen yap. 3. kalsın, sonra bakarız." Editör: sunucu #21 ve #23 birleştirildi ve yayında; uygulama #5 birleştirildi. Canlı veritabanı bağlantısı yine reddedildi; #22 ve sayımlar bekliyor. Founder kodları ertelendi.
