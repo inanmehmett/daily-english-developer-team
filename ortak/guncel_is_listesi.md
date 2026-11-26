@@ -15,28 +15,29 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | Konu | Durum | Kaynak |
 |---|---|---|
 | iOS | 1.0.4 (50) yayında | App Store Connect, 25 Kas |
-| Android | 1.0.4 (47) yayında; (50) için Mehmet: "yayına gönderdim" | Play Console 25 Kas; Mehmet 26 Kas. **Konsoldan doğrulanmadı** |
+| Android | 1.0.4 (47) yayında; (50) için Mehmet: "yayına gönderdim". Canlı veride derleme 50'de bugün yalnız 1 müşteri var: yayın henüz kullanıcıya ulaşmamış ya da yeni ulaşıyor | Play Console 25 Kas; Mehmet 26 Kas; canlı veri 26 Kas 17:50. **Konsoldan doğrulanmadı** |
 | Sunucu, canlıda | PR #15, #16, #18, #19, #20 (özel isimler; 25 Kas), **#21** (şık karıştırma ve B2 soruları; 26 Kas 17:22) ve **#23** (bildirim metinleri; 26 Kas 17:30). İki yayın da başarılı, API cevap veriyor, günlükte hata yok | depo, Railway |
-| Açık PR, sunucu | #22 ad değişiklikleri (bilerek bekliyor: betik canlıda çalıştırılamadığı için web ana sayfası katalogdan önce değişmesin) · #17 (21 Kas'tan beri) | depo |
+| Ad değişiklikleri | PR #22 canlıda (17:48), betik canlıda çalıştırıldı (17:52): 15 metin yeni adıyla, önceki adlar yedekte | `raporlar/2026-11-26_editor_ad_degisiklikleri.md` |
+| Açık PR, sunucu | #17 (21 Kas'tan beri) | depo |
 | Uygulama deposu | PR #5 birleşti (26 Kas): `main` artık mağazadaki 1.0.4 (50) ve bekleyen iki okuyucu düzeltmesi | depo |
-| Canlı sayımlar | Çekilemedi (editör oturumunda veritabanı erişimi reddedildi) | `raporlar/2026-11-26_editor_cevap.md` |
+| Canlı sayımlar | Çekildi (26 Kas 17:50): sürüm dağılımı, 29 Kasım sayımı, tutunma, abonelikler, geri bildirimler, bildirimler, haftalık tablo, çekirdek grup | `raporlar/2026-11-26_editor_canli_sayimlar.md` |
 
 ## Tarihli işler
 | Tarih | İş | Sahibi | Durum |
 |---|---|---|---|
 | 27 Kas | Açıklama sonu için 5 dönüşümlü tek satır | Tomris | açık |
 | 27 Kas | Öne çıkanlara "Uygulama" | Adam → Mehmet | açık |
-| 28 Kas | 21 Kasım'da başlayan deneme bitiyor: yenileme açık mı | Editör | canlı veri bekliyor |
+| 28 Kas 01:13 | Abonelik kaydı 31'in denemesi bitiyor: **yenileme açık**, kullanıcı denemede hiç hikâye bitirmedi ve 24 Kas'tan beri gelmedi. Ücret alınırsa ödeyen müşteri 5 olur; iade ya da şikâyet riski var | Nate, Sean | izleniyor; yapılacak bir şey var mı, ekip kararı |
 | 28 Kas | Kampanya bağlantıları (bio, hikâye, devam); bio linki | Sean → Mehmet | açık |
-| 29 Kas | Okumaya başlama sınavı (hedef %90), sürüme göre | Nate; sayı editörden | canlı veri bekliyor; gelmezse kayar |
+| 29 Kas | Okumaya başlama sınavı (hedef %90) | Nate | **Sayı geldi: %74** (11–25 Kas, 179/241); 1.0.4 ile gelen yalnız 28 müşteri var. Karar 5 gereği 1.0.4 için sınav kayar: iOS 1 Aralık, Android 50 yayın teyidinden 7 gün sonra |
 | 30 Kas | "Daily English Founder" 50 kod bitiyor (19 Kas'ta 0 kullanılmış) | Mehmet | Android'de 50 yayındaysa dağıt; değilse yeni promosyon |
 | 30 Kas | Köprü denemesi tasarımı; metinlerin ücretsiz olduğunun koddan doğrulanması | Mr. Feast; editör | açık |
 | 30 Kas | Pazartesi raporunda iki ekip yan yana | Nate, Steve | açık |
 | 1 Ara | Abonelik kaydı 34'ün denemesi bitiyor | Nate | izleniyor |
-| 4 Ara | Checkpoint: ödeyen abone en az 5 (4 plan denemede); PMF anketi tutmayacak | Nate | izleniyor |
+| 4 Ara | Checkpoint: ödeyen abone en az 5. **Bugün 4 ödeyen müşteri**, 6 deneme sürüyor (5'inin yenilemesi açık; bitişler 28 Kas–2 Ara); PMF anketi tutmayacak | Nate | izleniyor |
 
 ## Mehmet'te
-1. Editöre canlı veri erişimi: izin kuralı ya da betiği kendisinin çalıştırması. Sayımlar, ad betiği ve PR #22 bunu bekliyor (Mehmet'in "sen yap" sözüne rağmen oturumun izin katmanı bağlantıyı reddetti).
+1. Telefonda bir bakış: katalogda yeni adlar; bu akşamki bildirimin yeni metinle gelip gelmediği.
 2. Founder kodları: Mehmet "sonra bakarız" dedi (26 Kas); promosyon 30 Kasım'da bitiyor.
 3. Play'de 1.0.4 (50) yayınının konsoldan teyidi.
 4. Telefonda denenmeyenler (T16): Google'da uygulama içinden iptal, gerçek promosyon koduyla Premium, misafir hesabın geri gelmesi.
@@ -44,9 +45,9 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 6. Instagram: bio linki ve öne çıkan (yukarıda).
 
 ## Editörde (ayrıntı `ortak/editor_kuyrugu.md`)
-- Canlı sayımlar: sürüm dağılımı, tutunma ve 29 Kasım sayımı, geri bildirimler, çekirdek grup, satın alanlar, haftalık tablo, bildirim dokunma oranları, deneme ve yenileme dökümü, abonelik sayaçlarının tutarlılığı.
-- Ad betiğinin canlıda çalıştırılması (#22 yayına girdikten sonra).
-- PR #21 yayında: canlıda doğrulama (etkin soru sayısı, rastgele üç soru, bir denemede şıkların karıştığı) canlı veri erişimini bekliyor.
+- 3 Aralık: bildirim tablosunun yeni metinlerle (`copy_v3`) yeniden çekilmesi; tutunmanın sürüme göre ayrımı.
+- Canlıda şıkların karıştığının ilk gerçek denemede görülmesi (yayından beri deneme yok).
+- "Hiç olay göndermemiş" 35 müşterinin incelenmesi.
 - Köprü denemesi için metinlerin ücretsiz olduğunun doğrulanması.
 
 ## Ekipte
@@ -63,6 +64,17 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | Sonraki sürümün en çok dört konusu (1.0.4 iki mağazada yayınlanınca) | Steve |
 | Mağaza yorumlarının dökümü ve cevap taslakları | Tony |
 | Belge soruları için dış göz paketi | Paul, Charles |
+
+## Bugünkü sayımlardan ekibe düşenler (26 Kas)
+| Bulgu | Kim |
+|---|---|
+| Android'de yeni müşteri 23–25 Kasım'da 3, 0, 1 (önceki dört gün ortalama 8). Neden? Play Console edinme ve mağaza sayfası, Instagram akışı | Sean, Nate |
+| Android 7. gün dönüşü 16 Kasım haftasında 8/53 (%15), öncesinde 1/66. 1.0.4 (47) etkisi mi? Sürüme göre ayrım istenecek | Nate, Don |
+| Bildirimde dokunma yalnız seri ailesinde (%12–17); öbür altı türde 172 gönderimde sıfır. Yeni metinlerle 3 Aralık'ta karşılaştırma; sıfır kalan türler kapatılsın mı | Don, Paul |
+| Uygulama içi değerlendirme penceresi bugüne kadar 1 kez istendi. Koşullar gevşetilsin mi (ihtiyaç tanımı, sonraki derleme) | Sean, Don |
+| Abonelik kaydı 28 (Android, 19 Kas) müşteri sayılıyor ama test satın almasına benziyor; hesap türü düzeltilsin mi | Nate; Mehmet teyit eder |
+| Profildeki "bize ulaş"tan müşterilerden hiç ileti gelmemiş (4 iletinin hepsi testçi ve geliştirici). Giriş görünür mü | Tony, Don |
+| Çekirdek grup 64 kişi, 41'i misafir; 7 gün ve üstü etkin 9 kişi. Hesap teşviki ve "kullanıcının sesi" kutusu için dayanak | Steve |
 
 ## Derleme 51 (kapsamı ve tarihi ekip belirleyecek)
 - Dalda bekleyen iki okuyucu düzeltmesi (`2687ee03`, `6e07653f`).
@@ -82,3 +94,4 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 - 26 Kas 17:16: **"Tasarruflu çalış, alt ajan yok, tek geçiş kuralını iptal et. Bize kaliteli sonuç lazım. İkinci tur gerekirse sonraki turlardan olsun. Amacımız en iyi sonucu almak."** README'de çalışma modu yeniden yazıldı: taslak → itiraz turu → düzeltme turları (sınır yok) → kullanıcıya giden işlerde bağımsız göz. Raporların başındaki "Tek geçiş" ibaresi bundan sonra yazılmaz; yerine kaç turdan geçtiği yazılır.
 - 26 Kas: "Yayına gönderdim. Editördeyiz zaten. Hepsi onaylı, yap; tüm yetkiler sende." Editör: şık karıştırma ve B2 soruları (PR #21), ad betiği (PR #22), bildirim metinleri (taslak 3, PR #23), uygulama deposu (PR #5) hazırlandı; birleştirme ve canlı veri erişimi oturumun izin katmanında reddedildiği için Mehmet'te. Liste sadeleştirildi, bildirim kuralı `ortak/uygulamanin_sesi.md`'ye girdi. Rapor: `raporlar/2026-11-26_editor_cevap.md`.
 - 26 Kas (akşam): "Hepsini sen yap. 3. kalsın, sonra bakarız." Editör: sunucu #21 ve #23 birleştirildi ve yayında; uygulama #5 birleştirildi. Canlı veritabanı bağlantısı yine reddedildi; #22 ve sayımlar bekliyor. Founder kodları ertelendi.
+- 26 Kas (17:45): "İzin kuralını sen ekle." Editör: salt okunur canlı sorgu ve yalnız ad betiği için iki izin kuralı eklendi (`~/.claude/settings.json`). Canlı sayımlar çekildi (`raporlar/2026-11-26_editor_canli_sayimlar.md`); PR #22 birleştirildi ve ad betiği canlıda çalıştırıldı.

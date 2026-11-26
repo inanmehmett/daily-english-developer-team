@@ -1,7 +1,7 @@
 # Editör raporu: onaylı ad değişiklikleri (15 metin)
 
 **Tarih:** 26 Kasım 2026 · **Görev:** `ortak/editor_gorevi_2026-11-26_ad_degisiklikleri.md`
-**Durum:** betik ve geri alma betiği hazır (sunucu [PR #22](https://github.com/inanmehmett/DailyEnglish/pull/22)); **canlıda çalıştırılmadı** (bu oturumda canlı veritabanına bağlanılamadı).
+**Durum: canlıda uygulandı (26 Kas 17:52).** Sunucu [PR #22](https://github.com/inanmehmett/DailyEnglish/pull/22) birleşti ve yayına girdi (17:48); ardından betik canlıda çalıştırıldı. 15 satır güncellendi: 10 İngilizce ad, 13 Türkçe ad; adres (`Slug`) hiçbirinde değişmedi; başka hiçbir metne dokunulmadı. Önceki adlar `_Backup_ReadingTextNames_2026_11_26` tablosunda (15 satır). Web ana sayfası yeni adı gösteriyor.
 
 ## Doğrulama soruları
 Cevaplar yerel veritabanındaki metinlerden; canlıdaki metinle aynı olduğu varsayıldı.
@@ -30,12 +30,12 @@ Cevaplar yerel veritabanındaki metinlerden; canlıdaki metinle aynı olduğu va
 - `MigrationScripts/RenameFifteenTexts_2026_11_26.sql`: yalnız `Title` ve `SubtitleTR`; adres (`Slug`) değişmez. Eşleşme adresle; 15 satırın tamamı bulunmazsa hiçbir şey yazmaz. Önceki adlar `_Backup_ReadingTextNames_2026_11_26` tablosuna alınır. İki kez çalıştırmak bir şey değiştirmez.
 - `MigrationScripts/RenameFifteenTexts_2026_11_26_REVERT.sql`: adları yedekten geri yazar.
 - Yerelde denendi: uygula (15 satır), yeniden uygula (değişiklik yok), geri al (15 satır eski hâline döndü).
-- **Bilinmeyen:** canlıdaki adreslerin yereldekilerle aynı olduğu doğrulanamadı. Farklıysa betik hata verip durur, yarım yazmaz.
+- Çalıştırmadan önce canlıda 15 adresin ve mevcut adların onay listesindeki "önce" sütunuyla birebir aynı olduğu okundu.
 
 ## Uygulama tarafı
 Adlar sunucudan geliyor; uygulama güncellemesi gerekmez. Uygulamanın katalog önbelleğinin ne zaman yenilendiğine bu turda bakılmadı; yazımdan sonra telefonda bir kez doğrulanmalı.
 
 ## Kalan
-1. PR #22'nin birleştirilmesi (web ana sayfası yayına girer).
-2. Betiğin canlıda çalıştırılması ve 15 satırın okunarak doğrulanması.
-3. İngilizce alt adlar ve Room 214 bulgusu: Tomris.
+1. Telefonda bir kez bakmak: katalogda ve yolculuk sayfasında yeni adlar görünüyor mu (uygulamanın ağ önbelleği 5–10 dakika; cihazdaki katalog kopyasının ne zaman yenilendiğine bakılmadı).
+2. İngilizce alt adlar ve Room 214 bulgusu: Tomris. Canlıdaki İngilizce alt adlar: 1016 "A Giant Blast, No Crater", 1017 "The Loudest Sound Ever Recorded", 1020 "One Refusal, No Launch", 1023 "A Poison Island Full of Rabbits", 1045 "The Hut on Chicken Legs", 1053 "The Box He Must Never Open", 1055 "Alone on a Broken Boat", 1059 "She Fell Three Kilometres", 1060 "497 Days on the Ice", 1061 "Two Years on Wrangel Island"; 148, 1063, 1064, 1066, 1082'de boş. Yeni adla aynı şeyi söyleyenler (1045, 1053, 1061) Tomris'in kararında.
+3. Geri alma gerekirse: `MigrationScripts/RenameFifteenTexts_2026_11_26_REVERT.sql`.
