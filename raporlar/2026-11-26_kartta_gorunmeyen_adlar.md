@@ -43,3 +43,5 @@ Tur 1 taslak (Tomris, Paul) → bağımsız göz (adayları görmüş, gerekçey
 
 **Turlarda elenenler:** "Silinen Tavşan Adası" (ada yok olmuş gibi okunuyor; uzun adın sakat hâli) · "Tavşan Adası'nın Sırrı" (çocuk kitabı kalıbı, gerçek olayı masallaştırıyor) · "Okyanusta Kırk Bir Gün" ("Denizde 133 Gün" ile karışıyor, kasırga kayboluyor) · "Baba Yaga'nın Kulübesi" (doğru ama kulübeyi özel yapan şey yok) · "Baba Yaga Masalı" (etiket) · "Baba Yaga: Tavuk Bacaklı Ev" (metin "hut" diyor; "ev" tutmuyor) · "Günde İki Kahvaltı Eden Ülke" ("iki kahvaltı etmek" eğreti) · "İki Kahvaltılı Ülke" (otel ilanı dili) · "İtalyanlar Niye Çok Konuşur?" ("niye" yalnız bir harf kazanmak için).
 **Sınır yüzünden gerçek kayıp:** yalnız Baba Yaga'da; "tavuk bacaklı" görüntüsü ad ile birlikte 28'e sığmıyor. Arayüz düzeltilince (iki satır) "Baba Yaga: Tavuk Bacaklı Kulübe" geri konabilir. Öbür dördünde kayıp yok; ikisi kısalınca daha doğal oldu.
+
+**Onay (Mehmet, 26 Kas 23:19):** beş ad onaylandı. Editör görevi: `ortak/editor_gorevi_2026-11-26_bes_ad_kisaltma.md`.

@@ -12,11 +12,12 @@
 5. **Köprü denemesi için doğrulama** · reelde kullanılacak metinler belli olunca: uygulamada gerçekten ücretsiz okunabiliyor mu.
 6. **Bildirim metinleri, hikâyesiz hâller** · ekip E7, E9–E14 ve E11 için hikâyesiz metin verirse (ya da "gitmesin" derse) uygulanır; D1–D4'te dokununca Profil için derleme 51 ihtiyaç tanımı.
 7. **Panel sayaçlarının karşılaştırması** · abonelikler sayfasının üstündeki sayaçlar ile sayım raporunun 4. bölümü (panel oturumu gerekir).
-6. **Kartta görünmeyen adlar ve adsız dizi kartı (önce doğrula ve taslak; kod sonraki derleme)** · eklendi 26 Kas 21:30 · `raporlar/2026-11-26_kartta_gorunmeyen_adlar.md`.
+8. **Kartta görünmeyen adlar ve adsız dizi kartı (önce doğrula ve taslak; kod sonraki derleme)** · eklendi 26 Kas 21:30 · `raporlar/2026-11-26_kartta_gorunmeyen_adlar.md`.
    a) Doğrula: mağazadaki 1.0.4 (50)'de `BookTitleLines.maxTrChars = 28` kuralı ana sayfa raflarında, keşifte ve kütüphanede aynı mı; başka hangi ekran Türkçe adı uzunluğa göre gizliyor ya da kesiyor (yolculuk sayfası, bitiş kartı, kapak, bildirim)? Her yer için sınır ve davranış tablosu.
    b) Game Day dizi kartı: kapak resminde ad var mı, resim yükleniyor mu? Kapağında ad olmayan başka dizi var mı (hepsinin listesi)?
    c) Taslak görüntü (kod değil, ayrı dal): Türkçe ad iki satıra kadar sarılır ve hiç gizlenmez; dizi kartında kapağın altında dizi adı. SE 3 ve büyük yazıda, en uzun gerçek adlarla (34 karakter). Dieter ve Don bakacak.
    d) Canlıda Türkçe adı 28 karakteri aşan metinlerin güncel listesi (kimlik, ad, uzunluk, erişim).
+9. **Kartta görünmeyen beş Türkçe adın düzeltilmesi (öncelikli; küçük iş)** · eklendi 26 Kas 23:25 · **Mehmet onayladı (23:19).** `ortak/editor_gorevi_2026-11-26_bes_ad_kisaltma.md`. Betik ve geri alma hazırlanır; canlıya yazma Mehmet'in sözüyle.
 
 ## Biten
 | İş | Tarih | Sonuç |
