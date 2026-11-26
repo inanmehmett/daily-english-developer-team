@@ -39,3 +39,27 @@ Adlar sunucudan geliyor; uygulama güncellemesi gerekmez. Uygulamanın katalog �
 1. Telefonda bir kez bakmak: katalogda ve yolculuk sayfasında yeni adlar görünüyor mu (uygulamanın ağ önbelleği 5–10 dakika; cihazdaki katalog kopyasının ne zaman yenilendiğine bakılmadı).
 2. İngilizce alt adlar ve Room 214 bulgusu: Tomris. Canlıdaki İngilizce alt adlar: 1016 "A Giant Blast, No Crater", 1017 "The Loudest Sound Ever Recorded", 1020 "One Refusal, No Launch", 1023 "A Poison Island Full of Rabbits", 1045 "The Hut on Chicken Legs", 1053 "The Box He Must Never Open", 1055 "Alone on a Broken Boat", 1059 "She Fell Three Kilometres", 1060 "497 Days on the Ice", 1061 "Two Years on Wrangel Island"; 148, 1063, 1064, 1066, 1082'de boş. Yeni adla aynı şeyi söyleyenler (1045, 1053, 1061) Tomris'in kararında.
 3. Geri alma gerekirse: `MigrationScripts/RenameFifteenTexts_2026_11_26_REVERT.sql`.
+
+## Ek (26 Kas, gece): kartta görünmeyen beş Türkçe adın kısaltılması
+**Görev:** `ortak/editor_gorevi_2026-11-26_bes_ad_kisaltma.md` · **Durum:** betik ve geri alma betiği hazır, sunucu [PR #25](https://github.com/inanmehmett/DailyEnglish/pull/25) açık. **Canlıya yazılmadı, PR birleştirilmedi;** ikisi de Mehmet'in sözünü bekliyor.
+
+| Adım | Sonuç |
+|---|---|
+| 1. Canlıdaki şimdiki değerler | Beş satırın `SubtitleTR` değeri tablodaki "şimdi" sütunuyla birebir aynı (29–31 karakter) |
+| 2. Betik ve geri alma | `MigrationScripts/ShortenFiveTurkishNames_2026_11_26.sql` ve `..._REVERT.sql`. Yalnız `SubtitleTR`; eşleşme adresle; beş satırın beşi beklenen adla bulunmazsa ya da yeni adlardan biri 28 karakteri aşarsa hiçbir şey yazmaz; önceki adlar `_Backup_ReadingTextTrNames_2026_11_26b` tablosuna. Yerelde uygulandı, yeniden uygulandı (değişiklik yok), geri alındı |
+| 3. Canlıya yazma | **Bekliyor** (Mehmet'in "yap"ı) |
+| 4. Görüntüyle doğrulama | Yazımdan sonra yapılacak |
+| 5. Eski adın sabit yazıldığı yerler | Web ana sayfasında "Haritadan Silinen Tavşan Adası" yazıyordu; PR #25'te "Haritadan Silinen Ada" oldu. Başka sabit yer yok |
+| 6. 28 karakter denetimi | Test takımına **eklenemiyor:** metinler yalnız veritabanında, testler canlı içeriği görmüyor. Yerine iki şey: bu betik yeni adlar 28'i aşarsa yazmayı reddediyor; depoya salt okunur denetim sorgusu eklendi (`MigrationScripts/CheckTurkishNameLength.sql`), ad yazan her betikten sonra çalıştırılır |
+
+**Görevde olmayan bulgu:** canlıda 28 karakteri aşan Türkçe adı olan etkin metin **28 tane**, yalnız bu beşi değil. Öbür 23'ünün Türkçe adı da kartlarda görünmüyor (çoğu 26 Kasım'dan önce de böyleydi):
+| Karakter | Metinler (kimlik: ad) |
+|---|---|
+| 34 | 1033: Shakespeare: Kelime İcat Eden Adam · 1009: Yıldızları Sayan Hükümdar Uluğ Bey |
+| 33 | 175: Stephen Hawking'e Biçilen İki Yıl · 994: İskenderiye'nin Kayıp Kütüphanesi · 1065: İstanbul'un Yer Değiştiren Pazarı |
+| 32 | 1035: Londra'nın Durmayan Dönme Dolabı |
+| 31 | 153: Harry Potter Setlerinde Büyümek · 873: Bazı Kapılar Neden Dışa Açılır? · 1001: Floransa: Yirmi Dakika, Üç Dahi · 1007: Küllerinden Doğan Şehir: Londra |
+| 30 | 872: Kendini Neden Gıdıklayamazsın? · 999: İnkaların Yıkılmayan Duvarları · 998: Beyaz Piramidin İzinde: Kahire · 1087: Dünyanın En Ünlü Vergi Belgesi · 1010: Azteklerin Göldeki Beyaz Şehri · 1014: Viyana: Müziğin Silikon Vadisi · 1040: Huckleberry Finn'in Maceraları |
+| 29 | 1074: Bob Dylan'ın Yuhalandığı Gece · 1004: Kudüs'ün Taşınamayan Hazinesi · 1037: Yıkılmak İstenen Eyfel Kulesi · 1036: Uçurumun Kenarında: Santorini · 1000: Şam'ın İki Bin Yıllık Caddesi · 1029: Cep Herkülü Naim Süleymanoğlu |
+
+Karar ekipte (Tomris, Dieter): 23 adı da kısaltmak mı, kartı iki satıra geçirmek mi (uygulama derlemesi).

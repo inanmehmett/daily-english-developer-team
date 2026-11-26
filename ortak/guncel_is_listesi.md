@@ -19,7 +19,7 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | Sunucu, canlıda | PR #15, #16, #18, #19, #20 (özel isimler; 25 Kas), **#21** (şık karıştırma ve B2 soruları; 26 Kas 17:22) ve **#23** (bildirim metinleri; 26 Kas 17:30). İki yayın da başarılı, API cevap veriyor, günlükte hata yok | depo, Railway |
 | Ad değişiklikleri | PR #22 canlıda (17:48), betik canlıda çalıştırıldı (17:52): 15 metin yeni adıyla, önceki adlar yedekte | `raporlar/2026-11-26_editor_ad_degisiklikleri.md` |
 | Bildirim metinleri | **#24 (`copy_v4`, onaylı son hâl) canlıda** (26 Kas 23:20, Mehmet'in sözüyle). İlk gönderimler 27 Kas sabahı; canlıda henüz gözlenmedi. 17:30–23:00 arası taslak 3 (`copy_v3`) gitti: 59 gönderim, 1 dokunma | `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
-| Açık PR, sunucu | #17 (21 Kas'tan beri) | depo |
+| Açık PR, sunucu | **#25 kartta görünmeyen beş Türkçe adın kısaltılması**: betik hazır, **canlıya yazma ve birleştirme Mehmet'in sözünü bekliyor** · #17 (21 Kas'tan beri) | depo; `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
 | Uygulama deposu | PR #5 birleşti (26 Kas): `main` artık mağazadaki 1.0.4 (50) ve bekleyen iki okuyucu düzeltmesi | depo |
 | Canlı sayımlar | Çekildi (26 Kas 17:50): sürüm dağılımı, 29 Kasım sayımı, tutunma, abonelikler, geri bildirimler, bildirimler, haftalık tablo, çekirdek grup | `raporlar/2026-11-26_editor_canli_sayimlar.md` |
 
@@ -78,6 +78,8 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | Profildeki "bize ulaş"tan müşterilerden hiç ileti gelmemiş (4 iletinin hepsi testçi ve geliştirici). Giriş görünür mü | Tony, Don |
 | Çekirdek grup 64 kişi, 41'i misafir; 7 gün ve üstü etkin 9 kişi. Hesap teşviki ve "kullanıcının sesi" kutusu için dayanak | Steve |
 
+**Ek bulgu (26 Kas gece):** canlıda Türkçe adı 28 karakteri aşan etkin metin 28 tane; onaylanan beşin dışında 23 metnin Türkçe adı da kartlarda görünmüyor. Liste `raporlar/2026-11-26_editor_ad_degisiklikleri.md` ekinde. Karar: 23 adı kısaltmak ya da kartı iki satıra geçirmek (Tomris, Dieter).
+
 ## Derleme 51 (kapsamı ve tarihi ekip belirleyecek)
 - Dalda bekleyen iki okuyucu düzeltmesi (`2687ee03`, `6e07653f`).
 - Derleme 50 görüntü bulguları: büyük yazıda sıkışan "Yeni yol başladı" etiketi, %92'de rozete değen bayrak, belge testinde altta kalan şıklar için kaydırma ipucu.
@@ -101,3 +103,4 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 - 26 Kas (17:45): "İzin kuralını sen ekle." Editör: salt okunur canlı sorgu ve yalnız ad betiği için iki izin kuralı eklendi (`~/.claude/settings.json`). Canlı sayımlar çekildi (`raporlar/2026-11-26_editor_canli_sayimlar.md`); PR #22 birleştirildi ve ad betiği canlıda çalıştırıldı.
 - 26 Kas (akşam): "`editor_gorevi_2026-11-26_bildirim_metinleri.md` dosyasını oku ve uygula… Birleştirme ve yayın için bana sor." Editör: görev geldiğinde PR #23 zaten yayındaydı (17:30); onaylı son hâl yeni PR olarak yazıldı (sunucu #24), birleştirilmedi. Rapor: `raporlar/2026-11-26_editor_bildirim_metinleri.md`. Ayrıca iki soru cevaplandı: kayıt 34'te deneme bitince ücret alınmayacak; iade edilen satın alma kayıt 29, kayıt 28 7 günlük deneme olarak bitmiş görünüyor.
 - 26 Kas 23:19: "Birleştir ve yayınla." Editör: sunucu #24 birleştirildi ve yayında (23:20).
+- 26 Kas 23:30: "Yarın sabah ilk gönderimleri kontrol et" → 27 Kas 10:12'ye zamanlandı (yalnız bu oturum açık kalırsa çalışır; kuyrukta da 1. iş). "`editor_gorevi_2026-11-26_bes_ad_kisaltma.md` dosyasını oku ve uygula… canlıya yazmadan önce bana sor." → betik hazır (sunucu PR #25), yazılmadı.
