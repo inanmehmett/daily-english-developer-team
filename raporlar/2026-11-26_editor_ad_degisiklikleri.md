@@ -24,7 +24,7 @@ Cevaplar yerel veritabanındaki metinlerden; canlıdaki metinle aynı olduğu va
 | Uygulama kodu ve gömülü dosyalar | Geçmiyor | – |
 | Eski içerik betikleri ve belgeler (`MigrationScripts`, `Docs`) | Geçiyor; tarihsel kayıt | Dokunulmadı |
 | Mağaza görselleri ve açıklaması | Bakılmadı (konsol gerekir) | – |
-| İngilizce alt adlar (`SubtitleEN`) | Canlıdaki değerler okunamadı | Dokunulmadı; Tomris'e |
+| İngilizce alt adlar (`SubtitleEN`) | Canlıdaki değerler "Kalan" bölümünde | Dokunulmadı; Tomris'e |
 
 ## Betik
 - `MigrationScripts/RenameFifteenTexts_2026_11_26.sql`: yalnız `Title` ve `SubtitleTR`; adres (`Slug`) değişmez. Eşleşme adresle; 15 satırın tamamı bulunmazsa hiçbir şey yazmaz. Önceki adlar `_Backup_ReadingTextNames_2026_11_26` tablosuna alınır. İki kez çalıştırmak bir şey değiştirmez.

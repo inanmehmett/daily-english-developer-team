@@ -120,7 +120,7 @@ Payda, o güne ulaşmış (süresi dolmuş) müşteriler.
 
 ## 9. Bugünkü yayınların canlıda doğrulaması
 - **PR #21:** soru havuzu canlıda istenen hâlde: B2 metin sorularında 32 etkin, 4 kapalı; dört yeni soru etkin, eskileri kapalı (silinmedi); iki şık düzeltmesi yerinde; her metinde 4 etkin soru. Yayından beri belge testi ya da ölçüm başlatan olmadı; karışık şık sırası canlıda henüz gözlenmedi.
-- **PR #23:** yayından sonra (17:30) bildirim işi henüz çalışmadı (son gönderim 17:05). İlk `copy_v3` gönderimleri 18:05'te beklenir; ayrıca bakılacak.
+- **PR #23:** yayından sonraki ilk bildirim işi 18:05'te çalıştı: 1 gönderim (seri, 3+ gün), kayıtta `copy_v3`; gönderim hatası yok. Metnin telefondaki görünümü görülmedi. Asıl hacim 20:00–21:00 arasında gider.
 - **PR #22 ve ad betiği:** aşağıda, `raporlar/2026-11-26_editor_ad_degisiklikleri.md`.
 
 ## Yapılmayanlar
