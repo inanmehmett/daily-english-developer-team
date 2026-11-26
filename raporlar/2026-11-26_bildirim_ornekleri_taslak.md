@@ -48,3 +48,5 @@ Gönderim: deneme bitmeden 2 gün önce, bir kez. İki ayrı durum var; ikisi de
 | Gövde (hiç okumamışsa) | Premium denemen cuma günü bitiyor. O güne kadar bütün hikâyeler ve diziler açık; bir tanesine göz atmak ister misin? Sonrasında ücretsiz okumaya devam edebilirsin. | ~165 |
 
 Notlar: gün adı gerçek bitiş gününden yazılır ("cuma", "yarın"). {n} deneme süresince bitirilen hikâye sayısı; 1 ise "bir hikâye". Bugünkü deneme bildiriminin metni ve iki durumu ayırıp ayırmadığı editörden bekleniyor (kuyruk 2c).
+
+**Karar (Mehmet, 26 Kas 16:17):** deneme hatırlatmasının başlığı **"{isim}, küçük bir hatırlatma"** (iki durumda da). Adı olmayan kullanıcıda "Küçük bir hatırlatma"; ad uzunsa başlık kesilmesin diye 28 karakteri aşan durumda da adsız hâli. Gövdeler onay bekliyor.
