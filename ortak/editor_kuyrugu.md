@@ -39,3 +39,12 @@
 | `copy_v4` ilk gönderimlerin doğrulanması (27 Kas, 14:56) | 27 Kas | 26 gönderim, hepsi anahtarlı; 1 dokunma; 2 "Unregistered" hata; günlük temiz. `raporlar/2026-11-26_editor_bildirim_metinleri.md` son bölüm |
 | Kartta görünmeyen beş Türkçe adın kısaltılması: betik, yayın, canlıya yazma | 27 Kas | Sunucu PR #25 canlıda (14:57), betik çalıştırıldı (15:01), beş satır doğrulandı. `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
 | 11. Metin zorluğu verisi (altı madde, yalnız okuma) | 27 Kas | `raporlar/veri_2026-11-27_metin_zorlugu/` (README'de özet). Mağaza yorumları okunamadı; beş şey tutulmuyor |
+
+### 12. Başlangıç metinlerinde balon ne gösteriyor (yalnız okuma)
+
+İstek: 27 Kas, ekip. Gerekçe: `raporlar/2026-11-27_metin_kalitesi_pilot.md`, Ek 2. Çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/07_balon_anlamlari.md`.
+
+1. Üç başlangıç metninin (916, 1083, 1023) ve 120'nin (Why Penguins Can't Fly) en çok dokunulan 20 kelimesi için: balonda okura gösterilen Türkçe anlam, kelimenin geçtiği cümleyle yan yana. Özellikle 916'da "flat" ("the sea was grey and flat"), "still", "stood", "above", "gone"; 1083'te "rock", "count", "hands", "steps".
+2. Anlam cümleye göre mi seçiliyor, kelimeye göre tek anlam mı geliyor? Nereden geldiğini bir cümleyle yaz.
+3. Bir kullanıcının ilk metni hangi kurala göre seçiliyor (seviyeye göre hangi metin)? B1 seçen kullanıcının ilk metni bugün hangisi?
+

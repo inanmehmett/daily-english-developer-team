@@ -97,6 +97,8 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 
 ## Mehmet'ten doğrudan (editör yazar; öncekiler arşivde)
 
+- **27 Kas 22:15:** Editörün zorluk verisini iletti. Ekip okudu: pilot raporu Ek 2. Kararlar: Rabbit Island B1 ve A2 başlangıcından çıkar (yerine aday seçilecek, Mehmet onayıyla); Why Penguins B1 başlangıcı yeniden değerlendirilir; sonraki sürüme "kolay / tam yerinde / zor" sorusu ve bırakılan cümle ölçümü; CEFR kelime listesi. Editöre kuyruk 12 (balon anlamları).
+
 - **27 Kas 15:25:** "Bazı kullanıcılar okuma parçalarının seviyelerinin olduğundan daha düşük göründüğünü, başka uygulamalarda okuduğu A2–B1 metinleri rahatlıkla anladığını söylemişti. A2 metni bir kullanıcı anlayamıyorsa ciddi motivasyon sorunu yaşar ve gider." → Canlı veri destekliyor (pilot raporunun eki). Kapsam genişledi: canlı A1–A2 rafı da incelenecek; önce üç başlangıç metni ve ücretsiz 24 metin. Editörden veri istendi (kuyruk 11).
 
 - **27 Kas 15:15:** "İçeriklerin kalitesi, anlatım akıcılığı, İngilizce öğrenenlere uygunluğu, kalıpların kullanımı gözden geçirilmeli. Ben bile bazı A2 metinleri okurken hem anlamakta hem bağlam kurmakta zorlanıyorum." → Pilot yapıldı (17 metin): `raporlar/2026-11-27_metin_kalitesi_pilot.md`. Sıradaki: kalan 80 A1–A2 metin, sonra B1–C1; düzeltme notları; hepsi "metin dondu" kapısından önce.

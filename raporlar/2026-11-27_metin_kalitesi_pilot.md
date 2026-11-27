@@ -108,3 +108,30 @@ Editörün 21 Kasım canlı verisi (`veri_2026-11-21/`) bunu destekliyor:
 - **A1 ile A2 ölçümde ayrışmıyor:** en sık 2.000 kelimenin dışında kalan kelime oranı A1'de ortanca %12,9, A2'de %12,3 (84 metin). Liste çekimli hâlleri ("drank", "washed") dışarıda saydığı için oran şişkin, ama iki seviye için aynı şişkinlik geçerli; fark yok.
 
 Sonuç: seviye etiketi sorunu yalnız yeni pakette değil, canlıdaki A1–A2 rafında da var. Canlı metinler aynı üç okumadan geçmeli; önce üç başlangıç metni ve ücretsiz 24 metin.
+
+## Ek 2 (27 Kas 22:15): editörün zorluk verisi geldi, ekip okudu
+
+Veri: `raporlar/veri_2026-11-27_metin_zorlugu/` (altı dosya). Gruplar küçük; aşağıdakiler karar için yeterli, kanıt değil.
+
+**Düzeltme (ekibin kendi sözü):** ilk ekte "bitirenler her 9–13 kelimeden birine dokunuyor" yazdık. Bu toplam orandı; çok dokunan az sayıda kişi ortalamayı yukarı çekiyor. Ortadaki okur 100 kelimede 4–7 kelimeye dokunuyor (Two Cups 5,5 · Thirty-One Mornings 4,3 · Rabbit Island 7,0). Rahat okuma eşiğinin (2–5) üst sınırında ya da üstünde; ilk yazdığımız kadar kötü değil.
+
+**Ne öğrendik**
+
+1. **İlk metin kapı.** 300 müşterinin 81'i ilk metnini bitirmedi; bunların 60'ı bir daha hiçbir metin açmadı. Bırakanların çoğu daha ilk sayfada, bir iki dakika içinde çıkıyor. Müşterilerin %87'sinin ilk metni üç metinden biri: Two Cups, Rabbit Island, Why Penguins Can't Fly.
+2. **Rabbit Island A2 değil.** Başlayanların yarısı ya da fazlası şu kelimelere dokunmuş: ferries, purpose, concrete, multiplied, southern, removed. Metinde yedi edilgen yapı ve 25 kelimeyi aşan cümleler var. Üreticinin kendi seviye kartına göre edilgen yapı B1'de başlıyor, A2'de cümle tavanı 15 kelime.
+3. **Two Cups'ın dili gerçekten A1,** dokunulan kelimeler somut (bucket, stairs, pot). Sorun ilk 60 kelimede beş bilinmeyenin üst üste gelmesi olabilir: bırakanlar dakikada bitirenlerin iki katı dokunmuş. Ayrıca "the sea was grey and flat" cümlesindeki "flat"e başlayanların %43'ü dokunmuş; balon "daire" gösteriyorsa okur yanlış anlam alıyor (kontrol editörde).
+4. **Why Penguins Can't Fly B1 etiketli** ve 61 kişinin ilk metni olmuş; ilk metin olarak en düşük bitirme (%66) ve ikinci metne en düşük geçiş onda.
+5. **Seviyeler dokunmada ayrışmıyor** (A1 8,8 · A2 9,1 · B1 7,9). Okur kendi seviyesindeki metni seçtiği için bu tek başına "etiketler yanlış" demek değil.
+6. **Genel sıklık listesi seviye ölçmüyor** ("kitchen" liste dışı, "government" içinde). Betikle seviye ölçümü için CEFR seviyeli öğrenci kelime listesi gerekir; ekip seçecek.
+
+**Ekip kararları**
+
+- Rabbit Island'ın etiketi B1 olmalı ve A2 okurun ilk metni olmamalı. Yerine geçecek A2 metni, canlıdaki ve paketteki adaylar aynı üç okumadan geçince önerilecek. Canlıya yazma ve kullanıcının gördüğü etiket olduğu için Mehmet'in onayıyla.
+- B1 okurun ilk metni olarak Why Penguins Can't Fly yeniden değerlendirilecek.
+- Sonraki sürüme iki ölçüm: metin sonunda tek dokunuşluk "kolay / tam yerinde / zor" sorusu ve bırakılan cümlenin sırası. Görünen kısım için önce taslak.
+- Betik ölçümünde CEFR seviyeli kelime listesine geçilecek.
+
+**Turlarda elenenler**
+
+- "Two Cups'ı da değiştirelim" (Nassim): dili A1, bitirme %80, ortanca dokunma 5,5. Elde değiştirmeyi haklı çıkaran veri yok; yalnız "flat" balonu ve ilk paragraf incelenecek.
+- "Bitirmeyen gidiyor, demek ki metin kovuyor": veri yönü gösteriyor, nedeni göstermiyor; isteksiz okur ikisini de yapar. Yine de ilk metin en çok kişinin geçtiği yer olduğu için önce orası.
