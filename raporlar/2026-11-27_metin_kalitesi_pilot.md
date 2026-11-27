@@ -90,3 +90,21 @@ Kalıp konusu ayrı: bankadaki hedef bu metinlere geriye dönük uygulanmıyor. 
 1. Kalan 80 A1–A2 metin aynı üç okumadan, 20'şerlik dört partide geçer. B1–C1 (62 metin) sonra, daha hafif bir kontrolle.
 2. Her metin için düzeltme notu yazılır: hangi cümle, neden, önerilen hâli.
 3. Düzeltmeler "metin dondu" kapısından önce yapılır; ses üretimi düzeltilmiş metinle başlar.
+
+## Ek (27 Kas 15:25): canlı katalog da aynı soruyu taşıyor
+
+Mehmet: "Bazı kullanıcılar okuma parçalarının seviyelerinin olduğundan daha düşük göründüğünü, başka uygulamalarda okuduğu A2–B1 metinleri rahatlıkla anladığını söylemişti. A2 metni bir kullanıcı anlayamıyorsa ciddi motivasyon sorunu yaşar ve gider."
+
+Editörün 21 Kasım canlı verisi (`veri_2026-11-21/`) bunu destekliyor:
+
+| Metin | Yeri | Başlayan | Bitirme | 100 kelimede dokunma | Hız (kelime/dk) |
+|---|---|---|---|---|---|
+| Two Cups | A1 başlangıç | 123 | %79 | 7,7 | 47 |
+| Thirty-One Mornings | A1 başlangıç | 46 | %70 | 10,5 | 42 |
+| The Island Where Rabbits Won | A2 başlangıç | 93 | %77 | 11,7 | 43 |
+
+- Kullanıcının ilk gördüğü metinlerde **bitirenler bile** her 9–13 kelimeden birine dokunuyor. Okuma araştırmasında rahat okuma eşiği 100 kelimede 2–5 bilinmeyen kelime. Dokunmanın bir kısmı merak ya da sesini dinlemek için olabilir; yine de fark büyük.
+- Başlayanların %21–30'u ilk metni bitirmiyor. Bırakanların dokunma sayısı bu tabloda yok.
+- **A1 ile A2 ölçümde ayrışmıyor:** en sık 2.000 kelimenin dışında kalan kelime oranı A1'de ortanca %12,9, A2'de %12,3 (84 metin). Liste çekimli hâlleri ("drank", "washed") dışarıda saydığı için oran şişkin, ama iki seviye için aynı şişkinlik geçerli; fark yok.
+
+Sonuç: seviye etiketi sorunu yalnız yeni pakette değil, canlıdaki A1–A2 rafında da var. Canlı metinler aynı üç okumadan geçmeli; önce üç başlangıç metni ve ücretsiz 24 metin.
