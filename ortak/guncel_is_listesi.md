@@ -2,6 +2,8 @@
 
 **Son güncelleme:** 26 Kasım 2026 (editör). Mehmet'in sözüyle ("hepsi onaylı, yap") sadeleştirildi. 26 Kasım'a kadarki liste ve Mehmet'in bütün doğrudan sözleri: `raporlar/2026-11-26_is_listesi_arsivi.md`.
 
+
+**Uzun soluklu plan (28 Kas – 25 Ara):** `ortak/yol_haritasi_2026-11-27.md`. Yeni sohbet oradan başlar.
 ## Kurallar
 - Ekip görevi yalnız buraya yazar, günde en çok bir kez günceller. **Editörün işi tek yerde:** `ortak/editor_kuyrugu.md`; burada yalnız özeti durur.
 - Ürün kararını ekip verir. Mehmet'e yalnız canlıya yazma, sunucu ve mağaza yayını, fiyat ve silme sorulur. Mehmet'in editöre doğrudan sözü bu listenin üstündedir.
@@ -96,6 +98,8 @@ Profil resmi ve hesap teşviki · yolculuk rozetleri · "kullanıcının sesi" k
 Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve yolculuk adı üzerine yeni tartışma · anlam motorunun kalanları · kampanyalar · kullanıcıya e-posta (Mehmet, 25 Kas).
 
 ## Mehmet'ten doğrudan (editör yazar; öncekiler arşivde)
+
+- **27 Kas 22:18:** "İş listemiz ne? Editöre işleri ne zaman veriyoruz. Uzun soluklu planlama istiyorum. Yeni sohbette devam edelim, token tasarrufu için. Fable'ı da idareli kullanalım." → `ortak/yol_haritasi_2026-11-27.md`.
 
 - **27 Kas 22:15:** Editörün zorluk verisini iletti. Ekip okudu: pilot raporu Ek 2. Kararlar: Rabbit Island B1 ve A2 başlangıcından çıkar (yerine aday seçilecek, Mehmet onayıyla); Why Penguins B1 başlangıcı yeniden değerlendirilir; sonraki sürüme "kolay / tam yerinde / zor" sorusu ve bırakılan cümle ölçümü; CEFR kelime listesi. Editöre kuyruk 12 (balon anlamları).
 

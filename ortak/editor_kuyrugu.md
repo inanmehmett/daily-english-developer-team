@@ -21,6 +21,13 @@
 9. **Kartta görünmeyen beş Türkçe ad: kalan tek adım görüntü** · adlar canlıda (27 Kas 15:01, Biten'de). Kalan: uygulamada beş kartın Türkçe adının göründüğünün görüntüyle doğrulanması. 
 10. **ÜÇ CEPHE, aşama 0: envanter ve mevcut durum (salt okuma; öncelikli, kuyruğun başına)** · eklendi 26 Kas 23:59 · Mehmet (23:25): teslim paketi, kapaklar ve ElevenLabs önümüzdeki hafta. Ön analiz: `raporlar/2026-11-26_uc_cephe_on_analiz.md`. **Bölüm 8'deki dört başlığın tamamını cevapla** (8.1 paket envanteri, 8.2 canlı durum, 8.3 kod, 8.4 bekleyen maddeler). Paket: `~/Downloads/ARSIV/TESLIM - TAM PAKET (5 Eki 2026)/`. Belgede yanlış ya da eksik gördüğün her şeyi düzelt; kodu sen yazdın, biz dışarıdan okuduk. **Ek sorular (ikinci tur, belgenin sonundaki A–E):** mutabık kayıt birimi sayısı her şeyden önce (159 mu, 364 mü; neyi sayıyor) · ElevenLabs hız sınırı, plan kotası, ticari lisans koşulu ve aynı girdiyle aynı ses çıkıyor mu · canlıda ElevenLabs sesli metinde anlık üretim bugün gerçekten kapalı mı · kelime takibi sapma düzeltmesi istemcide mi, eski sürümlerde ne olur; cihazda klip önbelleği · üç sütunlu kelime tablosunda eksik sütunun ve quizi olmayan metnin sonucu · Peter Pan'a (1095) bağlı ilerleme, favori, kelime kayıtları · cümle bölücü ve normalleştirme nerede, sürümü sabitlenebilir mi · yeni içerik bildirimi ve "yeni" rafı 160 metinle nasıl davranır · R2'de klip depolama boyutu. **Bu aşamada kod yazma, yükleme yapma, ses ya da kapak üretme, para harcatan çağrı yapma.** Çıktı: `raporlar/2026-11-27_uc_cephe_envanter.md` ve tablo dosyaları `raporlar/veri_2026-11-27/` altında.
 
+11. **Başlangıç metinlerinde balon ne gösteriyor (yalnız okuma)** · eklendi 27 Kas 22:15 · gerekçe: `raporlar/2026-11-27_metin_kalitesi_pilot.md`, Ek 2 · çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/07_balon_anlamlari.md`
+
+
+   1. Üç başlangıç metninin (916, 1083, 1023) ve 120'nin (Why Penguins Can't Fly) en çok dokunulan 20 kelimesi için: balonda okura gösterilen Türkçe anlam, kelimenin geçtiği cümleyle yan yana. Özellikle 916'da "flat" ("the sea was grey and flat"), "still", "stood", "above", "gone"; 1083'te "rock", "count", "hands", "steps".
+   2. Anlam cümleye göre mi seçiliyor, kelimeye göre tek anlam mı geliyor? Nereden geldiğini bir cümleyle yaz.
+   3. Bir kullanıcının ilk metni hangi kurala göre seçiliyor (seviyeye göre hangi metin)? B1 seçen kullanıcının ilk metni bugün hangisi?
+
 ## Biten
 | İş | Tarih | Sonuç |
 |---|---|---|
@@ -39,12 +46,3 @@
 | `copy_v4` ilk gönderimlerin doğrulanması (27 Kas, 14:56) | 27 Kas | 26 gönderim, hepsi anahtarlı; 1 dokunma; 2 "Unregistered" hata; günlük temiz. `raporlar/2026-11-26_editor_bildirim_metinleri.md` son bölüm |
 | Kartta görünmeyen beş Türkçe adın kısaltılması: betik, yayın, canlıya yazma | 27 Kas | Sunucu PR #25 canlıda (14:57), betik çalıştırıldı (15:01), beş satır doğrulandı. `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
 | 11. Metin zorluğu verisi (altı madde, yalnız okuma) | 27 Kas | `raporlar/veri_2026-11-27_metin_zorlugu/` (README'de özet). Mağaza yorumları okunamadı; beş şey tutulmuyor |
-
-### 12. Başlangıç metinlerinde balon ne gösteriyor (yalnız okuma)
-
-İstek: 27 Kas, ekip. Gerekçe: `raporlar/2026-11-27_metin_kalitesi_pilot.md`, Ek 2. Çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/07_balon_anlamlari.md`.
-
-1. Üç başlangıç metninin (916, 1083, 1023) ve 120'nin (Why Penguins Can't Fly) en çok dokunulan 20 kelimesi için: balonda okura gösterilen Türkçe anlam, kelimenin geçtiği cümleyle yan yana. Özellikle 916'da "flat" ("the sea was grey and flat"), "still", "stood", "above", "gone"; 1083'te "rock", "count", "hands", "steps".
-2. Anlam cümleye göre mi seçiliyor, kelimeye göre tek anlam mı geliyor? Nereden geldiğini bir cümleyle yaz.
-3. Bir kullanıcının ilk metni hangi kurala göre seçiliyor (seviyeye göre hangi metin)? B1 seçen kullanıcının ilk metni bugün hangisi?
-
