@@ -18,8 +18,9 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | Android | 1.0.4 (47) yayında; (50) için Mehmet: "yayına gönderdim". Canlı veride derleme 50'de bugün yalnız 1 müşteri var: yayın henüz kullanıcıya ulaşmamış ya da yeni ulaşıyor | Play Console 25 Kas; Mehmet 26 Kas; canlı veri 26 Kas 17:50. **Konsoldan doğrulanmadı** |
 | Sunucu, canlıda | PR #15, #16, #18, #19, #20 (özel isimler; 25 Kas), **#21** (şık karıştırma ve B2 soruları; 26 Kas 17:22) ve **#23** (bildirim metinleri; 26 Kas 17:30). İki yayın da başarılı, API cevap veriyor, günlükte hata yok | depo, Railway |
 | Ad değişiklikleri | PR #22 canlıda (17:48), betik canlıda çalıştırıldı (17:52): 15 metin yeni adıyla, önceki adlar yedekte | `raporlar/2026-11-26_editor_ad_degisiklikleri.md` |
-| Bildirim metinleri | **#24 (`copy_v4`, onaylı son hâl) canlıda** (26 Kas 23:20, Mehmet'in sözüyle). İlk gönderimler 27 Kas sabahı; canlıda henüz gözlenmedi. 17:30–23:00 arası taslak 3 (`copy_v3`) gitti: 59 gönderim, 1 dokunma | `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
-| Açık PR, sunucu | **#25 kartta görünmeyen beş Türkçe adın kısaltılması**: betik hazır, **canlıya yazma ve birleştirme Mehmet'in sözünü bekliyor** · #17 (21 Kas'tan beri) | depo; `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
+| Bildirim metinleri | **#24 (`copy_v4`, onaylı son hâl) canlıda** (26 Kas 23:20, Mehmet'in sözüyle). 27 Kas 14:56 kontrolü: 26 gönderim, hepsi metin anahtarlı, 1 dokunma, günlük temiz. 17:30–23:00 arası taslak 3 (`copy_v3`) gitti: 59 gönderim, 1 dokunma | `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
+| Beş Türkçe ad | **#25 canlıda (27 Kas 14:57), betik çalıştırıldı (15:01):** beş kartın Türkçe adı 21–27 karakter. 28 karakteri aşan etkin ad 23 kaldı (karar ekipte) | `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
+| Açık PR, sunucu | #17 (21 Kas'tan beri) | depo |
 | Uygulama deposu | PR #5 birleşti (26 Kas): `main` artık mağazadaki 1.0.4 (50) ve bekleyen iki okuyucu düzeltmesi | depo |
 | Canlı sayımlar | Çekildi (26 Kas 17:50): sürüm dağılımı, 29 Kasım sayımı, tutunma, abonelikler, geri bildirimler, bildirimler, haftalık tablo, çekirdek grup | `raporlar/2026-11-26_editor_canli_sayimlar.md` |
 
@@ -46,7 +47,7 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 6. Instagram: bio linki ve öne çıkan (yukarıda).
 
 ## Editörde (ayrıntı `ortak/editor_kuyrugu.md`)
-- 27 Kasım: ilk `copy_v4` gönderimlerinin kayıttan doğrulanması (tür, anahtar, hikâyesi anılamadığı için gitmeyenlerin sayısı).
+- 27 Kasım akşamı: `copy_v4` ikinci bakış (asıl hacim 20:00–21:00; seri bildirimleri ve susma kuralı).
 - 10 Aralık: bildirim tablosunun `copy_v4` için, metin anahtarına göre yeniden çekilmesi (yayından iki hafta sonra); tutunmanın sürüme göre ayrımı.
 - Canlıda şıkların karıştığının ilk gerçek denemede görülmesi (yayından beri deneme yok).
 - "Hiç olay göndermemiş" 35 müşterinin incelenmesi.
@@ -106,3 +107,4 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 - 26 Kas (akşam): "`editor_gorevi_2026-11-26_bildirim_metinleri.md` dosyasını oku ve uygula… Birleştirme ve yayın için bana sor." Editör: görev geldiğinde PR #23 zaten yayındaydı (17:30); onaylı son hâl yeni PR olarak yazıldı (sunucu #24), birleştirilmedi. Rapor: `raporlar/2026-11-26_editor_bildirim_metinleri.md`. Ayrıca iki soru cevaplandı: kayıt 34'te deneme bitince ücret alınmayacak; iade edilen satın alma kayıt 29, kayıt 28 7 günlük deneme olarak bitmiş görünüyor.
 - 26 Kas 23:19: "Birleştir ve yayınla." Editör: sunucu #24 birleştirildi ve yayında (23:20).
 - 26 Kas 23:30: "Yarın sabah ilk gönderimleri kontrol et" → 27 Kas 10:12'ye zamanlandı (yalnız bu oturum açık kalırsa çalışır; kuyrukta da 1. iş). "`editor_gorevi_2026-11-26_bes_ad_kisaltma.md` dosyasını oku ve uygula… canlıya yazmadan önce bana sor." → betik hazır (sunucu PR #25), yazılmadı.
+- 26 Kas 23:35: beş ad için "yap". 27 Kas 14:5x: "devam et". Editör: #25 birleştirildi, betik canlıda çalıştırıldı; sabah bildirim kontrolü yapıldı (zamanlanan 10:12 yerine 14:56'da çalıştı).

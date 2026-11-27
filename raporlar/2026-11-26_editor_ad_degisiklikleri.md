@@ -41,13 +41,13 @@ Adlar sunucudan geliyor; uygulama güncellemesi gerekmez. Uygulamanın katalog �
 3. Geri alma gerekirse: `MigrationScripts/RenameFifteenTexts_2026_11_26_REVERT.sql`.
 
 ## Ek (26 Kas, gece): kartta görünmeyen beş Türkçe adın kısaltılması
-**Görev:** `ortak/editor_gorevi_2026-11-26_bes_ad_kisaltma.md` · **Durum:** betik ve geri alma betiği hazır, sunucu [PR #25](https://github.com/inanmehmett/DailyEnglish/pull/25) açık. **Canlıya yazılmadı, PR birleştirilmedi;** ikisi de Mehmet'in sözünü bekliyor.
+**Görev:** `ortak/editor_gorevi_2026-11-26_bes_ad_kisaltma.md` · **Durum: canlıda uygulandı (27 Kas 15:01).** Mehmet: "yap". Sunucu [PR #25](https://github.com/inanmehmett/DailyEnglish/pull/25) GitHub testi geçtikten sonra birleştirildi ve yayına girdi (14:57); ardından betik canlıda çalıştırıldı. Beş satırın Türkçe adı değişti (21–27 karakter); İngilizce adlar ve adresler aynı; başka metne dokunulmadı; önceki adlar `_Backup_ReadingTextTrNames_2026_11_26b` tablosunda. Web ana sayfası "Haritadan Silinen Ada" gösteriyor. 28 karakteri aşan etkin Türkçe ad sayısı 28'den 23'e indi.
 
 | Adım | Sonuç |
 |---|---|
 | 1. Canlıdaki şimdiki değerler | Beş satırın `SubtitleTR` değeri tablodaki "şimdi" sütunuyla birebir aynı (29–31 karakter) |
 | 2. Betik ve geri alma | `MigrationScripts/ShortenFiveTurkishNames_2026_11_26.sql` ve `..._REVERT.sql`. Yalnız `SubtitleTR`; eşleşme adresle; beş satırın beşi beklenen adla bulunmazsa ya da yeni adlardan biri 28 karakteri aşarsa hiçbir şey yazmaz; önceki adlar `_Backup_ReadingTextTrNames_2026_11_26b` tablosuna. Yerelde uygulandı, yeniden uygulandı (değişiklik yok), geri alındı |
-| 3. Canlıya yazma | **Bekliyor** (Mehmet'in "yap"ı) |
+| 3. Canlıya yazma | Yapıldı (27 Kas 15:01), beş satır canlıdan okunarak doğrulandı |
 | 4. Görüntüyle doğrulama | Yazımdan sonra yapılacak |
 | 5. Eski adın sabit yazıldığı yerler | Web ana sayfasında "Haritadan Silinen Tavşan Adası" yazıyordu; PR #25'te "Haritadan Silinen Ada" oldu. Başka sabit yer yok |
 | 6. 28 karakter denetimi | Test takımına **eklenemiyor:** metinler yalnız veritabanında, testler canlı içeriği görmüyor. Yerine iki şey: bu betik yeni adlar 28'i aşarsa yazmayı reddediyor; depoya salt okunur denetim sorgusu eklendi (`MigrationScripts/CheckTurkishNameLength.sql`), ad yazan her betikten sonra çalıştırılır |

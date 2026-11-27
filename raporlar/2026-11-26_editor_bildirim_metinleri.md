@@ -66,3 +66,29 @@ Bütün satırlar (E1–E14, E13b, D1–D4) tablodaki metinle, kelimesi kelimesi
 - Hikâyesiz hâller: E7, E9, E10, E11, E12, E13b, E14 için metin (ya da "gitmesin" kararı).
 - D1–D4'te dokununca Profil: derleme 51'e ihtiyaç tanımı.
 - iOS 1.0.2'de "Profil'den" sözünün düşmesi uygun mu.
+
+## 27 Kasım: ilk gönderimler (kontrol 14:56'da yapıldı)
+Kaynak: canlı veritabanı, salt okuma; müşteri hesapları; yayından (26 Kas 23:20) 27 Kas 14:56'ya kadar.
+
+**Sonuç:** yeni metinler gidiyor. 26 gönderimin hepsi `copy_v4` ve hepsi metin anahtarlı; `copy_v3` ya da anahtarsız kayıt yok. Sunucu günlüğünde hata yok.
+
+| Tür | Anahtar | Gönderim | Dokunma |
+|---|---|---|---|
+| Günün quizi | E4 | 7 | 1 |
+| Geri dön, 7. gün (yeni hikâye yok) | E13b | 4 | 0 |
+| İlk okuma, 1. gün | E7 | 4 | 0 |
+| Geri dön, 14. gün ("son hatırlatmamız") | E14 | 3 | 0 |
+| Kelime tekrarı | E5 | 2 | 0 |
+| Günlük hatırlatma ("çayını al") | E11a | 2 | 0 |
+| Deneme bitiyor (yenileme açık, okumuş) | D1 | 1 | 0 |
+| Seri telafisi | E3 | 1 | 0 |
+| İlk okuma, 7. gün ("son hatırlatmamız") | E10 | 1 | 0 |
+| Geri dön, 3. gün | E12 | 1 | 0 |
+| **Toplam** | | **26** | **1** |
+
+- **Deneme hatırlatması** abonelik kaydı 32'ye gitti (yenilemesi açık, denemede 7 hikâye bitirmiş): doğru satır (D1).
+- **"Son hatırlatmamız"** 4 okura gitti (3 geri dön, 1 ilk okuma). Bunlara uygulamayı açana kadar başka bildirim gitmeyecek; kuralın işlediği birkaç gün içinde kayıttan görülür.
+- **Gönderim hatası:** 2, ikisi de "Unregistered" (telefonda uygulama silinmiş ya da adres ölmüş); metinle ilgisi yok.
+- **09:00'dan önce giden 3 bildirim** (06:05 ve 07:05 Türkiye saati) başka saat diliminde yaşayan okurlara, kendi yerel saatleriyle 12:05 ve 20:05'te gitti. Önceki günlerde de günde 1–5 tane var; yeni bir şey değil.
+- **Hacim, aynı saatler (09:00–10:10):** 25 Kas 19, 26 Kas 10, 27 Kas 16 gönderim. Geri dön 10 / 6 / 5; ilk okuma 1 / 1 / 2; günlük hatırlatma 1 / 0 / 1. Hikâyesi anılamadığı için gitmeyenlerin etkisi bu saatlerde görünmüyor; üç günlük küçük sayılar, hipotez.
+- **Doğrulanamayan:** kaç adayın "anılacak hikâye yok" diye elendiği kayda yazılmıyor, yalnız gönderilenler görülüyor. Asıl hacim 20:00–21:00 arasında (seri bildirimleri E1 ve E2 henüz gitmedi); o saatten sonra bir kez daha bakılmalı. Metnin telefondaki görünümü görülmedi.
