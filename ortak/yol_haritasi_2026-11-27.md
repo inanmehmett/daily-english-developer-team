@@ -17,8 +17,8 @@
 ### 1. hafta (28 Kas – 4 Ara): ilk metin ve ölçüm
 | İş | Kim | Editöre |
 |---|---|---|
-| A2 başlangıç adayları üç okumadan geçer; Rabbit Island yerine öneri (önce/sonra) | ekip | – |
-| B1 başlangıcı (Why Penguins) değerlendirilir | ekip | – |
+| A2 başlangıç adayları üç okumadan geçer; Rabbit Island yerine öneri (önce/sonra) | ekip | **bitti 27 Kas:** Santorini, yedek Gate Change; editör hazırlığı kuyruk 12 |
+| B1 başlangıcı (Why Penguins) değerlendirilir | ekip | veri bekliyor (kuyruk 12.3–12.4) |
 | Balon anlamları ve ilk metin kuralı | editör | kuyruk 11 (hazır) |
 | Üç cephe envanteri: canlıda kapak ve ses durumu, ElevenLabs hazırlığı, içe aktarıcı eksikleri | editör | kuyruk 10 (hazır) |
 | Paketin kalan 80 A1–A2 metni, 20'şerlik dört parti | ekip | – |

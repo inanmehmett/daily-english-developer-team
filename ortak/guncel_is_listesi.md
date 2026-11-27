@@ -41,6 +41,7 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 | 4 Ara | Checkpoint: ödeyen abone en az 5. **Bugün 4 ödeyen müşteri**, 6 deneme sürüyor (5'inin yenilemesi açık; bitişler 28 Kas–2 Ara); PMF anketi tutmayacak | Nate | izleniyor |
 
 ## Mehmet'te
+0. **A2 başlangıç metni (28 Kas):** Rabbit Island yerine 1036 Santorini, altı cümle düzeltmesiyle (`raporlar/2026-11-28_a2_baslangic_adaylari.md`). Karar ekipte verildi; canlıya yazma ve ses yenilemesi için editör hazırlığından sonra "yap".
 1. Telefonda bir bakış: katalogda yeni adlar; bu akşamki bildirimin yeni metinle gelip gelmediği.
 2. Founder kodları: Mehmet "sonra bakarız" dedi (26 Kas); promosyon 30 Kasım'da bitiyor.
 3. Play'de 1.0.4 (50) yayınının konsoldan teyidi.

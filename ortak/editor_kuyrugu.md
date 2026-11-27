@@ -28,6 +28,14 @@
    2. Anlam cümleye göre mi seçiliyor, kelimeye göre tek anlam mı geliyor? Nereden geldiğini bir cümleyle yaz.
    3. Bir kullanıcının ilk metni hangi kurala göre seçiliyor (seviyeye göre hangi metin)? B1 seçen kullanıcının ilk metni bugün hangisi?
 
+12. **Başlangıç metinleri, 2. adım: Santorini ve B1 (yalnız okuma)** · eklendi 27 Kas 23:30 · gerekçe: `raporlar/2026-11-28_a2_baslangic_adaylari.md` · çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md`
+   1. 1036 Santorini: erişimi (ücretsiz mi, Premium mu), sesi var mı, kelime anlamları bağlı mı. Raporun sonundaki son hâl canlıya yazılırsa ses, anlamlar ve quiz bundan nasıl etkilenir (yeniden üretilmesi gereken her şeyin listesi). **Yazma, yalnız hazırlık.**
+   2. Başlangıç metnini değiştirmek kod mu, veri mi? Hangi dosya ya da tablo; geri almak nasıl.
+   3. B1 seçen müşterilerde: ilk metni Rabbit Island olanlar ile Why Penguins olanlar; bitirme, ikinci metne başlama, ertesi gün dönüş (aynı yöntemle, `02_ilk_metinden_sonra.md`).
+   4. B1 metinlerinin dökümü (`veri_2026-11-21/A2_metinleri.md` biçiminde), en azından 120, 1024, 1089, 161, 1019 ve ücretsiz B1'ler.
+   5. 1089 The Train with No Driver: 21 Kasım'da A2, 27 Kasım'da B1 görünüyor; etiket ne zaman, kimce değişti.
+   6. 127 Ali's First Snow ve 140 A Bus Ride with a Stranger: konuşmalarda tırnak işaretleri yok; aynı sorunlu başka metin var mı (liste).
+
 ## Biten
 | İş | Tarih | Sonuç |
 |---|---|---|
