@@ -48,7 +48,7 @@ Adlar sunucudan geliyor; uygulama güncellemesi gerekmez. Uygulamanın katalog �
 | 1. Canlıdaki şimdiki değerler | Beş satırın `SubtitleTR` değeri tablodaki "şimdi" sütunuyla birebir aynı (29–31 karakter) |
 | 2. Betik ve geri alma | `MigrationScripts/ShortenFiveTurkishNames_2026_11_26.sql` ve `..._REVERT.sql`. Yalnız `SubtitleTR`; eşleşme adresle; beş satırın beşi beklenen adla bulunmazsa ya da yeni adlardan biri 28 karakteri aşarsa hiçbir şey yazmaz; önceki adlar `_Backup_ReadingTextTrNames_2026_11_26b` tablosuna. Yerelde uygulandı, yeniden uygulandı (değişiklik yok), geri alındı |
 | 3. Canlıya yazma | Yapıldı (27 Kas 15:01), beş satır canlıdan okunarak doğrulandı |
-| 4. Görüntüyle doğrulama | Yazımdan sonra yapılacak |
+| 4. Görüntüyle doğrulama | **Yapılamadı.** Simülatör derlemesi iki kez disk dolduğu için durdu (bilgisayarda 0,3 GB boş yer kaldı; ikinci denemeyi editör kendisi durdurdu). Kod düzeyinde: kart, Türkçe adı 28 karakter ve altındaysa çiziyor (`BookTitleLines`), beş ad artık 21–27 karakter. Görüntü için ya diskte yer açılmalı (deneme testi hazır: uygulama deposunda `integration_test/short_tr_names_shots_test.dart`, commit edilmedi) ya da telefonda bakılmalı. Uygulamanın ağ önbelleği 5–10 dakika |
 | 5. Eski adın sabit yazıldığı yerler | Web ana sayfasında "Haritadan Silinen Tavşan Adası" yazıyordu; PR #25'te "Haritadan Silinen Ada" oldu. Başka sabit yer yok |
 | 6. 28 karakter denetimi | Test takımına **eklenemiyor:** metinler yalnız veritabanında, testler canlı içeriği görmüyor. Yerine iki şey: bu betik yeni adlar 28'i aşarsa yazmayı reddediyor; depoya salt okunur denetim sorgusu eklendi (`MigrationScripts/CheckTurkishNameLength.sql`), ad yazan her betikten sonra çalıştırılır |
 
