@@ -97,3 +97,29 @@ Telefonda (130 pt) kesilen 37 adın içinde 26 Kasım'da yazılan 15'ten dördü
 2. Ya da içerik kuralı "28 karakter" yerine ölçüyle yazılsın (telefonda güvenli sınır yaklaşık 20 karakter) ve 60 ad yeniden kısaltılsın.
 3. Bu beş ad için geri alma betiği hazır (`ShortenFiveTurkishNames_2026_11_26_REVERT.sql`); geri alınırsa satır yine hiç çizilmez.
 Editör bir şey değiştirmedi.
+
+### Kart düzeltmesi (27 Kas): Mehmet "1'i yap, derleme 51'e ekle"
+**Durum:** kod yazıldı, testler geçti, uygulama [PR #6](https://github.com/inanmehmett/Flutter/pull/6) açık. Birleştirilmedi, derleme çıkarılmadı; derleme 51'in işi.
+
+**Ne değişti:** Türkçe satır artık karakter sayısıyla değil, kartın gerçek genişliğiyle ölçülüyor.
+- Sığıyorsa tek satır, tam boy.
+- En çok %15 taşıyorsa tek satırda, sığacak kadar küçülür (Mehmet'in 16 Kasım kuralı: önce en çok %15 küçült).
+- Daha uzunsa ikinci satıra iner. "28 karakteri aşan ad hiç çizilmez" kuralı kalktı.
+- Ana sayfa rafı, yalnız kartlarından biri ikinci satıra indiğinde bir satır kadar uzar; öbür raflar bugünkü yüksekliğinde kalır.
+
+**Canlıdaki 287 adla sonuç (varsayılan yazı boyu):**
+| Kart genişliği | Tam boy, tek satır | Küçülerek tek satır | İki satır | Tamamı görünmeyen |
+|---|---|---|---|---|
+| 130 pt (telefon) | 227 | 26 | 34 | **0** |
+| 140 pt (büyük telefon) | 241 | 25 | 21 | **0** |
+| 155 pt (tablet) | 257 | 26 | 4 | **0** |
+
+Görüntü (telefon genişliği, gerçek kart, uygulamanın yazı tipi; kapaklar boş): `raporlar/ekran_2026-11-27/kart_duzeltme_sonra_telefon.png`. Üst raf 27 Kasım'da kısaltılan beş ad, alt raf eskiden hiç çizilmeyen ve kesilen adlar.
+
+**Bilinen sınırlar (Dieter ve Don'un bakması için):**
+- Telefonun yazı boyu 1,3 katına çıkarılmışsa 10 ad iki satıra da sığmıyor ve "…" ile bitiyor (eskiden kelime sessizce düşüyordu).
+- Uzun adlı kart bulunan raf 14 pt daha yüksek; aynı ekranda raflar arasında küçük bir yükseklik farkı olur.
+- Kart "ve" bağlacını büyük yazıyor ("Baba Yaga Ve Yürüyen Kulübe"); bu düzeltmede dokunulmadı, karar Tomris'te.
+- Görüntü test ortamından; telefonda derleme 51 sürüşünde yeniden bakılmalı.
+
+**Bu düzeltmeyle birlikte:** adları kısaltmaya gerek kalmıyor. 27 Kasım'da kısaltılan beş ad istenirse uzun hâline geri alınabilir (betik hazır); derleme 51 kullanıcıya ulaşana kadar bugünkü kısa hâlleri eski sürümlerde daha iyi görünüyor, o yüzden dokunulmadı.

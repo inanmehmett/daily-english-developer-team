@@ -84,6 +84,7 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 **Kartta Türkçe ad, ölçüm (27 Kas):** "28 karakter" kuralı kartın genişliğini tutmuyor. Telefonda (kart 130 pt) 287 etkin metnin 227'sinin Türkçe adı tam görünüyor, **37'si son kelimesi düşerek kesiliyor**, 23'ü hiç çizilmiyor. 27 Kasım'da kısaltılan beş addan dördü de kesiliyor. Görüntü ve liste: `raporlar/2026-11-26_editor_ad_degisiklikleri.md` ("Görüntü ve ölçüm"). Karar: kartta iki satır ya da küçülen yazı (derleme 51), ya da adların ölçüye göre yeniden kısaltılması (Dieter, Tomris; Mehmet).
 
 ## Derleme 51 (kapsamı ve tarihi ekip belirleyecek)
+- **Kartta Türkçe ad (Mehmet, 27 Kas: "1'i yap, derleme 51'e ekle"):** uygulama PR #6 hazır, testler geçti; birleştirme Mehmet'te. Ad sığmazsa en çok %15 küçülür, yine sığmazsa ikinci satıra iner; 287 adın hepsi tam görünüyor. Görüntü Dieter ve Don'dan geçmeli: `raporlar/ekran_2026-11-27/kart_duzeltme_sonra_telefon.png`.
 - Dalda bekleyen iki okuyucu düzeltmesi (`2687ee03`, `6e07653f`).
 - Derleme 50 görüntü bulguları: büyük yazıda sıkışan "Yeni yol başladı" etiketi, %92'de rozete değen bayrak, belge testinde altta kalan şıklar için kaydırma ipucu.
 - T5 (kişi kartında geciken rütbe satırı), T7 (Rozetlerim'de "%1 tamamlanma").
@@ -114,3 +115,4 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 - 26 Kas 23:19: "Birleştir ve yayınla." Editör: sunucu #24 birleştirildi ve yayında (23:20).
 - 26 Kas 23:30: "Yarın sabah ilk gönderimleri kontrol et" → 27 Kas 10:12'ye zamanlandı (yalnız bu oturum açık kalırsa çalışır; kuyrukta da 1. iş). "`editor_gorevi_2026-11-26_bes_ad_kisaltma.md` dosyasını oku ve uygula… canlıya yazmadan önce bana sor." → betik hazır (sunucu PR #25), yazılmadı.
 - 26 Kas 23:35: beş ad için "yap". 27 Kas 14:5x: "devam et". Editör: #25 birleştirildi, betik canlıda çalıştırıldı; sabah bildirim kontrolü yapıldı (zamanlanan 10:12 yerine 14:56'da çalıştı).
+- 27 Kas (öğleden sonra): "1'i yap, derleme 51'e ekle" → uygulama PR #6. Yapıştırılan iş tanımı (kuyruk 11, metin zorluğu verisi) → `raporlar/veri_2026-11-27_metin_zorlugu/`.
