@@ -48,7 +48,7 @@ Adlar sunucudan geliyor; uygulama güncellemesi gerekmez. Uygulamanın katalog �
 | 1. Canlıdaki şimdiki değerler | Beş satırın `SubtitleTR` değeri tablodaki "şimdi" sütunuyla birebir aynı (29–31 karakter) |
 | 2. Betik ve geri alma | `MigrationScripts/ShortenFiveTurkishNames_2026_11_26.sql` ve `..._REVERT.sql`. Yalnız `SubtitleTR`; eşleşme adresle; beş satırın beşi beklenen adla bulunmazsa ya da yeni adlardan biri 28 karakteri aşarsa hiçbir şey yazmaz; önceki adlar `_Backup_ReadingTextTrNames_2026_11_26b` tablosuna. Yerelde uygulandı, yeniden uygulandı (değişiklik yok), geri alındı |
 | 3. Canlıya yazma | Yapıldı (27 Kas 15:01), beş satır canlıdan okunarak doğrulandı |
-| 4. Görüntüyle doğrulama | **Yapılamadı.** Simülatör derlemesi iki kez disk dolduğu için durdu (bilgisayarda 0,3 GB boş yer kaldı; ikinci denemeyi editör kendisi durdurdu). Kod düzeyinde: kart, Türkçe adı 28 karakter ve altındaysa çiziyor (`BookTitleLines`), beş ad artık 21–27 karakter. Görüntü için ya diskte yer açılmalı (deneme testi hazır: uygulama deposunda `integration_test/short_tr_names_shots_test.dart`, commit edilmedi) ya da telefonda bakılmalı. Uygulamanın ağ önbelleği 5–10 dakika |
+| 4. Görüntüyle doğrulama | **Yapıldı (27 Kas), sonuç olumsuz:** beş addan dördü telefonda kesiliyor. Aşağıdaki "Görüntü ve ölçüm" bölümüne bakın |
 | 5. Eski adın sabit yazıldığı yerler | Web ana sayfasında "Haritadan Silinen Tavşan Adası" yazıyordu; PR #25'te "Haritadan Silinen Ada" oldu. Başka sabit yer yok |
 | 6. 28 karakter denetimi | Test takımına **eklenemiyor:** metinler yalnız veritabanında, testler canlı içeriği görmüyor. Yerine iki şey: bu betik yeni adlar 28'i aşarsa yazmayı reddediyor; depoya salt okunur denetim sorgusu eklendi (`MigrationScripts/CheckTurkishNameLength.sql`), ad yazan her betikten sonra çalıştırılır |
 
@@ -63,3 +63,37 @@ Adlar sunucudan geliyor; uygulama güncellemesi gerekmez. Uygulamanın katalog �
 | 29 | 1074: Bob Dylan'ın Yuhalandığı Gece · 1004: Kudüs'ün Taşınamayan Hazinesi · 1037: Yıkılmak İstenen Eyfel Kulesi · 1036: Uçurumun Kenarında: Santorini · 1000: Şam'ın İki Bin Yıllık Caddesi · 1029: Cep Herkülü Naim Süleymanoğlu |
 
 Karar ekipte (Tomris, Dieter): 23 adı da kısaltmak mı, kartı iki satıra geçirmek mi (uygulama derlemesi).
+
+### Görüntü ve ölçüm (27 Kas)
+**Nasıl alındı:** ana sayfa rafının gerçek kartı (`UnifiedBookCard`), uygulamanın kendi yazı tipiyle (Inter) test ortamında çizdirildi; adlar canlıdan okunan değerler. Simülatörde uygulamanın tamamını derlemek bu bilgisayarın diskine sığmadı (4 GB'tan fazla istiyor), o yüzden görüntü telefonun kendisinden değil. Kapaklar ağdan gelmediği için boş; bakılan şey başlığın altındaki Türkçe satır.
+- Telefon genişliği (kart 130 pt): `raporlar/ekran_2026-11-27/kisa_adlar_telefon.png`
+- Tablet genişliği (kart 155 pt): `raporlar/ekran_2026-11-27/kisa_adlar_tablet.png`
+
+**Beş kart, telefonda:**
+| Metin | Yeni ad | Kartta görünen |
+|---|---|---|
+| 1023 | Haritadan Silinen Ada | **tamamı** |
+| 1055 | Kasırgadan Sonra 41 Gün | "Kasırgadan Sonra 41" |
+| 1045 | Baba Yaga ve Yürüyen Kulübe | "Baba Yaga Ve Yürüyen" |
+| 1063 | İki Kez Kahvaltı Eden Ülke | "İki Kez Kahvaltı Eden" |
+| 148 | İtalyanlar Neden Konuşkan? | "İtalyanlar Neden" |
+
+Önceki hâlde bu beş kartta Türkçe satır hiç yoktu; şimdi satır var ama dördünde son kelime sessizce düşüyor (üç nokta yok). "İtalyanlar Neden" ve "Kasırgadan Sonra 41" yarım cümle gibi okunuyor. Ayrıca kart "ve" bağlacını büyük harfle yazıyor ("Baba Yaga Ve…"); bu uygulamadaki baş harf büyütme kuralından geliyor.
+
+**Asıl bulgu: 28 karakter kuralı kartın gerçek genişliğini tutmuyor.** Türkçe satır tek satır ve sabit genişlikte; sığıp sığmadığını karakter sayısı değil harflerin eni belirliyor. Canlıdaki 287 etkin metnin tamamı ölçüldü:
+| Kart genişliği | Tam görünen | Kesilen | Hiç çizilmeyen (28'i aşan) | Kesilen en kısa ad |
+|---|---|---|---|---|
+| 130 pt (genişliği 400 pt'in altındaki telefonlar) | 227 | **37** | 23 | 21 karakter |
+| 140 pt (büyük telefonlar) | 241 | 23 | 23 | 21 karakter |
+| 155 pt (tablet) | 255 | 9 | 23 | 24 karakter |
+
+Telefonda (130 pt) kesilen 37 adın içinde 26 Kasım'da yazılan 15'ten dördü de var: 1016 "Gökyüzünün Düştüğü Sabah", 1020 "Üçüncü İmzayı Vermeyen Adam", 1053 "Urashima Tarō ve Yasak Kutu", 1059 "Gökten Amazon'a Düşen Kız". Tam liste (kimlik: ad, karakter):
+120: Penguen Neden Uçamaz? (21) · 148: İtalyanlar Neden Konuşkan? (26) · 874: Aynalar Neden Yeşilimsi? (24) · 875: Fotoğraflar Neden Sararır? (26) · 877: Uçaklar Neden İz Bırakır? (25) · 878: Yoldaki Çizgiler Neden Var? (27) · 879: Çelik Gemiler Neden Batmaz? (27) · 905: Gruptaki Yedinci Numara (23) · 949: Fırının Bozulduğu Perşembe (26) · 987: Sabahın Dördünde Kahve (22) · 990: Dünyanın Kurduğu Şehir: Roma (28) · 1002: Avrupa'nın İnanmadığı Şehir (27) · 1011: Dünyanın Öbür Ucu: Timbuktu (27) · 1012: Ganj Kıyısında Üç Bin Yıl (25) · 1013: Venedik'in Altındaki Orman (26) · 1016: Gökyüzünün Düştüğü Sabah (24) · 1018: Telgrafın Tutuştuğu Gece (24) · 1020: Üçüncü İmzayı Vermeyen Adam (27) · 1021: Gutenberg'in Kaybettiği İcat (28) · 1030: Tom Sawyer'ın Maceraları (24) · 1032: Mısır'da Çay Nazlanması (23) · 1034: Her Sabah İki Kıta: İstanbul (28) · 1039: Alice Harikalar Diyarında (25) · 1045: Baba Yaga ve Yürüyen Kulübe (27) · 1046: Makineyle Yarışan Adam (22) · 1053: Urashima Tarō ve Yasak Kutu (27) · 1055: Kasırgadan Sonra 41 Gün (23) · 1057: Karanlıkta Altmış Dokuz Gün (27) · 1059: Gökten Amazon'a Düşen Kız (25) · 1062: İki Kez Ölü Sayılan Dağcı (25) · 1063: İki Kez Kahvaltı Eden Ülke (26) · 1068: Çöp Kamyonu Gelmeyen Köy (24) · 1075: Yerinde Durmayan Deniz (22) · 1076: Eski Buzdolabının Son Gecesi (28) · 1084: Gökyüzü Neden Turuncu Olur? (27) · 1091: Seksen Günde Devriâlem (22) · 1111: Küçük Prens'i Yazan Pilot (25)
+
+**Sınır:** ölçüm test ortamında, kartın genişliği metin kutusu sayılarak yapıldı; gerçek telefonda bir iki piksel oynayabilir, sınırdaki birkaç ad yer değiştirebilir. Tablonun yönü değişmez.
+
+**Karar (ekip ve Mehmet):**
+1. Kartta Türkçe satır iki satıra geçsin ya da sığmayınca küçülsün (uygulama değişikliği, derleme 51): 60 metnin hepsini çözer, adları kısaltmaya gerek kalmaz.
+2. Ya da içerik kuralı "28 karakter" yerine ölçüyle yazılsın (telefonda güvenli sınır yaklaşık 20 karakter) ve 60 ad yeniden kısaltılsın.
+3. Bu beş ad için geri alma betiği hazır (`ShortenFiveTurkishNames_2026_11_26_REVERT.sql`); geri alınırsa satır yine hiç çizilmez.
+Editör bir şey değiştirmedi.

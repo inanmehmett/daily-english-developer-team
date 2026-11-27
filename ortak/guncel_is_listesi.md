@@ -81,6 +81,8 @@ Yeni gelen kullanıcı ilk gün iki hikâye bitirsin; ertesi gün dönsün ya da
 
 **Ek bulgu (26 Kas gece):** canlıda Türkçe adı 28 karakteri aşan etkin metin 28 tane; onaylanan beşin dışında 23 metnin Türkçe adı da kartlarda görünmüyor. Liste `raporlar/2026-11-26_editor_ad_degisiklikleri.md` ekinde. Karar: 23 adı kısaltmak ya da kartı iki satıra geçirmek (Tomris, Dieter).
 
+**Kartta Türkçe ad, ölçüm (27 Kas):** "28 karakter" kuralı kartın genişliğini tutmuyor. Telefonda (kart 130 pt) 287 etkin metnin 227'sinin Türkçe adı tam görünüyor, **37'si son kelimesi düşerek kesiliyor**, 23'ü hiç çizilmiyor. 27 Kasım'da kısaltılan beş addan dördü de kesiliyor. Görüntü ve liste: `raporlar/2026-11-26_editor_ad_degisiklikleri.md` ("Görüntü ve ölçüm"). Karar: kartta iki satır ya da küçülen yazı (derleme 51), ya da adların ölçüye göre yeniden kısaltılması (Dieter, Tomris; Mehmet).
+
 ## Derleme 51 (kapsamı ve tarihi ekip belirleyecek)
 - Dalda bekleyen iki okuyucu düzeltmesi (`2687ee03`, `6e07653f`).
 - Derleme 50 görüntü bulguları: büyük yazıda sıkışan "Yeni yol başladı" etiketi, %92'de rozete değen bayrak, belge testinde altta kalan şıklar için kaydırma ipucu.
