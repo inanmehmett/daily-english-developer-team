@@ -31,7 +31,7 @@ Kökle bile "liste dışı" kalan kelimeler A1 öğrencisinin ilk öğrendiği g
 | 1083 Thirty-One Mornings (A1) | %23,5 | %14,9 | closes, eats, learns, sees, sits, stands, stays, stops, trees, tries | fox, thirty, grass, forest, forty, boring, twenty, rain |
 | 1023 Rabbit Island (A2) | %16,9 | %13,5 | asks, buildings, cats, chosen, maps, trees, visited, walls, weapon, worker | rabbits, visitors, factory, empty, ferries, rabbit, thirty |
 
-Two Cups'ta kökle de liste dışı kalan sekiz kelimenin altısı, okurların en çok dokunduğu yirmi kelimenin içinde (stairs, bucket, wet, pot ve öbürleri): bu metinde liste ile okurun davranışı aynı kelimeleri gösteriyor.
+Two Cups'ta kökle de liste dışı kalan sekiz kelimenin dördü okurların en çok dokunduğu yirmi kelimenin içinde (bucket, stairs, pot, wet); öbür dördüne (shoes, rain, sugar, kitchen) az dokunulmuş. Tersinden: en çok dokunulan yirmi kelimenin çoğu (stood, flat, above, still, each, gone, grey) listenin içinde. Yani liste dışı olmak, okurun o kelimeyi bilmediğini iyi öngörmüyor.
 
 **Metin başına tam tablo:** `05_kelime_listesi_kokle.csv` (74 metin; üç liste, iki yöntem, örnek kelimeler).
 

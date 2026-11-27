@@ -38,15 +38,4 @@
 | Bildirim metinleri, onaylı son hâl (`copy_v4`): doğrulama tablosu, kod, testler | 26 Kas | Sunucu PR #24, **canlıda** (26 Kas 23:20); `raporlar/2026-11-26_editor_bildirim_metinleri.md` |
 | `copy_v4` ilk gönderimlerin doğrulanması (27 Kas, 14:56) | 27 Kas | 26 gönderim, hepsi anahtarlı; 1 dokunma; 2 "Unregistered" hata; günlük temiz. `raporlar/2026-11-26_editor_bildirim_metinleri.md` son bölüm |
 | Kartta görünmeyen beş Türkçe adın kısaltılması: betik, yayın, canlıya yazma | 27 Kas | Sunucu PR #25 canlıda (14:57), betik çalıştırıldı (15:01), beş satır doğrulandı. `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
-
-### 11. Metin zorluğu verisi (yalnız okuma; canlıya yazma yok)
-
-İstek: 27 Kas, ekip. Gerekçe: `raporlar/2026-11-27_metin_kalitesi_pilot.md` (ek bölümü). Çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/` altında tablo.
-
-1. Üç başlangıç metni (916, 1083, 1023) için: en çok dokunulan 20 kelime ve kaç kişinin dokunduğu; bırakanların metnin yüzde kaçında bıraktığı (cümle sırası ya da kaydırma yüzdesi tutuluyorsa); bitirenlerle bırakanların 100 kelimede dokunma sayısı ayrı ayrı.
-2. Bir kullanıcının ilk metni: bitiren ve bitirmeyen için ikinci metne başlama oranı ve 7. günde geri gelme oranı.
-3. Tüm seviyeler (A1–C1) için metin başına tablo: başlayan, bitirme, 100 kelimede dokunma, hız; en az 5 bitireni olan metinler.
-4. Dokunma kaydı "çeviri için" ile "ses için" dokunmayı ayırıyor mu? Ayırıyorsa oranı.
-5. Seviye denetimindeki kelime listesi çekimli hâlleri (drank, washed, stairs) liste dışı sayıyor görünüyor; doğru mu, köke indirgeyerek yeniden ölçülebilir mi?
-6. Destek mesajlarında ve mağaza yorumlarında "seviye", "zor", "anlamadım" geçenlerin sayısı ve kişisel bilgi içermeyen alıntıları.
-
+| 11. Metin zorluğu verisi (altı madde, yalnız okuma) | 27 Kas | `raporlar/veri_2026-11-27_metin_zorlugu/` (README'de özet). Mağaza yorumları okunamadı; beş şey tutulmuyor |
