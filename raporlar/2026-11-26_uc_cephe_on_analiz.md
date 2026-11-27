@@ -217,3 +217,6 @@ Bölüm 9'un yerine geçer.
 5. **Canlıya yazma pencereleri.** Yükleme, kapak yayını ve klip taşıma için.
 6. **Silme:** Peter Pan (kimlik 1095) ve teliften çıkarılan kalemler; bağlı kayıtlar sayıldıktan sonra.
 "Ses kalitesi düşük metinler" sorusu size yük bindiriyordu; **aday listeyi ekip çıkaracak** (ses ve metin bazında, dinleme verisiyle), siz onaylayacaksınız. Elinizde hazır bir liste varsa yine de işimizi hızlandırır.
+
+
+**Güncelleme (27 Kas 15:30):** envanter sorusu kapandı. Pakette **159 okuma metni** (yaklaşık 107.400 kelime; 4 bölümlü kitapta 44 bölüm) var, gövdeleri tam. "364" bölüm ve parçaları da sayıyordu. Ayrıntı ve eksikler: `raporlar/2026-11-27_paket_envanteri_ve_eksikler.md`.
