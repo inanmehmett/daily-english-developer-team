@@ -10,12 +10,8 @@
 
 ### Önce (bu sırayla; 1. hafta yol haritası)
 10. *Bitti (28 Kas), Biten'de.*
-11. **Başlangıç metinlerinde balon ne gösteriyor (yalnız okuma)** · eklendi 27 Kas 22:15 · gerekçe: `raporlar/2026-11-27_metin_kalitesi_pilot.md`, Ek 2 · çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/07_balon_anlamlari.md`
+11. *Bitti (28 Kas), Biten'de.*
 
-
-   1. Üç başlangıç metninin (916, 1083, 1023) ve 120'nin (Why Penguins Can't Fly) en çok dokunulan 20 kelimesi için: balonda okura gösterilen Türkçe anlam, kelimenin geçtiği cümleyle yan yana. Özellikle 916'da "flat" ("the sea was grey and flat"), "still", "stood", "above", "gone"; 1083'te "rock", "count", "hands", "steps".
-   2. Anlam cümleye göre mi seçiliyor, kelimeye göre tek anlam mı geliyor? Nereden geldiğini bir cümleyle yaz.
-   3. Bir kullanıcının ilk metni hangi kurala göre seçiliyor (seviyeye göre hangi metin)? B1 seçen kullanıcının ilk metni bugün hangisi?
 12. **Başlangıç metinleri, 2. adım: Santorini ve B1 (yalnız okuma)** · eklendi 27 Kas 23:30 · gerekçe: `raporlar/2026-11-28_a2_baslangic_adaylari.md` · çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md`
    1–2. *Bitti (28 Kas), Biten'de.*
    3. B1 seçen müşterilerde: ilk metni Rabbit Island olanlar ile Why Penguins olanlar; bitirme, ikinci metne başlama, ertesi gün dönüş (aynı yöntemle, `02_ilk_metinden_sonra.md`).
@@ -72,3 +68,4 @@
 | 12.1 Santorini: erişim, ses, anlamlar, son hâlin etkisi · 12.2 başlangıç metni kod mu veri mi | 28 Kas | Premium, 17/17 sesli ve zamanlamalı, bağlı anlam yok. Başlangıç: kural kodda (seviyedeki en kısa açık metin), değiştirmek veri (`IsStarterPack`). `raporlar/veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md` |
 | 13.1–13.5 Santorini: hazırlık, yedek, aynı sesle 9 klip, hizalama, quiz ve balonlar | 28 Kas | **Canlıda** (Mehmet'in "yap"ı; 13:38 yazıldı, 13:40 açıldı). 19/19 sesli ve zamanlamalı, 10 eski klip korundu; quizde 3 soru, 6 balon. Dosya denetimi temiz; Mehmet uygulamada dinleyip onayladı. `raporlar/2026-11-28_santorini_degisiklik.md` |
 | 10. Üç cephe, aşama 0: envanter ve mevcut durum (8.1–8.4 ve ek sorular) | 28 Kas | `raporlar/2026-11-27_uc_cephe_envanter.md`, tablo `veri_2026-11-27/paket_envanteri_editor.csv`. Kayıt aracı Eylül paketini sessizce bozar (44 metin okunmaz, seviye A1, 185 D/Y cevabı ters); canlıda ses 287/287 tam; ElevenLabs yolu geçişe hazır değil (önbellek araması); ses maliyeti kaydedilmiyor; paketin kapak dosyası yok |
+| 11. Başlangıç metinlerinde balon ne gösteriyor; anlam nereden; ilk metin kuralı | 28 Kas | `raporlar/veri_2026-11-27_metin_zorlugu/07_balon_anlamlari.md`. Anlam cümleye göre (222/222 geçiş). 80 kelimede 1 yanlış ("one whole second" → ikinci), 1 yarı yanlış, 7 zayıf (flat, above, gone…). B1 ve üstünün ilk metni bugün Rabbit Island; Santorini başlangıca alınırsa onların da ilk metni olur |
