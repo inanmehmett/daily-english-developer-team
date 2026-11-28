@@ -24,6 +24,15 @@
    5. 1089 The Train with No Driver: 21 Kasım'da A2, 27 Kasım'da B1 görünüyor; etiket ne zaman, kimce değişti.
    6. 127 Ali's First Snow ve 140 A Bus Ride with a Stranger: konuşmalarda tırnak işaretleri yok; aynı sorunlu başka metin var mı (liste).
 
+13. **Santorini (1036): metin değişikliği ve aynı sesle güncelleme** · eklendi 28 Kas 12:55 · Mehmet (12:50): "değişiklikleri yaptıktan sonra ses dosyaları da güncellenmeli. Aynı ses dosyaları ile güncellenebilir. Şu an Santorini sesi fena değil." · metin: `raporlar/2026-11-28_a2_baslangic_adaylari.md`, "Son hâl" · çıktı: `raporlar/2026-11-28_santorini_degisiklik.md`
+   1. Hazırlık (12.1 ve 12.2 ile birlikte, yalnız okuma): metnin bugünkü sesi hangi sağlayıcı ve hangi ses (ses kimliği, hız); kaç cümle değişiyor, kaç klip yeniden üretilecek, kaç klip olduğu gibi kalacak; karakter sayısı ve tahmini maliyet. Dosya adı (özet) şemasının aynı kaldığını bir cümlede doğrula, yoksa değişmeyen cümleler de boşuna yeniden üretilir.
+   2. **Ses kuralı:** yeni cümleler bugünkü sesle (aynı sağlayıcı, aynı ses, aynı hız) üretilir. Başka ses ya da ElevenLabs yok. Değişmeyen cümlelerin klipleri korunur.
+   3. Ses kullanıcı metni açınca anlık değil, **önceden** üretilir; ardından hizalama betiğiyle kelime zamanlaması çıkarılır. Metin, bütün cümlelerin sesi ve zamanlaması hazır olmadan okura bu hâliyle açılmaz.
+   4. Kelime anlamları ve quiz: değişen cümlelerde balon anlamı ve quiz soruları yeni metne uyuyor mu; uymayanlar listelenir ve düzeltilir (eski "ring", "mouth", "crater", "eruptions" geçen soru ya da anlam kalmasın).
+   5. Önce yedek (eski metin, eski klip kayıtları), sonra canlıya yazma. **Canlıya yazmadan ve klipleri canlıya taşımadan önce dur, Mehmet'e "yap" diye sor.**
+   6. Doğrulama: uygulamada metin baştan sona dinlenir; değişen cümlelerde ses ile vurgu uyumlu mu, cümle geçişlerinde ses farkı duyuluyor mu. Görüntü ya da kısa kayıt.
+   7. Başlangıç metni değişikliği (A2 okurun ilk metni Santorini) **ayrı adım**: 12.2'nin cevabıyla, yine Mehmet'in "yap"ıyla. Ses ve metin hazır olmadan başlangıç değişmez.
+
 ### Sonra (sıra serbest, yer kalırsa)
 1. **27 Kasım akşamı: `copy_v4` ikinci bakış** · sabah kontrolü yapıldı (Biten'de). Asıl hacim 20:00–21:00'de: seri bildirimleri (E1, E2) ve "son hatırlatmamız"tan sonra susma kuralının kayıtta görülmesi.
    **10 Aralık: ölçüm** · `raporlar/2026-11-26_editor_canli_sayimlar.md` bölüm 6'daki tablo `copy_v4` için metin anahtarına göre; `copy_v2` tabanıyla yan yana. `copy_v3` yalnız 26 Kasım akşamı gitti (59 gönderim); karşılaştırmaya girmez.

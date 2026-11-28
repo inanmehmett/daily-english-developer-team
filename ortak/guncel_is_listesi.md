@@ -101,6 +101,8 @@ Günde iki bildirim düzeni · kelime balonu A/B · rütbe adları · kariyer ve
 
 ## Mehmet'ten doğrudan (editör yazar; öncekiler arşivde)
 
+- **28 Kas 12:50:** "Tamam, değişiklikleri yaptıktan sonra ses dosyaları da güncellenmeli. Aynı ses dosyaları ile güncellenebilir. Şu an Santorini sesi fena değil. Editöre ilet." → Editör kuyruğu 13 (önce 10–12). Santorini ElevenLabs'e geçecek "düşük kalite" listesine girmez.
+
 - **27 Kas 22:18:** "İş listemiz ne? Editöre işleri ne zaman veriyoruz. Uzun soluklu planlama istiyorum. Yeni sohbette devam edelim, token tasarrufu için. Fable'ı da idareli kullanalım." → `ortak/yol_haritasi_2026-11-27.md`.
 
 - **27 Kas 22:15:** Editörün zorluk verisini iletti. Ekip okudu: pilot raporu Ek 2. Kararlar: Rabbit Island B1 ve A2 başlangıcından çıkar (yerine aday seçilecek, Mehmet onayıyla); Why Penguins B1 başlangıcı yeniden değerlendirilir; sonraki sürüme "kolay / tam yerinde / zor" sorusu ve bırakılan cümle ölçümü; CEFR kelime listesi. Editöre kuyruk 12 (balon anlamları).
