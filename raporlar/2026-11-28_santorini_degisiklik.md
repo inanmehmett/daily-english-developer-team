@@ -1,6 +1,6 @@
 # Santorini (1036): metin değişikliği ve aynı sesle güncelleme
 
-**Tarih:** 28 Kasım 2026 · **Hazırlayan:** editör · **Kuyruk:** 13 (12.1 ve 12.2 ile birlikte) · **Durum:** **canlıda** (Mehmet'in "yap"ı, 28 Kas; quiz ve balonlar dahil). Metin 13:38'de kapatılıp yazıldı, 13:40'ta 19/19 klip doğrulanarak açıldı. Uygulamada dinleme Mehmet'in telefonunda bekliyor (aşağıda "Yazımdan sonra").
+**Tarih:** 28 Kasım 2026 · **Hazırlayan:** editör · **Kuyruk:** 13 (12.1 ve 12.2 ile birlikte) · **Durum:** **canlıda** (Mehmet'in "yap"ı, 28 Kas; quiz ve balonlar dahil). Metin 13:38'de kapatılıp yazıldı, 13:40'ta 19/19 klip doğrulanarak açıldı. Mehmet uygulamada dinleyip onayladı: "metin olmuş, sesler tamam".
 
 ## Sonuç
 - **19 cümleden 9'u yeni, 10'u aynen kalıyor.** Yalnız 9 klip üretilecek (478 karakter). Kalan 10 klip bugünkü ses dosyasını kullanmaya devam eder; bunların 6'sı yeni metinde başka sıraya düşüyor ve kaydı yeni sıraya taşınıyor, dosyaya dokunulmuyor.
@@ -102,5 +102,5 @@ Kapalı kalma süresi birkaç dakika. Son 30 günde metnin 1 okuru var.
 **Çeviri notu:** geliştirici makinesinde DeepL anahtarı olmadığı için cümle çevirileri üretim sırasında alınmadı. Etkisi yok: uygulama çeviriyi okur cümleye dokununca sunucudan istiyor, sunucuda anahtar var, boş önbellek kaydı yeniden çevriliyor. Eski metinde de 17 cümlenin yalnız 4'ünün hazır çevirisi vardı.
 
 ## Mehmet'ten beklenen
-1. Telefonda Santorini'yi baştan sona dinlemek (ya da masaüstündeki dosyayı). Sorun duyulursa geri alma betiği hazır.
+1. ~~Dinleme~~ yapıldı, onaylandı.
 2. Başlangıç metni değişikliği (ayrı adım) için karar.
