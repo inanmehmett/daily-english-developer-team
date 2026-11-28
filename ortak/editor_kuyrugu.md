@@ -17,14 +17,14 @@
    2. Anlam cümleye göre mi seçiliyor, kelimeye göre tek anlam mı geliyor? Nereden geldiğini bir cümleyle yaz.
    3. Bir kullanıcının ilk metni hangi kurala göre seçiliyor (seviyeye göre hangi metin)? B1 seçen kullanıcının ilk metni bugün hangisi?
 12. **Başlangıç metinleri, 2. adım: Santorini ve B1 (yalnız okuma)** · eklendi 27 Kas 23:30 · gerekçe: `raporlar/2026-11-28_a2_baslangic_adaylari.md` · çıktı: `raporlar/veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md`
-   1. 1036 Santorini: erişimi (ücretsiz mi, Premium mu), sesi var mı, kelime anlamları bağlı mı. Raporun sonundaki son hâl canlıya yazılırsa ses, anlamlar ve quiz bundan nasıl etkilenir (yeniden üretilmesi gereken her şeyin listesi). **Yazma, yalnız hazırlık.**
-   2. Başlangıç metnini değiştirmek kod mu, veri mi? Hangi dosya ya da tablo; geri almak nasıl.
+   1–2. *Bitti (28 Kas), Biten'de.*
    3. B1 seçen müşterilerde: ilk metni Rabbit Island olanlar ile Why Penguins olanlar; bitirme, ikinci metne başlama, ertesi gün dönüş (aynı yöntemle, `02_ilk_metinden_sonra.md`).
    4. B1 metinlerinin dökümü (`veri_2026-11-21/A2_metinleri.md` biçiminde), en azından 120, 1024, 1089, 161, 1019 ve ücretsiz B1'ler.
    5. 1089 The Train with No Driver: 21 Kasım'da A2, 27 Kasım'da B1 görünüyor; etiket ne zaman, kimce değişti.
    6. 127 Ali's First Snow ve 140 A Bus Ride with a Stranger: konuşmalarda tırnak işaretleri yok; aynı sorunlu başka metin var mı (liste).
 
 13. **Santorini (1036): metin değişikliği ve aynı sesle güncelleme** · eklendi 28 Kas 12:55 · Mehmet (12:50): "değişiklikleri yaptıktan sonra ses dosyaları da güncellenmeli. Aynı ses dosyaları ile güncellenebilir. Şu an Santorini sesi fena değil." · metin: `raporlar/2026-11-28_a2_baslangic_adaylari.md`, "Son hâl" · çıktı: `raporlar/2026-11-28_santorini_degisiklik.md`
+   **Durum (28 Kas 13:45):** 1, 4 ve 5'in yedek kısmı bitti; betikler hazır ve yerelde sınandı. Canlıya yazma **Mehmet'in "yap"ını bekliyor** (9 cümle, 9 klip, 3 sentin altında). 6 ve 7 sonra.
    1. Hazırlık (12.1 ve 12.2 ile birlikte, yalnız okuma): metnin bugünkü sesi hangi sağlayıcı ve hangi ses (ses kimliği, hız); kaç cümle değişiyor, kaç klip yeniden üretilecek, kaç klip olduğu gibi kalacak; karakter sayısı ve tahmini maliyet. Dosya adı (özet) şemasının aynı kaldığını bir cümlede doğrula, yoksa değişmeyen cümleler de boşuna yeniden üretilir.
    2. **Ses kuralı:** yeni cümleler bugünkü sesle (aynı sağlayıcı, aynı ses, aynı hız) üretilir. Başka ses ya da ElevenLabs yok. Değişmeyen cümlelerin klipleri korunur.
    3. Ses kullanıcı metni açınca anlık değil, **önceden** üretilir; ardından hizalama betiğiyle kelime zamanlaması çıkarılır. Metin, bütün cümlelerin sesi ve zamanlaması hazır olmadan okura bu hâliyle açılmaz.
@@ -69,3 +69,5 @@
 | `copy_v4` ilk gönderimlerin doğrulanması (27 Kas, 14:56) | 27 Kas | 26 gönderim, hepsi anahtarlı; 1 dokunma; 2 "Unregistered" hata; günlük temiz. `raporlar/2026-11-26_editor_bildirim_metinleri.md` son bölüm |
 | Kartta görünmeyen beş Türkçe adın kısaltılması: betik, yayın, canlıya yazma | 27 Kas | Sunucu PR #25 canlıda (14:57), betik çalıştırıldı (15:01), beş satır doğrulandı. `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
 | 11. Metin zorluğu verisi (altı madde, yalnız okuma) | 27 Kas | `raporlar/veri_2026-11-27_metin_zorlugu/` (README'de özet). Mağaza yorumları okunamadı; beş şey tutulmuyor |
+| 12.1 Santorini: erişim, ses, anlamlar, son hâlin etkisi · 12.2 başlangıç metni kod mu veri mi | 28 Kas | Premium, 17/17 sesli ve zamanlamalı, bağlı anlam yok. Başlangıç: kural kodda (seviyedeki en kısa açık metin), değiştirmek veri (`IsStarterPack`). `raporlar/veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md` |
+| 13.1 Santorini hazırlığı ve yedek | 28 Kas | 9 cümle yeni, 10 klip korunur, ses aynı (`chirp3-hd-charon`, 0,94), 3 sentin altında; quizde 3 soru, 6 balon düzeltmesi. Yazma "yap" bekliyor. `raporlar/2026-11-28_santorini_degisiklik.md` |
