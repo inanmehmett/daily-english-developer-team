@@ -24,7 +24,7 @@
    6. 127 Ali's First Snow ve 140 A Bus Ride with a Stranger: konuşmalarda tırnak işaretleri yok; aynı sorunlu başka metin var mı (liste).
 
 13. **Santorini (1036): metin değişikliği ve aynı sesle güncelleme** · eklendi 28 Kas 12:55 · Mehmet (12:50): "değişiklikleri yaptıktan sonra ses dosyaları da güncellenmeli. Aynı ses dosyaları ile güncellenebilir. Şu an Santorini sesi fena değil." · metin: `raporlar/2026-11-28_a2_baslangic_adaylari.md`, "Son hâl" · çıktı: `raporlar/2026-11-28_santorini_degisiklik.md`
-   **Durum (28 Kas 13:45):** 1, 4 ve 5'in yedek kısmı bitti; betikler hazır ve yerelde sınandı. Canlıya yazma **Mehmet'in "yap"ını bekliyor** (9 cümle, 9 klip, 3 sentin altında). 6 ve 7 sonra.
+   **Durum (28 Kas 13:45):** 1–5 bitti, canlıda (Biten'de). Kalan: 6'da uygulamada dinleme Mehmet'in telefonunda (simülatöre yer yok); 7 ayrı adım, Mehmet'in kararı.
    1. Hazırlık (12.1 ve 12.2 ile birlikte, yalnız okuma): metnin bugünkü sesi hangi sağlayıcı ve hangi ses (ses kimliği, hız); kaç cümle değişiyor, kaç klip yeniden üretilecek, kaç klip olduğu gibi kalacak; karakter sayısı ve tahmini maliyet. Dosya adı (özet) şemasının aynı kaldığını bir cümlede doğrula, yoksa değişmeyen cümleler de boşuna yeniden üretilir.
    2. **Ses kuralı:** yeni cümleler bugünkü sesle (aynı sağlayıcı, aynı ses, aynı hız) üretilir. Başka ses ya da ElevenLabs yok. Değişmeyen cümlelerin klipleri korunur.
    3. Ses kullanıcı metni açınca anlık değil, **önceden** üretilir; ardından hizalama betiğiyle kelime zamanlaması çıkarılır. Metin, bütün cümlelerin sesi ve zamanlaması hazır olmadan okura bu hâliyle açılmaz.
@@ -70,4 +70,4 @@
 | Kartta görünmeyen beş Türkçe adın kısaltılması: betik, yayın, canlıya yazma | 27 Kas | Sunucu PR #25 canlıda (14:57), betik çalıştırıldı (15:01), beş satır doğrulandı. `raporlar/2026-11-26_editor_ad_degisiklikleri.md` (ek) |
 | 11. Metin zorluğu verisi (altı madde, yalnız okuma) | 27 Kas | `raporlar/veri_2026-11-27_metin_zorlugu/` (README'de özet). Mağaza yorumları okunamadı; beş şey tutulmuyor |
 | 12.1 Santorini: erişim, ses, anlamlar, son hâlin etkisi · 12.2 başlangıç metni kod mu veri mi | 28 Kas | Premium, 17/17 sesli ve zamanlamalı, bağlı anlam yok. Başlangıç: kural kodda (seviyedeki en kısa açık metin), değiştirmek veri (`IsStarterPack`). `raporlar/veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md` |
-| 13.1 Santorini hazırlığı ve yedek | 28 Kas | 9 cümle yeni, 10 klip korunur, ses aynı (`chirp3-hd-charon`, 0,94), 3 sentin altında; quizde 3 soru, 6 balon düzeltmesi. Yazma "yap" bekliyor. `raporlar/2026-11-28_santorini_degisiklik.md` |
+| 13.1–13.5 Santorini: hazırlık, yedek, aynı sesle 9 klip, hizalama, quiz ve balonlar | 28 Kas | **Canlıda** (Mehmet'in "yap"ı; 13:38 yazıldı, 13:40 açıldı). 19/19 sesli ve zamanlamalı, 10 eski klip korundu; quizde 3 soru, 6 balon. Dosya denetimi temiz; uygulamada dinleme Mehmet'te. `raporlar/2026-11-28_santorini_degisiklik.md` |

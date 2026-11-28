@@ -1,6 +1,6 @@
 # Santorini (1036): metin değişikliği ve aynı sesle güncelleme
 
-**Tarih:** 28 Kasım 2026 · **Hazırlayan:** editör · **Kuyruk:** 13 (12.1 ve 12.2 ile birlikte) · **Durum:** hazırlık bitti, yedek alındı. **Canlıya yazılmadı; Mehmet'in "yap"ı bekleniyor.**
+**Tarih:** 28 Kasım 2026 · **Hazırlayan:** editör · **Kuyruk:** 13 (12.1 ve 12.2 ile birlikte) · **Durum:** **canlıda** (Mehmet'in "yap"ı, 28 Kas; quiz ve balonlar dahil). Metin 13:38'de kapatılıp yazıldı, 13:40'ta 19/19 klip doğrulanarak açıldı. Uygulamada dinleme Mehmet'in telefonunda bekliyor (aşağıda "Yazımdan sonra").
 
 ## Sonuç
 - **19 cümleden 9'u yeni, 10'u aynen kalıyor.** Yalnız 9 klip üretilecek (478 karakter). Kalan 10 klip bugünkü ses dosyasını kullanmaya devam eder; bunların 6'sı yeni metinde başka sıraya düşüyor ve kaydı yeni sıraya taşınıyor, dosyaya dokunulmuyor.
@@ -82,10 +82,25 @@ Kapalı kalma süresi birkaç dakika. Son 30 günde metnin 1 okuru var.
 **Sınandı:** üç betik, canlı yedeğinden kurulan yerel bir veritabanında sırayla denendi: ilk yazım ve ikinci kez çalıştırma (değişiklik yok), ses yokken açma (reddetti, 4/19), zamanlama yokken açma (reddetti, 10/19), tam hâlde açma (açtı), geri alma (metin md5'i ve 17 klibin hash, sıra, zamanlaması eskisiyle aynı).
 
 ## Bilinmesi gerekenler
-- Betik dosyaları sunucu deposunda `chore/santorini-rewrite` dalında, henüz commit'lenmedi (editörün commit'i engellendi; Mehmet'in sözüyle yapılır). Canlıda çalıştırmak için üç dosyaya ayrı izin kuralı eklenecek.
+- Betik dosyaları sunucu deposunda `chore/santorini-rewrite` dalında, henüz commit'lenmedi (editörün commit'i engellendi; Mehmet'in sözüyle yapılır). Üç dosyanın izin kuralı eklendi.
 - Saklı cümle tokenları (`ReadingTextSentences`) bu metin için zaten yok; uygulama kullanmıyor. Etkilenmez.
 - Başlangıç metni bu işte **değişmiyor** (ayrı adım; bkz. `veri_2026-11-27_metin_zorlugu/08_baslangic_ikinci_adim.md`).
 
+## Yazımdan sonra (28 Kas, 13:38–13:45)
+| Adım | Sonuç |
+|---|---|
+| 1. Metin, quiz, balonlar | Yazıldı; yedek tablolar canlıda (metin 1, klip 17, soru 4, cevap 14). Kelime sayısı 182 |
+| 2. Ses | 6 cümle mevcut dosyayla yeni sıraya taşındı, 9 cümle aynı sesle (`chirp3-hd-charon`) üretildi; 19/19 |
+| 3. Kelime zamanlaması | 9/9 klip hizalandı, doğrulamayı geçemeyen 0 |
+| 4. Açma | Denetim geçti (19/19 doğru metin, ses, zamanlama; değişmeyen 10 cümle eski dosyada), metin açık |
+| 5. Uygulama yolu | Sunucunun istemciye verdiği manifest ("default" ses, salt okuma) 19/19 tam |
+
+**Dosya denetimi (19 klibin hepsi indirildi):** süreler kayıtla birebir; her klibin kelime zamanlaması cümlenin kelimeleriyle birebir; ses seviyesi yeni kliplerde −19,8 ile −23,5 dB, eskilerde −17,4 ile −23,4 dB arasında, yani aynı aralıkta. Geçişte ses farkı beklenmiyor.
+
+**Uygulamada dinleme yapılamadı:** geliştirici makinesinde 2,1 GB boş yer var, simülatör derlemesi sığmıyor; telefon bağlı değil. Yerine 19 klip sırayla tek dosyada birleştirildi (73 sn, Mehmet'in masaüstünde `santorini_yeni_ses_2026_11_28.mp3`). Uygulamada baştan sona dinleme Mehmet'te: değişen cümlelerde (1, 2, 6, 7, 9, 10, 14, 15, 18) kelime vurgusu sesle gidiyor mu.
+
+**Çeviri notu:** geliştirici makinesinde DeepL anahtarı olmadığı için cümle çevirileri üretim sırasında alınmadı. Etkisi yok: uygulama çeviriyi okur cümleye dokununca sunucudan istiyor, sunucuda anahtar var, boş önbellek kaydı yeniden çevriliyor. Eski metinde de 17 cümlenin yalnız 4'ünün hazır çevirisi vardı.
+
 ## Mehmet'ten beklenen
-1. **"yap"**: 9 cümle, 9 klip, 3 sentin altında. Yukarıdaki 5 adım sırayla.
-2. Quiz ve balon değişiklikleri bu yazımla birlikte gitsin mi (öneri: evet; eski quiz yeni metinde olmayan cümleleri alıntılıyor).
+1. Telefonda Santorini'yi baştan sona dinlemek (ya da masaüstündeki dosyayı). Sorun duyulursa geri alma betiği hazır.
+2. Başlangıç metni değişikliği (ayrı adım) için karar.
